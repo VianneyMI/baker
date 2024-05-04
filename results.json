@@ -1,0 +1,973 @@
+[
+    {
+        "name": "Loaded Mashed Potatoes",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "potatoes",
+                "quantity": 1000.0,
+                "unit": "grams"
+            },
+            {
+                "id": 2,
+                "name": "milk",
+                "quantity": 200.0,
+                "unit": "milliliters"
+            },
+            {
+                "id": 3,
+                "name": "mayonnaise",
+                "quantity": 200.0,
+                "unit": "milliliters"
+            },
+            {
+                "id": 4,
+                "name": "cheese",
+                "quantity": 100.0,
+                "unit": "grams"
+            },
+            {
+                "id": 5,
+                "name": "garlic powder",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 6,
+                "name": "bacon",
+                "quantity": 12.0,
+                "unit": "strips"
+            },
+            {
+                "id": 7,
+                "name": "butter",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 8,
+                "name": "green onions",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 9,
+                "name": "black pepper",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 10,
+                "name": "salt",
+                "quantity": null,
+                "unit": null
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Peel and cut the potatoes into medium-sized pieces.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Put the potatoes in a pot with some water so that it covers the potatoes and boil them for about 20-30 minutes, or until the potatoes are soft.",
+                "preparation_time": null,
+                "cooking_time": 20,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 3,
+                "description": "About ten minutes before removing the potatoes from the boiling water, cut the bacon into little pieces and fry it.",
+                "preparation_time": null,
+                "cooking_time": 10,
+                "used_ingredients": [
+                    6
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Warm up the milk and mayonnaise.",
+                "preparation_time": 2,
+                "cooking_time": null,
+                "used_ingredients": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Shred the cheese.",
+                "preparation_time": 2,
+                "cooking_time": null,
+                "used_ingredients": [
+                    4
+                ]
+            },
+            {
+                "number": 6,
+                "description": "When the potatoes are done, remove all water from the pot, add the warm milk and mayonnaise mix, add some butter, and mash with a potato masher or a blender.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    2,
+                    3,
+                    7
+                ]
+            },
+            {
+                "number": 7,
+                "description": "Add some salt, black pepper, and garlic powder to taste and continue mashing the mix.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    5,
+                    9,
+                    10
+                ]
+            },
+            {
+                "number": 8,
+                "description": "Once the mix is somewhat homogeneous and the potatoes are properly mashed, add the shredded cheese and fried bacon and mix a little.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    4,
+                    6
+                ]
+            },
+            {
+                "number": 9,
+                "description": "Serve and top with chopped green onions.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    8
+                ]
+            }
+        ],
+        "total_preparation_time": 14,
+        "total_cooking_time": 30,
+        "comments": [
+            "You can play with the proportions depending on how creamy or dry you want the mashed potatoes to be."
+        ]
+    },
+    {
+        "name": "Chili con Carne",
+        "serving_size": 6,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "salt pork",
+                "quantity": 130.0,
+                "unit": "g"
+            },
+            {
+                "id": 2,
+                "name": "chuck roast",
+                "quantity": 907.18,
+                "unit": "g"
+            },
+            {
+                "id": 3,
+                "name": "garlic",
+                "quantity": 3.0,
+                "unit": "cloves"
+            },
+            {
+                "id": 4,
+                "name": "crushed hot red pepper",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 5,
+                "name": "sweet onion",
+                "quantity": 1.0,
+                "unit": null
+            },
+            {
+                "id": 6,
+                "name": "large carrot",
+                "quantity": 1.0,
+                "unit": null
+            },
+            {
+                "id": 7,
+                "name": "bay leaves",
+                "quantity": 2.0,
+                "unit": null
+            },
+            {
+                "id": 8,
+                "name": "olive oil (or Mazola oil)",
+                "quantity": 2.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 9,
+                "name": "tomato paste",
+                "quantity": 340.19,
+                "unit": "g"
+            },
+            {
+                "id": 10,
+                "name": "diced tomatoes",
+                "quantity": 812.35,
+                "unit": "g"
+            },
+            {
+                "id": 11,
+                "name": "tomato puree",
+                "quantity": 812.35,
+                "unit": "g"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Mince the garlic, peel the carrot, peel and cut the onion in half.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 2,
+                "description": "Pour the oil in a large pot at medium low heat.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 3,
+                "description": "Chop the salt pork and chuck roast, then simmer in oil with minced garlic.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 4,
+                "description": "Simmer until the meat has browned.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 5,
+                "description": "Add the chopped carrot, onion, and tomato paste.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 6,
+                "description": "Add bay leaves and crushed hot red pepper, then give it a good stir.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 7,
+                "description": "Lower heat, let simmer for a few hours. Occasionally stir, and add water if sauce gets too thick.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 8,
+                "description": "Add salt and pepper to taste.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": 15,
+        "total_cooking_time": 180,
+        "comments": [
+            "Serve with rice or bread.",
+            "Can be stored in the fridge for up to 3 days or frozen for up to 3 months."
+        ]
+    },
+    {
+        "name": "Turmeric Flatbread",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "wheat flour",
+                "quantity": 240.0,
+                "unit": "ml"
+            },
+            {
+                "id": 2,
+                "name": "ground turmeric",
+                "quantity": 12.0,
+                "unit": "ml"
+            },
+            {
+                "id": 3,
+                "name": "kosher salt",
+                "quantity": 2.3,
+                "unit": "ml"
+            },
+            {
+                "id": 4,
+                "name": "baking powder",
+                "quantity": 1.2,
+                "unit": "ml"
+            },
+            {
+                "id": 5,
+                "name": "olive oil",
+                "quantity": 28.3,
+                "unit": "ml"
+            },
+            {
+                "id": 6,
+                "name": "water",
+                "quantity": 33.3,
+                "unit": "ml"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Combine flour, turmeric, salt and baking powder.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 2,
+                "description": "Stir in 1/3 cup water and the olive oil.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 3,
+                "description": "Knead until smooth (1-2 min). Cover and set aside 15 minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 4,
+                "description": "Cut the dough into 4 pieces; flatten each into a 6-inch round.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 5,
+                "description": "Cook one at a time in an oiled skillet over medium-high heat, flip when browned (2 mins).",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": 17,
+        "total_cooking_time": 10,
+        "comments": []
+    },
+    {
+        "name": "Swiss Beef and Mushroom Sauce",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "beef",
+                "quantity": 600.0,
+                "unit": "g"
+            },
+            {
+                "id": 2,
+                "name": "mushrooms",
+                "quantity": 250.0,
+                "unit": "g"
+            },
+            {
+                "id": 3,
+                "name": "onion",
+                "quantity": 1.0,
+                "unit": "unit"
+            },
+            {
+                "id": 4,
+                "name": "flour",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 5,
+                "name": "white wine",
+                "quantity": 200.0,
+                "unit": "ml"
+            },
+            {
+                "id": 6,
+                "name": "cream",
+                "quantity": 200.0,
+                "unit": "ml"
+            },
+            {
+                "id": 7,
+                "name": "parsley",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Fry the meat in butter at high heat until it starts loosing liquid.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Take the meat out of the pan and set aside.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 3,
+                "description": "Saute the onions.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    3
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Add the mushrooms, saute, then add a tbsp of flour and mix well. The flour will make the sauce thicker, so use carfully.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    2,
+                    4
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Add the white wine and let it boil for a few minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    5
+                ]
+            },
+            {
+                "number": 6,
+                "description": "Add cream, boil until the sauce is very creamy.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    6
+                ]
+            },
+            {
+                "number": 7,
+                "description": "Add the meat, boil until the meat is warm.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 8,
+                "description": "Add parsley, and serve.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    7
+                ]
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": null,
+        "comments": [
+            "Serve with R\u00f6sti or other traditional Swiss dish."
+        ]
+    },
+    {
+        "name": "Smoked Salmon Pasta Primavera",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Linguine",
+                "quantity": 12.0,
+                "unit": "oz"
+            },
+            {
+                "id": 2,
+                "name": "Asparagus",
+                "quantity": 0.5,
+                "unit": "lb"
+            },
+            {
+                "id": 3,
+                "name": "Green Beans",
+                "quantity": 0.25,
+                "unit": "lb"
+            },
+            {
+                "id": 4,
+                "name": "Sugar Snap Peas",
+                "quantity": 0.5,
+                "unit": "cup"
+            },
+            {
+                "id": 5,
+                "name": "Edamame or Peas",
+                "quantity": 0.5,
+                "unit": "cup"
+            },
+            {
+                "id": 6,
+                "name": "Butter",
+                "quantity": 1.0,
+                "unit": "Tbsp"
+            },
+            {
+                "id": 7,
+                "name": "Onion",
+                "quantity": 1.0,
+                "unit": "small"
+            },
+            {
+                "id": 8,
+                "name": "Garlic",
+                "quantity": 2.0,
+                "unit": "cloves"
+            },
+            {
+                "id": 9,
+                "name": "All-Purpose Flour",
+                "quantity": 3.0,
+                "unit": "Tbsp"
+            },
+            {
+                "id": 10,
+                "name": "Milk",
+                "quantity": 2.5,
+                "unit": "cup"
+            },
+            {
+                "id": 11,
+                "name": "Smoked Salmon",
+                "quantity": 0.375,
+                "unit": "lb"
+            },
+            {
+                "id": 12,
+                "name": "Fresh Mint",
+                "quantity": 0.5,
+                "unit": "cup"
+            },
+            {
+                "id": 13,
+                "name": "Lemon",
+                "quantity": 0.5,
+                "unit": "unit"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 2,
+                "description": "Meanwhile in large saucepan, melt butter over medium heat. Add onion and garlic; cook, stirring 3 minutes. Stir in flour. Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened (5 mins).",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 3,
+                "description": "Add pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": 10,
+        "total_cooking_time": 25,
+        "comments": []
+    },
+    {
+        "name": "Spicy Chili Mayonnaise",
+        "serving_size": null,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "mayonnaise",
+                "quantity": 1.0,
+                "unit": "cup"
+            },
+            {
+                "id": 2,
+                "name": "chili sauce (e.g Sriracha)",
+                "quantity": 0.5,
+                "unit": "cup"
+            },
+            {
+                "id": 3,
+                "name": "sesame oil",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Add mayonnaise and chili sauce to a bowl.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Add sesame oil to the bowl.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    3
+                ]
+            },
+            {
+                "number": 3,
+                "description": "Mix all of the ingredients together.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Taste test it for more chili sauce or mayonnaise.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    2
+                ]
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": null,
+        "comments": [
+            "Note This is just a basic guide, adapt this recipe to your liking."
+        ]
+    },
+    {
+        "name": "Pama Porridge",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "water",
+                "quantity": 3.0,
+                "unit": "dl"
+            },
+            {
+                "id": 2,
+                "name": "Pama porridge rice",
+                "quantity": 180.0,
+                "unit": "g"
+            },
+            {
+                "id": 3,
+                "name": "whole milk",
+                "quantity": 1000.0,
+                "unit": "ml"
+            },
+            {
+                "id": 4,
+                "name": "salt",
+                "quantity": 2.0,
+                "unit": "pinches"
+            },
+            {
+                "id": 5,
+                "name": "sugar",
+                "quantity": 4.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 6,
+                "name": "cinnamon",
+                "quantity": 2.0,
+                "unit": "teaspoons"
+            },
+            {
+                "id": 7,
+                "name": "butter",
+                "quantity": 50.0,
+                "unit": "g"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Bring water and rice to a boil in a deep pot. Boil the rice at steady heat and with active stirring for approximately 2 minutes.",
+                "preparation_time": 2,
+                "cooking_time": 2,
+                "used_ingredients": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Add milk and bring the concoction to a boil. Boil the pot at low heat, still with active stirring for approximately 10 minutes.",
+                "preparation_time": null,
+                "cooking_time": 10,
+                "used_ingredients": [
+                    3
+                ]
+            },
+            {
+                "number": 3,
+                "description": "Put on lid and boil for approximately 30 minutes. Stir the pot often. If the porridge seems too thin, boil it for another 5-10 minutes.",
+                "preparation_time": null,
+                "cooking_time": 30,
+                "used_ingredients": []
+            },
+            {
+                "number": 4,
+                "description": "Add salt.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    4
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Mix sugar and cinnamon to form cinnamon sugar in a bowl or container.",
+                "preparation_time": 1,
+                "cooking_time": null,
+                "used_ingredients": [
+                    5,
+                    6
+                ]
+            },
+            {
+                "number": 6,
+                "description": "Serve warm with cinnamon sugar on top and a bit of butter in the middle.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    7
+                ]
+            }
+        ],
+        "total_preparation_time": 3,
+        "total_cooking_time": 42,
+        "comments": []
+    },
+    {
+        "name": "Meat and Rice Stew",
+        "serving_size": 6,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "cooking oil",
+                "quantity": 150.0,
+                "unit": "ml"
+            },
+            {
+                "id": 2,
+                "name": "long grain rice",
+                "quantity": 1000.0,
+                "unit": "g"
+            },
+            {
+                "id": 3,
+                "name": "meat",
+                "quantity": 1500.0,
+                "unit": "g"
+            },
+            {
+                "id": 4,
+                "name": "onions",
+                "quantity": 500.0,
+                "unit": "g"
+            },
+            {
+                "id": 5,
+                "name": "carrots",
+                "quantity": 500.0,
+                "unit": "g"
+            },
+            {
+                "id": 6,
+                "name": "salt",
+                "quantity": 2.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 7,
+                "name": "garlic",
+                "quantity": 5.0,
+                "unit": "cloves"
+            },
+            {
+                "id": 8,
+                "name": "raisins",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 9,
+                "name": "tomato paste",
+                "quantity": 500.0,
+                "unit": "ml"
+            },
+            {
+                "id": 10,
+                "name": "cardamom",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 11,
+                "name": "paprika",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 12,
+                "name": "coriander",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 13,
+                "name": "cinnamon",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 14,
+                "name": "cumin",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 15,
+                "name": "turmeric",
+                "quantity": null,
+                "unit": null
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Heat the cooking oil in a cauldron until it is boiling. Add a head of onion and fry until it is black, then throw it out.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Add the coarsely chopped meat and fry until it is golden brown. Add a pinch of salt.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    3
+                ]
+            },
+            {
+                "number": 3,
+                "description": "Add the chopped onions and fry for 2 minutes. Add the sliced carrots and fry for another 2 minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    4,
+                    5
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Add 500 ml of water diluted with tomato paste and boil for 5 minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    1,
+                    9
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Rinse the rice and add it to the cauldron without mixing. Add another 500 ml of water diluted with tomato paste and wait until it is boiling.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    2,
+                    9
+                ]
+            },
+            {
+                "number": 6,
+                "description": "Reduce the heat to minimum, add two table spoons of salt and close the cauldron. Leave it on low heat for 1.5-2 hours.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    6
+                ]
+            },
+            {
+                "number": 7,
+                "description": "1 hour before it is ready, add the crushed garlic.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    7
+                ]
+            },
+            {
+                "number": 8,
+                "description": "If the rice is undercooked, turn it over and add some raisins. Continue boiling until all water is evaporated.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "used_ingredients": [
+                    8
+                ]
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": 90,
+        "comments": []
+    }
+]
