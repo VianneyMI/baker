@@ -1,0 +1,11 @@
+pyproject.toml
+requirements/core.txt
+src/baker/__init__.py
+src/baker/parser.py
+src/baker/schemas.py
+src/baker/settings.py
+src/baker.egg-info/PKG-INFO
+src/baker.egg-info/SOURCES.txt
+src/baker.egg-info/dependency_links.txt
+src/baker.egg-info/requires.txt
+src/baker.egg-info/top_level.txt

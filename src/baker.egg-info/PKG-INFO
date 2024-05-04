@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: baker
+Version: 0.1.0
+Summary: A Recipe Parser using LLMs
+Author-email: Vianney Mixtur <vianney.mixtur@outlook.fr>
+Project-URL: Homepage, https://github.com/VianneyMI
+Keywords: scraper,llm
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: langchain==0.1.16
+Requires-Dist: langchain-community==0.0.34
+Requires-Dist: langchain-core==0.1.46
+Requires-Dist: langchain-text-splitters==0.0.1
+Requires-Dist: langsmith==0.1.50
+Provides-Extra: test
+Requires-Dist: pytest>=8.0.0; extra == "test"
+Provides-Extra: dev
+Requires-Dist: scikit-learn==1.4.0; extra == "dev"
+Requires-Dist: openpyxl==3.1.2; extra == "dev"
+Requires-Dist: bumpver-2023.1129; extra == "dev"
