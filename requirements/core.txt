@@ -3,4 +3,5 @@ langchain-community==0.0.34
 langchain-core==0.1.46
 langchain-text-splitters==0.0.1
 langsmith==0.1.50
-openai==1.23.6 
+pydantic_settings==2.2.1
+langchain-mistralai==0.1.6 

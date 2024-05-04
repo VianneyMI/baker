@@ -8,18 +8,20 @@ from baker.settings import SETTINGS
 from baker.schemas import Recipe, Ingredients
 
 PROMPT_TEMPLATE = """
-Can you format as json date the ingredients in the following {ingredients} raw text ?
+What are the ingredients and their associated quantities as well as the steps to make the recipe described by the following {ingredients} and {steps} provided as raw text ?
 
 In particular, please provide the following information:
-- The name of the ingredient
-- The quantity as a number
-- The unit of measurement
-
-As described in {format_instructions}
+- The name of the recipe
+- The serving size
+- The ingredients and their associated quantities
+- The steps to make the recipe
+- Any additional comments
+as described in {format_instructions}
 
 """
 
-LLM = ChatOpenAI(api_key=SETTINGS.openai_api_key, model=SETTINGS.openai_model)
+
+LLM = ChatOpenAI(openai_api_key=SETTINGS.openai_api_key, model=SETTINGS.openai_model)
 MESSAGE = HumanMessagePromptTemplate.from_template(template=PROMPT_TEMPLATE)
 CHAT_PROMPT_TEMPLATE = ChatPromptTemplate.from_messages(messages=[MESSAGE])
 PARSER = PydanticOutputParser(pydantic_object=Ingredients)
@@ -37,7 +39,7 @@ class RecipeParser:
         self.parser = parser
 
 
-    async def run(self, ingredients: str) -> dict | Recipe| None:
+    async def run(self, ingredients: str, steps:str|None=None) -> dict | Recipe| None:
         """Calls the llm to perform the parsing."""
 
         output = None
@@ -48,7 +50,7 @@ class RecipeParser:
             else:
                 format_instructions = ''
 
-            chat_prompt = self.prompt_template.format_prompt(ingredients=ingredients, format_instructions=format_instructions)
+            chat_prompt = self.prompt_template.format_prompt(ingredients=ingredients, steps=steps, format_instructions=format_instructions)
 
             output = await self.llm.ainvoke(chat_prompt.to_messages())
             self._cache = output

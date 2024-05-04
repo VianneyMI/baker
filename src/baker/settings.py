@@ -13,8 +13,10 @@ class _Settings(BaseSettings):
     # -----------------------------------------------------------------------------
     # OPENAI
     # -----------------------------------------------------------------------------
-    openai_api_key: str
-    openai_model: str = 'gpt-4-turbo'
+    openai_api_key: str = ""
+    mistral_api_key: str = ""
+    openai_model: str = ""
+    mistral_model: str = ""
 
     model_config = SettingsConfigDict(
         env_file=[
