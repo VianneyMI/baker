@@ -1,0 +1,947 @@
+[
+    {
+        "name": "Wholemeal Wheat Bread",
+        "serving_size": 10,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Wholemeal Wheat Flour",
+                "quantity": 500.0,
+                "unit": "g"
+            },
+            {
+                "id": 2,
+                "name": "Lukewarm Water",
+                "quantity": 280.0,
+                "unit": "ml"
+            },
+            {
+                "id": 3,
+                "name": "Dry Yeast",
+                "quantity": 8.0,
+                "unit": "g"
+            },
+            {
+                "id": 4,
+                "name": "Olive Oil",
+                "quantity": 3.5,
+                "unit": "spoon"
+            },
+            {
+                "id": 5,
+                "name": "Salt",
+                "quantity": 1.5,
+                "unit": "teaspoon"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Combine all the ingredients in a bowl and knead into a dough.",
+                "preparation_time": 15,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Let the dough rest for ~60 minutes somewhere lukewarm.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": 60,
+                "used_ingredients": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        ],
+        "total_preparation_time": 75,
+        "total_cooking_time": null,
+        "total_waiting_time": null,
+        "comments": [
+            "Make sure the water is lukewarm, not hot, to avoid killing the yeast.",
+            "You can adjust the amount of water if the dough is too dry or too sticky."
+        ],
+        "inference_assumptions": []
+    },
+    {
+        "name": "Beef and Turnip Stew with Saffron",
+        "serving_size": 6,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "beef roast",
+                "quantity": 1.0,
+                "unit": "piece"
+            },
+            {
+                "id": 2,
+                "name": "turnips with greens",
+                "quantity": 3.5,
+                "unit": "large"
+            },
+            {
+                "id": 3,
+                "name": "chicken stock",
+                "quantity": 2.0,
+                "unit": "cups"
+            },
+            {
+                "id": 4,
+                "name": "saffron",
+                "quantity": 0.1,
+                "unit": "grams"
+            },
+            {
+                "id": 5,
+                "name": "butter",
+                "quantity": 0.25,
+                "unit": "sticks"
+            },
+            {
+                "id": 6,
+                "name": "black pepper",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 7,
+                "name": "warm water",
+                "quantity": null,
+                "unit": null
+            },
+            {
+                "id": 8,
+                "name": "mustard greens",
+                "quantity": null,
+                "unit": null
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Cube the roast into bite sized pieces and place them in a large skillet with the butter.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    5
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Heat the pan on medium-high heat and brown the meat with the melted butter until the outside is evenly cooked, sprinkle with pepper as it browns.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    5,
+                    6
+                ]
+            },
+            {
+                "number": 3,
+                "description": "While the meat is browning, cut the greens off the turnips and set them aside. Cut the turnips into bite sized pieces making sure to cut the top and bottom ends off first. If you can not find turnips with their greens still attached Mustard greens can be substituted.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    2,
+                    6,
+                    8
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Put the cut up turnips in the slow cooker and pour in the chicken stock.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Take the meat and dump it into the slow cooker drippings and all. If the amount of liquid looks a bit low to you, you can pour in another cup or so of water at your discretion.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    3,
+                    6
+                ]
+            },
+            {
+                "number": 6,
+                "description": "Sprinkle more pepper over the soup and put the saffron in the bowl of warm water and let it seep for five minutes. Then dump it and the warm water into the soup.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": 5,
+                "used_ingredients": [
+                    4,
+                    6,
+                    7
+                ]
+            },
+            {
+                "number": 7,
+                "description": "Cut the stems off of the greens and then chop the greens vertically.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    2
+                ]
+            },
+            {
+                "number": 8,
+                "description": "Cook the soup on high for 2 to 2 1/2 hours or until the turnip and meat are soft and tender. About 20 minutes before it is to be done take the chopped greens and put them in the soup. Don't worry if it overfills the slow cooker, the greens will shrink a ton. Cook for about 20 minutes until done.",
+                "preparation_time": null,
+                "cooking_time": 150,
+                "waiting_time": 20,
+                "used_ingredients": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "number": 9,
+                "description": "Taste the soup, if it's still too bland you can add spices of your choice and season to your taste.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": 150,
+        "total_waiting_time": 5,
+        "comments": [],
+        "inference_assumptions": []
+    },
+    {
+        "name": "Hearty Breakfast Oatmeal",
+        "serving_size": 1,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Large Flake Oats",
+                "quantity": 0.5,
+                "unit": "cup"
+            },
+            {
+                "id": 2,
+                "name": "Almonds",
+                "quantity": null,
+                "unit": "unit"
+            },
+            {
+                "id": 3,
+                "name": "Pecans",
+                "quantity": null,
+                "unit": "unit"
+            },
+            {
+                "id": 4,
+                "name": "Roasted Flax Seed",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 5,
+                "name": "Hemp Hearts",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 6,
+                "name": "Cranberries",
+                "quantity": null,
+                "unit": "unit"
+            },
+            {
+                "id": 7,
+                "name": "Banana",
+                "quantity": 0.5,
+                "unit": "unit"
+            },
+            {
+                "id": 8,
+                "name": "Milk (3.25%)",
+                "quantity": 1.0,
+                "unit": "cup"
+            },
+            {
+                "id": 9,
+                "name": "Cinnamon",
+                "quantity": null,
+                "unit": "unit"
+            },
+            {
+                "id": 10,
+                "name": "Egg",
+                "quantity": 1.0,
+                "unit": "unit"
+            },
+            {
+                "id": 11,
+                "name": "ON Vanilla Ice Cream Protein Powder",
+                "quantity": null,
+                "unit": "unit"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Chop or mash nuts and fruit",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    2,
+                    3,
+                    6,
+                    7
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Combine nuts, fruit, and other dry ingredients in a saucepan",
+                "preparation_time": 2,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    9
+                ]
+            },
+            {
+                "number": 3,
+                "description": "Add milk and cook mixture over medium heat until oats are desired tenderness (5-10 mins)",
+                "preparation_time": null,
+                "cooking_time": 5,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    8
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Add egg and protein powder and cook for a few more minutes",
+                "preparation_time": null,
+                "cooking_time": 3,
+                "waiting_time": null,
+                "used_ingredients": [
+                    10,
+                    11
+                ]
+            }
+        ],
+        "total_preparation_time": 12,
+        "total_cooking_time": 8,
+        "total_waiting_time": null,
+        "comments": [
+            "Make sure to use Large Flake Oats and not quick-oats",
+            "Adjust the amount of Cranberries and Cinnamon to preference"
+        ],
+        "inference_assumptions": [
+            "Assumed serving size is for one person"
+        ]
+    },
+    {
+        "name": "Red Lentil Soup with Yellow Curry",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "olive oil",
+                "quantity": 3.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 2,
+                "name": "yellow onion",
+                "quantity": 1.0,
+                "unit": "medium"
+            },
+            {
+                "id": 3,
+                "name": "fresh ginger",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 4,
+                "name": "garlic cloves",
+                "quantity": 4.0,
+                "unit": "cloves"
+            },
+            {
+                "id": 5,
+                "name": "yellow curry (mild madras)",
+                "quantity": 2.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 6,
+                "name": "sea salt",
+                "quantity": 1.0,
+                "unit": "teaspoon"
+            },
+            {
+                "id": 7,
+                "name": "dried red lentils",
+                "quantity": 1.0,
+                "unit": "cup"
+            },
+            {
+                "id": 8,
+                "name": "water",
+                "quantity": 5.0,
+                "unit": "cups"
+            },
+            {
+                "id": 9,
+                "name": "plum tomatoes",
+                "quantity": 5.0,
+                "unit": "unit"
+            },
+            {
+                "id": 10,
+                "name": "lemon",
+                "quantity": 1.0,
+                "unit": "unit"
+            },
+            {
+                "id": 11,
+                "name": "fresh cilantro",
+                "quantity": 1.0,
+                "unit": "cup"
+            },
+            {
+                "id": 12,
+                "name": "dried red chili's or cayenne pepper",
+                "quantity": null,
+                "unit": "to taste"
+            },
+            {
+                "id": 13,
+                "name": "ground cinnamon",
+                "quantity": 0.25,
+                "unit": "teaspoon"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Heat oil in a soup pot and sauté onions for 5 minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 2,
+                "description": "Add garlic and ginger and sauté 5 more minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 3,
+                "description": "Add spices and salt, sauté 5 minutes more.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 4,
+                "description": "Add 4 cups of water and stir. Add tomatoes and lentils. Bring to a boil and then lower the heat a bit and simmer for 20 minutes.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 5,
+                "description": "Add the lemon juice and cilantro and more water if it's too thick. Simmer 10 more minutes, or until lentils are completely tender. This may take a while.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": {
+            "min": null,
+            "max": 15
+        },
+        "total_cooking_time": {
+            "min": 30,
+            "max": 40
+        },
+        "total_waiting_time": null,
+        "comments": [],
+        "inference_assumptions": []
+    },
+    {
+        "name": "Beef Wellington",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Fillet Beef",
+                "quantity": 1.0,
+                "unit": "lb"
+            },
+            {
+                "id": 2,
+                "name": "Extra Virgin Olive Oil",
+                "quantity": null,
+                "unit": "null"
+            },
+            {
+                "id": 3,
+                "name": "Mushrooms",
+                "quantity": 1.0,
+                "unit": "lb"
+            },
+            {
+                "id": 4,
+                "name": "Ham",
+                "quantity": 4.0,
+                "unit": "thinly cut slices"
+            },
+            {
+                "id": 5,
+                "name": "Yellow Mustard",
+                "quantity": 2.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 6,
+                "name": "Puff Pastry",
+                "quantity": 7.0,
+                "unit": "oz"
+            },
+            {
+                "id": 7,
+                "name": "Egg Yolks",
+                "quantity": 2.0,
+                "unit": "beaten"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Season the fillet with salt and black pepper.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    8
+                ]
+            },
+            {
+                "number": 2,
+                "description": "With a nicely-oiled pan on high heat, sear the fillet on all sides, including the ends. Put it aside on a plate.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    2
+                ]
+            },
+            {
+                "number": 3,
+                "description": "Brush the fillet with yellow mustard immediately after taking it out of the pan.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    5
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Chop the mushrooms. Put them in a food processor. Transfer the purée to a sauté pan that has been heated to medium high heat to cook. Allow the mushrooms to release their moisture; once the moisture has been boiled away take the mushrooms out of pan to cool.",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": 10,
+                "used_ingredients": [
+                    3
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Lay out the slices of ham on plastic wrap and spread the mushroom mixture over the ham. Place the fillet in the middle. Wrap the fillet into a tight barrel shape twist the end of the plastic wrap to secure the wrap and the refrigerate the whole thing for 20 minutes.",
+                "preparation_time": 10,
+                "cooking_time": null,
+                "waiting_time": 20,
+                "used_ingredients": [
+                    4,
+                    3
+                ]
+            },
+            {
+                "number": 6,
+                "description": "Preheat the oven to 302°F/150°C.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 7,
+                "description": "On a lightly floured surface, roll out a sheet of puff pastry to a size that will fit the fillet. Preserve a little excess pastry. Unwrap the fillet-mushroom-ham from the plastic wrap and place in the middle of the pastry dough. Brush the edges of the pastry with the beaten egg yolks.",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    6,
+                    7
+                ]
+            },
+            {
+                "number": 8,
+                "description": "Place the pastry-wrapped thing on a baking tray. Brush the exposed surface again with the beaten eggs. Optionally, score the top of the pastry with a knife, to give it a better presentation. Scratch the surface of it but don't cut it through. Season it through with coarse salt.",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    7
+                ]
+            },
+            {
+                "number": 9,
+                "description": "\n",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": null,
+        "total_waiting_time": null,
+        "comments": [],
+        "inference_assumptions": []
+    },
+    {
+        "name": "Cheesy Garlic Chicken",
+        "serving_size": 2,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Chicken Breasts",
+                "quantity": 2.0,
+                "unit": null
+            },
+            {
+                "id": 2,
+                "name": "Mayonnaise",
+                "quantity": 2.0,
+                "unit": "tablespoons"
+            },
+            {
+                "id": 3,
+                "name": "Panko Breadcrumbs",
+                "quantity": 0.25,
+                "unit": "cups"
+            },
+            {
+                "id": 4,
+                "name": "Cheddar Cheese",
+                "quantity": 0.25,
+                "unit": "cups"
+            },
+            {
+                "id": 5,
+                "name": "Smoked Paprika-Garlic Blend",
+                "quantity": 1.0,
+                "unit": "tablespoons"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Combine panko, cheese, and smoked paprika-garlic blend in a shallow dish.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Preheat oven to 425F.",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            },
+            {
+                "number": 3,
+                "description": "Pat chicken dry with paper towel. Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end. Open up chicken like a book, and season both sides with salt and pepper.",
+                "preparation_time": 10,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Coat one side of each chicken breast with mayo. Firmly press mayo-coated side into panko mixture to adhere, one at a time.",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Transfer chicken to a parchment-lined baking sheet, coated-side up. Bake chicken on the middle oven rack until cooked through (18-20 mins).",
+                "preparation_time": 1,
+                "cooking_time": 18,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            }
+        ],
+        "total_preparation_time": 21,
+        "total_cooking_time": 18,
+        "total_waiting_time": null,
+        "comments": [],
+        "inference_assumptions": []
+    },
+    {
+        "name": "Spiced Green Lentils with Vermicelli",
+        "serving_size": 4,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "green lentils",
+                "quantity": 200.0,
+                "unit": "g"
+            },
+            {
+                "id": 2,
+                "name": "vermicelli",
+                "quantity": 50.0,
+                "unit": "g"
+            },
+            {
+                "id": 3,
+                "name": "curry powder",
+                "quantity": 1.0,
+                "unit": "teaspoon"
+            },
+            {
+                "id": 4,
+                "name": "paprika powder",
+                "quantity": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "id": 5,
+                "name": "cinnamon powder",
+                "quantity": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "id": 6,
+                "name": "ground sumac",
+                "quantity": 0.5,
+                "unit": "teaspoon"
+            },
+            {
+                "id": 7,
+                "name": "salt",
+                "quantity": 2.0,
+                "unit": "teaspoon"
+            },
+            {
+                "id": 8,
+                "name": "ground black pepper",
+                "quantity": null,
+                "unit": null
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Thoroughly rinse the lentils and drain the water.",
+                "preparation_time": 5,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 2,
+                "description": "Put the lentils in the pot, and add 1 L of water.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 3,
+                "description": "Bring to a boil, and gently boil for about 15-20 minutes.",
+                "preparation_time": null,
+                "cooking_time": 15,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 4,
+                "description": "Drain the water.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 5,
+                "description": "Add the other ingredients to the pot.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "number": 6,
+                "description": "Add 1.5-2 teaspoons of salt and a little bit of ground black pepper.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1,
+                    7,
+                    8
+                ]
+            },
+            {
+                "number": 7,
+                "description": "Add 0.5 L of boiling water.",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            },
+            {
+                "number": 8,
+                "description": "Simmer for about 10 minutes.",
+                "preparation_time": null,
+                "cooking_time": 10,
+                "waiting_time": null,
+                "used_ingredients": [
+                    1
+                ]
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": null,
+        "total_waiting_time": null,
+        "comments": [
+            "Have a blessed Lent."
+        ],
+        "inference_assumptions": []
+    },
+    {
+        "name": "Spicy Mayo or Aioli",
+        "serving_size": 1,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "mayonnaise or aioli",
+                "quantity": 3.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 2,
+                "name": "ketchup",
+                "quantity": 2.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 3,
+                "name": "sriracha",
+                "quantity": 1.0,
+                "unit": "tablespoon"
+            },
+            {
+                "id": 4,
+                "name": "garlic",
+                "quantity": 1.0,
+                "unit": "clove"
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Mix ingredients in a bowl",
+                "preparation_time": null,
+                "cooking_time": null,
+                "waiting_time": null,
+                "used_ingredients": []
+            }
+        ],
+        "total_preparation_time": null,
+        "total_cooking_time": null,
+        "total_waiting_time": null,
+        "comments": [
+            "If using mayonnaise and not aioli, consider finely mincing the garlic before mixing it with the other ingredients"
+        ],
+        "inference_assumptions": []
+    }
+]

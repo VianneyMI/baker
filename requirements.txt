@@ -4,4 +4,5 @@ langchain-core==0.1.46
 langchain-text-splitters==0.0.1
 langsmith==0.1.50
 spacy==3.7.4
-langchain-mistralai==0.1.6 
+langchain-mistralai==0.1.6
+pandas==2.2.2 
