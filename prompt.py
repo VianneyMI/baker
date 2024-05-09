@@ -1,9 +1,8 @@
-"""`parser.py`"""
+"""`prompt.py`"""
 
 from langchain_core.messages import BaseMessage
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts.chat import ChatPromptTemplate, HumanMessagePromptTemplate
-from langchain_community.chat_models.openai import ChatOpenAI
 
 
 DEFAULT_BASE_PROMPT = """
