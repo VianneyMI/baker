@@ -12,9 +12,12 @@ In particular, please provide the following information:
 - The name of the recipe
 - The serving size
 - The ingredients and their associated quantities
-- The steps to make the recipe
+- The steps to make the recipe and in particular, the duration of each step
+- The total duration of the recipe broken down into preparation, cooking and waiting time. The totals must be consistent with the sum of the durations of the steps. 
 - Any additional comments
-as described in {format_instructions}
+
+{format_instructions}
+Make sure to provide a valid and well-formatted JSON.
 
 """
 

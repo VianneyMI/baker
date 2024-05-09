@@ -6,12 +6,12 @@ from pydantic import BaseModel, Field, field_validator
 class Range(BaseModel):
     """Range schema"""
 
-    min: int|None = Field(
+    min: float|None = Field(
         None,
         description="The start of the range",
         examples=[1, 2, 3, 4, 5, 6],
     )
-    max: int|None = Field(
+    max: float|None = Field(
         None,
         description="The end of the range",
         examples=[1, 2, 3, 4, 5, 6],
@@ -73,17 +73,17 @@ class Step(BaseModel):
             "Let the cake cool down before serving",
         ],
     )
-    preparation_time: int | Range| None = Field(
+    preparation_time: float | Range| None = Field(
         None,
         description="The time (in minutes) spent preparing the ingredients mentioned in the step description if any.",
         examples=[5, 10, 15, 20, 25, 30],
     )
-    cooking_time: int | Range| None = Field(
+    cooking_time: float | Range| None = Field(
         None,
         description="The time (in minutes) that we have to cook, bake or heat the ingredients mentioned in the step description if any.",
         examples=[5, 10, 15, 20, 25, 30],
     )
-    waiting_time: int | Range| None = Field(
+    waiting_time: float | Range| None = Field(
         None,
         description="""The time (in minutes) that we have to let the mixture of ingredients rest or cool down in the fridge for example.
         Only if the step description mentions it.
@@ -117,31 +117,38 @@ class Recipe(BaseModel):
     )
     ingredients: list[Ingredient] = []
     steps: list[Step] = []
-    total_preparation_time: int | Range| None = Field(
+    total_preparation_time: float | Range| None = Field(
         None,
-        description="The total preparation time (in minutes) for the recipe",
+        description="""The total preparation time (in minutes) for the recipe.
+        Must be consistent with the preparation time of the steps.
+        """,
         examples=[5, 10, 15, 20, 25, 30],
     )
-    total_cooking_time: int | Range| None = Field(
+    total_cooking_time: float | Range| None = Field(
         None,
-        description="The total cooking time (in minutes) for the recipe",
+        description="""The total cooking time (in minutes) for the recipe.
+        Must be consistent with the preparation time of the steps.
+        """,
         examples=[5, 10, 15, 20, 25, 30],
     )
-    total_waiting_time: int | Range | None = Field(
+    total_waiting_time: float | Range | None = Field(
         None,
-        description="The total waiting time (in minutes) for the recipe",
+        description="""The total waiting time (in minutes) for the recipe.
+        Must be consistent with the preparation time of the steps.
+        """,
         examples=[5, 10, 15, 20, 25, 30],
     )
     comments: list[str] = []
     inference_assumptions : list[str] = Field(
         [],
-        description="The list of concise assumptions made by you the Large Language Model during the generation process.",
+        description="""The list of concise assumptions made by you the Large Language Model during the generation process.
+        Do not list more than 5 assumptions.
+        """,
         examples=[
             [
                 "Assumed that the recipe is for a single serving",
                 "Assumed that the `1`in `1 1/2` was a typo and corrected it to `1/2`",
             ]
         ],
-        max_length=3,
     )
 
