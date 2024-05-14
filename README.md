@@ -1,6 +1,6 @@
 # The rising use case of LLM: Structuring unstructured data
 
-This repo contains the code for the blog post ["The rising use case of LLM: Structuring unstructured data"](<insert-link>). 
+This repo contains the code for the blog post ["The rising use case of LLM: Structuring unstructured data"](https://towardsdatascience.com/the-lesser-known-rising-application-of-llms-775834116477). 
 The blog post discusses the use of LLMs for structuring unstructured data and show an example by structuring the recipes available at [publicdomainrecipes.com](https://publicdomainrecipes.com/)
 
 ## Installation
@@ -33,7 +33,7 @@ The structured dataset is available [here](https://github.com/VianneyMI/baker/bl
 
 ## Contributing
 
-You can  raise issues or pull requests on the [GitHub repo](https://github.com/VianneyMI/baker/issues) if you have any suggestions or improvements, you can also comment the article on [publisher]().
+You can  raise issues or pull requests on the [GitHub repo](https://github.com/VianneyMI/baker/issues) if you have any suggestions or improvements, you can also comment the article on [Towards Data Science](https://towardsdatascience.com/the-lesser-known-rising-application-of-llms-775834116477).
 
 ## License
 
