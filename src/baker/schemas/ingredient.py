@@ -17,6 +17,8 @@ class Ingredient(BaseBakerModel):
 
     In particular, it includes a `quantity` and a `unit` fields that can be used
     by algorithms.
+    The `unit` field is an enumeration of common units of measurement.
+    When not sure about, what value to use for the `unit` field, use `"N/A"` or `"unknown"`.
     
     """
 
@@ -34,9 +36,9 @@ class Ingredient(BaseBakerModel):
     )
 
     
-    unit: UnitEnum | None = Field(
+    unit: UnitEnum | str | None = Field(
         None,
-        description="The unit in which the quantity is specified",
+        description="The unit in which the quantity is specified.When not sure about, what value to use for the `unit` field, use `'N/A'` or `'unknown'`. ",
         examples=["ml", "unit", "l", "unit", "teaspoon", "tablespoon"],
     )
     optional: bool = Field(False, description="Whether the ingredient is optional or not")
