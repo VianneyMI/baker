@@ -85,7 +85,7 @@ class Step(BaseModel):
     )
     waiting_time: float | Range| None = Field(
         None,
-        description="""The time (in minutes) that we have to let the mixture of ingredients rest or cool down in the fridge for example.
+        description="""The time (in minutes) that we have to let the mixture of ingredients rest or cool down. For example, in the fridge.
         Only if the step description mentions it.
         
         """,
