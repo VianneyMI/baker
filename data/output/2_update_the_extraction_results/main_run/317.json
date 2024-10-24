@@ -1,0 +1,194 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "potatoes",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "flour",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "tomato",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "parmesan",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "butter",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "sage",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "oregano",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "thyme",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Boil potatoes (with their skins) until mashable.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Slice potatoes in two and scoop them out of their skin.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Mash with a potato-masher while adding kosher salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Slowly begin to add flour while mashing and kneading until there are no lumps of potato and the potato/flour mixture takes on a dough-like consistency.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Begin to boil more water with lots of kosher salt added.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Flour a work surface, pinch off some of the dough and roll it on the surface into a long chubby snake.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Slice the dough snake into small pieces. Press the pieces with your finger to make an indentation.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Add the pieces to the boiling water. They will rise to the top when they are ready.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "In a pan, melt butter and add sprigs of sage (oregano or thyme will work as well, albeit are less traditional). Smashed tomato juices are also a nice addition.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Add the cooked gnocchi to the pan and roast them in butter for a minute or two until slightly browned. As pan begins to dry, add some pasta water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Serve gnocchi on a plate, grate on Parmigiano-Reggiano cheese liberally. Add garnish if desired.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Gnocchi",
+    "date": "2021-03-10",
+    "tags": [
+        "italian",
+        "potato",
+        "side",
+        "fasting"
+    ],
+    "introduction": "Gnocchi is a pasta based on potato, making it a less bloating alternative to other kinds of pasta. They are substantial and can be roasted in butter and other ingredients.",
+    "ingredients_source_text": "- potatoes - flour - tomato - parmesan - butter - sage or oregano or thyme",
+    "directions_source_text": "1. Boil potatoes (with their skins) until mashable. 2. Slice potatoes in two and scoop them out of their skin. 3. Mash with a potato-masher while adding kosher salt. 4. Slowly begin to add flour while mashing and kneading until there are no lumps of potato and the potato/flour mixture takes on a dough-like consistency. 5. Begin to boil more water with lots of kosher salt added. 6. Flour a work surface, pinch off some of the dough and roll it on the surface into a long chubby snake. 7. Slice the dough snake into small pieces. Press the pieces with your finger to make an indentation. 8. Add the pieces to the boiling water. They will rise to the top when they are ready. 9. In a pan, melt butter and add sprigs of sage (oregano or thyme will work as well, albeit are less traditional). Smashed tomato juices are also a nice addition. 10. Add the cooked gnocchi to the pan and roast them in butter for a minute or two until slightly browned. As pan begins to dry, add some pasta water. 12. Serve gnocchi on a plate, grate on Parmigiano-Reggiano cheese liberally. Add garnish if desired."
+}

@@ -1,0 +1,164 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": 25.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Pecorino romano cheese",
+            "quantity": 1.5,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Fresh chili pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "Extra virgin olive oil",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Guanciale",
+            "quantity": 3.5,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "White wine",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Tomato passata",
+            "quantity": 10.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Spaghetti or similar long pasta",
+            "quantity": 12.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Extra pecorino romano or parmesan",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Grate the pecorino and keep it aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mince the chili pepper(s) and keep it/them aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cut the guanciale in thin stripes and cook them in the oil with the minced pepper(s) for about 3 minutes on medium/high heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 3.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium/high",
+            "ingredients_ids": [
+                3,
+                4,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Douse with the wine and turn up the heat. Cook until the alcohol has evaporated.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Start cooking the pasta.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Lower the heat to medium and add the passata, some salt and plenty of pepper. Cook for about 15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once finished, drain the pasta and add the sauce and the pecorino/parmesan, mix well and serve immediately. Optionally you can add some pecorino or parmesan on top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                6,
+                1,
+                8
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Spaghetti all'amatriciana",
+    "date": "2021-03-24",
+    "tags": [
+        "italian",
+        "pasta"
+    ],
+    "introduction": "Ignore the fact that those in the photo are pennette and not spaghetti, that's all I had that day. ![Jebusthebus](/pix/spaghetti-all-amatriciana.webp) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 25 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- Pecorino romano cheese preferably or Parmesan 1.5oz (40g) - Fresh chili pepper (as many as you'd like) - Extra virgin olive oil 1/4 cup (40g) - Guanciale preferably or Bacon 3.5oz (100g) - White wine 1/4 cup (60g) - Tomato passata 10oz (300g) - Spaghetti or similar long pasta 12oz (350g) - (optional) Extra pecorino romano or parmesan",
+    "directions_source_text": "1. Grate the pecorino and keep it aside. 2. Mince the chili pepper(s) and keep it/them aside. 3. Cut the guanciale in thin stripes and cook them in the oil with the minced pepper(s) for about 3 minutes on medium/high heat. 4. Douse with the wine and turn up the heat. Cook until the alcohol has evaporated. 5. Start [cooking the pasta](/pasta). 6. Lower the heat to medium and add the passata, some salt and plenty of pepper. Cook for about 15 minutes. 7. Once finished, drain the pasta and add the sauce and the pecorino/parmesan, mix well and serve immediately. Optionally you can add some pecorino or parmesan on top."
+}

@@ -1,0 +1,105 @@
+{
+    "serving_size": 2,
+    "preparation_time": 5.0,
+    "cooking_time": 75.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "high fat pork belly",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "ginger",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "garlic",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "scotch bonnet chili",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "ketchup",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "hoisin sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "honey",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "sesame oil",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "spring onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut pork belly into 1 inch cubes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a small frying pan place pork cubes fattiest side down in dry pan, put gas on lowest level possible flame, cover with lid. Ideally your pork covers the entire surface of the small pan",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Hoisin Pork Belly",
+    "date": "2021-04-02",
+    "tags": [
+        "chinese",
+        "pork",
+        "spicy",
+        "sweet"
+    ],
+    "introduction": "![Spicy Glazed Hoisin Pork Belly](/pix/hoisin-pork-belly.webp) Melt-in-mouth fatty pork in a sweet and spicy glaze. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 1 hr 15 mins - \ud83c\udf7d Servings: 2",
+    "ingredients_source_text": "- 400g high fat pork belly (no skin) - large thumb of ginger - 4 cloves of garlic - 1 scotch bonnet chili - 2 tbsp ketchup - 2 tbsp hoisin sauce - 2 tbsp honey - 2 tsp sesame oil - 1 spring onion",
+    "directions_source_text": "1. Cut pork belly into 1 inch cubes. 2. In a small frying pan place pork cubes fattiest side down in dry pan, put gas on lowest level possible flame, cover with lid. Ideally your pork covers the entire surface of the small pan"
+}

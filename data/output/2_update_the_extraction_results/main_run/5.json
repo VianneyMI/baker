@@ -1,0 +1,169 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Linguine",
+            "quantity": 12.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Asparagus",
+            "quantity": {
+                "min": 0.5,
+                "max": 0.5
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Green Beans",
+            "quantity": {
+                "min": 0.25,
+                "max": 0.25
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Sugar Snap Peas",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Frozen Edamame or Peas",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Butter",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "small",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "All-Purpose Flour",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Milk",
+            "quantity": 2.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Smoked Salmon",
+            "quantity": {
+                "min": 0.33,
+                "max": 0.33
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Fresh Mint",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Lemon",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Meanwhile in large saucepan, melt butter over medium heat. Add onion and garlic; cook, stirring 3 minutes. Stir in flour. Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened (5 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": 8.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                12,
+                13
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Smoked Salmon Pasta Primavera",
+    "date": "2022-09-11",
+    "tags": [
+        "fish",
+        "pasta"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 12 oz Linguine - 1/2 lb Asparagus, cut into 2\" pieces - 1/4 lb Green Beans, halved - 1 cup Sugar Snap Peas, trimmed - 1/2 cup Frozen Edamame or Peas - 1 Tbsp Butter - 1 small Onion, minced - 2 cloves Garlic, minced - 3 Tbsp All-Purpose Flour - 2 1/2 cup Milk - 1/3 lb Smoked Salmon, cut into wide strips - 1/2 cup Fresh Mint, coarsely chopped - 1/2 Lemon",
+    "directions_source_text": "1. In a large pot of boiling salted water, cook linguine 10 min or until al dente, adding asparagus, beans, and sugar snap peas during the last 3 minutes of cooking and edamame during the last minute. Drain very well. 2. Meanwhile in large saucepan, melt butter over medium heat. Add onion and garlic; cook, stirring 3 minutes. Stir in flour. Very gradually whisk in milk until smooth and stir often until mixture boils and has thickened (5 mins). 3. Add pasta mixture, stirring until hot. Stir in salmon and mint just until mixed. Squeeze juice from lemon into pasta and stir."
+}

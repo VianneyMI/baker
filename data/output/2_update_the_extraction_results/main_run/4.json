@@ -1,0 +1,220 @@
+{
+    "serving_size": 6,
+    "preparation_time": 30.0,
+    "cooking_time": 120.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "pork roast",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "fresh rosemary",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "garlic",
+            "quantity": 8.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "high quality olive oil",
+            "quantity": 0.33,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "lemon",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "pancetta or bacon",
+            "quantity": 4.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "fresh parsley",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 275\u00b0F (135\u00b0C)",
+            "duration": null,
+            "temperature": {
+                "preheat": 275.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Butterfly the roast by cutting into three parts by cutting into the side starting a third of the way up the roast. When you get to the end of the roast open it up and repeat for the remaining roast. You're opening it up like a pamphlet. Refer to the video linked above if you're confused.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cover with plastic wrap and beat with meat mallet to pound the pork to an even levelness.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Mince garlic cloves(8) with the rosemary(2 Tbsp). Place into a cold pan with olive oil(\u2153 cup) and zest of lemon(1). Keep lemon for later.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                2,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Bring to slow simmer on medium low heat for 2-3 minutes. Strain the herbs making sure to squeeze all excess oil. Reserve oil for later.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add pancetta/bacon(4 oz) to food processor. Pulse a few times before adding the garlic/rosemary mixture. Process until a smooth paste forms.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                3,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Salt and pepper both sides of the roast before placing the roast fat side down and spreading the paste over the roast leaving about a 2 inch gap on one side.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Roll tightly towards the 2 inch gap and use butchers twine to secure the roll. Place a knot every inch or so.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Bake at 275\u00b0F (135\u00b0C) for 2 hours or until internal temperature reads 135\u00b0F (57\u00b0C) in the thickest part.",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 275.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Add olive oil to cast iron skillet and heat on high until ripping hot. Cut remaining lemon in half. Brown all sides of pork roast and lemon using tongs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Juice the lemon into the remaining oil from the garlic/rosemary herb spread. Add freshly chopped parsley. Whisk with fork until emulsified. Season with salt and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Slice roast into \u00bd inch thick slices and top with lemon herb vinaigrette.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Tuscan Style Pork Roast",
+    "date": "2021-03-10",
+    "tags": [
+        "italian",
+        "pork",
+        "roast"
+    ],
+    "introduction": "![tuscan-style-pork-roast](/pix/tuscan-style-pork-roast.webp) An herbaceous pancetta stuffed pork roast with a crispy exterior. Finished with a lemon vinaigrette. Adapted from [Binging With Babish](https://www.youtube.com/watch?v=AgFaljoriYA) whose instructions are notoriously bad. - \u23f2\ufe0f Prep time: 30 minutes - \ud83c\udf73 Cook time: 2 hours - \ud83c\udf7d\ufe0f Servings: 6-8 people ## Equipment - Food processor - Fine mesh strainer - Cast iron skillet - Butchers twine",
+    "ingredients_source_text": "- 1 pork Roast - 2-3 Tbsp fresh rosemary - 8 cloves garlic, minced - \u2153 cup high quality olive oil - 1 lemon - 4 oz pancetta or bacon - 1 tsp fresh parsley",
+    "directions_source_text": "1.\tPreheat oven to 275\u00b0F (135\u00b0C) 2.\tButterfly the roast by cutting into three parts by cutting into the side starting a third of the way up the roast. When you get to the end of the roast open it up and repeat for the remaining roast. You're opening it up like a pamphlet. Refer to the video linked above if you're confused. 2.\tCover with plastic wrap and beat with meat mallet to pound the pork to an even levelness. 3.\tMince garlic cloves(8) with the rosemary(2 Tbsp). Place into a cold pan with olive oil(\u2153 cup) and zest of lemon(1). Keep lemon for later. 4.\tBring to slow simmer on medium low heat for 2-3 minutes. Strain the herbs making sure to squeeze all excess oil. Reserve oil for later. 5.\tAdd pancetta/bacon(4 oz) to food processor. Pulse a few times before adding the garlic/rosemary mixture. Process until a smooth paste forms. 6.\tSalt and pepper both sides of the roast before placing the roast fat side down and spreading the paste over the roast leaving about a 2 inch gap on one side. 7.\tRoll tightly towards the 2 inch gap and use butchers twine to secure the roll. Place a knot every inch or so. 8.\tBake at 275\u00b0F (135\u00b0C) for 2 hours or until internal temperature reads 135\u00b0F (57\u00b0C) in the thickest part. 9.\tAdd olive oil to cast iron skillet and heat on high until ripping hot. Cut remaining lemon in half. Brown all sides of pork roast and lemon using tongs. 10.\tJuice the lemon into the remaining oil from the garlic/rosemary herb spread. Add freshly chopped parsley. Whisk with fork until emulsified. Season with salt and pepper. 11.\tSlice roast into \u00bd inch thick slices and top with lemon herb vinaigrette. ##### A note on ingredient snootiness I point out that ingredients need to be fresh, the olive oil high quality, the salt needs to be kosher, and the pepper freshly ground not because I'm some rich snob but because it actually matters. The olive oil is one of the main flavors in this dish and it will taste significantly worse if you cheap out. Herbs, especially rosemary, don't even taste the same when comparing dried to fresh."
+}

@@ -1,0 +1,288 @@
+{
+    "serving_size": 6,
+    "preparation_time": 20.0,
+    "cooking_time": 100.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "lamb stew meat",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "couscous fine semolina",
+            "quantity": 6.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "tomato paste",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "harissa",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "ground caraway",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "ground coriander",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "chili powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "turnips",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "carrots",
+            "quantity": 6.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "zucchini",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "potatoes",
+            "quantity": 6.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "chickpeas",
+            "quantity": 10.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "green hot peppers",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 16,
+            "name": "vegetable oil",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "salt",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "pepper",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add \u00bd cup (120ml) of oil into a large pan. Fry the onion over medium heat for 2 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add the garlic, tomato paste and harissa and continue frying for 2 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the caraway, coriander, and chili powder. Mix and continue cooking for another 2 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the lamb meat and mix well so that the pieces are covered with the sauce. Cook for 5 minutes stirring regularly.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Cover with water. Add the turnips and carrots, and cook on low/medium heat for 45 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 45.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low/medium",
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Meanwhile, prepare the couscous semolina as indicated on the package, with boiling water, salt, and oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                16,
+                17
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "After 45 minutes, add the zucchini, potatoes and chickpeas.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                13,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Cook for at least another 30 to 40 minutes over low to medium heat. Monitor the cooking of the vegetables. If some vegetables are cooked before the meat, remove them from the pan and place them on a serving platter. Proceed in the same way with all the vegetables to prevent them from cooking too much.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 30.0,
+                    "max": 40.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low/medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "10 minutes before the end of cooking, get a few ladles of broth (one at a time) and wet the couscous semolina. Mix the semolina well after each ladle until it gets moistened enough.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Arrange the semolina in a tajine pot. Decorate the dish with the vegetables and the meat all around. Garnish with fried green hot peppers (optional).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                15
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Tunisian Couscous",
+    "date": "2022-07-26",
+    "tags": [
+        "tunisian"
+    ],
+    "introduction": "Credits to creator of recipe, Mike Benayoun , [(original recipe)](https://www.196flavors.com/tunisia-tunisian-couscous/). I decided to post it on here to be more available. ![couscous](/pix/couscous.webp) Couscous is a staple in most Maghreb cuisines. It is known as the national dish in Tunisia, but also in Algeria and Morocco, as well as Mauritania and Libya. Tunisian couscous is one of the countless variations of this delicious and versatile dish. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 1 hr 40 min - \ud83c\udf7d\ufe0f Servings: 6",
+    "ingredients_source_text": "- 2 lb lamb stew meat , cut into large pieces - 6 cups couscous fine semolina (or medium) - 2 onions , finely chopped - 2 cloves garlic , pressed - 4 tablespoons tomato paste - 2 tablespoons harissa - 2 tablespoons ground caraway - 1 tablespoon ground coriander - 1 teaspoon chili powder - 4 turnips , cut in half - 6 medium carrots , peeled - 4 zucchini , peeled lengthwise, alternately leaving a layer of skin - 6 small potatoes , peeled - 10 oz. chickpeas (canned) - 4 green hot peppers , fried in oil (optional) - Vegetable oil - Salt - Pepper ## Equipment - Tajine pot",
+    "directions_source_text": "1. Add \u00bd cup (120ml) of oil into a large pan. Fry the onion over medium heat for 2 minutes. 2. Add the garlic, tomato paste and harissa and continue frying for 2 minutes. 3. Add the caraway, coriander, and chili powder. Mix and continue cooking for another 2 minutes. 4. Add the lamb meat and mix well so that the pieces are covered with the sauce. Cook for 5 minutes stirring regularly. 5. Cover with water. Add the turnips and carrots, and cook on low/medium heat for 45 minutes. 6. Meanwhile, prepare the couscous semolina as indicated on the package, with boiling water, salt, and oil. 7. After 45 minutes, add the zucchini, potatoes and chickpeas. 8. Cook for at least another 30 to 40 minutes over low to medium heat. Monitor the cooking of the vegetables. If some vegetables are cooked before the meat, remove them from the pan and place them on a serving platter. Proceed in the same way with all the vegetables to prevent them from cooking too much. 9. 10 minutes before the end of cooking, get a few ladles of broth (one at a time) and wet the couscous semolina. Mix the semolina well after each ladle until it gets moistened enough. 10. Arrange the semolina in a tajine pot. Decorate the dish with the vegetables and the meat all around. Garnish with fried green hot peppers (optional)."
+}

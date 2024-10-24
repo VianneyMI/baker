@@ -1,0 +1,146 @@
+{
+    "serving_size": 2,
+    "preparation_time": 10.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "vegetable- or tom yam-quick noodles",
+            "quantity": 2.0,
+            "unit": "package",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "coconut milk",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "mushrooms",
+            "quantity": {
+                "min": 5.0,
+                "max": 10.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "eggs",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "salad leaves",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "lime",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Coriander",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Put small amount of water and coconut milk to boil. Add the noodle spices. (If you don't like it too creamy, add extra water.)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Chop the mushrooms and coriander (and other veggies if you wish). Cut the lime into four pieces.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                7,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "When boiling add mushroom, and crack the eggs directly into the pot (be sure not to stir after this, otherwise they will break). Wait 30 seconds to 1 minute.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 0.5,
+                    "max": 1.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the noodles and salad leaves (or whatever veggie you got).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "After 3-5 minutes it's done. Serve in deep bowls. Squeeze the lime juice and chopped coriander on top. Pro tip: Squeeze some remaining lime juice into your drinking water.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 3.0,
+                    "max": 5.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Instant Tom Yam Kung noodle soup",
+    "date": "2021-03-11",
+    "tags": [
+        "thai",
+        "quick",
+        "soup",
+        "cheesefare"
+    ],
+    "introduction": "Instant noodles with processed spices are quick but not the most healthy. It's important to add fresh veggies and eggs. It's a quick tasty lunch, a life saver when going through a busy period. - \u23f2\ufe0f Prep time: 10 minutes - \ud83c\udf73 Cook time: 10 minutes - \ud83c\udf7d\ufe0f Servings: 2 people",
+    "ingredients_source_text": "- 2 packages of vegetable- or tom yam-quick noodles - 1 can coconut milk - 10 small or 5 big mushrooms - 2 eggs - A few salad leaves (or practically any veggie you have in the fridge) - 1 lime - Coriander",
+    "directions_source_text": "1. Put small amount of water and coconut milk to boil. Add the noodle spices. (If you don't like it too creamy, add extra water.) 2. Chop the mushrooms and coriander (and other veggies if you wish). Cut the lime into four pieces. 3. When boiling add mushroom, and crack the eggs directly into the pot (be sure not to stir after this, otherwise they will break). Wait 30 seconds to 1 minute. 4. Add the noodles and salad leaves (or whatever veggie you got). 5. After 3-5 minutes it's done. Serve in deep bowls. Squeeze the lime juice and chopped coriander on top. Pro tip: Squeeze some remaining lime juice into your drinking water."
+}

@@ -1,0 +1,55 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Tomato sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Mayonnaise",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix one part tomato sauce with two parts mayonnaise. What 'part' means is up to you, because that will determine how much sauce you will have. You can also adjust this to your liking. More tomato sauce, more acidity. More mayonnaise, more sweetness.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Enjoy!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Simple sauce",
+    "date": "2021-03-13",
+    "tags": [
+        "basic",
+        "quick",
+        "sauce",
+        "cheesefare"
+    ],
+    "introduction": "This is a simple and well known recipe. It goes by many names and this recipe is a starting point for many sauces, eg '1000 island sauce'.",
+    "ingredients_source_text": "+ Tomato sauce. + Mayonaise",
+    "directions_source_text": "1. Mix one part tomato sauce with two parts mayonnaise. What 'part' means is up to you, because that will determine how much sauce you will have. You can also adjust this to your liking. More tomato sauce, more acidity. More mayonnaise, more sweetness. 2. Enjoy!"
+}

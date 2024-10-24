@@ -1,0 +1,259 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "paneer",
+            "quantity": 250.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "capsicum",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "tomato puree",
+            "quantity": 200.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "red chilli powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "turmeric powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "coriander powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "garam masala powder",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "thick yogurt",
+            "quantity": 100.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "fenugreek powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "dry fenugreek leaves",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "cardamom",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "cumin seeds",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "shaved ginger",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "garlic paste",
+            "quantity": 20.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "corn",
+            "quantity": 1.0,
+            "unit": "bowl",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Take a glass container, and mix the cubed paneers with half a tea spoon of red chilli powder, turmeric powder, coriander powder, garam masala powder, fenugreek powder, and 50g yogurt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5,
+                6,
+                7,
+                8,
+                10,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Let the mix marinade for at least an hour.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Preheat the oven to 200\u00b0C (392\u00b0F), and place the marinated paneer cubes, with onion, capsicum, and tomato on the skewers. Let them grill in the oven using skewer support, by continuously flipping them every 5 minutes until the outer crust looks crispy enough.",
+            "duration": null,
+            "temperature": {
+                "preheat": 200.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Start heating some oil in a pan to add some cardamom and cumin seeds. Let it heat until the flavour is transfused for about a minute or two.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 1.0,
+                    "max": 2.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Now add chopped onions and tomatoes to the sautee. Add some shaved ginger and garlic paste and let it saut\u00e9 until some raw flavour disappears.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                4,
+                14,
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add the tomato pur\u00e9e, dry fenugreek leaves, and let it cook for about 15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "As the spice and tomato pur\u00e9e looks cooked, add some water to the mixture and let it cook more.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Now add the grilled paneer, some chopped vegetables of choice, corn and stir the mixture well.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "One the added water seems to be evaporated, and the mixture looks a little thicker, turn off the heat and garnish with lemon juice, fresh coriander.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Paneer Tikka Masala",
+    "date": "2021-03-23",
+    "tags": [
+        "indian",
+        "lunch",
+        "spicy"
+    ],
+    "introduction": "![paneer tikka masala](/pix/paneer-tikka-masala-00.webp \"Paneer Tikka Masala served with Naan bread\")",
+    "ingredients_source_text": "- 250g cubes paneer - 1 onion - 1 capsicum - 200ml tomato puree - 1 tsp red chilli powder - 1 tsp turmeric powder - 1 tsp coriander powder - 1/2 tsp [garam masala](/garam-masala) powder - 100ml thick yogurt - 1 tsp fenugreek powder - dry fenugreek leaves - cardamom - cumin seeds - shaved ginger - 20ml garlic paste - 1 bowl corn",
+    "directions_source_text": "1. Take a glass container, and mix the cubed paneers with half a tea spoon of red chilli powder, turmeric powder, coriander powder, garam masala powder, fenugreek powder, and 50g yogurt. 2. Let the mix marinade for at least an hour. ![paneer tikka masala](/pix/paneer-tikka-masala-01.webp \"Paneer ready to be marinated on the skewer\") 3. Preheat the oven to 200\u00b0C (392\u00b0F), and place the marinated paneer cubes, with onion, capsicum, and tomato on the skewers. Let them grill in the oven using skewer support, by continuously flipping them every 5 minutes until the outer crust looks crispy enough. 4. Start heating some oil in a pan to add some cardamom and cumin seeds. Let it heat until the flavour is transfused for about a minute or two. 5. Now add chopped onions and tomatoes to the sautee. Add some shaved ginger and garlic paste and let it saut\u00e9 until some raw flavour disappears. 6. Add the tomato pur\u00e9e, dry fenugreek leaves, and let it cook for about 15 minutes. 7. As the spice and tomato pur\u00e9e looks cooked, add some water to the mixture and let it cook more. ![paneer tikka masala](/pix/paneer-tikka-masala-02.webp \"Marinated paneer, chopped onions, chopped tomatoes, and corn.\") 8. Now add the grilled paneer, some chopped vegetables of choice, corn and stir the mixture well. 9. One the added water seems to be evaporated, and the mixture looks a little thicker, turn off the heat and garnish with lemon juice, fresh coriander. (It can be served with bread of any preference.)"
+}

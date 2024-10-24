@@ -1,0 +1,155 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Sweet Potatoes",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Olive Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Cinnamon",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Rosemary",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Set oven heat to 425\u00b0F (220\u00b0C).",
+            "duration": null,
+            "temperature": {
+                "preheat": 220.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Grab a pan and put a layer of parchment paper (or aluminum foil) on it.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Chop the potato(es) on your cutting board with a sharp knife throwing them onto the pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Drizzle the fries with olive oil. Toss the fries with clean hands to coat the fries in olive oil. Now wash your hands with soap to remove excess olive oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Top generously with cinnamon and salt. Pepper and/or rosemary may be added for additional flavor if desired.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Put in preheated oven. Setting timer for 20 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "At 20 minutes, flip the fries. Rubber tongs make it easy to grab and turn a lot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Return to oven setting timer for another 10-20 minutes depending on quality of the oven and desired crispiness.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 20.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Enjoy. Maybe them put in a glass bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Basic Sweet Potato Fries Recipe",
+    "date": "2021-03-12",
+    "tags": [
+        "potato",
+        "snack",
+        "side",
+        "fasting"
+    ],
+    "introduction": "![cooked sweet pototo fries in pan](/pix/sweet-potato-fries.webp) A simple, tasty, and healthy carb based snack.",
+    "ingredients_source_text": "* 1-2 Sweet Pototoes (try different types) * Olive Oil * Cinnamon * Rosemary (optional)",
+    "directions_source_text": "1. Set oven heat to 425\u00b0F (220\u00b0C). 2. Grab a pan and put a layer of parchment paper (or aluminum foil) on it. 3. Chop the potato(es) on your cutting board with a sharp knife throwing them onto the pan. 4. Drizzle the fries with olive oil. Toss the fries with clean hands to coat the fries in olive oil. Now wash your hands with soap to remove excess olive oil. 5. Top generously with cinnamon and salt. Pepper and/or rosemary may be added for additional flavor if desired. 6. Put in preheated oven. Setting timer for 20 minutes. 7. At 20 minutes, flip the fries. Rubber tongs make it easy to grab and turn a lot. 8. Return to oven setting timer for another 10-20 minutes depending on quality of the oven and desired crispiness. 9. Enjoy. Maybe them put in a glass bowl. ## Notes * A fast method to cut the the sweet pototoes is first into fourths, slice the fourths, chops the sliced layers while stacked into fries. * If you want to experiment with a variety of fats, consider combining the olive oil with grass-fed butter and coconut oil. I believe the issue with coconut oil is it likes being cooked at lower temperatures or else the health quality of the oil will degrade."
+}

@@ -1,0 +1,243 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "star anise",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "bay leaf",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "rosemary",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "peppercorn",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "thyme",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "red pepper",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "fennel seeds",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "cloves",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "nutmeg",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Italian red wine",
+            "quantity": 1.0,
+            "unit": "bottle",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "orange",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "lemon",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "honey",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "vanilla",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "cinnamon",
+            "quantity": 1.0,
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "figs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 17,
+            "name": "limoncello",
+            "quantity": 100.0,
+            "unit": "ml",
+            "optional": true
+        },
+        {
+            "id": 18,
+            "name": "sweet vermouth",
+            "quantity": 50.0,
+            "unit": "ml",
+            "optional": true
+        },
+        {
+            "id": 19,
+            "name": "bourbon, brandy, or cognac",
+            "quantity": 50.0,
+            "unit": "ml",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Pour the wine into a stock pot and turn the gas on medium high",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Crush all the \"Crushed Ingredients\" in a mortar and pestle",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Peel and juice the orange and lemon (toss the peels and juice into the wine but not the white pith)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "When the wine is up to a simmer, immediately bring the gas down to low and pour in all the rest of the ingredients",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Cook on low for at least 15 minutes to infuse the flavors",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Keep the flame on low so the wine stays warm and continues to infuse, but doesn't bubble / burn off the alcohol",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Feel free to double the recipe or scale any of these ingredients up or down to suite your taste",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Italian Mulled Wine",
+    "date": "2021-05-13",
+    "tags": [
+        "alcohol",
+        "wine",
+        "liquor",
+        "drink"
+    ],
+    "introduction": "![Italian Mulled Wine](/pix/italian-mulled-wine.webp) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "### Crushed Ingredients - 1 star anise - 1 bay leaf - 1 pinch rosemary - 1 pinch peppercorn - 1 pinch thyme - 1 pinch red pepper - 1 pinch fennel seeds - 1 pinch cloves - 1 pinch nutmeg ### Non-Crushed Ingredients - 1 bottle Italian red wine - 1 orange - 1 lemon - 1 tbsp honey - 1 tsp vanilla - 1 stick cinnamon - 4 figs (optional) - 100 ml limoncello (optional) - 50 ml sweet vermouth (optional) - 50 ml bourbon, brandy, or cognac (optional)",
+    "directions_source_text": "1. Pour the wine into a stock pot and turn the gas on medium high 2. Crush all the \"Crushed Ingredients\" in a mortar and pestle 3. Peel and juice the orange and lemon (toss the peels and juice into the wine but not the white pith) 4. When the wine is up to a simmer, immediately bring the gas down to low and pour in all the rest of the ingredients 5. Cook on low for at least 15 minutes to infuse the flavors 6. Keep the flame on low so the wine stays warm and continues to infuse, but doesn't bubble / burn off the alcohol 7. Feel free to double the recipe or scale any of these ingredients up or down to suite your taste"
+}

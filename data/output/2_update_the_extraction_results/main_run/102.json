@@ -1,0 +1,129 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Onion",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Celery",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Butter or margarine",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Chicken, cooked and chopped",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Hot water",
+            "quantity": 1.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Long Grain White Rice",
+            "quantity": 0.67,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Mushrooms with liquid",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Frozen Peas and Carrots",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Dried Thyme and Rosemary",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In large fry pan, cook onion and celery in butter until soft.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Stir in remaining ingredients.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Bake in covered 8 cup baking dish in preheated (350F) oven for about 30 minutes or until rice is cooked.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": 350.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Easy Chicken and Rice Casserole",
+    "date": "2022-08-09",
+    "tags": [
+        "chicken",
+        "quick",
+        "easy"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1/2 cup Onion, chopped - 1/2 cup Celery, chopped - 2 Tbsp Butter or margarine - 2 cups Chicken, cooked and chopped - 1 3/4 cups Hot water - 2/3 cup Long Grain White Rice - 1 can (10 oz) Mushrooms with liquid - 1 cup Frozen Peas and Carrots - 1 tsp Dried Thyme and Rosemary",
+    "directions_source_text": "1. In large fry pan, cook onion and celery in butter until soft. 2. Stir in remaining ingredients. 3. Bake in covered 8 cup baking dish in preheated (350F) oven for about 30 minutes or until rice is cooked."
+}

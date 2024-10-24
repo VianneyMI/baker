@@ -1,0 +1,132 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": 180.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "milk",
+            "quantity": 1.0,
+            "unit": "liter",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sugar",
+            "quantity": 350.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "baking soda",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "vanilla bean, or essence",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "glass marbles",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat all ingredients in a pan (with the marbles, if you want,) on a medium-heat stove, constantly mixing with a wooden spoon.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Once the sugar dissolves, set heat to very low, and keep mixing once in a while for approximately two hours. It should not boil, if it happens, set it aside, keep mixing and once the temperature lowers put it back on the heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Once the preparation gets thicker, be more careful and mix it more frequently so that it does not stick (and burn) and lumps do not form.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Once you get a consistency similar to that of a custard, set it aside and keep mixing for 10 minutes, until it gets cold and thickens a bit more. If you put a spoon inside, pass your finger in the middle and it does not unite anymore, it is done.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 10.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once cold, put it on a glass jar and leave it in the fridge, or sterilize it.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Dulce de Leche",
+    "date": "2022-07-14",
+    "tags": [
+        "Argentinian",
+        "Milk",
+        "Slowcooked",
+        "Traditional"
+    ],
+    "introduction": "Delicious milk toffee used on desserts or as a spread. Substitute for Nootella or similar \"food\". It is very demanding, so i only recommend you make it if you either can't buy industrial dulce de leche (It will be way more natural than other sweets anyway), or have the time and interest to go through the process. It can be made more easily with sweetened condensed milk, but if you have access to it, you can get DDL anyways.   - \u23f2\ufe0f Prep time: 5 min  - \ud83c\udf73 Cook time: 3 hours - \ud83c\udf7d\ufe0f Servings: An average-sized mason jar.",
+    "ingredients_source_text": "- 1 liter of milk.       - 350 grams of sugar.  - Half a teaspoon of baking soda. - A vanilla bean, or essence (Optional)               - Two glass marbles (Optional, but it is a traditional way to prevent sticking, and they will not break in the process.)",
+    "directions_source_text": "1. Heat all ingredients in a pan (with the marbles, if you want,) on a medium-heat stove, constantly mixing with a wooden spoon. 2. Once the sugar dissolves, set heat to very low, and keep mixing once in a while for approximately two hours. It should not boil, if it happens, set it aside, keep mixing and once the temperature lowers put it back on the heat.  3. Once the preparation gets thicker, be more careful and mix it more frequently so that it does not stick (and burn)  and lumps do not form. 4. Once you get a consistency similar to that of a custard, set it aside and keep mixing for 10 minutes, until it gets  cold and thickens a bit more. If you put a spoon inside, pass your finger in the middle and it does not unite anymore, it is done. 5. Once cold, put it on a glass jar and leave it in the fridge, or sterilize it."
+}

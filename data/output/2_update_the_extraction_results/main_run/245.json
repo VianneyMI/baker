@@ -1,0 +1,69 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": 5.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Irish cream liqueur",
+            "quantity": 1.5,
+            "unit": "fluid_ounce",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Irish whiskey",
+            "quantity": 1.5,
+            "unit": "fluid_ounce",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "hot brewed coffee",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "whipped cream",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "ground nutmeg",
+            "quantity": 1.0,
+            "unit": "dash",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a coffee mug, combine Irish cream and Irish whiskey. Fill mug with coffee. Top with a dab of whipped cream and a dash of nutmeg.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Irish Coffee",
+    "date": "2021-03-19",
+    "tags": [
+        "drink",
+        "sweet",
+        "breakfast"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 5 min - \ud83c\udf7d\ufe0f Servings: 1",
+    "ingredients_source_text": "- 1 (1.5 fluid ounce) jigger Irish cream liqueur - 1 (1.5 fluid ounce) jigger Irish whiskey - 1 cup hot brewed coffee - 1 tablespoon whipped cream - 1 dash ground nutmeg",
+    "directions_source_text": "1. In a coffee mug, combine Irish cream and Irish whiskey. Fill mug with coffee. Top with a dab of whipped cream and a dash of nutmeg."
+}

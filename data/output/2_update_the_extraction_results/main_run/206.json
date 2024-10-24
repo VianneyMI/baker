@@ -1,0 +1,118 @@
+{
+    "serving_size": 2,
+    "preparation_time": 20.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "smoked duck breast",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "large onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "small parsnip",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "large bunch collard greens",
+            "quantity": 1.0,
+            "unit": "bunch",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "green cabbage",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "olive oil and/or butter",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "ground coriander",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "cinnamon",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "garam masala",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a large dutch oven (or a big pot with a lid) on low heat, add the chopped duck breast and olive oil and/or butter to the pot for a couple of minutes. Then add the spices, and cook for a minute or two before adding the sliced onion. Let cook for 5 minutes and then add the parsnip and sweat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                1,
+                6,
+                7,
+                8,
+                9,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add the ribboned cabbage and collard greens, a few twists of freshly ground pepper, and two tablespoons of water to the pot and cover. Cook until the greens are wilted and tender to the bite.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                5,
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Collard Greens with Smoked Duck and Parsnips",
+    "date": "2021-03-29",
+    "tags": [
+        "vegetables",
+        "side",
+        "duck"
+    ],
+    "introduction": "This dish was a pandemic leftover invention loosely inspired by Ethiopian gomen. It can be served as a side dish, but we eat it an an entree. If you intend it as a side dish, then this serves 4. The smoked duck adds a bit of saltiness, so it's better to season to taste after cooking. Serve with good quality, crusty bread. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 1/2 smoked duck breast (skin on) chopped - 1 large onion sliced - 1 small parsnip julienned - 1 large bunch collard greens chopped into ribbons - 1/2 green cabbage cut into ribbons (optional) - 1\u20132 tablespoons olive oil and/or butter - 1 teaspoon ground coriander - 1/2 teaspoon cinnamon - 1/2 teaspoon garam masala",
+    "directions_source_text": "1. In a large dutch oven (or a big pot with a lid) on low heat, add the chopped duck breast and olive oil and/or butter to the pot for a couple of minutes. Then add the spices, and cook for a minute or two before adding the sliced onion. Let cook for 5 minutes and then add the parsnip and sweat. 2. Add the ribboned cabbage and collard greens, a few twists of freshly ground pepper, and two tablespoons of water to the pot and cover. Cook until the greens are wilted and tender to the bite."
+}

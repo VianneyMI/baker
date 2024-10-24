@@ -1,0 +1,118 @@
+{
+    "serving_size": 1,
+    "preparation_time": 20.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "wheat flour",
+            "quantity": 200.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "glutenfree flour",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "milk",
+            "quantity": 200.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "eggs",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "sugar",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "baking soda",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix all ingredients in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Let the dough rest for ~15 mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 15.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Heat a pan with a bit butter or oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Pancake",
+    "date": "2021-03-11",
+    "tags": [
+        "quick",
+        "breakfast",
+        "sweet",
+        "pancake",
+        "cheesefare"
+    ],
+    "introduction": "![Pancakes made at home](/pix/pancake.webp) - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 10 min - \ud83c\udf7d\ufe0f Servings: 1",
+    "ingredients_source_text": "- 200g wheat flour or 100g glutenfree flour - 200 ml milk - 2 eggs - 2 tsp sugar - 1 tsp baking soda - a little bit of salt",
+    "directions_source_text": "1. Mix all ingredients in a bowl. 2. Let the dough rest for ~15 mins. 3. Heat a pan with a bit butter or oil. 4. For each pancake spread a ladle of dough in the pan and bake them at lower medium temperature until they are brown on both sides. ## Served with - Syrup - Cinnamon and sugar"
+}

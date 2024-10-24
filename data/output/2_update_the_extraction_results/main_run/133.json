@@ -1,0 +1,195 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Chicken Breasts",
+            "quantity": 4.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Bulghur Wheat",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Mixed Olives",
+            "quantity": 1.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Baby Spinach",
+            "quantity": 4.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Za'atar Spice Blend",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Roma Tomatoes",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Lemon",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Feta Cheese",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Garlic Cloves",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "White Vinegar",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Sugar",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 450F. Add 1 1/2 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over high heat. While water comes to a boil, cut tomato into 1/4\" pieces. Zest and juice the lemon.",
+            "duration": null,
+            "temperature": {
+                "preheat": 450.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add garlic and bulghur to the boiling water. Stir to combine, remove pot from heat, cover, and let stand until bulghur is tender and liquid is absorbed (15 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 15.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "While bulghur rehydrates, pat chicken dry and season with Za'atar spice blend, salt, and pepper. Heat a large non-stick pan over medium-high heat. Add 1/2 tsp oil, then the chicken. Sear until golden-brown. Transfer chicken to a sheet and bake on the middle rack in the oven until chicken is cooked through (10-12 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 12.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1,
+                5,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Meanwhile, whisk together vinegar, lemon juice, lemon zest, 1 tsp oil, and 1/2 tsp salt in a small bowl. Set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                7,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When bulghur is done, fluff with a fork. Add olives, spinach, tomatoes, and half the dressing to the pot. Season with salt and pepper, then stir to combine.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Thinly slice chicken. Divide bulghur salad between plates, then top with chicken. Sprinkle with feta and drizzle remaining dressing over top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Za'atar Chicken Bulghur Bowls",
+    "date": "2022-09-11",
+    "tags": [
+        "chicken",
+        "mediterranean",
+        "turkish"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 4 Chicken Breasts - 1 cup Bulghur Wheat - 1 oz Mixed Olives, drained - 4 oz Baby Spinach, chopped - 2 Tbsp Za'atar Spice Blend - 2 Roma Tomatoes - 1 Lemon - 1/2 cup Feta Cheese, crumbled - 2 Garlic Cloves, minced/grated - 2 Tbsp White Vinegar - 1 tsp Sugar - Oil",
+    "directions_source_text": "1. Preheat oven to 450F. Add 1 1/2 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over high heat. While water comes to a boil, cut tomato into 1/4\" pieces. Zest and juice the lemon. 2. Add garlic and bulghur to the boiling water. Stir to combine, remove pot from heat, cover, and let stand until bulghur is tender and liquid is absorbed (15 mins). 3. While bulghur rehydrates, pat chicken dry and season with Za'atar spice blend, salt, and pepper. Heat a large non-stick pan over medium-high heat. Add 1/2 tsp oil, then the chicken. Sear until golden-brown. Transfer chicken to a sheet and bake on the middle rack in the oven until chicken is cooked through (10-12 mins) 4. Meanwhile, whisk together vinegar, lemon juice, lemon zest, 1 tsp oil, and 1/2 tsp salt in a small bowl. Set aside. 5. When bulghur is done, fluff with a fork. Add olives, spinach, tomatoes, and half the dressing to the pot. Season with salt and pepper, then stir to combine. 6. Thinly slice chicken. Divide bulghur salad between plates, then top with chicken. Sprinkle with feta and drizzle remaining dressing over top."
+}

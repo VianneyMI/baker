@@ -1,0 +1,180 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Potatoes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Butter",
+            "quantity": null,
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Whole Milk",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Garlic",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "Onion Greens",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "Sour Cream",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Bake the potatoes at 450\u00b0 for about an hour.",
+            "duration": {
+                "preparation": null,
+                "cooking": 60.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 450.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Take them out and leave them to cool for a good 10 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 10.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Begin heating up a big pot to about medium temperature, and put the butter in to melt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cut the potatoes in half and scoop them directly into the pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once you are finished with that, begin mashing them until they are a nice mashed-potato-like consistency.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add milk little by little, stirring as you go, until you reach the desired consistency. I usually use half a gallon or so.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Shred cheese into the soup. Then add garlic, salt, pepper, cayenne, onion greens, and anything else you can think of.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Let the soup reach a boil, stirring constantly. Remove from heat and serve.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "I usually eat it with sour cream mixed in to cool it down and get that extra dairy in.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Potato Soup",
+    "date": "2022-05-19",
+    "tags": [
+        "potato",
+        "milk",
+        "soup"
+    ],
+    "introduction": "Serves many people or one person for many days.",
+    "ingredients_source_text": "- Potatoes (yellow or brown), I don't count but 10+ - Butter, a stick or two - Whole Milk - Garlic - Cheese (optional) - Onion Greens (optional) - Sour Cream (optional)",
+    "directions_source_text": "1. Bake the potatoes at 450\u00b0 for about an hour. 2. Take them out and leave them to cool for a good 10 minutes. 3. Begin heating up a big pot to about medium temperature, and put the butter in to melt. 4. Cut the potatoes in half and scoop them directly into the pot. 5. Once you are finished with that, begin mashing them until they are a nice mashed-potato-like consistency. 6. Add milk little by little, stirring as you go, until you reach the desired consistency. I usually use half a gallon or so. 7. Shred cheese into the soup. Then add garlic, salt, pepper, cayenne, onion greens, and anything else you can think of. 9. Let the soup reach a boil, stirring constantly. Remove from heat and serve. 10. I usually eat it with sour cream mixed in to cool it down and get that extra dairy in."
+}

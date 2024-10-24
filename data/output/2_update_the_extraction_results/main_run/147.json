@@ -1,0 +1,165 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Large Flake Oats",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Almonds",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Pecans",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Roasted Flax Seed",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Hemp Hearts",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Cranberries",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "Banana",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Milk",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Cinnamon",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "Egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "ON Vanilla Ice Cream Protein Powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop or mash nuts and fruit.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Combine nuts, fruit, and other dry ingredients in a saucepan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add milk and cook mixture over medium heat until oats are desired tenderness (5-10 mins)",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 10.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add egg and protein powder and cook for a few more minutes",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Enjoy",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Hearty Breakfast Oatmeal",
+    "date": "2021-03-29",
+    "tags": [
+        "breakfast",
+        "quick"
+    ],
+    "introduction": "![hearty-breakfast-oatmeal-00](/pix/hearty-breakfast-oatmeal-00.webp) If your Oatmeal isn't Hearty Breakfast Oatmeal... Is it even Oatmeal? - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73Cook time: 10 min - \ud83c\udf7d\ufe0f Serving: 1 hearty serving",
+    "ingredients_source_text": "- 1/2 cup Large Flake Oats (no partially cooked quick-oats allowed!) - Almonds - Pecans - 1 Tbsp Roasted Flax Seed - 1 Tbsp Hemp Hearts - Cranberries (adjust amount to preference) - 1/2 Banana (mashed) - 1 cup Milk (3.25% if possible) - Cinnamon (adjust amount to preference) - 1 Egg - ON Vanilla Ice Cream Protein Powder (optional)",
+    "directions_source_text": "1. Chop or mash nuts and fruit. 2. Combine nuts, fruit, and other dry ingredients in a saucepan ![hearty-breakfast-oatmeal-01](/pix/hearty-breakfast-oatmeal-01.webp) 3. Add milk and cook mixture over medium heat until oats are desired tenderness (5-10 mins) 4. Add egg and protein powder and cook for a few more minutes 5. Enjoy"
+}

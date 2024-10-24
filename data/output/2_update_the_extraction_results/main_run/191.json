@@ -1,0 +1,196 @@
+{
+    "serving_size": 12,
+    "preparation_time": 12.0,
+    "cooking_time": 75.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Tomatoes",
+            "quantity": 3.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Eggplant",
+            "quantity": 1.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Zucchini",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Bell Peppers",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Onions",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Garlic",
+            "quantity": 6.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Herbes de Provence",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Olive Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Tomato Paste",
+            "quantity": 140.0,
+            "unit": "gram",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel and drain the tomatoes (don't mind the seeds): cut out the stem cores; drop the whole tomatoes into boiling water for 2 minutes. Remove into a colander. The skin should split for easy removal; otherwise, make an X cut in the top, then peel off the skin.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Chop the onion and garlic. Clean the bell pepper, cut into small strips.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "In a large cooking pot with thick bottom, put in olive oil, onions, and chopped garlic. Add in the bell pepper. Cover to keep in the moisture. Cook for 20 minutes, stirring frequently, and add olive oil as necessary to prevent burning.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                5,
+                6,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the tomatoes and Herbes de Provence. If you don't have good garden tomatoes with flavour, add a small can of tomato paste. Stir well and cook for another 15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                7,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Cut the eggplant into disks. Cut zucchini into disks.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add the eggplant and zucchini to the pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Cook for about 30 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Ratatouille",
+    "date": "2022-08-04",
+    "tags": [
+        "soup",
+        "french",
+        "tomato"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 12 min - \ud83c\udf73 Cook time: 75 min - \ud83c\udf7d\ufe0f Servings: 12",
+    "ingredients_source_text": "- 3 1/2 lbs Tomatoes - 1 1/2 lbs Eggplant - 1 lb Zucchini - 3 Bell Peppers - 2 lbs Onions - 6 cloves Garlic - Herbes de Provence (Basil, Thyme, Parsley) - Olive Oil - Salt - Pepper - 140g Tomato Paste (optional if tomatoes aren't yummy)",
+    "directions_source_text": "1. Peel and drain the tomatoes (don't mind the seeds): cut out the stem cores; drop the whole tomatoes into boiling water for 2 minutes. Remove into a colander. The skin should split for easy removal; otherwise, make an X cut in the top, then peel off the skin. 2. Chop the onion and garlic. Clean the bell pepper, cut into small strips. 3. In a large cooking pot with thick bottom, put in olive oil, onions, and chopped garlic. Add in the bell pepper. Cover to keep in the moisture. Cook for 20 minutes, stirring frequently, and add olive oil as necessary to prevent burning. 4. Add the tomatoes and Herbes de Provence. If you don't have good garden tomatoes with flavour, add a small can of tomato paste. Stir well and cook for another 15 minutes. 5. Cut the eggplant into disks. Cut zucchini into disks. 6. Add the eggplant and zucchini to the pot. 7. Cook for about 30 minutes."
+}

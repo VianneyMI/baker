@@ -1,0 +1,83 @@
+{
+    "serving_size": 15,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "buckwheat flour",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "water",
+            "quantity": 70.0,
+            "unit": "cl",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix flour, salt, egg and water. (In this order to avoid dry flour)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Let it rest one hour at room temperature.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cook the galette on a crepe-maker or a big flat pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "When garnishing, heat the galette again with a bit of salted butter. Always keep the crepe-maker's T stick in water while cooking so the dough doesn't dry on it. It will then be easier to spread the dough.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Breton Cr\u00eapes (Breton Galettes)",
+    "date": "2021-03-14",
+    "tags": [
+        "french",
+        "cheesefare"
+    ],
+    "introduction": "Buckwheat cr\u00eapes eaten as dishes, traditionally garnished with ham, eggs and cheese (galette compl\u00e8te). ~15/20 galettes.",
+    "ingredients_source_text": "- 500g buckwheat flour - 1 egg - 70cl water",
+    "directions_source_text": "1. Mix flour, salt, egg and water. (In this order to avoid dry flour) 2. Let it rest one hour at room temperature. 3. Cook the galette on a crepe-maker or a big flat pan. 4. When garnishing, heat the galette again with a bit of salted butter. Always keep the crepe-maker's T stick in water while cooking so the dough doesn't dry on it. It will then be easier to spread the dough."
+}

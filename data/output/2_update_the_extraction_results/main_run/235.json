@@ -1,0 +1,174 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "unsalted butter",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "large eggs",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sugar",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "salt",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "whole milk",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "all-purpose flour",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "nutmeg",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "maple syrup",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Set oven to preheat 400 degrees F.",
+            "duration": null,
+            "temperature": {
+                "preheat": 400.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "While oven is heating up, mix dry ingredients in a large mixing bowl: flour, sugar, and salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add milk and eggs to dry ingredients and mix with a hand mixer.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Once the oven has reached 400F, add one stick of butter into a 9x13 inch glass baking pan, then place it in the oven for a few minutes until the butter has completely melted. Avoid burning the butter by leaving it in the oven too long.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 400.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Using heavy oven mitts, remove pan from oven and pour batter into hot pan containing melted butter.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Bake for 40 minutes or until the pancake puffs up and is nicely browned.",
+            "duration": {
+                "preparation": null,
+                "cooking": 40.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Remove from oven and sprinkle additional small amount of nutmeg over the top of of your kropsua.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "To serve, cut the pancake into squares. Top with maple syrup and serve immediately.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Kropsua (Finnish Baked Pancake)",
+    "date": "2023-05-04",
+    "tags": [
+        "finnish",
+        "pancake",
+        "breakfast"
+    ],
+    "introduction": "![kropsua](/pix/kropsua.webp) Served best with coffee, sausage, bacon, or fresh fruit for breakfast.  I suggest using high quality whole milk, butter, and eggs for this recipe. - Prep time: 10 min - Cook time: 40 min - Servings: 4",
+    "ingredients_source_text": "- 1 Cup (stick) unsalted butter - 2 Large eggs  - 2 Tablespoons sugar - 1/2 Teaspoon salt - 2 Cups whole milk - 1 Cup all-purpose flour - 1/4 Teapsoon nutmeg - Maple syrup",
+    "directions_source_text": "1. Set oven to preheat 400 degrees F. 2. While oven is heating up, mix dry ingredients in a large mixing bowl: flour, sugar, and salt. 3. Add milk and eggs to dry ingredients and mix with a hand mixer. 4. Once the oven has reached 400F, add one stick of butter into a 9x13 inch glass baking pan, then place it in the oven for a few minutes until the butter has completely melted. Avoid burning the butter by leaving it in the oven too long.  5. Using heavy oven mitts, remove pan from oven and pour batter into hot pan containing melted butter. 6. Bake for 40 minutes or until the pancake puffs up and is nicely browned.  7. Remove from oven and sprinkle additional small amount of nutmeg over the top of of your kropsua. 8. To serve, cut the pancake into squares. Top with maple syrup and serve immediately."
+}

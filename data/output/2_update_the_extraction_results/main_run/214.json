@@ -1,0 +1,93 @@
+{
+    "serving_size": 3,
+    "preparation_time": 1.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chickpeas / garbanzo beans",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "olive oil",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "garlic powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "cumin",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "paprika",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "cayenne pepper",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat oil in pan. Add chickpeas and seasonings.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                1,
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cook over medium-high heat for 10-15 minutes. Salt and pepper to taste.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [],
+            "optional": true
+        }
+    ],
+    "title": "Cooked Chickpeas",
+    "date": "2021-03-17",
+    "tags": [
+        "basic",
+        "beans",
+        "fasting"
+    ],
+    "introduction": "Easy recipe for cooked chickpeas. Can be add to salads, rice, or almost anything else. - \u23f2\ufe0f Prep time: 1 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- 1 can chickpeas / garbanzo beans, drained - 1 tbsp olive oil - 1 tsp garlic powder - 1 tsp cumin - 1 tsp paprika - 1 tsp cayenne pepper",
+    "directions_source_text": "1. Heat oil in pan. Add chickpeas and seasonings. 2. Cook over medium-high heat for 10-15 minutes. Salt and pepper to taste."
+}

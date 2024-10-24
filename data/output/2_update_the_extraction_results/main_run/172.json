@@ -1,0 +1,197 @@
+{
+    "serving_size": 6,
+    "preparation_time": 10.0,
+    "cooking_time": 50.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Olive Oil",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Yellow Onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Fresh Ginger",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Garlic Cloves",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Yellow Curry",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Sea Salt",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Red Lentils",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Water",
+            "quantity": {
+                "min": 4.0,
+                "max": 5.0
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Plum Tomatoes",
+            "quantity": 5.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Lemon",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Fresh Cilantro",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Dried Red Chili's or cayenne pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 13,
+            "name": "Ground Cinnamon",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat oil in a soup pot and saute onions for 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add garlic and ginger and saute 5 more minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add spices and salt, saute 5 minutes more.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add 4 cups of water and stir. Add tomatoes and lentils. Bring to a boil and then lower the heat a bit and simmer for 20 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the lemon juice and cilantro and more water if it's too thick. Simmer 10 more minutes, or until lentils are completely tender.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11,
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Red Lentil Dahl",
+    "date": "2022-08-04",
+    "tags": [
+        "indian",
+        "curry",
+        "tomato",
+        "vegetables"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 50 min - \ud83c\udf7d\ufe0f Servings: 6",
+    "ingredients_source_text": "- 3 Tbsp Olive Oil - 1 medium Yellow Onion - 1 Tbsp Fresh Ginger, grated - 4 Garlic Cloves, minced - 2 Tbsp Yellow Curry (mild madras) - 1 tsp Sea Salt - 1 cup dried Red Lentils - 4 - 5 cups Water - 5 Plum Tomatoes, chopped - juice of 1 Lemon - 1 cup Fresh Cilantro, chopped and lightly packed - Dried Red Chili's or cayenne pepper, to taste - 1/4 tsp Ground Cinnamon",
+    "directions_source_text": "1. Heat oil in a soup pot and saute onions for 5 minutes. 2. Add garlic and ginger and saute 5 more minutes. 3. Add spices and salt, saute 5 minutes more. 4. Add 4 cups of water and stir. Add tomatoes and lentils. Bring to a boil and then lower the heat a bit and simmer for 20 minutes. 5. Add the lemon juice and cilantro and more water if it's too thick. Simmer 10 more minutes, or until lentils are completely tender. This may take a while."
+}

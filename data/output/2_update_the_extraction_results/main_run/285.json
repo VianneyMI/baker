@@ -1,0 +1,59 @@
+{
+    "serving_size": 1,
+    "preparation_time": 10.0,
+    "cooking_time": 0.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "raw carrots",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "virgin coconut oil",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "apple cider vinegar",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "raw garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Grate the carrot and rinse out under water. Then mix with coconut oil and vinegar, I also like to add a pinch or two of salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Ray Peat's Carrot Salad",
+    "date": "2022-06-01",
+    "tags": [
+        "fasting",
+        "vegetables"
+    ],
+    "introduction": "A raw carrot salad to support digestive, hormone and thyroid health \"Endotoxin formed in the bowel can block respiration and cause hormone imbalances contributing to instability of the nerves, so it is helpful to optimize bowel flora, for example with a carrot salad; a dressing of vinegar, coconut oil and olive oil, carried into the intestine by the carrot fiber, suppresses bacterial growth while stimulating healing of the wall of the intestine. The carrot salad improves the ratio of progesterone to estrogen and cortisol, and so is as appropriate for epilepsy as for premenstrual syndrome, insomnia, or arthritis.\" -[Ray Peat](https://raypeat.com) - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 0 min - Servings: 1",
+    "ingredients_source_text": "- 3 raw carrots, peeled in thick vertical strips and washed thoroughly. - 2 tbsp virgin coconut oil - 1 tbsp apple cider vinegar, unrefined - 2 cloves raw garlic (optional)",
+    "directions_source_text": "Grate the carrot and rinse out under water. Then mix with coconut oil and vinegar, I also like to add a pinch or two of salt. ## Contribution - [Rami Shafikov](https://shafikov.ca)"
+}

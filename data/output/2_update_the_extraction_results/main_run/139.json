@@ -1,0 +1,140 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Cassis-Juice (Johannesbeer)",
+            "quantity": 300.0,
+            "unit": "ml",
+            "optional": true
+        },
+        {
+            "id": 2,
+            "name": "red wine",
+            "quantity": 700.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Sugar",
+            "quantity": 50.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Raisins",
+            "quantity": 25.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "orange",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "cinamon bark",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "ginger powder",
+            "quantity": 1.0,
+            "unit": "spoon",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "cloves",
+            "quantity": 1.0,
+            "unit": "spoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "star anise",
+            "quantity": 5.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "sweet cinamon tea bags",
+            "quantity": 6.0,
+            "unit": "unit",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "cut the orange in nice looking pieces (since they are mainly decoration)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "throw everything in a pot",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "warm up (don't boil)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "enjoy",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Gl\u00fchwein - mulled wine",
+    "date": "2021-03-19",
+    "tags": [
+        "drink",
+        "quick",
+        "swiss",
+        "german",
+        "french"
+    ],
+    "introduction": "A recipe for Gl\u00fchwein/mulled wine a beverage you can find at almost every European christmas market. This recipe is my favorite one - optimized for flavor rather than alcohol content (it still kicks in). - \ud83c\udf7d\ufe0f Servings:1-4",
+    "ingredients_source_text": "for 1 liter of Gl\u00fchwein - 300 ml Cassis-Juice (Johannesbeer), if you can't find it you can replace it with another juice, I did it e.g. with cranberry pomegranate juice - 1 bottle 700ml red wine (I prefer Primitivo/Zinfandel), don't buy a cheap cooking wine, you want to drink it :) - 50 g Sugar - 25 g Raisins - 1 orange - 1 cinamon bark - 1 spoon ginger powder (or a bit of fresh ginger) - 1 spoon cloves - 5 star anise - if you don't have the spices you can also just throw in sweet cinamon tea bags instead (or similar), they contain most spices - I took 6 teabags for 1 litre",
+    "directions_source_text": "1. cut the orange in nice looking pieces (since they are mainly decoration) 2. throw everything in a pot 3. warm up (don't boil) 4. enjoy"
+}

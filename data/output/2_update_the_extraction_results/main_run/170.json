@@ -1,0 +1,112 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "coconut",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sugar",
+            "quantity": 150.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "egg yolks",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Powdered sugar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix the non-optional ingredients in a medium bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Scoop tablespoons of the batter into a cookie sheet or cupcake pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cook for around 10 minutes or until slightly brown on top.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Top with powdered sugar if desired.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": true
+        },
+        {
+            "number": 5,
+            "description": "Let cool and enjoy!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Bolinhos de Coco",
+    "date": "2021-03-16",
+    "tags": [
+        "portuguese",
+        "quick",
+        "sweet",
+        "dessert",
+        "cheesefare"
+    ],
+    "introduction": "This is a Portuguese dish that translates to \"coconut cupcakes,\" though there are probably lots of equivalent dishes from other cultures. Its simplicity and short preparation time make it perfect for a snack or dessert. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 10 min",
+    "ingredients_source_text": "- 300 g coconut - 150 g sugar - 3 egg yolks - 1 whole egg - Powdered sugar (optional)",
+    "directions_source_text": "1. Mix the non-optional ingredients in a medium bowl. 2. Scoop tablespoons of the batter into a cookie sheet or cupcake pan. 3. Cook for around 10 minutes or until slightly brown on top. 4. Top with powdered sugar if desired. 5. Let cool and enjoy!"
+}

@@ -1,0 +1,152 @@
+{
+    "serving_size": 3,
+    "preparation_time": 15.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Beef",
+            "quantity": 0.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Vegetable Oil",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Ginger",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Carrots",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Snow Peas",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Bean Sprouts",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Broccoli Pieces",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Beef Bouillon",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Corn starch",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Soy Sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat oil, add beef and stir-fry until meat is browned and push to sides of pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add broccoli and carrots. Cover and steam vegetables until they are only slightly crunchy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Remove vegetables to a bowl. Add bouillon, salt and pepper to meat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Combine corn starch, 2 Tbsp water, and soy sauce. Add to meat to thicken sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add vegetables and heat. Serve over rice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Beef and Broccoli",
+    "date": "2022-09-10",
+    "tags": [
+        "beef",
+        "asian",
+        "rice"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- 1/2 lb Beef, cut into strips - 2 Tbsp Vegetable Oil - 1 Tbsp Ginger, minced - 2 cloves Garlic, minced - 1 cup Carrots, sliced - Snow Peas - Bean Sprouts - 1 cup Broccoli Pieces - 1/2 cup Beef Bouillon - 1 Tbsp Corn starch - 1 Tbsp Soy Sauce",
+    "directions_source_text": "1. Heat oil, add beef and stir-fry until meat is browned and push to sides of pan. 2. Add broccoli and carrots. Cover and steam vegetables until they are only slightly crunchy. 3. Remove vegetables to a bowl. Add bouillon, salt and pepper to meat. 4. Combine corn starch, 2 Tbsp water, and soy sauce. Add to meat to thicken sauce. 5. Add vegetables and heat. Serve over rice."
+}

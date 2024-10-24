@@ -1,0 +1,109 @@
+{
+    "serving_size": 4,
+    "preparation_time": 2.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "freshy ground rose pepper, green pepper and black pepper",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "dijon mustard",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "bouillon",
+            "quantity": 1.0,
+            "unit": "dl",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "cream",
+            "quantity": 2.0,
+            "unit": "dl",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "salt",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Ground the peppers and put them on the pan and roast them for about one minute while moving the peppers with your spatula",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix in the mustard and bouillon and bring to a boil",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add in the cream and let the sauce thicken on medium heat for about 10-20 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 20.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Taste the sauce and add salt if needed",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Pepper Sauce",
+    "date": "2021-03-23",
+    "tags": [
+        "sauce",
+        "steak"
+    ],
+    "introduction": "A very basic pepper sauce that is great for steaks and other dishes - \u23f2\ufe0f Prep time: 2 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1 tablespoon freshy ground rose pepper, green pepper and black pepper - 1 teaspoon dijon mustard - 1dl bouillon - 2dl cream - Salt if needed",
+    "directions_source_text": "1. Ground the peppers and put them on the pan and roast them for about one minute while moving the peppers with your spatula 2. Mix in the mustard and bouillon and bring to a boil 3. Add in the cream and let the sauce thicken on medium heat for about 10-20 minutes 4. Taste the sauce and add salt if needed"
+}

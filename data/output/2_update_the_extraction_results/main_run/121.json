@@ -1,0 +1,200 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 120.0,
+        "max": 150.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "beef roast",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "turnips",
+            "quantity": {
+                "min": 3.0,
+                "max": 4.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "turnip greens",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "chicken stock",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Saffron",
+            "quantity": 0.1,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "butter",
+            "quantity": 0.25,
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "slow cooker",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "bowl of warm water",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cube the roast into bite sized pieces and place them in a large skillet with the butter.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Heat the pan on medium-high heat and brown the meat with the melted butter until the outside is evenly cooked, sprinkle with pepper as it browns.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "While the meat is browning, cut the greens off the turnips and set them aside. Cut the turnips into bite sized pieces making sure to cut the top and bottom ends off first. If you cannot find turnips with their greens still attached, mustard greens can be substituted.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": true
+        },
+        {
+            "number": 4,
+            "description": "Put the cut up turnips in the slow cooker and pour in the chicken stock.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                4,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Take the meat and dump it into the slow cooker drippings and all. If the amount of liquid looks a bit low to you, you can pour in another cup or so of water at your discretion.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Sprinkle more pepper over the soup and put the saffron in the bowl of warm water and let it seep for five minutes. Then dump it and the warm water into the soup.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 5.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Cut the stems off of the greens and then chop the greens vertically.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Cook the soup on high for 2 to 2 1/2 hours or until the turnip and meat are soft and tender. About 20 minutes before it is to be done take the chopped greens and put them in the soup. Don't worry if it overfills the slow cooker, the greens will shrink a ton. Cook for about 20 minutes until done.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 120.0,
+                    "max": 150.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Taste the soup, if it's still too bland you can add spices of your choice and season to your taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        }
+    ],
+    "title": "Medieval Beef Soup",
+    "date": "2022-04-15",
+    "tags": [
+        "beef",
+        "soup",
+        "roast"
+    ],
+    "introduction": "![Medieval Beef Soup](/pix/medieval-beef-soup.webp) Medieval beef soup with turnips and turnip greens.",
+    "ingredients_source_text": "- One beef roast - Around three to four large turnips with their greens attached - Two cups of chicken stock - 1/10 grams of Saffron - 1/4 a stick of butter - A slow cooker - A bowl of warm water.",
+    "directions_source_text": "1. Cube the roast into bite sized pieces and place them in a large skillet with the butter. 2. Heat the pan on medium-high heat and brown the meat with the melted butter until the outside is evenly cooked, sprinkle with pepper as it browns. 3. While the meat is browning, cut the greens off the turnips and set them aside. Cut the turnips into bite sized pieces making sure to cut the top and bottom ends off first. If you can not find turnips with their greens still attached Mustard greens can be substituted. 4. Put the cut up turnips in the slow cooker and pour in the chicken stock. 5. Take the meat and dump it into the slow cooker drippings and all. If the amount of liquid looks a bit low to you, you can pour in another cup or so of water at your discretion. 6. Sprinkle more pepper over the soup and put the saffron in the bowl of warm water and let it seep for five minutes. Then dump it and the warm water into the soup. 7. Cut the stems off of the greens and then chop the greens vertically. 8. Cook the soup on high for 2 to 2 1/2 hours or until the turnip and meat are soft and tender. About 20 minutes before it is to be done take the chopped greens and put them in the soup. Don't worry if it overfills the slow cooker, the greens will shrink a ton. Cook for about 20 minutes until done. 9. Taste the soup, if it's still too bland you can add spices of your choice and season to your taste."
+}

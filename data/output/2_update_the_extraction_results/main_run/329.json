@@ -1,0 +1,340 @@
+{
+    "serving_size": null,
+    "preparation_time": 15.0,
+    "cooking_time": 130.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Shrimp",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Andouille Sausage",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Chicken Broth",
+            "quantity": 64.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "All Purpose Flour",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Yellow Onion",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Green Pepper",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Celery",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Garlic",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Worcestershire Sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Cajun or Creole Seasoning",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Beer",
+            "quantity": 12.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "dried Thyme",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "dried Parsley",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "Bay Leafs",
+            "quantity": {
+                "min": 3.0,
+                "max": 5.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "Green Onions",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "White Rice",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "Jalape\u00f1o Pepper",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 19,
+            "name": "shrimp stock",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Prep the vegetables",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Get the roux started: Mix oil and flour over heat until it turns into a dark chocolate color.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 15.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Ensure to stir frequently while adding the following ingredients.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add onion. Cook for 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add celery and peppers. Cook for 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add garlic. Cook for 1 minute.",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add beer.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Add broth.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Add seasonings and Worcestershire Sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11,
+                13,
+                14,
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Add sausage and bring to a boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Lower heat, cover, simmer for 90 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 90.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Increase heat to medium. Add shrimp and cook for 5-7 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 7.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Turn off the heat and serve over white rice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                17
+            ],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "(Optional) For leftovers, boil gumbo with dry white rice and turn it into a jambalaya.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        }
+    ],
+    "title": "Shrimp\u00a0and\u00a0Sausage\u00a0Gumbo",
+    "date": "2021-03-15",
+    "tags": [
+        "american",
+        "fish",
+        "rice"
+    ],
+    "introduction": "This\u00a0recipe\u00a0is\u00a0a\u00a0simplified\u00a0version\u00a0of\u00a0AB's\u00a0Seafood\u00a0Gumbo\u00a0-- [youtube](https://youtu.be/XuiKYWb7s5o) - \u23f2\ufe0f\u00a0Prep\u00a0time:\u00a015\u00a0min - \ud83c\udf73 Cook\u00a0time:\u00a0130\u00a0min - \ud83c\udf7d\ufe0f\u00a0Servings:\u00a04-6",
+    "ingredients_source_text": "- 2-3\u00a0lbs\u00a0Shrimp - 2\u00a0lbs\u00a0Andouille\u00a0Sausage - 2\u00a0(32\u00a0oz)\u00a0Chicken\u00a0Broth - 1\u00a0cup\u00a0olive oil - 1\u00a0cup\u00a0All\u00a0Purpose\u00a0Flour - 1\u00a0cup\u00a0finely\u00a0chopped\u00a0Yellow\u00a0Onion - 1\u00a0cup\u00a0finely\u00a0chopped\u00a0Green\u00a0Pepper - 1\u00a0cup\u00a0finely\u00a0chopped\u00a0Celery - 2\u00a0tbsp\u00a0minced\u00a0Garlic - 1\u00a0tbsp\u00a0Worcestershire\u00a0Sauce - 1\u00a0tbsp\u00a0Cajun\u00a0or\u00a0Creole\u00a0Seasoning\u00a0(Creole\u00a0Kick) - 1\u00a012\u00a0oz.\u00a0bottle\u00a0of\u00a0Beer - 1\u00a0tsp\u00a0dried\u00a0Thyme - 1\u00a0tsp\u00a0dried\u00a0Parsley - 3\u00a0-\u00a05\u00a0Bay\u00a0Leafs - 1/2\u00a0cup\u00a0Green\u00a0Onions - 1-2\u00a0cups\u00a0White\u00a0Rice - (Optional)\u00a01\u00a0Jalape\u00f1o\u00a0Pepper - (Optional)\u00a0Instead\u00a0of\u00a0chicken\u00a0broth,\u00a0you\u00a0can\u00a0use\u00a0your\u00a0own\u00a0shrimp\u00a0stock",
+    "directions_source_text": "1. Prep\u00a0the\u00a0vegetables 2. Get the roux started: Mix oil and flour over heat until it turns into a dark chocolate color. Low - medium heat for about 30 minutes or medium - high for 15 - 20 minutes if you're feeling brave. 3. Ensure\u00a0to\u00a0stir\u00a0frequently\u00a0while\u00a0adding\u00a0the\u00a0following\u00a0ingredients. 4. Add\u00a0onion.\u00a0Cook\u00a0for\u00a05\u00a0minutes. 5. Add\u00a0celery\u00a0and\u00a0peppers.\u00a0Cook\u00a0for\u00a05\u00a0minutes. 6. Add\u00a0garlic.\u00a0Cook\u00a0for\u00a01\u00a0minute. 7. Add\u00a0beer. 8. Add\u00a0broth. 9. Add\u00a0seasonings\u00a0and\u00a0Worcestershire\u00a0Sauce. 10. Add\u00a0sausage\u00a0and\u00a0bring\u00a0to\u00a0a\u00a0boil. 11. Lower\u00a0heat,\u00a0cover,\u00a0simmer\u00a0for\u00a090\u00a0minutes. 12. Increase\u00a0heat\u00a0to\u00a0medium.\u00a0Add\u00a0shrimp\u00a0and\u00a0cook\u00a0for\u00a05-7\u00a0minutes. 13. Turn\u00a0off\u00a0the\u00a0heat\u00a0and\u00a0serve\u00a0over\u00a0white\u00a0rice. 14. (Optional)\u00a0For\u00a0leftovers,\u00a0boil\u00a0gumbo\u00a0with\u00a0dry\u00a0white\u00a0rice\u00a0and\u00a0turn\u00a0it\u00a0into\u00a0a\u00a0jambalaya."
+}

@@ -1,0 +1,150 @@
+{
+    "serving_size": 8,
+    "preparation_time": 10.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Bacon",
+            "quantity": 4.0,
+            "unit": "slice",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onions",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Savoury",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Potatoes",
+            "quantity": 6.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Carrots",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Cod Fillets",
+            "quantity": 1.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Evaporated Milk",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Fresh Parsley or Chives",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Drain off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cut cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add milk and white pepper, heat through. Garnish with bacon and parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8,
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Newfoundland Cod Chowder",
+    "date": "2022-08-09",
+    "tags": [
+        "fish",
+        "soup",
+        "seafood"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "- 4 Slices Bacon - 2 Onions, sliced - 1 tsp Savoury - 6 Potatoes, peeled and cubed - 3 Carrots, sliced - 1 1/2 lbs Cod Fillets - 1 can Evaporated Milk - 2 Tbsp Fresh Parsley or Chives, chopped",
+    "directions_source_text": "1. In a large, heavy saucepan, cook bacon over medium-high heat for about 10 minutes or until crisp. Chop coarsely and set aside. 2. Drain off all but 1 tbsp. fat from saucepan. Add onions and savoury. Cook, stirring occasionally for 5 minutes or until softened. 3. Add potatoes, carrots, water and salt. Bring to boil, cover, reduce heat and simmer for about 20 minutes or until tender 4. Cut cod into 1-inch chunks. Add to vegetables and simmer for about 5 minutes or until fish flakes easily 5. Add milk and white pepper, heat through. Garnish with bacon and parsley."
+}

@@ -1,0 +1,177 @@
+{
+    "serving_size": 5,
+    "preparation_time": 15.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "potatoes",
+            "quantity": 1.0,
+            "unit": "kilogram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "red onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "porkchops",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "bacon (smoked)",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "eggs",
+            "quantity": 5.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "garlic",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "chopped parsley",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "marjoram",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "cumin",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Clean potatoes and boil with skin.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Chop onion, squeeze and mince the garlic.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Dice pork and bacon.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Slice cooked potatoes in thick wedges.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Fry potato wedges in butter, add more butter while stirring.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add pork and bacon and bake until crispy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add and stir the rest of the ingredients, except eggs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                6,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Fry the eggs separately and serve on top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Tiroler Gr\u00f6stl",
+    "date": "2021-03-09",
+    "tags": [
+        "austrian",
+        "bacon",
+        "potato"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 5",
+    "ingredients_source_text": "- 1 kg / 2 lbs potatoes - 2 red onions - 500 g / 1 lbs porkchops - 400 g / 14 ounce bacon (smoked) - 5 eggs - 3 cloves of garlic - Ample amount of chopped parsley - Marjoram and cumin to taste",
+    "directions_source_text": "1. Clean potatoes and boil with skin. 2. Chop onion, squeeze and mince the garlic. 3. Dice pork and bacon. 4. Slice cooked potatoes in thick wedges. 5. Fry potato wedges in butter, add more butter while stirring. 6. Add pork and bacon and bake until crispy. 7. Add and stir the rest of the ingredients, except eggs. 8. Fry the eggs separately and serve on top."
+}

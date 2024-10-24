@@ -1,0 +1,131 @@
+{
+    "serving_size": 3,
+    "preparation_time": 10.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "\u0421rab meat",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Egg",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Rice",
+            "quantity": 50.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Corn",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Cucumber",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Carrot",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Mayonnaise",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Boil rice, eggs and carrot",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Chop crab meat and all other ingredients",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Combine and mix all ingredients",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add mayonnaise",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Chill before serving",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Crab salad",
+    "date": "2021-03-22",
+    "tags": [
+        "salad",
+        "russian"
+    ],
+    "introduction": "![Crab salad](/pix/crab-salad.webp) - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- \u0421rab meat (300 grams) - Egg (3) - Rice (50 grams) - Corn (1 can) - Cucumber (1) - Carrot (1) - Onion (1) - Mayonnaise (100 grams)",
+    "directions_source_text": "1. Boil rice, eggs and carrot 2. Chop crab meat and all other ingredients 3. Combine and mix all ingredients 4. Add mayonnaise 5. Chill before serving"
+}

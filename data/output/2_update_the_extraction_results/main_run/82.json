@@ -1,0 +1,127 @@
+{
+    "serving_size": null,
+    "preparation_time": 10.0,
+    "cooking_time": {
+        "min": 30.0,
+        "max": 120.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "canned tomatoes",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "tomato pur\u00e9",
+            "quantity": 150.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "garlic",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "oregano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "chili pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Dice onion and fry in olive oil on medium heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add chopped garlic and chili pepper (optional) for some minutes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Mix in tomato pur\u00e9, salt, pepper, and oregano. Cook until pur\u00e9 gets oily.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add canned tomatoes, and crush with spatula.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Let it sit on low heat. The longer the better.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Pizza sauce",
+    "date": "2021-03-21",
+    "tags": [
+        "basic",
+        "pizza",
+        "sauce"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 0.5-2 hours",
+    "ingredients_source_text": "- 400g canned tomatoes, preferebly skinned and whole - 150g tomato pur\u00e9 - 1 medium sized onion - olive oil - garlic - oregano - chili pepper (optional)",
+    "directions_source_text": "1. Dice onion and fry in olive oil on medium heat. 2. Add chopped garlic and chili pepper (optional) for some minutes. 3. Mix in tomato pur\u00e9, salt, pepper, and oregano. Cook until pur\u00e9 gets oily. 4. Add canned tomatoes, and crush with spatula. 5. Let it sit on low heat. The longer the better."
+}

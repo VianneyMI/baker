@@ -1,0 +1,140 @@
+{
+    "serving_size": 6,
+    "preparation_time": 15.0,
+    "cooking_time": 25.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "extra-virgin olive oil",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "unsalted butter",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "whole chicken",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "shallots",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "red wine vinegar",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "cr\u00e8me fra\u00eeche or heavy cream",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "parsley",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Rub each piece of chicken in salt and pepper mixture.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Heat oil and melt butter in deep-sided, 12-inch (~30 centimeter) saut\u00e9 pan on medium-high heat. When the oil is hot, but not smoking, use tongs to add chicken skin side down.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Brown both sides until skin is golden brown and chicken is cooked, about 12-15 minutes. Remove chicken to a platter and cover loosely with aluminum foil to keep warm.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 12.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pour out half of oil from pan, and use other half to brown shallots over medium-high heat. Slowly add vinegar and boil until reduced to almost a syrup. Add cr\u00e8me fra\u00eeche/cream and cook until blended and brown, about 5 minutes. Return chicken to pan to coat and heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Return chicken to platter. Add garnish if available, and serve.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                7
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Chicken in Red Wine Vinegar Sauce",
+    "date": "2021-03-16",
+    "tags": [
+        "chicken",
+        "french",
+        "wine"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 25 min - \ud83c\udf7d\ufe0f Servings: 6",
+    "ingredients_source_text": "- 3 tablespoons/~44 milliliters extra-virgin olive oil - 1 tablespoon/~14 grams unsalted butter - 1 whole chicken, cut into 10 pieces (alternatively, use breasts or legs) - 4 shallots, finely chopped - 1 cup/720 milliliters red wine vinegar - 1 cup/240 milliliters cr\u00e8me fra\u00eeche or heavy cream - Finely chopped parsley (optional)",
+    "directions_source_text": "1. Rub each piece of chicken in salt and pepper mixture. 2. Heat oil and melt butter in deep-sided, 12-inch (~30 centimeter) saut\u00e9 pan on medium-high heat. When the oil is hot, but not smoking, use tongs to add chicken skin side down. 3. Brown both sides until skin is golden brown and chicken is cooked, about 12-15 minutes. Remove chicken to a platter and cover loosely with aluminum foil to keep warm. 4. Pour out half of oil from pan, and use other half to brown shallots over medium-high heat. Slowly add vinegar and boil until reduced to almost a syrup. Add cr\u00e8me fra\u00eeche/cream and cook until blended and brown, about 5 minutes. Return chicken to pan to coat and heat. 5. Return chicken to platter. Add garnish if available, and serve."
+}

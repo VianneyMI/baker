@@ -1,0 +1,92 @@
+{
+    "serving_size": 8,
+    "preparation_time": 5.0,
+    "cooking_time": 5.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tomato-vegetable juice cocktail",
+            "quantity": 46.0,
+            "unit": "fluid_ounce",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "lemons, juiced",
+            "quantity": 1.0,
+            "unit": "fruit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "brown sugar",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "steak sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Worcestershire sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "prepared horseradish",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "hot pepper sauce",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "celery salt",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a large pitcher, combine juice cocktail, lemon juice and brown sugar. Season with Worcestershire sauce, horseradish, hot sauce and celery salt. Cover, and refrigerate 8 to 12 hours to allow flavors to meld.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                5,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Bloody Mary Mix",
+    "date": "2022-04-14",
+    "tags": [
+        "drink",
+        "sweet",
+        "breakfast"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 5 min - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "- 1 (46 fluid ounce) bottle tomato-vegetable juice cocktail - 1\u2009fruit, without seeds lemons, juiced - 1 teaspoon brown sugar - 1 tablespoon steak sauce - 1 tablespoon Worcestershire sauce - 1 teaspoon prepared horseradish - 1 teaspoon hot pepper sauce - 1/2 teaspoon celery salt",
+    "directions_source_text": "1. In a large pitcher, combine juice cocktail, lemon juice and brown sugar. Season with Worcestershire sauce, horseradish, hot sauce and celery salt. Cover, and refrigerate 8 to 12 hours to allow flavors to meld."
+}

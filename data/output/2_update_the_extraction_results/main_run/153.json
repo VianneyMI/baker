@@ -1,0 +1,129 @@
+{
+    "serving_size": 3,
+    "preparation_time": {
+        "min": 3.0,
+        "max": null
+    },
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "ripe bananas",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "oatmeal",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cinnamon powder",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 4,
+            "name": "honey",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Pre-heat the oven to 180\u00b0C (350\u00b0F)",
+            "duration": null,
+            "temperature": {
+                "preheat": 180.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Peel the bananas and squash them not too finely in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Incorporate the oatmeal.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Incorporate cinnamon powder and/or honey (optional).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": true
+        },
+        {
+            "number": 5,
+            "description": "On the oven tray, place parchment paper and form discs of the mix, each around 8 cm (3 in)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cook with rotating heat for around 20 minutes, until outside becomes golden and slightly crispy.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Eat warm or cold. Can be kept a couple of days in a sealed container.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Banana and oatmeal cookies",
+    "date": "2022-07-12",
+    "tags": [
+        "snack",
+        "quick",
+        "dessert"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 3 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Serving : 3",
+    "ingredients_source_text": "- 2 ripe bananas (250 g/9 oz peeled) - 100g (3.5 oz) of oatmeal - 1 table spoon of cinnamon powder (optional) - 1 table spoon of honey (optional)",
+    "directions_source_text": "1. Pre-heat the oven to 180\u00b0C (350\u00b0F) 2. Peel the bananas and squash them not too finely in a bowl. 3. Incorporate the oatmeal. 4. Incorporate cinnamon powder and/or honey (optional). 5. On the oven tray, place parchment paper and form discs of the mix, each around 8 cm (3 in) 6. Cook with rotating heat for around 20 minutes, until outside becomes golden and slightly crispy. 7. Eat warm or cold. Can be kept a couple of days in a sealed container."
+}

@@ -1,0 +1,69 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "apricot-mango nectar",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "pineapple juice",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "frozen orange juice concentrate",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "champagne",
+            "quantity": 1.0,
+            "unit": "bottle",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "water",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Stir together apricot nectar, pineapple juice, water, and orange juice concentrate in a large pitcher until combined. Pour in bottle of sparkling wine just before serving.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Party Mimosa",
+    "date": "2021-03-16",
+    "tags": [
+        "drink",
+        "sweet",
+        "breakfast"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- 1 (12 ounce) can apricot-mango nectar - 1 (12 ounce) can pineapple juice - 1 (6 ounce) can frozen orange juice concentrate, thawed and undiluted - 1 (750 milliliter) bottle cold champagne - 3/4 cup cold water",
+    "directions_source_text": "1. Stir together apricot nectar, pineapple juice, water, and orange juice concentrate in a large pitcher until combined. Pour in bottle of sparkling wine just before serving."
+}

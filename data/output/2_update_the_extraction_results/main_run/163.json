@@ -1,0 +1,149 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Boneless skinless chicken breast",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": 0.25,
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Seasoning",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Fill a large bowl with enough water to submerge the chicken. Add salt to the water until it's fully saturated. Put the chicken under the water and let it sit for 20-40 minutes at room temperature.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 20.0,
+                    "max": 40.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Preheat the oven to 230\u00b0C / 450\u00b0F.",
+            "duration": null,
+            "temperature": {
+                "preheat": 230.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Remove the chicken from the water. Rinse it. Dry it. Put it in a roasting pan (you can use a casserole dish, oven-safe skillet, or baking pan too).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Brush the chicken with melted butter. For best results, brush all sides of the chicken breast.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Season with pepper and any optional seasoning. Season with salt last.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Insert the thermometer probe into the thickest part of the smallest breast.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Bake until the internal temperature reaches 68\u00b0C / 155\u00b0F.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 68.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Remove from the oven and immediately cover with foil leaving the probe inserted. Let the chicken sit for 10 minutes at room temperature. The chicken will continue to cook. It should reach at least 74\u00b0C / 165\u00b0F but if it doesn't, see [this reddit post](https://www.reddit.com/r/Cooking/comments/49opyx/cooking_chicken_to_temps_below_165_is_it_safe/) about food safety when cooking chicken to less than 165\u00b0F.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 10.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Serve",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Roasted chicken breast",
+    "date": "2021-03-12",
+    "tags": [
+        "chicken",
+        "roast"
+    ],
+    "introduction": "How to roast chicken breast with a \"leave-in\" probe thermometer. The thermometer ensures the chicken comes out juicy and delicious.",
+    "ingredients_source_text": "- Boneless skinless chicken breast(s) - 1/4 stick of butter per chicken breast - Seasoning (optional)",
+    "directions_source_text": "1. Fill a large bowl with enough water to submerge the chicken. Add salt to the water until it's fully saturated. Put the chicken under the water and let it sit for 20-40 minutes at room temperature. 2. Preheat the oven to 230\u00b0C / 450\u00b0F. 3. Remove the chicken from the water. Rinse it. Dry it. Put it in a roasting pan (you can use a casserole dish, oven-safe skillet, or baking pan too). 4. Brush the chicken with melted butter. For best results, brush all sides of the chicken breast. 5. Season with pepper and any optional seasoning. Season with salt last. 6. Insert the thermometer probe into the thickest part of the smallest breast. 7. Bake until the internal temperature reaches 68\u00b0C / 155\u00b0F. 8. Remove from the oven and immediately cover with foil leaving the probe inserted. Let the chicken sit for 10 minutes at room temperature. The chicken will continue to cook. It should reach at least 74\u00b0C / 165\u00b0F but if it doesn't, see [this reddit post](https://www.reddit.com/r/Cooking/comments/49opyx/cooking_chicken_to_temps_below_165_is_it_safe/) about food safety when cooking chicken to less than 165\u00b0F. 9. Serve"
+}

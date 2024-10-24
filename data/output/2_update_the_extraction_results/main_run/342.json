@@ -1,0 +1,265 @@
+{
+    "serving_size": null,
+    "preparation_time": 20.0,
+    "cooking_time": 90.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "beef",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "potatoes",
+            "quantity": {
+                "min": 300.0,
+                "max": 400.0
+            },
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "carrot",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "medium onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "tomato paste",
+            "quantity": 12.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "water",
+            "quantity": 500.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "garlic cloves",
+            "quantity": {
+                "min": 3.0,
+                "max": 4.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "bay leaves",
+            "quantity": {
+                "min": 3.0,
+                "max": 4.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "curcuma",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "paprika",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "oregano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "parsley",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "caraway",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "basil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 15,
+            "name": "cilantro",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 16,
+            "name": "champignon mushrooms",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "unit",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat up the frying pan and add some oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cut the potatoes into small pieces and fry them on the frying pan over medium-heat, add some salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Chop the onion.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cut the beef into small enough pieces and dust with flour.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "After about 15 minutes of frying the potatoes, add the onions and beef to the pan and fry for another 10-15 minutes, or until brown.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "While the beef, potatoes and onions are frying, cut the carrot and mushrooms, and chop the parsley and cilantro.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                12,
+                15,
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once the beef is brown, add water to the pan, and add the rest of the ingredients, including salt, black pepper and herbs/spices to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Mix thoroughly, cover the pan with a lid and stew for about 60-80 minutes over low-heat. While it is stewing, you can get back to doing some other things, like watching memes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 60.0,
+                    "max": 80.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Remove from stove, serve hot and enjoy with some beer or cider (or your favorite beverage).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Beef Goulash",
+    "date": "2021-03-12",
+    "tags": [
+        "beef",
+        "stew"
+    ],
+    "introduction": "![Beef Goulash](/pix/beef-goulash.webp) Although it takes some time to make, it is actually quite easy to make, and it is a really hearty and delicious recipe, if I do say so myself. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 90 min - \ud83c\udf7d\ufe0f Servings: 2/3",
+    "ingredients_source_text": "* 500g beef * 300-400g potatoes * 1 carrot * 1 medium onion * 12 tablespoons tomato paste * 500ml water * 3-4 garlic cloves * 3-4 bay leaves * Curcuma * Paprika * Oregano * Parsley * Caraway * Basil (optional) * Cilantro (optional) * 2-3 champignon mushrooms (optional)",
+    "directions_source_text": "1. Heat up the frying pan and add some oil. 2. Cut the potatoes into small pieces and fry them on the frying pan over   medium-heat, add some salt. 3. Chop the onion. 4. Cut the beef into small enough pieces and dust with flour. 5. After about 15 minutes of frying the potatoes, add the onions and beef to the   pan and fry for another 10-15 minutes, or until brown. 6. While the beef, potatoes and onions are frying, cut the carrot and mushrooms,   and chop the parsley and cilantro. 7. Once the beef is brown, add water to the pan, and add the rest of the   ingredients, including salt, black pepper and herbs/spices to taste. 8. Mix thoroughly, cover the pan with a lid and stew for about 60-80 minutes   over low-heat. While it is stewing, you can get back to doing some other   things, like watching memes. 9. Remove from stove, serve hot and enjoy with some beer or cider (or your   favorite beverage)."
+}

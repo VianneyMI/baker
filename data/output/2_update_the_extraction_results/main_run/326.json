@@ -1,0 +1,131 @@
+{
+    "serving_size": 2,
+    "preparation_time": 10.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "ground turkey",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "coleslaw mix",
+            "quantity": 1.0,
+            "unit": "bag",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "fresh ginger",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Hoisin sauce",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "soy sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "sesame oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Grate or mince ginger finely. Process with the garlic cloves by grinding with salt under the edge of a knife. Finely mince the onion. Optional Marinade the ground turkey in 2 Tbsp of soy sauce and 1 tsp baking soda for 15 minutes to improve browning.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4,
+                5
+            ],
+            "optional": true
+        },
+        {
+            "number": 2,
+            "description": "In a hot wok or skillet add a few tablespoons of cooking oil, preferably peanut, and a tsp of sesame oil. Add the ground turkey and cook until no longer raw seasoning with soy sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the onion and cook until translucent and the meat is nicely browned. Add in the garlic and ginger mixture and cook for approximately 1 minute or until fragrant ensuring not to burn the garlic.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add in the coleslaw mix and season with more soy sauce. Cook until the cabbage is just softened. Add 1/4 cup of hoisin sauce and stir to combine. Check seasoning and add salt to taste. Serve in a bowl with sweet chili sauce and green onions.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                6,
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Egg Roll in a Bowl",
+    "date": "2021-03-23",
+    "tags": [
+        "quick",
+        "asian",
+        "cabbage"
+    ],
+    "introduction": "Egg rolls, but, you know, in a bowl. - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 1 pound ground turkey - 1 bag coleslaw mix - 1 small onion - 2-3 cloves of garlic - 1 tbsp fresh ginger - 1/4 cup Hoisin sauce - soy sauce - sesame oil",
+    "directions_source_text": "1. Grate or mince ginger finely. Process with the garlic cloves by grinding with salt under the edge of a knife. Finely mince the onion. **Optional** Marinade the ground turkey in 2 Tbsp of soy sauce and 1 tsp baking soda for 15 minutes to improve browning. 2. In a hot wok or skillet add a few tablespoons of cooking oil, preferably peanut, and a tsp of sesame oil. Add the ground turkey and cook until no longer raw seasoning with soy sauce. 3. Add the onion and cook until translucent and the meat is nicely browned. Add in the garlic and ginger mixture and cook for approximately 1 minute or until fragrant ensuring not to burn the garlic. 4. Add in the coleslaw mix and season with more soy sauce. Cook until the cabbage is just softened. Add 1/4 cup of hoisin sauce and stir to combine. Check seasoning and add salt to taste. Serve in a bowl with sweet chili sauce and green onions."
+}
