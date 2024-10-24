@@ -1,0 +1,190 @@
+{
+    "serving_size": 6,
+    "preparation_time": 10.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Brown Rice",
+            "quantity": 4.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Spinach",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Butter",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Eggs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Milk",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Cheddar",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Parsley",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Tamari",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Salt",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Sunflower Seeds",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Nutmeg",
+            "quantity": null,
+            "unit": "dash",
+            "optional": true
+        },
+        {
+            "id": 14,
+            "name": "Cayenne",
+            "quantity": null,
+            "unit": "dash",
+            "optional": true
+        },
+        {
+            "id": 15,
+            "name": "Paprika",
+            "quantity": null,
+            "unit": "dash",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Saute onions and garlic with salt in butter. When onions are soft, add spinach. Cook 2 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                11,
+                5,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Combine with all ingredients except sunflower seeds and paprika.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                6,
+                7,
+                8,
+                9,
+                10,
+                13,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Spread into buttered casserole dish and sprinkle sunflower seeds and paprika on top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Bake, covered, 35 minutes at 350F.",
+            "duration": {
+                "preparation": null,
+                "cooking": 35.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 350.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Spinach-Rice Casserole",
+    "date": "2022-08-04",
+    "tags": [
+        "spinach",
+        "rice"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 6",
+    "ingredients_source_text": "- 4 cups Brown Rice, cooked - 2 lbs raw Spinach, chopped - 1 cup Onion, chopped - 2 cloves Garlic, minced - 3 Tbsp Butter - 4 Eggs, beaten - 1 cup Milk - 1 1/2 cups Cheddar, grated - 1/4 cup Parsley, chopped - 2 Tbsp Tamari - 1/2 tsp Salt (or more, to taste) - 1/4 cup Sunflower Seeds - A few dashes each - Nutmeg; Cayenne; Paprika",
+    "directions_source_text": "1. Saute onions and garlic with salt in butter. When onions are soft, add spinach. Cook 2 minutes. 2. Combine with all ingredients except sunflower seeds and paprika. 3. Spread into buttered casserole dish and sprinkle sunflower seeds and paprika on top. 4. Bake, covered, 35 minutes at 350F."
+}

@@ -1,0 +1,97 @@
+{
+    "serving_size": null,
+    "preparation_time": 10.0,
+    "cooking_time": {
+        "min": 60.0,
+        "max": null
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "frozen corn",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "red onion",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "radishes",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "cilantro",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "jalepenos",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "limes",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "salt and pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop everything to pieces smaller than the corn kernels. Mix well and let sit covered in the fridge for at least an hour, even better overnight.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Corn Salsa",
+    "date": "2021-03-23",
+    "tags": [
+        "sauce",
+        "mexican"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 Minutes - \ud83c\udf73 Cook time: 1 Hour+ in fridge",
+    "ingredients_source_text": "- 2 pounds frozen corn, defrosted - 1/2 Red onion, finely chopped - 4 Radishes, sliced thin and chopped - Few pinches of Cilantro, finely chopped - 1-2 Jalepenos, finely chopped (optional) - Juice of 2-3 Limes - Salt and pepper, to taste",
+    "directions_source_text": "1. Chop everything to pieces smaller than the corn kernels. Mix well and let sit covered in the fridge for at least an hour, even better overnight."
+}

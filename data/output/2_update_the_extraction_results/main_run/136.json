@@ -1,0 +1,117 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Garlic Powder",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onion Powder",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Paprika",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Smoked Paprika",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Ground Cumin",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Ground Coriander",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Oregano",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Cayenne Pepper",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Salt",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Brown Sugar",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Chili Powder",
+            "quantity": 1.5,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix seasonings in a bowl. Adjust amounts depending on how much is needed.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Fajita Seasoning",
+    "date": "2021-03-17",
+    "tags": [
+        "basic",
+        "mexican",
+        "fasting"
+    ],
+    "introduction": "Simple seasoning mix similar to Old El Paso. Can be used for any Mexican dishes or plain meats.",
+    "ingredients_source_text": "- 1/2 tsp Garlic Powder - 1/2 tsp Onion Powder - 1/2 tsp Paprika - 1/2 tsp Smoked Paprika - 1/2 tsp Ground Cumin - 1/2 tsp Ground Coriander - 1/2 tsp Oregano - 1/2 tsp Cayenne Pepper - 1 tsp Salt - 1 tsp Brown Sugar - 1.5 tsp Chili Powder",
+    "directions_source_text": "1. Mix seasonings in a bowl. Adjust amounts depending on how much is needed."
+}

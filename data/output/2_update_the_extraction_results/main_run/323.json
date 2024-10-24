@@ -1,0 +1,145 @@
+{
+    "serving_size": null,
+    "preparation_time": 2.0,
+    "cooking_time": 1.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "whole egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 2,
+            "name": "egg yolks",
+            "quantity": {
+                "min": 2.0,
+                "max": 2.0
+            },
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "neutral oil",
+            "quantity": 2.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "vinegar",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "lemon juice",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "pickle juice",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "garlic",
+            "quantity": {
+                "min": 2.0,
+                "max": 4.0
+            },
+            "unit": "clove",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "dijon mustard",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Place egg, vinegar, mustard a pinch of salt and pepper in a beaker or narrow and tall container. Add diced garlic for aioli.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add oil as the very last ingredient. It should be on the top of the other ingredients, or the mayonnaise/aioli could separate.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Place hand blender at the very bottom. Don't start it yet.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Use full power, and work your way upwards slowly until all the oil is mixed in.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Feel free to taste and mix in extra spices and vinegar afterwards.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Mayonnaise or aioli",
+    "date": "2021-04-06",
+    "tags": [
+        "sauce",
+        "basic"
+    ],
+    "introduction": "![Aioli](/pix/mayonnaise-or-aioli.webp) Aioli is pretty much just mayonnaise with garlic, although traditional aioli only includes olive oil and garlic, and no eggs or acid. This recipe uses raw eggs, so if that is sketchy in your region use pasteurized eggs \ud83e\udd5a. - \u23f2\ufe0f Prep time: 2 min - \ud83c\udf73 Cook time: 1 min",
+    "ingredients_source_text": "- 1 whole egg or 2 egg yolks, preferably at room temperature - 2.5 dl/ 1 cup neutral oil - 1-2 tbsp vinegar or lemon juice - 1 tbsp pickle juice (optional) - 2-4 cloves of garlic for aioli, don't include for mayonnaise - 1 tsp dijon mustard (optional)",
+    "directions_source_text": "1. Place egg, vinegar, mustard a pinch of salt and pepper in a beaker or narrow and tall container. Add diced garlic for aioli. 2. Add oil as the very last ingredient. It should be on the top of the other ingredients, or the mayonnaise/aioli could seperate. 3. Place hand blender at the very bottom. Don't start it yet. 4. Use full power, and work your way upwards slowly until all the oil is mixed in. 5. Feel free to taste and mix in extra spices and vinegar afterwards."
+}

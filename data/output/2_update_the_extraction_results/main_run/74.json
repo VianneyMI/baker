@@ -1,0 +1,83 @@
+{
+    "serving_size": 4,
+    "preparation_time": 70.0,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "flour (Wholemeal Wheat Flour)",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "lukewarm water",
+            "quantity": 280.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "dry yeast",
+            "quantity": 8.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": 3.5,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "salt",
+            "quantity": 1.5,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Combine all the ingredients in a bowl and knead into a dough.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Let it rest for ~60 minutes somewhere lukewarm.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Wholemeal Wheat Flour Pizza Dough",
+    "date": "2022-07-13",
+    "tags": [
+        "wholemeal",
+        "pizza",
+        "dough",
+        "italian"
+    ],
+    "introduction": "![Wholemeal-Wheat-Flour-Pizza-Dough](/pix/wholemeal-wheat-flour-pizza-dough.webp) One serving(~200g dough) should be enough to make a pizza. The dough can be stored in the refrigerator for ~2 days. For it to last longer, it should be stored in the freezer. - \u23f2\ufe0f Prep time: 70 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 500g flour (Wholemeal Wheat Flour) - 280ml lukewarm water - 8g dry yeast - 3.5 spoon olive oil - 1.5 teaspoon salt",
+    "directions_source_text": "1. Combine all the ingredients in a bowl and knead into a dough. 2. Let it rest for ~60 minutes somewhere lukewarm."
+}

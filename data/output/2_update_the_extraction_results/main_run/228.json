@@ -1,0 +1,105 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 6.0,
+        "max": 8.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Hearty White Bread",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Extra Virgin Olive Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Spices",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 350\u00b0F (roughly 180\u00b0C). Gently cut slices of white bread into squares with a chef's knife. One to two slices is usually enough for one person.",
+            "duration": null,
+            "temperature": {
+                "preheat": 350.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a large bowl combine olive oil, spices, and bread squares and gently mix to thoroughly season bread. Spices can be anything but I recommend oregano, paprika, black pepper, garlic powder or freshly minced garlic, and a small pinch of cayenne.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Spread seasoned bread squares large face down onto a baking sheet evenly and put in oven for 6-8 minutes. Once the bread has crisped flip each square and put back in oven for another 6-8 minutes or until crispy throughout.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 6.0,
+                    "max": 8.0
+                },
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 350.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Once fully baked, let rest until cool. These can be eaten immediately or saved in a sandwich bag for later.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Croutons",
+    "date": "2021-03-11",
+    "tags": [
+        "basic",
+        "french",
+        "salad",
+        "fasting"
+    ],
+    "introduction": "![croutons](/pix/croutons.webp) Croutons are an essential addition to many salads. They are delicious and easy to make at home.",
+    "ingredients_source_text": "- Hearty White Bread - Extra Virgin Olive Oil - Spices",
+    "directions_source_text": "1. Preheat oven to 350\u00b0F (roughly 180\u00b0C). Gently cut slices of white bread into squares with a chef's knife. One to two slices is usually enough for one person. 2. In a large bowl combine olive oil, spices, and bread squares and gently mix to thoroughly season bread. Spices can be anything but I recommend oregano, paprika, black pepper, garlic powder or freshly minced garlic, and a small pinch of cayenne. 3. Spread seasoned bread squares large face down onto a baking sheet evenly and put in oven for 6-8 minutes. Once the bread has crisped flip each square and put back in oven for another 6-8 minutes or until crispy throughout. 4. Once fully baked, let rest until cool. These can be eaten immediately or saved in a sandwich bag for later."
+}

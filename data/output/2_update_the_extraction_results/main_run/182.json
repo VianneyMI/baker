@@ -1,0 +1,210 @@
+{
+    "serving_size": 10,
+    "preparation_time": 60.0,
+    "cooking_time": 45.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "sweet potato",
+            "quantity": 1.75,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "all-purpose flour",
+            "quantity": 8.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "water",
+            "quantity": 0.67,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "active dry yeast",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "salt",
+            "quantity": 3.0,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel the sweet potatoes. Cut into large pieces and place in a saucepan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cover with water, bring to a boil and cook covered for 20 minutes over medium-high heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Drain the sweet potatoes and mash them. Add salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Mix the yeast and water and let stand for 10 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 10.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Pour the flour into a large salad bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Dig a well in the center and add the mashed sweet potato and yeast.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Knead to obtain a homogeneous and elastic dough.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Let the dough ferment for 3 days in the refrigerator.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 4320.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "After 3 days, divide the dough into 8 to 10 pieces of equal weight on a work surface dusted with flour.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Form balls and flatten them to a thickness of about 1 inch (2.5cm).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Let them rest for 30 minutes in a warm place, protected from drafts.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 30.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Heat a dry pan over medium-high heat and cook the bolos do caco on both sides until a thin and slightly hard crust is formed. Turn them over very regularly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Then take each bolo do caco with tongs and turn them around on the hot pan to bake the sides.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Serve warm or lukewarm with salted butter and parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Bolo do Caco (Caco Bread)",
+    "date": "2021-03-23",
+    "tags": [
+        "bread",
+        "portuguese"
+    ],
+    "introduction": "_A traditional Madeiran-Portuguese Bread_ - \u23f2\ufe0f Prep time: 1 hour - \ud83c\udf73 Cook time: 45 min - \ud83d\udca4 Rest time: 3 days - \ud83c\udf7d\ufe0f Servings: 10 breads",
+    "ingredients_source_text": "__Imperial__ - 1\u00be lb sweet potato - 8 cups all-purpose flour - \u2154 cup water (warm at 75F / 35C) - 3 tablespoons active dry - yeast - 3 teaspoons salt __Metric__ - 750 g sweet potato - 1 kg all-purpose flour - 150 ml water (warm at 75F / 35C) - 3 tablespoons active dry yeast - 3 teaspoons salt",
+    "directions_source_text": "1. Peel the sweet potatoes. Cut into large pieces and place in a saucepan. 2. Cover with water, bring to a boil and cook covered for 20 minutes over 1. medium-high heat. 3. Drain the sweet potatoes and mash them. Add salt. 4. Mix the yeast and water and let stand for 10 minutes. 5. Pour the flour into a large salad bowl. 6. Dig a well in the center and add the mashed sweet potato and yeast. 7. Knead to obtain a homogeneous and elastic dough. 8. Let the dough ferment for 3 days in the refrigerator. 9. After 3 days, divide the dough into 8 to 10 pieces of equal weight on a work surface dusted with flour. 10. Form balls and flatten them to a thickness of about 1 inch (2,5cm). 11. Let them rest for 30 minutes in a warm place, protected from drafts. 12. Heat a dry pan over medium-high heat and cook the bolos do caco on both sides until a thin and slightly hard crust is formed. Turn them over very regularly. 13. Then take each bolo do caco with tongs and turn them around on the hot pan to bake the sides. 14. Serve warm or lukewarm with salted butter and parsley."
+}

@@ -1,0 +1,217 @@
+{
+    "serving_size": 3,
+    "preparation_time": 10.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Ground Beef",
+            "quantity": 0.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Panko Breadcrumbs",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Soy Sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Chili Garlic Sauce",
+            "quantity": 4.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Ginger",
+            "quantity": 0.5,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Green Bell Peppers",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Basmati Rice",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Green Peas",
+            "quantity": 2.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Cilantro",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Moroccan Spice Blend",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Sweet Chili Sauce",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 450F. Add 1 1/4 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over a medium-high heat. Add rice and reduce heat to low. Cover and cook until rice is tender and liquid is absorbed (12-14 mins). Add peas halfway through cooking. When rice is done, remove pot from heat, and leave covered.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 12.0,
+                    "max": 14.0
+                },
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": 450.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "While rice cooks, combine beef, panko, half the ginger, a quarter of the soy sauce and a third of the Moroccan spice blend. Roll mixture into 9 equal-sized meatballs. Arrange meatballs on a parchment-lined baking sheet. Bake on the middle rack in the oven until golden-brown and cooked through (8-10 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 8.0,
+                    "max": 10.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                5,
+                3,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Meanwhile, core and cut the green peppers into 1/2\" pieces and roughly chop cilantro. Stir together sweet chili sauce, remaining soy sauce, 1/4 cup water and chili garlic sauce in a small bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                10,
+                12,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Heat a large non-stick pan over medium-high heat. Add 1 Tbsp oil, then onion and peppers. Cook, stirring occasionally, until slightly softened (2-3 mins). Add remaining ginger and remaining Moroccan spice blend. Cook, stirring constantly, until fragrant (30 sec).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                13,
+                7,
+                6,
+                5,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add meatballs and the stir-fry sauce to the pan with veggies. Cook, stirring gently, until sauce thickens slightly and coats meatballs (1 min). Season with salt and pepper, to taste.",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add half the cilantro to rice, then fluff with a fork. Divide rice between plates, then top with meatballs, veggies, and any sauce in the pan. Sprinkle remaining cilantro over top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Hakka-Style Meatballs",
+    "date": "2022-09-11",
+    "tags": [
+        "beef",
+        "rice",
+        "asian"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- 1/2 lb Ground Beef - 1/4 cup Panko Breadcrumbs - 2 Tbsp Soy Sauce, divided - 4 tsp Chili Garlic Sauce - 1/2 oz Ginger, minced - 2 medium Green Bell Peppers - 1 small Onion, chopped - 3/4 cup Basmati Rice - 2 oz Green Peas - 1/2 cup Cilantro, loosely packed - 1 Tbsp Moroccan Spice Blend, divided - 4 Tbsp Sweet Chili Sauce - Oil",
+    "directions_source_text": "1. Preheat oven to 450F. Add 1 1/4 cup water and 1/4 tsp salt to a medium pot. Cover and bring to a boil over a medium-high heat. Add rice and reduce heat to low. Cover and cook until rice is tender and liquid is absorbed (12-14 mins). Add peas halfway through cooking. When rice is done, remove pot from heat, and leave covered. 2. While rice cooks, combine beef, panko, half the ginger, a quarter of the soy sauce and a third of the Moroccan spice blend. Roll mixture into 9 equal-sized meatballs. Arrange meatballs on a parchment-lined baking sheet. Bake on the middle rack in the oven until golden-brown and cooked through (8-10 mins). 3. Meanwhile, core and cut the green peppers into 1/2\" pieces and roughly chop cilantro. Stir together sweet chili sauce, remaining soy sauce, 1/4 cup water and chili garlic sauce in a small bowl. 4. Heat a large non-stick pan over medium-high heat. Add 1 Tbsp oil, then onion and peppers. Cook, stirring occasionally, until slightly softened (2-3 mins). Add remaining ginger and remaining Moroccan spice blend. Cook, stirring constantly, until fragrant (30 sec). 5. Add meatballs and the stir-fry sauce to the pan with veggies. Cook, stirring gently, until sauce thickens slightly and coats meatballs (1 min). Season with salt and pepper, to taste. 6. Add half the cilantro to rice, then fluff with a fork. Divide rice between plates, then top with meatballs, veggies, and any sauce in the pan. Sprinkle remaining cilantro over top."
+}

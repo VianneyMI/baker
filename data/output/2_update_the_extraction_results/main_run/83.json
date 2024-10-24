@@ -1,0 +1,110 @@
+{
+    "serving_size": 15,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "white flour",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "eggs",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "milk",
+            "quantity": 60.0,
+            "unit": "centiliter",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "beer",
+            "quantity": 20.0,
+            "unit": "centiliter",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "butter",
+            "quantity": 30.0,
+            "unit": "gram",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "oil",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Let it rest one hour. (optional)",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        },
+        {
+            "number": 4,
+            "description": "Cook the cr\u00eape in a flat pan, one ladle at a time. Oil the pan frequently with an oiled piece of fabric. Wait for the pan to be hot before cooking the first cr\u00eape. Wait until the cr\u00eape has dried up to flip it. When pouring the dough, follow the pan rotation with the ladle to evenly spread a thin layer of it.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "French Cr\u00eapes",
+    "date": "2021-03-14",
+    "tags": [
+        "french",
+        "dessert",
+        "breakfast",
+        "cheesefare"
+    ],
+    "introduction": "Like pancakes, but very thin. 15 cr\u00eapes.",
+    "ingredients_source_text": "- 300g white flour - 3 eggs - 60cl milk - 20cl beer - 30g butter or 3 tablespoons of oil",
+    "directions_source_text": "1. Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour) 2. Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid) 3. Let it rest one hour. (optional) 4. Cook the cr\u00eape in a flat pan, one ladle at a time. ## Tips - Oil the pan frequently with an oiled piece of fabric. - Wait for the pan to be hot before cooking the first cr\u00eape. - Wait until the cr\u00eape has dried up to flip it. - When pouring the dough, follow the pan rotation with the ladle to evenly spread a thin layer of it."
+}

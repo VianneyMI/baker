@@ -1,0 +1,139 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "potatoes",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "carrots",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "bacon",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "butter",
+            "quantity": 50.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "heavy cream",
+            "quantity": 100.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "ground nutmeg",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut bacon into bits.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Saut\u00e9 bacon until well colored.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Peel and dice into small chunks potatoes, peel and slice carrots.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Boil for 20-25 minutes potatoes and carrots in salted water.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 20.0,
+                    "max": 25.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Drain vegetables and mash with a fork, so that the texture remains slightly chunky.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Mix with bacon bits, butter, cream, nutmeg, salt, pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Stoemp",
+    "date": "2021-03-21",
+    "tags": [
+        "belgian",
+        "potato"
+    ],
+    "introduction": "Mashed potatoes in Belgian style - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 500g potatoes - 300g carrots - 100g bacon - 50g butter - 100ml heavy cream - 1/2 teaspoon ground nutmeg",
+    "directions_source_text": "1. Cut bacon into bits. 2. Saut\u00e9 bacon until well colored. 3. Peel and dice into small chunks potatoes, peel and slice carrots. 4. Boil for 20-25 minutes potatoes and carrots in salted water. 5. Drain vegetables and mash with a fork, so that the texture remains slightly chunky. 6. Mix with bacon bits, butter, cream, nutmeg, salt, pepper."
+}

@@ -1,0 +1,91 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "dried plums",
+            "quantity": 10.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "dried tomatoes",
+            "quantity": 1.0,
+            "unit": "jar",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "smoked paprika",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "dried coriander",
+            "quantity": null,
+            "unit": "pinch",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "chilli",
+            "quantity": null,
+            "unit": "pinch",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Put plums in hot water from kettle for couple of minutes, in order to make them softer.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "After that put plums (without the water) and rest of the ingredients into blender and mix it until you're satisfied.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "If you want to make it more liquid you can add water from the plums.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Dried tomato & plum bread spread",
+    "date": "2021-03-11",
+    "tags": [
+        "bread",
+        "quick",
+        "snack",
+        "spread",
+        "fasting"
+    ],
+    "introduction": "Quick and simple bread spread.",
+    "ingredients_source_text": "- 10 dried plums - 1 jar of dried tomatoes - 1 tsp of smoked paprika - pinch of dried coriander (optional) - pinch of chilli (optional, if you like it to be spicy)",
+    "directions_source_text": "1. Put plums in hot water from kettle for couple of minutes, in order to make them softer. 2. After that put plums (without the water) and rest of the ingredients into blender and mix it until you're satisfied. 3. If you want to make it more liquid you can add water from the plums."
+}

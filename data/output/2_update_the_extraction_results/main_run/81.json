@@ -1,0 +1,193 @@
+{
+    "serving_size": 13,
+    "preparation_time": null,
+    "cooking_time": 9.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Unsalted butter",
+            "quantity": 115.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Caster sugar",
+            "quantity": 60.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Brown sugar",
+            "quantity": 115.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Egg",
+            "quantity": 55.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Plain flour",
+            "quantity": 153.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Matcha powder",
+            "quantity": 12.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Baking soda",
+            "quantity": 2.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Salt",
+            "quantity": 1.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Vanilla extract",
+            "quantity": 3.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "White coverture chocolate",
+            "quantity": 70.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Macadamia nut",
+            "quantity": 45.0,
+            "unit": "gram",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Melt butter in a bath or microwave.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add white sugar, brown sugar and salt and mix with a whisk.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add egg and vanilla extract and mix with a whisk until well mixed.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add flour, matcha powder and baking soda and mix with a whisk until you can hardly see the powder.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add white coverture chocolate and macadamia and mix evenly with spatula.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Allow 30 minutes to 1 hour in the refrigerator until the dough hardens.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 30.0,
+                    "max": 60.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Pan with a 5cm diameter cookie and bake at 170\u00b0C (338\u00b0F) for 9 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 9.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 170.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Matcha Cookies",
+    "date": "2021-03-11",
+    "tags": [
+        "snack",
+        "cookies",
+        "sweet",
+        "dessert",
+        "cheesefare"
+    ],
+    "introduction": "Matcha is a type of tea leaf powder that has a beautiful vivid green color. However, it\u2019s different from the \u201cgreen tea\u201d that you drink with Japanese meals. That\u2019s green tea too, but matcha green tea leaves are grown and harvested differently. The leaves are grown under shade.",
+    "ingredients_source_text": "(for 13 cookies, 8 ~ 9cm in diameter) - 115g Unsalted butter - 60g Caster sugar - 115g Brown sugar - 55g Egg - 153g Plain flour - 12g Matcha powder - 2g Baking soda - 1g Salt - 3g Vanilla extract - 70g White coverture chocolate - 45g Macadamia nut",
+    "directions_source_text": "1. Melt butter in a bath or microwave. 2. Add white sugar, brown sugar and salt and mix with a whisk 3. Add egg and vanilla extract and mix with a whisk until well mixed. 4. Add flour, matcha powder and baking soda and mix with a whisk until you can hardly see the powder. 5. Add white coverture chocolate and macadamia and mix evenly with spatula. 6. Allow 30 minutes to 1 hour in the refrigerator until the dough hardens. 7. Pan with a 5cm diameter cookie and bake at 170\u00b0C (338\u00b0F) for 9 minutes. (Unox convection oven) * Preheat the oven beforehand. My oven is very hot, so raise the oven temperature a little bit higher if you have common oven. * If you bake too little, it will not be cooked. If you bake too long, it will become hard. * The white coverture chocolate melts smoothly in your mouth, and the white chocolate chip has a more chewy texture. So you can choose anything to your taste."
+}

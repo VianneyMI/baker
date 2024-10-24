@@ -1,0 +1,123 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "sausages",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "bacon rashers",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "wraps",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "milk",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "ketchup",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Begin by cutting the sausages in half and frying them ensuring that they're cooked the whole way through.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Next, fry the bacon.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Next, possibly while the bacon is frying, crack an egg into a bowl, add a dash of milk and whisk it.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Then, put the egg mixture into the microwave for a minute, take it out and whisk it again, do this twice again or until the scrambled egg is ready.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the sausage, bacon and scrambled egg to a wrap (I recommend two sausage halves, a bacon rasher and half the bowl of scrambled egg per wrap). Add ketchup if desired.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Breakfast Wrap",
+    "date": "2021-03-21",
+    "tags": [
+        "breakfast",
+        "quick",
+        "basic",
+        "eggs"
+    ],
+    "introduction": "The basic parts of a full English in a wrap. Inspired by McDonald's breakfast wraps. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 10 min - \ud83c\udf7d\ufe0f Servings: 1 (2 wraps)",
+    "ingredients_source_text": "- 2 sausages - 2 bacon rashers - 1 egg - 2 wraps - milk - ketchup (optional)",
+    "directions_source_text": "1. Begin by cutting the sausages in half and frying them ensuring that they're cooked the whole way through. 2. Next, fry the bacon. 3. Next, possibly while the bacon is frying, crack an egg into a bowl, add a dash of milk and whisk it 4. Then, put the egg mixture into the microwave for a minute, take it out and whisk it again, do this twice again or until the scrambled egg is ready. 5. Add the sausage, bacon and scrambled egg to a wrap (I recommend two sausage halves, a bacon rasher and half the bowl of scrambled egg per wrap). Add ketchup if desired."
+}

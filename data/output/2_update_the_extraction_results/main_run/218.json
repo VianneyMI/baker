@@ -1,0 +1,126 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 60.0,
+        "max": 60.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Butternut Squash",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": 0.5,
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 4,
+            "name": "St. Augur Blue Cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Chives",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel Butternut squash and discard both ends. Cut in half lengthwise, scoop and discard seeds. Cut in half lengthwise again.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Place face down on greased baking sheet. Rotate to roast the other face after 20 minutes, Check at 45 mins with a toothpick for softness.",
+            "duration": {
+                "preparation": null,
+                "cooking": 45.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cut up into 2 inch chunks and toss into stand mixer. Mix on high and add a half stick of butter and salt to taste. Stir in half of the St. Augur blue cheese.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pour into casserole dish. Stir in any extra blue cheese to taste or crumble on top. Lower oven to 300 and bake the mashed squash for 15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 300.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Garnish with chopped chives on top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Savory Squash",
+    "date": "2021-03-21",
+    "tags": [
+        "american",
+        "side",
+        "fruit"
+    ],
+    "introduction": "- Prep Time: 5 mins - Cook Time: 1 Hour",
+    "ingredients_source_text": "- 1 Butternut Squash - 1/2 Stick of butter - Salt, to taste - St. Augur Blue Cheese - Chives",
+    "directions_source_text": "1. Peel Butternut squash and discard both ends. Cut in half lengthwise, scoop and discard seeds. Cut in half lengthwise again. 2. Place face down on greased baking sheet. Rotate to roast the other face after 20 minutes, Check at 45 mins with a toothpick for softness. 3. Cut up into 2 inch chunks and toss into stand mixer. Mix on high and add a half stick of butter and salt to taste. Stir in half of the St. Augur blue cheese. 4. Pour into casserole dish. Stir in any extra blue cheese to taste or crumble on top. Lower oven to 300 and bake the mashed squash for 15 minutes. 5. Garnish with chopped chives on top."
+}

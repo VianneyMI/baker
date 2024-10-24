@@ -1,0 +1,139 @@
+{
+    "serving_size": 16,
+    "preparation_time": {
+        "min": 20.0,
+        "max": null
+    },
+    "cooking_time": {
+        "min": 5.0,
+        "max": 10.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Strawberries",
+            "quantity": 2.0,
+            "unit": "package",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Sugar",
+            "quantity": {
+                "min": 1.0,
+                "max": 1.5
+            },
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Get 3 bowls and a butter knife (if the butter knife has a point, that will work better)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Dump out both packs of strawberries into a sieve or bowl and wash them thoroughly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Remove the stem and leaves/crown of the strawberry. The crown can be peeled by hand, then use the butter knife to cut out the stem.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Large strawberries can be cut in half.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once all of the strawberries are clean, put them in a standard 4 quart (3.8 L) pot. Fill it with water to the brim.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Put the pot to boil. The strawberries will gradually lose their color, which is completely normal.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once it boils, let it cook for 5 mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "After five minutes are over, turn off the heat and incrementally add sugar to your preference. I suggest 1-1.5 cups (237 to 355 grams) of sugar for 4 quarts (3.8 L) of compote. Taste between helpings of sugar to make sure its not oversweetened.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Let the pot cool, then refrigerate. Serve chilled.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Strawberry Compote",
+    "date": "2022-11-16",
+    "tags": [
+        "Russian",
+        "Fruit",
+        "Drink"
+    ],
+    "introduction": "![Strawberry Compote](/pix/glass-of-compote.webp) Strawberry Compote (\u043a\u043b\u0443\u0431\u043d\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043e\u0442) is a chilled sweet drink that is popular in many post-soviet countries. It is similar to strawberry jam or conserves in taste (less sweet/concentrated flavor), but resembles fruit punch in looks and consistency. It is very easy to adjust this recipe and scale it up/down. FYI, I suggest using organic strawberries for this (may be on the expensive side), it makes a world of difference in flavor.  - \u23f2\ufe0f Prep time: ~20 min - \ud83c\udf73 Cook time: 5-10 min - \ud83c\udf7d\ufe0f Servings: 16? (It depends)",
+    "ingredients_source_text": "- Strawberries (two standard packs works best) - Sugar",
+    "directions_source_text": "1. Get 3 bowls and a butter knife (if the butter knife has a point, that will work better) 2. Dump out both packs of strawberries into a sieve or bowl and wash them thoroughly. 3. Remove the stem and leaves/crown of the strawberry. The crown can be peeled by hand, then use the butter knife to cut out the stem. 4. Large strawberries can be cut in half. 5. Once all of the strawberries are clean, put them in a standard 4 quart (3.8 L) pot. Fill it with water to the brim. 6. Put the pot to boil. The strawberries will gradually lose their color, which is completely normal. 7. Once it boils, let it cook for 5 mins. 8. After five minutes are over, turn off the heat and incrementally add sugar to your preference. I suggest 1-1.5 cups (237 to 355 grams) of sugar for 4 quarts (3.8 L) of compote. Taste between helpings of sugar to make sure its not oversweetened. 9. Let the pot cool, then refrigerate. Serve chilled."
+}

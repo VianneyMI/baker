@@ -1,0 +1,154 @@
+{
+    "serving_size": 4,
+    "preparation_time": 180.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Pork chops",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Set honey",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Garlic cloves",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Soy sauce",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Ginger",
+            "quantity": 1.0,
+            "unit": "piece",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Chinese Five Spice",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Fill a shallow dish with soy sauce to about half the thickness of your porkchops. The level shouldn't be able to fully submerge them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix in the honey until fully combined with the soy sauce, then mix in the garlic, ginger and chinese five spice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Place your porkchops in the dish, then flip them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cover the dish with clingfilm, then chill in the fridge for 1h 30mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 90.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Take the dish out of the fridge, flip the porkchops, then recover the dish and chill for a further 1h 30mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 90.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Heat some olive oil in a pan over medium heat, then place your porkchops in the pan and cook for 10-15mins or until cooked through.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Take the porkchops out the pan, then rest for a couple of minutes before slicing and serving.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Sticky Porkchops",
+    "date": "2021-03-12",
+    "tags": [
+        "japanese",
+        "pork",
+        "soup"
+    ],
+    "introduction": "Simple chinese inspired sticky porkchops. - \u23f2\ufe0f Prep time: 3 hours - \ud83c\udf73 Cook time: 10 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 4 Pork chops - 2 heaped tbsp Set honey - 3 Garlic cloves, crushed - Soy sauce - Ginger (thumb sized piece), sliced - 1 tbsp Chinese Five Spice",
+    "directions_source_text": "1. Fill a shallow dish with soy sauce to about half the thickness of your porkchops. The level shouldn't be able to fully submerge them. 2. Mix in the honey until fully combined with the soy sauce, then mix in the garlic, ginger and chinese five spice. 3. Place your porkchops in the dish, then flip them. 4. Cover the dish with clingfilm, then chill in the fridge for 1h 30mins. 5. Take the dish out of the fridge, flip the porkchops, then recover the dish and chill for a further 1h 30mins. 6. Heat some olive oil in a pan over medium heat, then place your porkchops in the pan and cook for 10-15mins or until cooked through. 7. Take the porkchops out the pan, then rest for a couple of minutes before slicing and serving."
+}

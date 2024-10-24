@@ -1,0 +1,190 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "thermometer",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "cheesecloth",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cheese recipient",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "milk",
+            "quantity": 2.0,
+            "unit": "l",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "table salt",
+            "quantity": 25.0,
+            "unit": "gram",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "rennet",
+            "quantity": 2.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "coarse salt",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "oil and vinegar",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Pour the milk and the salt into a pot, stir it well, and heat it up to 35\u00b0C.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 35.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Once the temperature has been reached, add the rennet and stir well. Let it cook until it solidifies (about 1 and a half hours), then cut in 1x1cm squares.",
+            "duration": {
+                "preparation": null,
+                "cooking": 90.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Let it rest for half an hour.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 30.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pour the cheese into the cheesecloth and let it drip until it has completely separated from the liquid part (whey).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Place the cheese into the recipient.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cover both sides of the cheese with coarse salt, repeat this operation twice, waiting 1 hour between two saltings.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Store in the fridge.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Aging (optional): Store the cheese in a chill place (around 12\u00b0C). Every day of aging, flip the cheese upside-down.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": null,
+                "cooling": 12.0
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        },
+        {
+            "number": 9,
+            "description": "For the first two weeks, also cover it with oil and vinegar every day.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Cheese",
+    "date": "2022-04-16",
+    "tags": [
+        "basic",
+        "cheesefare"
+    ],
+    "introduction": "The success of this recipe depends entirely on the quality of the milk. The fresher the milk the better. Your regular UHT milk won't work, because the necessary bacteria have been killed. You do not necessary need cow milk, basically every animal milk will work, but the cheese will have vastly different (not necessarily worse) characteristics.",
+    "ingredients_source_text": "- thermometer - 1 cheesecloth  - 1 cheese recipient - 2l of milk - 25g of table salt (optional with aging) - 2g of rennet - Some coarse salt - Oil and vinegar (for aging)",
+    "directions_source_text": "### Preparation Pour the milk and the salt into a pot, stir it well, and heat it up to 35\u00b0C. Once the temperature has been reached, add the rennet and stir well. Let it cook until it solidifies (about 1 and a half hours), then cut in 1x1cm squares. Let it rest for half an hour. Pour the cheese into the cheesecloth and il drip until it has completely separated from the liquid part (whey). Place the cheese into the recipient. Cover both sides of the cheese with coarse salt, repeat this operation twice, waiting 1 hour between two saltings. Store in the fridge.  ### Aging (optional) Store the cheese in a chill place (around 12\u00b0C). Every day of aging, flip the cheese upside-down. For the first two weeks, also cover it with oil and vinegar every day.  ## Extra: Uses for the whey You might have noticed you've obtained way more whey than cheese, it's normal, so you probably want to use it in some way instead of throwing it away.  If they like acids, you can feed it to your plants: it's pretty much giving them water and fertilizer in one go, you can feed it to your animals, since it's a great source of proteins, it's the prime ingredient of another cheese called \"Ricotta\", it can be used instead of water in sever recipes, and many other: you can even drink it. People have engineered ways to use the whey since the dawn of cheese."
+}

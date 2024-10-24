@@ -1,0 +1,190 @@
+{
+    "serving_size": 10,
+    "preparation_time": 10.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "peels of onions",
+            "quantity": 5.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "eggs",
+            "quantity": 10.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "loorber leaves",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "cloves",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "allspice",
+            "quantity": 4.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "peppercorns",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "caraway seeds",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "mustard seeds",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Szechuan pepper",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "lovage",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "nutmeg",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "vinegar",
+            "quantity": 100.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "cloves of garlic",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Put 750mL of water and the peels of five onions in a pot and let them cook for five minutes. Remove the peels about twenty minutes later.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": 20.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Put the eggs, one teaspoon of sugar, two tablespoons of salt and all spices (but vinegar and garlic) in the pot, bring it to a boil and cook them for seven minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 7.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Use a spoon to remove the eggs from the pot and crack them all around. Do not remove the eggshell!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Place the eggs and the garlic in a jar, fill it with the spiced water and add the vinegar. Add water, if needed, so that the eggs are covered.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Let them rest for at least three days and at most two weeks at room temperature or slightly below.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 4320.0,
+                    "max": 20160.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Soleier (pickled eggs)",
+    "date": "2021-05-13",
+    "tags": [
+        "snack",
+        "german",
+        "eggs",
+        "pub"
+    ],
+    "introduction": "![Soleier](/pix/soleier.webp) Soleier are a german pub dish. They are typically enjoyed between two beers. - \u23f2\ufe0f Preparation time: 10min - \ud83c\udf73 Cook time: 10min - \ud83c\udf7d\ufe0f Servings: 10",
+    "ingredients_source_text": "- peels of five onions - 10 eggs - 2 loorber leaves - 3 cloves - 4 allspice - 1Tbsp peppercorns - 1Tbsp caraway seeds - 1Tbsp mustard seeds - 1tsp of Szechuan pepper (optional) - 1tsp lovage (optional) - 1tsp nutmeg (optional) - 100mL vinegar - 3 cloves of garlic",
+    "directions_source_text": "1. Put 750mL of water and the peels of five onions in a pot and let them cook for five minutes. Remove the peels about twenty minutes later. 2. Put the eggs, one teaspoon of sugar, two tablespoons of salt and all spices (but vinegar and garlic) in the pot, bring it to a boil and cook them for seven minutes. 3. Use a spoon to remove the eggs from the pot and crack them all around. Do not remove the eggshell! 4. Place the eggs and the garlic in a jar, fill it with the spiced water and add the vinegar. Add water, if needed, so that the eggs are covered. 5. Let them rest for at least three days and at most two weeks at room temperature or slightly below. ## Consumption Recommendation 1. Peel the egg and cut it in half. 2. Remove the yolk and fill the egg with mustard, oil, salt and pepper. 3. Place the yolk on top."
+}

@@ -5,6 +5,7 @@ from pydantic import Field
 from baker.schemas.base import BaseBakerModel
 from baker.schemas.ingredient import Ingredient
 from baker.schemas.step import Step
+from baker.schemas.range import Range
 
 
 class ParsedRecipe(BaseBakerModel):
@@ -15,9 +16,9 @@ class ParsedRecipe(BaseBakerModel):
     In particular, the `Ingredient`and `Step`classes highlight numerical values for durations and temperature. 
     """
 
-    serving_size: int = Field(description="The number of servings the recipe makes.")
-    preparation_time: float | None = Field(None, description="The time (in minutes) it takes to prepare the recipe.")
-    cooking_time: float | None = Field(None, description="The time (in minutes) it takes to cook the recipe.")
+    serving_size: int | None = Field(description="The number of servings the recipe makes.")
+    preparation_time: float | Range | None = Field(None, description="The time (in minutes) it takes to prepare the recipe.")
+    cooking_time: float | Range | None = Field(None, description="The time (in minutes) it takes to cook the recipe.")
     ingredients:list[Ingredient] = Field(default_factory=list, description="A list of ingredients used in the recipe.")
     steps:list[Step] = Field(default_factory=list, description="A list of steps to follow to make the recipe.")
 

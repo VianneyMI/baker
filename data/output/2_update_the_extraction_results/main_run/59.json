@@ -1,0 +1,135 @@
+{
+    "serving_size": 2,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Hass avocados",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "medium onion",
+            "quantity": 0.25,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "small tomato",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Cilantro",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "lime",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "totopos",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "black pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut the avocados in half, open them and place the pulp in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mash the avocados, add lime juice, mix and mash some more.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Mince the cilantro, tomato and onion and add them to the avocado mix.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add salt and black pepper to taste and mix thoroughly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8
+            ],
+            "optional": true
+        },
+        {
+            "number": 5,
+            "description": "Enjoy fresh with some totopos! This recipe is best consumed fresh, since the avocado oxidizes pretty fast and might lose its appetizing color and texture in just some hours.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Fresh Guacamole",
+    "date": "2021-03-12",
+    "tags": [
+        "mexican",
+        "spread",
+        "snack",
+        "fasting"
+    ],
+    "introduction": "![Fresh Guacamole](/pix/guacamole.webp) A nice recipe that functions as a delicious and fresh appetizer, best eaten with some totopos corn chips, especially in a hot summer day.",
+    "ingredients_source_text": "Here are the ingredients for about two adult portions: * 2 Hass avocados * 1/4 medium onion * 1 small tomato * Cilantro * 1 lime And of course, some totopos to eat with.",
+    "directions_source_text": "1. Cut the avocados in half, open them and place the pulp in a bowl. 2. Mash the avocados, add lime juice, mix and mash some more. 3. Mince the cilantro, tomato and onion and add them to the avocado mix. 4. Add salt and black pepper to taste and mix thoroughly. 5. Enjoy fresh with some totopos! This recipe is best consumed fresh, since the avocado oxidizes pretty fast and might lose its appetizing color and texture in just some hours."
+}

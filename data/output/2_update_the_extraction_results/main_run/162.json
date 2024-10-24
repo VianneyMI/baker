@@ -1,0 +1,237 @@
+{
+    "serving_size": null,
+    "preparation_time": 15.0,
+    "cooking_time": 50.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "penne rigate",
+            "quantity": 600.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "salted water",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "large onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "lean ground beef",
+            "quantity": 700.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "ground allspice",
+            "quantity": 0.5,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "ground cinnamon",
+            "quantity": 0.5,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "ground clove",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "tomato paste",
+            "quantity": 340.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "butter",
+            "quantity": 226.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "flour",
+            "quantity": 226.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "cold milk",
+            "quantity": 1.0,
+            "unit": "liter",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "chicken stock",
+            "quantity": 237.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "freshly grated nutmeg",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 14,
+            "name": "grated cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 190\u00b0C",
+            "duration": null,
+            "temperature": {
+                "preheat": 190.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a large pot of salted water, cook the pasta per package directions. Drain and set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cook onion in a bit of oil until soft. Add meat and cook until browned, breaking meat into small pieces.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Drain any excess grease and add spices. Stir together and cook ~30 seconds.",
+            "duration": {
+                "preparation": null,
+                "cooking": 0.5,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Mix tomato paste with enough water to create a viscous tomato sauce. Add sauce to meat and simmer 2-3 minutes before setting aside.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "In a saucepan melt the butter and add the flour. Cook 2-3 mins until no longer starchy, whisking frequently. Add milk gradually and whisk continuously. Add stock and cook until sauce is thickened. Add nutmeg and season to taste.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add thin b\u00e9chamel layer to bottom of casserole dish and assemble as follows: half pasta, all the meat sauce, 2nd half of pasta, rest of b\u00e9chamel and cheese.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Bake covered for 45 minutes, removing lid last 5-10 minutes to brown top. Let cool 15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 45.0,
+                "waiting": 15.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Past\u00edtsio",
+    "date": "2022-06-17",
+    "tags": [
+        "greek",
+        "mediterranean",
+        "pasta",
+        "supper"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 50 min - \ud83c\udf7d\ufe0f Servings: 6-8",
+    "ingredients_source_text": "### Pasta layer - 600g penne rigate - salted water ### Meat layer - 1 large onion, finely diced - 700g lean ground beef - .5 TB ground allspice - .5 TB ground cinnamon - .25 TSP ground clove (optional) - 340g tomato paste ### B\u00e9chamel layer - 226g butter - 226g flour - 1L cold milk - 237ml chicken stock - freshly grated nutmeg (optional) - grated cheese (optional)",
+    "directions_source_text": "1. Preheat oven to 190\u00b0C 2. In a large pot of salted water, cook the pasta per package directions. Drain and set aside. 3. Cook onion in a bit of oil until soft. Add meat and cook until browned, breaking meat into small pieces. 4. Drain any excess grease and add spices. Stir together and cook ~30 seconds. 5. Mix tomato paste with enough water to create a viscous tomato sauce. Add sauce to meat and simmer 2-3 minutes before setting aside. 6. In a saucepan melt the butter and add the flour. Cook 2-3 mins until no longer starchy, whisking frequently. Add milk gradually and whisk continuously. Add stock and cook until sauce is thickened. Add nutmeg and season to taste. 7. Add thin b\u00e9chamel layer to bottom of casserole dish and assemble as follows: half pasta, all the meat sauce, 2nd half of pasta, rest of b\u00e9chamel and cheese. 8. Bake covered for 45 minutes, removing lid last 5-10 minutes to brown top. Let cool 15 minutes."
+}

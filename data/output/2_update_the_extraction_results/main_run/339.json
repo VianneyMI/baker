@@ -1,0 +1,234 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "large onion",
+            "quantity": 1.0,
+            "unit": "piece",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "garlic",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "kidney beans",
+            "quantity": 4.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "tomato sauce",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "diced tomatoes",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "sweet corn",
+            "quantity": 0.5,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "cooked white or brown rice",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "cumin",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "smoked paprika",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "garlic powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "onion powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "chili powder",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "crushed red pepper",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "olive oil",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop the large onion and mince the garlic cloves.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "On medium-low heat in a large tall pot add 2-3 tbsp olive oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-low",
+            "ingredients_ids": [
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 10.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 1.0,
+                    "max": 2.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Turn up the heat to medium.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add each of the spices, taste the chili, and adjust flavoring accordingly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Let cook for 20-30 minutes, stirring occasionally. Let cool for a few minutes and then serve in bowls.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 20.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Lenten Chili",
+    "date": "2021-03-18",
+    "tags": [
+        "fasting"
+    ],
+    "introduction": "![Lenten chili](/pix/lenten-chili.webp)  - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1 large onion, chopped - 3 cloves garlic, minced - 4 15oz cans of kidney beans (or 6 cups cooked beans) - 1 29oz large can tomato sauce (or 4 cups fresh tomato sauce) - 1 15oz can diced tomatoes (or 1 large diced tomato with skin removed) - 1/2 can of sweet corn - 1 cup cooked white or brown rice - 1 tsp cumin - 1 tsp smoked paprika - 1 tsp garlic powder - 1 tsp onion powder - 1 tbsp chili powder - 1 tbsp crushed red pepper - 2-3 tbsp olive oil",
+    "directions_source_text": "1. Chop the large onion and mince the garlic cloves. 2. On medium-low heat in a large tall pot add 2-3 tbsp olive oil. 3. Add the chopped onions into the pot with oil and constantly stir for 5-10 minutes until they begin to brown. 4. Just before onions are done add the minced garlic to the pot and let cook for 1-2 minutes. 5. Add the tomato sauce, diced tomatoes, sweet corn, beans, and rice. 6. Turn up the heat to medium. 6. Add each of the spices, taste the chili, and adjust flavoring accordingly. 7. Let cook for 20-30 minutes, stirring occasionally. Let cool for a few minutes and then serve in bowls."
+}

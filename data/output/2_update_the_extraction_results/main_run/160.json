@@ -1,0 +1,107 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 420.0,
+        "max": 1440.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "flour",
+            "quantity": 200.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "instant yeast (dry)",
+            "quantity": 2.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "salt",
+            "quantity": 5.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": 5.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "luke warm water",
+            "quantity": 140.0,
+            "unit": "gram",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix dry ingredients in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix in olive oil and water. No need for hands or kneading!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cover bowl air tight, and let it sit in room temperature for at least 7 hours, and up to 24 hours. It should have dramatically increased in size.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 420.0,
+                    "max": 1440.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "The dough can be kept in the refrigerator for some days, so feel free to double/triple the ingredients for more pizzas for the same amount of work and time.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "No-knead pizza dough",
+    "date": "2021-03-21",
+    "tags": [
+        "basic",
+        "pizza",
+        "dough"
+    ],
+    "introduction": "Perfect for pan pizza in an 11 inch iron skillet. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 7-24 hours - \ud83c\udf7d\ufe0f Servings: 1 pizza",
+    "ingredients_source_text": "- 200g flour - 2g instant yeast (dry) - 5g salt - 5g olive oil - 140g luke warm water",
+    "directions_source_text": "1. Mix dry ingredients in a bowl. 2. Mix in olive oil and water. No need for hands or kneading! 3. Cover bowl air tight, and let it sit in room temperature for at least 7 hours, and up to 24 hours. It should have dramatically increased in size. 4. The dough can be kept in the refrigerator for some days, so feel free to double/triple the ingredients for more pizzas for the same amount of work and time."
+}

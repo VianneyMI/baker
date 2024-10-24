@@ -1,0 +1,156 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "sirloin steaks",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "garlic",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "medium fat milk",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "beer",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "mustard",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "flour",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "eggs",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Season the steaks with sliced garlic and salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a frying pan, bring the steaks to the boil in abundant olive oil (to make the sauce later) and let it fry. Season with salt only when you are frying them. Remove and set aside in a dish covered with aluminum foil to keep them warm.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "In a low heat add to the sauce of the steaks, a little more butter or margarine and let it melt. Then add the milk and let it boil a little.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Then add the beer, the mustard and the flour dissolved in a little water or milk and stir it well. Add to this sauce the sauce that was formed in the dish of the steaks. Add a little pepper, and stir until it always thickens over a low heat. Rectify the seasonings.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When the sauce is ready, place the reserved steaks again in the skillet for a few more minutes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Fry the eggs (use a non-stick frying pan that doesn't require any fat) and season the egg white with salt and the yolk with black pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Place the steaks with the sauce and the egg on top in clay bowls and serve with french fries, white rice and salad.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Bitoque - Portuguese Steak with Beer Sauce",
+    "date": "2021-03-10",
+    "tags": [
+        "portuguese",
+        "beef"
+    ],
+    "introduction": "Bitoque (pronounced bee-tok) is a traditional quintessential Portuguese dish, its name comes from being cooked in wood burning ovens in the oil mills. Good in combination with red wine, beer sauce that I am going to also provide the ingredients and directions on how to do, [rice](/rice), french fries and a salad.",
+    "ingredients_source_text": "- sirloin steaks - garlic - olive oil q.b. (quanto basta \u2013 \u2018enough\u2019) - medium fat milk - beer - mustard - flour - eggs",
+    "directions_source_text": "1. Season the steaks with sliced garlic and salt. 2. In a frying pan, bring the steaks to the boil in abundant olive oil (to make the sauce later) and let it fry. Season with salt only when you are frying them. Remove and set aside in a dish covered with aluminum foil to keep them warm. 3. In a low heat add to the sauce of the steaks, a little more butter or margarine and let it melt. Then add the milk and let it boil a little. 4. Then add the beer, the mustard and the flour dissolved in a little water or milk and stir it well. Add to this sauce the sauce that was formed in the dish of the steaks. Add a little pepper, and stir until it always thickens over a low heat. Rectify the seasonings. 5. When the sauce is ready, place the reserved steaks again in the skillet for a few more minutes. 6. Fry the eggs (use a non-stick frying pan that doesn't require any fat) and season the egg white with salt and the yolk with black pepper. 7. Place the steaks with the sauce and the egg on top in clay bowls and serve with french fries, white rice and salad."
+}

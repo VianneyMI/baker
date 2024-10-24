@@ -1,0 +1,219 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "coriander",
+            "quantity": 1.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "cumin",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "turmeric",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "ground fennel seeds",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "cinnamon",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "black pepper",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "ginger",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "mustard",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "ground cloves",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "sriracha sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "butter",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "garlic",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "chicken broth",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "crushed or pureed tomatoes",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "boneless skinless chicken breasts",
+            "quantity": 1.5,
+            "unit": "pound",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mince the garlic and dice the onion.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Saute onion and garlic with the butter in a pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14,
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cut the chicken breasts into bite-sized cubes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the chicken and the spices.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Once the pot reaches a boil, reduce heat and let simmer for 30 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Simple Chicken Curry",
+    "date": "2021-03-21",
+    "tags": [
+        "chicken",
+        "curry",
+        "stew"
+    ],
+    "introduction": "An easy chicken curry recipe which scales very well (double it, triple it, etc.). Best served with rice. Servings: 3-4",
+    "ingredients_source_text": "Spices - 1 \u00bd tsp Coriander - 1 tsp Cumin - \u00bd tsp Turmeric - \u00bd tsp Ground Fennel Seeds - \u00bd tsp Cinnamon - \u00bd tsp Black Pepper - \u00bd tsp Ginger - \u00bc tsp Mustard - \u00bc tsp Ground Cloves - Sriracha Sauce (optional) Main Ingredients - \u00bc cup (\u00bd stick) Butter - 1 large Onion - 4 cloves Garlic - 2-3 cups Chicken Broth - 2-3 cups Crushed or Pureed Tomatoes - 1 \u00bd lbs Boneless Skinless Chicken Breasts",
+    "directions_source_text": "1. Mince the garlic and dice the onion. 2. Saute onion and garlic with the butter in a pot. 3. Once the onion is just beginning to brown, pour in the chicken broth and tomato and raise heat to high. 4. Cut the chicken breasts into bite-sized cubes. 5. Add the chicken and the spices. 6. Once the pot reaches a boil, reduce heat and let simmer for 30 minutes."
+}

@@ -1,0 +1,100 @@
+{
+    "serving_size": null,
+    "preparation_time": {
+        "min": 5.0,
+        "max": 5.0
+    },
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Wheat or rye flour",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Water",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Day 1: mix 80g of water to 50g of flour and put a cover on the container loosely. Store somewhere warm.",
+            "duration": {
+                "preparation": 5.0,
+                "cooking": null,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Day 2: the starter should be a bit bubbly. Feed the starter with 80g of water and 50g of flour and store again with loosely covered. If the starter doesn't have bubbles yet, wait another day.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Day 3-4: repeat the feeding process",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "You can now use the starter for baking sourdough bread. Remember to not use all the starter at once and feed the remaining starter to always have it available.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Storing the starter: store the starter in a closed container or jar in the fridge. The starter will survive almost indefinitely. After some time a vinegarish liquid forms on top of the starter. Don't be afraid of this, it is there to protect the starter from microbes. It can be poured away when you use the starter next time.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "When using the starter after long storage you need to activate it again. Feed it 1-2 times and see if bubbles form. You can also test the activity by placing small part into a glass of water. An active starter will float.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Sourdough starter",
+    "date": "2021-03-23",
+    "tags": [
+        "bread",
+        "sourdough",
+        "basic"
+    ],
+    "introduction": "This recipe contains instructions for sourdough starter needed for all sourdough breads. The starter can be done with either wheat flour or rye flour for rye breads. Prefer organic flours as they contain most wild yeasts. - \u23f2\ufe0f Prep time: 5 min/day - \u23f2\ufe0f Wait time: 4 days",
+    "ingredients_source_text": "- Wheat or rye flour - Water",
+    "directions_source_text": "1. Day 1: mix 80g of water to 50g of flour and put a cover on the container loosely. Store somewhere warm. 2. Day 2: the starter should be a bit bubbly. Feed the starter with 80g of water and 50g of flour and store again with loosely covered. If the starter doesn't have bubbles yet, wait another day. 3. Day 3-4: repeat the feeding process 4. You can now use the starter for baking sourdough bread. Remember to not use all the starter at once and feed the remaining starter to always have it available. 5. Storing the starter: store the starter in a closed container or jar in the fridge. The starter will survive almost indefinitely. After some time a vinegarish liquid forms on top of the starter. Don't be afraid of this, it is there to protect the starter from microbes. It can be poured away when you use the starter next time. 6. When using the starter after long storage you need to activate it again. Feed it 1-2 times and see if bubbles form. You can also test the activity by placing small part into a glass of water. An active starter will float."
+}

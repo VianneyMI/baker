@@ -33,7 +33,7 @@ class Step(BaseBakerModel):
     )
     duration: Duration | None = Field(None, description="The duration of the step broken down by broad category of cooking action.")
     temperature: Temperature|None = Field(None, description="The temperature of the step broken down by broad category of cooking action.")
-    heat_intensity : Intensity | None = Field(None, description="The heat intensity of the step")
+    heat_intensity : Intensity | str | None = Field(None, description="The heat intensity of the step")
     ingredients_ids: list[int] = Field(
         [],
         description="The list of ingredient ids used in the step",

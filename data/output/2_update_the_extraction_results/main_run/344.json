@@ -1,0 +1,104 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Ketchup",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Mayonnaise",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Horseradish",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Worchestershire sauce",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Paprika",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Dijon mustard",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Onion powder",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Pickle relish",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Put ingredients into bowl or cup.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix together thoroughly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Russian 1000 Islands Sauce",
+    "date": "2021-03-19",
+    "tags": [
+        "basic",
+        "spread",
+        "quick",
+        "russian",
+        "sauce"
+    ],
+    "introduction": "A tasty sauce that goes well with salads or rice. Recipe taken from a Russian monastery.",
+    "ingredients_source_text": "- Ketchup (Sir Kensington's recommended) - Mayonnaise - Horseradish - Worchestershire sauce - Paprika - Dijon mustard - Onion powder - Pickle relish (optional)",
+    "directions_source_text": "1. Put ingredients into bowl or cup. 2. Mix together thoroughly."
+}

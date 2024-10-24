@@ -1,0 +1,133 @@
+{
+    "serving_size": 4,
+    "preparation_time": null,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "spaghetti",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "extra virgin olive oil",
+            "quantity": 110.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "garlic",
+            "quantity": {
+                "min": 5.0,
+                "max": 6.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "red pepper flakes",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "fresh parsley",
+            "quantity": 1.0,
+            "unit": "bunch",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat a large skillet on medium-high heat, start cooking the pasta.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Finely slice or mince the garlic and finely chop the parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the oil and garlic to the skillet and gently cook it until it's lightly golden brown.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the red pepper flakes to the skillet and turn down the heat to let its flavor infuse the oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When the pasta has finished cooking, drain it, and reserve at least around a cup of the cooking water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Now add the drained pasta with some of the cooking water to the skillet and toss vigorously. The starch in the pasta water will help the sauce emulsify and get it to the right consistency.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "At the very last second add the parsley, to preserve its freshness. Adjust the seasoning to taste if necessary.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Spaghetti aglio e olio",
+    "date": "2021-03-21",
+    "tags": [
+        "italian",
+        "pasta"
+    ],
+    "introduction": "Aglio e olio, pasta with garlic and olive oil, is one of the simplest yet greatest pasta dishes of all time. It's quick, easy, and uses a lot of basic pantry ingredients which makes this a convenient weeknight meal. - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1 pound (500g) spaghetti (or similarly shaped pasta) - 1/2 cup (110g) extra virgin olive oil - 5-6 cloves of garlic - 1/4 tsp red pepper flakes - A bunch of fresh parsley",
+    "directions_source_text": "1. Heat a large skillet on medium-high heat, start [cooking the pasta](/pasta). 2. Finely slice or mince the garlic and finely chop the parsley. 3. Add the oil and garlic to the skillet and gently cook it until it's lightly golden brown. 4. Add the red pepper flakes to the skillet and turn down the heat to let its flavor infuse the oil. 5. When the pasta has finished cooking, drain it, and reserve at least around a cup of the cooking water. 6. Now add the drained pasta with some of the cooking water to the skillet and toss vigorously. The starch in the pasta water will help the sauce emulsify and get it to the right consistency. 7. At the very last second add the parsley, to preserve its freshness. Adjust the seasoning to taste if necessary."
+}

@@ -1,0 +1,112 @@
+{
+    "serving_size": 2,
+    "preparation_time": 10.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Chicken Breasts",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Mayonnaise",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Panko Breadcrumbs",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Cheddar Cheese, shredded",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Smoked Paprika-Garlic Blend",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Combine panko, cheese, and smoked paprika-garlic blend in a shallow dish. Preheat oven to 425F.",
+            "duration": null,
+            "temperature": {
+                "preheat": 425.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Pat chicken dry with paper towel. Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end. Open up chicken like a book, and season both sides with salt and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Coat one side of each chicken breast with mayo. Firmly press mayo-coated side into panko mixture to adhere, one at a time.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Transfer chicken to a parchment-lined baking sheet, coated-side up. Bake chicken on the middle oven rack until cooked through (18-20 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 18.0,
+                    "max": 20.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Cheddar-Crusted Chicken",
+    "date": "2022-08-09",
+    "tags": [
+        "chicken"
+    ],
+    "introduction": "Suggested sides: Roasted green beans as well as sweet potatoes mashed with sour cream and butter - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 2 Chicken Breasts - 2 Tbsp Mayonnaise - 1/4 cup Panko Breadcrumbs - 1/4 cup Cheddar Cheese, shredded - 1 Tbsp Smoked Paprika-Garlic Blend",
+    "directions_source_text": "1. Combine panko, cheese, and smoked paprika-garlic blend in a shallow dish. Preheat oven to 425F. 2. Pat chicken dry with paper towel. Carefully slice into the centre of each chicken breast lengthwise and parallel to the cutting board - leaving 1/2 inch intact on the other end. Open up chicken like a book, and season both sides with salt and pepper. 3. Coat one side of each chicken breast with mayo. Firmly press mayo-coated side into panko mixture to adhere, one at a time. 4. Transfer chicken to a parchment-lined baking sheet, coated-side up. Bake chicken on the middle oven rack until cooked through (18-20 mins)."
+}

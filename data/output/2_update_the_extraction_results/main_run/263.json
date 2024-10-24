@@ -1,0 +1,119 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "San Marzano tomatoes",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onion",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "garlic",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "oregano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "basil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat up olive oil on saucepan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add and roast either diced or grated onion or crushed and sliced garlic until translucent.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add San Marzano tomatoes, include the liquids from the can if possible.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Simmer contents of the pan and crush the tomatoes on the pan with your instrument of choice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Additionally add desired herbs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Pasta sauce",
+    "date": "2021-03-10",
+    "tags": [
+        "italian",
+        "basic",
+        "sauce",
+        "fasting"
+    ],
+    "introduction": "This is very simple pasta sauce. Unlike modern store-bought sauces, there is no added sugar, only the subtle taste of San Marzano tomatoes.",
+    "ingredients_source_text": "- a can of San Marzano tomatoes (or home-grown with some extra pulp) - onion or garlic - olive oil - oregano or basil (Dried or diced)",
+    "directions_source_text": "1. Heat up olive oil on saucepan. 2. Add and roast either diced or grated onion or crushed and sliced garlic until translucent. 3. Add San Marzano tomatoes, include the liquids from the can if possible. 4. Simmer contents of the pan and crush the tomatoes on the pan with your instrument of choice. 5. Additionally add desired herbs."
+}

@@ -1,0 +1,203 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 150.0,
+        "max": 180.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Lamb shoulder",
+            "quantity": 1.5,
+            "unit": "kilogram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "garlic",
+            "quantity": 1.0,
+            "unit": "head",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "carrot",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "leek",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "lemon",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "oregano",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "rosemary",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "potato",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "yoghurt",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "fresh bread",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix up some olive oil, the juice of half a lemon, the oregano, the rosemary, and some salt and pepper. Rub this mixture into the meat and leave it in the fridge overnight to marinate.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 720.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Heat the oven to 375\u00b0F/190\u00b0C/gas mark 5.",
+            "duration": null,
+            "temperature": {
+                "preheat": 190.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Break apart the garlic. You can leave the skin on the cloves, or you can peel them, as you prefer. Chop the carrots, leek, onion, the remaining lemon, and the potatoes into chunks.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Arrange the meat in the pot with the vegetables underneath and around it. Pour in any marinating juices, as well as a cup of water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Cook for 2\u00bd \u2013 3 hours. Half way through it's a good idea to check and see if it needs some more water to keep things from burning.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 150.0,
+                    "max": 180.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Remove the lid and let the meat brown for a few minutes if you think it needs it.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Pull the meat apart and serve, with yoghurt and fresh bread. You can use the juices as a gravy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                10,
+                11
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Slow-cooked Lamb with Lemon",
+    "date": "2022-04-16",
+    "tags": [
+        "lamb",
+        "roast",
+        "lemons",
+        "mediterranean"
+    ],
+    "introduction": "![Slow-cooked Lamb with Lemon](/pix/slow-cooked-lamb-with-lemon.webp) You'll need a good-sized lidded pot that can go in the oven for this. But if you don't have that then you can use a large roasting tray with sides and cover it with foil, sealing it as best you can. It's an excellent celebration or Sunday meal.",
+    "ingredients_source_text": "- Lamb shoulder, or something similar, like lamb shank, preferably on the bone. Get something that will fit in your pot, with room for vegetables around it. For example, I usually get half a shoulder, 2 \u2013 3 lbs, 1 \u2013 1.5kg. - a whole head of garlic - 2 carrots - 1 leek - 1 onion - 2 lemons - oregano - rosemary - potatoes (optional) - yoghurt (optional, to serve) - fresh bread (optional, to serve)",
+    "directions_source_text": "1. _On the night before:_ Mix up some olive oil, the juice of half a lemon, the oregano, the rosemary, and some salt and pepper. Rub this mixture into the meat and leave it in the fridge overnight to marinate. 2. _The next day:_ Heat the oven to 375\u00b0F/190\u00b0C/gas mark 5. 3. Break apart the garlic. You can leave the skin on the cloves, or you can peel them, as you prefer. Chop the carrots, leek, onion, the remaining lemon, and the potatoes into chunks. 4. Arrange the meat in the pot with the vegetables underneath and around it. Pour in any marinating juices, as well as a cup of water. 5. Cook for 2\u00bd \u2013 3 hours. Half way through it's a good idea to check and see if it needs some more water to keep things from burning. 6. Remove the lid and let the meat brown for a few minutes if you think it needs it. 7. Pull the meat apart and serve, with yoghurt and fresh bread. You can use the juices as a gravy."
+}

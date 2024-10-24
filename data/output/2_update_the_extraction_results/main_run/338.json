@@ -1,0 +1,144 @@
+{
+    "serving_size": 2,
+    "preparation_time": 15.0,
+    "cooking_time": 80.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "unsalted butter",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "large leeks",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "chicken or veggie stock",
+            "quantity": 1.0,
+            "unit": "quart",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "waxy potatoes",
+            "quantity": 11.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "bay leaf",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "heavy cream",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "white pepper",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "ground nutmeg",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "dill weed",
+            "quantity": 0.5,
+            "unit": "tablespoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop the white to light-green part of the leek into moderately sized pieces and discard the dark-green ends.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Melt the butter in a pot on medium-low heat, add chopped leeks and potatoes. Stir until leeks are sweat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-low",
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add stock, bay leaf, pepper and optional ingredients now. Raise heat to medium-high, simmer until potatoes are tender.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                3,
+                5,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "After removing the pot from the heat, remove the bay leaf and immersion blend pot until you reach a desired consistency.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Stir in heavy cream and salt to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Potato Leek Soup",
+    "date": "2021-03-18",
+    "tags": [
+        "potato",
+        "soup",
+        "vegetables",
+        "cheesefare"
+    ],
+    "introduction": "![potato leek soup](/pix/potato-leek-soup.webp) - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 1 hour 20 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 3 tablespoons unsalted butter - 2 large leeks - 1 quart chicken or veggie stock - 11 ounces peeled and sliced waxy potatoes - 1 bay leaf - \u00be cup heavy cream - white pepper - (optional) \u00bd teaspoon ground nutmeg - (optional) \u00bd tablespoon dill weed",
+    "directions_source_text": "1. Chop the white to light-green part of the leek into moderately sized pieces and discard the dark-green ends. 2. Melt the butter in a pot on medium-low heat, add chopped leeks and potatoes. Stir until leeks are sweat. 3. Add stock, bay leaf, pepper and optional ingredients now. Raise heat to medium-high, simmer until potatoes are tender. 4. After removing the pot from the heat, remove the bay leaf and immersion blend pot until you reach a desired consistency. 5. Stir in heavy cream and salt to taste."
+}

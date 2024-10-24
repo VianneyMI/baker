@@ -1,0 +1,231 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 120.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Garlic",
+            "quantity": {
+                "min": 4.0,
+                "max": 8.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Spring Onions",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Cardamom Seeds",
+            "quantity": {
+                "min": 10.0,
+                "max": null
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Star Anise",
+            "quantity": {
+                "min": 4.0,
+                "max": 5.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Ginger",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Cinnamon Sticks",
+            "quantity": {
+                "min": 3.0,
+                "max": 5.0
+            },
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Diced Beef",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Beef Bones with marrow",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Beef bouillon cubes",
+            "quantity": {
+                "min": 1.0,
+                "max": 3.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Coriander",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "Lime",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "Fish/Oyster Sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Honey or Brown Sugar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Rice noodles",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat your oven and place the spices (garlic, cardamom seeds, cinnamon sticks, star anise and ginger) on a tray and bake them until browned or decently toasted.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Boil bones until you remove most of the scum, and transfer the spices from the oven into the pot. Life will be easier if you can place the spices in a tea strainer of sorts, otherwise, it's not the worst thing in the world fishing them out later on.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                1,
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add beef bouillon cubes, diced beef, fish/oyster sauce, and honey/sugar, then simmer for a couple hours with the lid on.",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                7,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cook the rice noodles (should only take a few minutes, just until the texture is al dente enough).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once the broth is done cooking, fish out the spices that you added at step 2. It's worth doing this rather than accidentally chewing on a bit of star anise, trust me.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cut up coriander and spring onions as garnish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                10
+            ],
+            "optional": true
+        },
+        {
+            "number": 7,
+            "description": "Add rice noodles to bowl, followed by the broth and its contents, followed by the garnish. This can be made and eaten within 1 hour if you want it quickly, but typically with broths the longer you simmer the tastier it'll be.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14,
+                2,
+                10
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Pho Soup",
+    "date": "2021-03-23",
+    "tags": [
+        "vietnamese",
+        "beef"
+    ],
+    "introduction": "![Based Beef Pho](/pix/pho-soup.webp) Vietnamese Pho Soup is a tea-like, beef based soup with a flavor profile that differentiates it from the traditional Western palette. This recipe is designed to be as easy to make as possible, while simultaneously being as based as possible. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 2 hours - \ud83c\udf7d\ufe0f Servings:4",
+    "ingredients_source_text": "- Garlic (4-8 large cloves) - Spring Onions - Cardamom Seeds (10 or so) - Star Anise (4-5) - Ginger - Cinnamon Sticks (3-5 sticks) - Diced Beef (300g) - Beef Bones with marrow (3x) - Beef bouillon cubes (1-3) - Coriander (to taste) - 1 Lime (to taste) - Fish/Oyster Sauce - Honey or Brown Sugar - Rice noodles",
+    "directions_source_text": "1. Heat your oven and place the spices (garlic, cardamom seeds, cinnamon sticks, star anise and ginger) on a tray and bake them until browned or decently toasted. 2. Boil bones until you remove most of the scum, and transfer the spices from the oven into the pot. Life will be easier if you can place the spices in a tea strainer of sorts, otherwise, it's not the worst thing in the world fishing them out later on. 3. Add beef bouillon cubes, diced beef, fish/oyster sauce, and honey/sugar, then simmer for a couple hours with the lid on. 4. Cook the rice noodles (should only take a few minutes, just until the texture is al dente enough). 5. Once the broth is done cooking, fish out the spices that you added at step 2. It's worth doing this rather than accidentally chewing on a bit of star anise, trust me. 6. Cut up coriander and spring onions as garnish. 7. Add rice noodles to bowl, followed by the broth and its contents, followed by the garnish. This can be made and eaten within 1 hour if you want it quickly, but typically with broths the longer you simmer the tastier it'll be."
+}

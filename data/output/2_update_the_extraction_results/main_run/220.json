@@ -1,0 +1,113 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 30.0,
+        "max": 40.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "oranges",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "lemon",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sugar",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Zest all fruit.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Peel off the albedo (the white part under the skin).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Blend the fruit (not too much, it doesn't need to become an even mush, just cut up into small pieces).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Combine the blended fruit, zest, and sugar in a pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Bring to boil and boil for 30-40 minutes on low heat. The mixture will thicken as water evaporates. Note that it will thicken even further once it cools, so don't boil for too long - it is expected to be still a little runny at the end of boiling.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 30.0,
+                    "max": 40.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Orange jam",
+    "date": "2021-04-06",
+    "tags": [
+        "jam",
+        "fruit",
+        "sweet",
+        "spread"
+    ],
+    "introduction": "This jam is a traditional topping for the Polish [mazurek](/mazurek), but can be used as a generic sweet spread.",
+    "ingredients_source_text": "* 4 medium sized oranges * 1 lemon * 1 1/2 cup sugar",
+    "directions_source_text": "1. Zest all fruit. 2. Peel off the albedo (the white part under the skin). 3. Blend the fruit (not too much, it doesn't need to become an even mush, just   cut up into small pieces). 4. Combine the blended fruit, zest, and sugar in a pot. 5. Bring to boil and boil for 30-40 minutes on low heat. The mixture will   thicken as water evaporates. Note that it will thicken even further once it   cools, so don't boil for too long - it is expected to be still a little runny   at the end of boiling."
+}

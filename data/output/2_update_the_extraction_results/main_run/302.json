@@ -1,0 +1,138 @@
+{
+    "serving_size": 2,
+    "preparation_time": 5.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Cannellini beans",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "minced garlic",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onion",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "smoked paprika",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "ground cumin",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "diced tomatoes",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "parsley flakes",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Prosciutto",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Arugula",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Saut\u00e9 garlic and onions in olive oil until onions are translucent.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add diced tomatoes, seasonings, and salt and pepper to taste. Simmer for 3 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 3.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the beans, season to taste, mix until combined, and simmer for an additional 2 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Serve over arugula and top with bits of prosciutto.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Cannellini Bean Salad",
+    "date": "2021-03-17",
+    "tags": [
+        "beans",
+        "italian",
+        "salad"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 10 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 1 can Cannellini beans, drained and rinsed - 2 tbsp minced garlic - 1/2 onion - 1 tsp smoked paprika - 1/2 tsp ground cumin - 1 15 oz can diced tomatoes - 1 tbsp parsley flakes - Prosciutto - Arugula",
+    "directions_source_text": "1. Saut\u00e9 garlic and onions in olive oil until onions are translucent. 2. Add diced tomatoes, seasonings, and salt and pepper to taste. Simmer for 3 minutes. 3. Add the beans, season to taste, mix until combined, and simmer for an additional 2 minutes. 4. Serve over arugula and top with bits of prosciutto."
+}

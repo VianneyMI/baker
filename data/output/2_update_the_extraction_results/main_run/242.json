@@ -1,0 +1,207 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Wholemeal Wheat Flour Pizza Dough",
+            "quantity": 1.0,
+            "unit": "serving",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Easy Pizza Sauce",
+            "quantity": 1.0,
+            "unit": "serving",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "mozzarella cheese",
+            "quantity": 80.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Edam cheese",
+            "quantity": 40.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Tilsitter cheese",
+            "quantity": 40.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "salami",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "ham",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "salsiccia",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "aubergine",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "zucchini",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "mushrooms",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "olives",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 13,
+            "name": "arugula salad",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 14,
+            "name": "fresh basil leaves",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cover a baking tray fully with a thin layer of olive oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Roll out the dough until it barely fits in the baking tray and place it in there.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Spread the sauce on the pizza.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add any ingredients you want to add on top of the sauce (cheese last).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Bake the pizza for 10 minutes in the oven at 250\u00b0C.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 250.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add any fresh ingredients now.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                13,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Cut into slices and serve.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Wholemeal Pizza",
+    "date": "2022-07-15",
+    "tags": [
+        "wholemeal",
+        "pizza",
+        "italian"
+    ],
+    "introduction": "![Wholemeal-Pizza](/pix/wholemeal-pizza.webp) This is a recipe combining two others and adding stuff on top. This is more of an example of possible ingredients, you can replace any of them with others. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 10 min - \ud83c\udf7d\ufe0f Servings: 1",
+    "ingredients_source_text": "- 1 serving [Wholemeal Wheat Flour Pizza Dough](/wholemeal-wheat-flour-pizza-dough) - 1 serving [Easy Pizza Sauce](/easy-pizza-sauce) - ~80g mozzarella cheese - ~40g Edam cheese - ~40g Tilsitter cheese - salami (optional) - ham (optional) - salsiccia (optional) - aubergine (optional) - zucchini (optional) - mushrooms (optional) - olives (optional) - arugula salad (add after pizza is done) (optional) - fresh basil leaves (add after pizza is done) (optional)",
+    "directions_source_text": "1. Cover a baking tray fully with a thin layer of olive oil. 2. Roll out the dough until it barely fits in the baking tray and place it in there. 3. Spread the sauce on the pizza. 4. Add any ingredients you want to add on top of the sauce (cheese last). 5. Bake the pizza for 10 minutes in the oven at 250\u00b0C. 6. Add any fresh ingredients now. 7. Cut into slices and serve."
+}

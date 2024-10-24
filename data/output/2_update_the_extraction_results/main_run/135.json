@@ -1,0 +1,114 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 12.0,
+        "max": 15.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "flour",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "baking powder",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "salt",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "butter",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "milk",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "water",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "maple syrup",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Stir together flour, baking powder and salt until aerated and no longer clumpy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Work in the butter with your fingertips and add milk. Form into 5-6 balls.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "In a saucepan equipped with a lid, bring water and syrup to a simmer. Add dough balls and cover. Simmer on low 12-15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 12.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Grands-p\u00e8res au sirop d'\u00e9rable (Maple Dumplings)",
+    "date": "2022-06-28",
+    "tags": [
+        "quebec",
+        "dessert"
+    ],
+    "introduction": "![Grands-p\u00e8res](/pix/grands-peres.webp \"Nice and fluffy\") - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings:5-6",
+    "ingredients_source_text": "- 1 cup flour - 2 TSP baking powder - 1 pinch salt - 2 TB butter, cut into pieces - \u00bd cup milk - 1 cup water - 1 cup maple syrup",
+    "directions_source_text": "1. Stir together flour, baking powder and salt until aerated and no longer clumpy. 2. Work in the butter with your fingertips and add milk. Form into 5-6 balls. 3. In a saucepan equipped with a lid, bring water and syrup to a simmer. Add dough balls and cover. Simmer on low 12-15 minutes. ## Notes - Avoid lifting the lid since these cook with the help of steam."
+}

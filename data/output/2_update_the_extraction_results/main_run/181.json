@@ -1,0 +1,144 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "squash",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "potatoes",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "carrots",
+            "quantity": 4.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "chicken bullion cube",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "water",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "milk",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel and chop squash, potatoes, carrots, and onion, add to oven-safe pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add bullion and enough water to avoid burning (1 cup), place pot in oven (350F) to bake until veggies are soft.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": 350.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "If there is too much stock, don't be scared to pour some down the drain.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Puree (I use electric beaters) while adding the milk.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the salt and pepper, as desired.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Autumn Soup",
+    "date": "2022-08-04",
+    "tags": [
+        "vegetables",
+        "soup"
+    ],
+    "introduction": "You can cook the veggies on the stove instead of baking them, just pay more attention to avoid burning. You can also use pumpkin instead of squash. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1 Medium Squash - 3 Potatoes - 4 Carrots - 1 Small Onion - 1 Chicken Bullion Cube - 1 cup Water - 2 cups Milk - Salt - Pepper",
+    "directions_source_text": "1. Peel and chop squash, potatoes, carrots, and onion, add to oven-safe pot. 2. Add bullion and enough water to avoid burning (1 cup), place pot in oven (350F) to bake until veggies are soft. 3. If there is too much stock, don't be scared to pour some down the drain. 4. Puree (I use electric beaters) while adding the milk. 5. Add the salt and pepper, as desired."
+}

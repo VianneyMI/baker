@@ -1,0 +1,83 @@
+{
+    "serving_size": null,
+    "preparation_time": 10.0,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Seafood",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Red Onion",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Lime Juice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Slice your onion as thinly as you can then let them all sit in a bowl of cold water for a while. Soaking your onion slices like this will make it so that their flavor is not as strong so that it won't overpower everything.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "While your onion is soaking cut your chosen seafood into cubes. Ceviche can be made with any type of seafood but fish with white meat native to South America, or things like shrimp and octopus are best. Season your cubed seafood generously with salt and pepper and place in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Squeeze the juice of several limes onto your seafood, remember when shopping for limes the softer ones will have the most juice. You want to get good coverage over all your meat but it is important to remember that there is such a thing as too much lime.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the onion slices then cover and let sit in the fridge. You can get away with eating it after only an hour but ceviche gets better as it ages so it may be best to have more patience and let it sit overnight.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Ceviche",
+    "date": "2022-04-16",
+    "tags": [
+        "seafood",
+        "peruvian"
+    ],
+    "introduction": "![tilapia ceviche on rice](/pix/ceviche.webp) Ceviche is a South American dish which originated in Peru. The following recipe will only cover the bare minimum ingredients, so feel free to experiment by adding things like garlic, ginger, peppers tomatoes, cilantro, other citrus juices, and anything else you feel might taste good in there. - \u23f2\ufe0f Prep time: 10 min",
+    "ingredients_source_text": "- Seafood - Red Onion - Lime Juice",
+    "directions_source_text": "1. Slice your onion as thinly as you can then let them all sit in a   bowl of cold water for a while. Soaking your onion slices like this   will make it so that their flavor is not as strong so that it won't   overpower everything. 2. While your onion is soaking cut your chosen seafood into cubes.   Ceviche can be made with any type of seafood but fish with white   meat native to South America, or things like shrimp and octopus are best. Season your cubed seafood generously with salt   and pepper and place in a bowl. 3. Squeeze the juice of several limes onto your seafood, remember when   shopping for limes the softer ones will have the most juice. You   want to get good coverage over all your meat but it is important to   remember that there is such a thing as too much lime. 4. Add the onion slices then cover and let sit in the fridge. You can   get away with eating it after only an hour but ceviche gets better   as it ages so it may be best to have more patience and let it sit   overnight."
+}
