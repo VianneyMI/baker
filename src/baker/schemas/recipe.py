@@ -13,7 +13,7 @@ class ParsedRecipe(BaseBakerModel):
     
     Describes a recipe main components, i.e its `ingredients` and `steps` in a computer friendly way.
     The `ingredients` and `steps` are structured in a way to extract essential information from the fluff.
-    In particular, the `Ingredient`and `Step`classes highlight numerical values for durations and temperature. 
+    In particular, the `Ingredient`and `Step`classes highlight numerical values for durations and temperatures. 
     """
 
     serving_size: int | None = Field(description="The number of servings the recipe makes.")
@@ -31,7 +31,7 @@ class Recipe(ParsedRecipe):
 
     title: str = Field(description="The title of the recipe.")
     date: datetime.date | str = Field(description="The date the recipe was created.")
-    tags: list[str] = Field(default_factory=list, description="A list of tags used to caegorize a recipe.")
+    tags: list[str] = Field(default_factory=list, description="A list of tags used to categorize a recipe.")
     introduction:str|None = Field(None, description="A brief introduction to the recipe.")
     ingredients_source_text : str|None = None
     directions_source_text : str|None = None

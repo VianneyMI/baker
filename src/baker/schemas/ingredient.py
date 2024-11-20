@@ -13,7 +13,7 @@ class Ingredient(BaseBakerModel):
     
     Represents an ingredient used in a recipe.
     This class proposes a formal structure to describe an ingredient
-    to make it more suitable for alrgorithmic processing.
+    to make it more suitable for algorithmic processing.
 
     In particular, it includes a `quantity` and a `unit` fields that can be used
     by algorithms.
