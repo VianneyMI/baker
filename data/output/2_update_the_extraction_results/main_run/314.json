@@ -1,0 +1,111 @@
+{
+    "serving_size": 8,
+    "preparation_time": 15.0,
+    "cooking_time": {
+        "min": 15.0,
+        "max": 20.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Fradiavolo Sauce",
+            "quantity": 24.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Mostaccioli Rigati or Penne Rigati",
+            "quantity": 1.0,
+            "unit": "box",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Mozzarella Cheese",
+            "quantity": 8.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "baking dishes",
+            "quantity": 2.0,
+            "unit": "quart",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Bring a pot to a boil and cook pasta for 6 minutes (very al dente).",
+            "duration": {
+                "preparation": null,
+                "cooking": 6.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Put pasta and sauce in baking dish(es) and mix well.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cover pasta and sauce generously with grated cheese until you can't see the pasta.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Bake at 350\u00b0F / 175\u00b0C for 20 minutes - Or 375\u00b0F / 190\u00b0C for 15 minutes on convection bake.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 350.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Baked Mostaccioli",
+    "date": "2021-03-21",
+    "tags": [
+        "pasta",
+        "italian"
+    ],
+    "introduction": "![baked mostaccioli in bowl](/pix/baked-mostaccioli-00.webp \"Baked Mostaccioli in Bowl\") Pasta baked in dish with spicy sauce - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 15-20 min - \ud83c\udf7d\ufe0f Servings: 8 bowls",
+    "ingredients_source_text": "- 24 oz or 1 jar of Fradiavolo Sauce ([Victoria](https://victoriapastasauces.com/product/fradiavolo-sauce/)) - 1 box Mostaccioli Rigati or Penne Rigati ([Ronzoni](https://www.google.com/search?q=mostaccioli+rigati&tbm=shop)) - ~8 oz shredded Mozzarella Cheese ([Poly-O](https://www.walmart.com/ip/Polly-O-Mozzarella-Cheese-Chunk-with-Whole-Milk-16-oz-Pack/10448265))  - I've found that pre-shredded cheese doesn't taste as good as shredding it right before cooking. - 2x 2 quart (8\") baking dishes or 1 large baking dish (see picture below)",
+    "directions_source_text": "1. Bring a pot to a boil and [cook pasta](/pasta) for 6 minutes (very al dente). 2. Put pasta and sauce in baking dish(es) and mix well. 3. Cover pasta and sauce generously with grated cheese until you can't see the pasta. 4. Bake at 350\u00b0F / 175\u00b0C for 20 minutes   - Or 375\u00b0F / 190\u00b0C for 15 minutes on convection bake. ![baked mostaccioli on stove](/pix/baked-mostaccioli-01.webp \"Baked Mostaccioli right out of the Oven\")"
+}

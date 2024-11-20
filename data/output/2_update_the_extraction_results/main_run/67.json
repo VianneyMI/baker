@@ -1,0 +1,79 @@
+{
+    "serving_size": 4,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "ground beef",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onion, chopped or powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "Garlic, chopped or powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Form patties with the beef. Use high-fat ground beef, you won't need oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Place into a pan, pre-heated or otherwise, at medium/med-high temperature.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add salt, pepper, and optional seasonings.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cook until done, flipping occasionally to prevent burning.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Hamburger Patties",
+    "date": "2021-03-19",
+    "tags": [
+        "american",
+        "quick",
+        "beef",
+        "basic"
+    ],
+    "introduction": "\ud83c\udf7d\ufe0f Servings: 4 patties",
+    "ingredients_source_text": "-\t1 lb ground beef, 20% or more fat ratio -\tOnion, chopped or powder (optional) -\tGarlic, chopped or powder (optional)",
+    "directions_source_text": "1.\tForm patties with the beef. Use high-fat ground beef, you won't need oil. 2.\tPlace into a pan, pre-heated or otherwise, at medium/med-high temperature. 3. Add salt, pepper, and optional seasonings. 4.\tCook until done, flipping occasionally to prevent burning."
+}

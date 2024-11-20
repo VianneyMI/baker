@@ -1,0 +1,200 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Large/Jumbo Shrimp",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Bacon",
+            "quantity": 6.0,
+            "unit": "slice",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Un-Cooked Grits",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Chicken Broth",
+            "quantity": 3.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Shredded Cheddar Cheese",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Butter",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Chopped Fresh Parsley",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Creole / Cajun seasoning",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Worcestershire Sauce",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Lemon Juice",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add bacon to hot pan. Meanwhile, in separate pot, bring chicken broth to a boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add grits to chicken broth and stir. Cover and simmer per instructions on box.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Once grits are done, add butter plus salt and pepper to taste. Stir until combined.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add cheese. Stir until combined.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once bacon is done, keep bacon fat in the pan. Add shrimp and fry on medium-high heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add Creole seasoning, lemon juice, Worcestershire Sauce, garlic and toss.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                11,
+                10,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Fry until shrimp turns white on each side which is about 5-7 minutes total.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 7.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "In a bowl, serve shrimp and bacon over grits. Top with parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Shrimp and Grits",
+    "date": "2021-03-18",
+    "tags": [
+        "american",
+        "fish",
+        "breakfast"
+    ],
+    "introduction": "This recipe is derived from Smokin' & Grillin' wit AB -- [youtube](https://youtu.be/cjlDBPlTqS0) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 2-3",
+    "ingredients_source_text": "- 2 lbs Large/Jumbo Shrimp - 6 Slices of Bacon - 1 cup Un-Cooked Grits - 3 cups Chicken Broth - 2 cups Shredded Cheddar Cheese - 3 tbsp Butter - 3 tbsp Chopped Fresh Parsley - 1 tbsp Creole / Cajun seasoning - 2 Cloves of Garlic, minced - 2 tsp Worcestershire Sauce - 1 tbsp Lemon Juice",
+    "directions_source_text": "1. Add bacon to hot pan. Meanwhile, in separate pot , bring chicken broth to a boil. 2. Add grits to chicken broth and stir. Cover and simmer per instructions on box. 3. Once grits are done, add butter plus salt and pepper to taste. Stir until combined. 4. Add cheese. Stir until combined. 5. Once bacon is done, keep bacon fat in the pan. Add shrimp and fry on medium-high heat 6. Add Creole seasoning, lemon juice, Worcestershire Sauce, garlic and toss. 7. Fry until shrimp turns white on each side which is about 5-7 minutes total. 8. In a bowl, serve shrimp and bacon over grits. Top with parsley."
+}

@@ -1,0 +1,119 @@
+{
+    "serving_size": null,
+    "preparation_time": 30.0,
+    "cooking_time": 120.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chicken breasts",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "carrots",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "celery stalks",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "chicken stock or broth",
+            "quantity": 950.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "pasta",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cook chicken breasts, shred, and set aside in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cut up carrots and celery, place in pot and saute.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Allow it to simmer on low heat for 2 hours mixing every so often.",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "If adding noodles, add in pasta and allow pasta to cook until al dente.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Chicken Soup",
+    "date": "2021-03-16",
+    "tags": [
+        "chicken",
+        "soup"
+    ],
+    "introduction": "Hearty soup that is adaptable to customizing to your desired vegetables or other additions - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 2 hours - \ud83c\udf7d\ufe0f Servings:",
+    "ingredients_source_text": "- 2 [chicken breasts](/pan-seared-chicken) - 1 Onion - 2 carrots - 2 celery stalks - 32 oz / 950ml Chicken Stock or Broth - Pasta (Optional)",
+    "directions_source_text": "1. Cook [chicken breasts](/pan-seared-chicken), shred, and set aside in a bowl. 2. Cut up carrots and celery, place in pot and saute. 3. Add in chicken and stock or broth and mix together well. Season with salt, pepper, hot sauce, whatever you desire 4. Allow it to simmer on low heat for 2 hours mixing every so often. 5. If adding noodles, add in pasta and allow pasta to cook until al dente."
+}

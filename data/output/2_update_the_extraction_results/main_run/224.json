@@ -1,0 +1,137 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 35.0,
+        "max": 40.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "octopus",
+            "quantity": {
+                "min": 1.7,
+                "max": 2.0
+            },
+            "unit": "kilogram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Potatoes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "bay leaves",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Sweet and spicy red pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Boil water along with salt and the bay leaves",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Once the water is boiling, introduce the octopus 3 times by putting it on and taking it out, then let it cook for 35 to 40 minutes by puncturing it to see whether it is already soft or we need to leave it a little longer",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 35.0,
+                    "max": 40.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Turn off the fire and let it rest for 20 minutes more with the same water. Meanwhile we will have boiled the potatoes with skin for about 25 minutes depending on the size.",
+            "duration": {
+                "preparation": null,
+                "cooking": 25.0,
+                "waiting": 20.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "We will remove the octopus from the water and let it cool, and once it is cold, we will cut it in slices with scissors.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "To assemble the dish we will laminate the potatoes by placing them at the bottom of the plate, on top and we will put the octopus slices seasoning it with salt, the sweet and spicy red pepper and a good squirt of olive oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Pulpo a la gallega",
+    "date": "2022-07-13",
+    "tags": [
+        "fish",
+        "spanish"
+    ],
+    "introduction": "![pulpo a la gallega](/pix/pulpo-gallega.webp) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 35 to 40 min - \ud83c\udf7d\ufe0f Servings:",
+    "ingredients_source_text": "- 1 octopus (1.7 to 2kg) - Potatoes - 2 bay leaves - Sweet and spicy red pepper - Salt  - oil",
+    "directions_source_text": "1. Boil water along with salt and the bay leaves 2. Once the water is boiling, introduce the octopus 3 times by putting it on and taking it out, then let it cook for 35 to 40 minutes by puncturing it to see whether it is already soft or we need to leave it a little longer 3. turn off the fire and let it rest for 20 minutes more with the same water. Meanwhile we will have boiled the potatoes with skin for about 25 minutes depending on the size. 4. We will remove the octopus from the water and let it cool, and once it is cold, we will cut it in slices with scissors. 5. To assemble the dish we will laminate the potatoes by placing them at the bottom of the plate, on top and we will put the octopus slices seasoning it with salt, the sweet and spicy red pepper and a good squirt of olive oil."
+}

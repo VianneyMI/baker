@@ -1,0 +1,167 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tuna salad",
+            "quantity": 1.0,
+            "unit": "recipe",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sandwich bun or bread",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "thinly sliced cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "sliced tomatoes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "baby spinach leaves",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "pickles",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "mayo",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "mustard",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "other sandwich toppings",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Lightly toast one side of the bun",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add cheese to bottom of bun",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Spread a layer of tuna salad",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Place several spinach leaves on top bun",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add sliced tomatoes",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add pickle slices",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Season with salt and pepper to taste",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Combine halves and enjoy",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Tuna Sub",
+    "date": "2021-03-12",
+    "tags": [
+        "fish",
+        "sandwich",
+        "quick",
+        "cheesefare"
+    ],
+    "introduction": "Use the best tuna you can find. I like oil-packed but water is OK. Someone you know has a tuna salad recipe.",
+    "ingredients_source_text": "- 1 recipe of your favorite tuna salad - Sandwich bun or bread (a good one) - Thinly sliced cheese (your favorite) - Sliced tomatoes - Baby spinach leaves - Pickles - Mayo and mustard - Other sandwich toppings (very little out of bounds here).",
+    "directions_source_text": "1. Lightly toast one side of the bun 2. Add cheese to bottom of bun 3. Spread a layer of tuna salad 4. Place several spinach leaves on top bun 5. Add sliced tomatoes 6. Add pickle slices 7. Season with salt and pepper to taste 8. Combine halves and enjoy."
+}

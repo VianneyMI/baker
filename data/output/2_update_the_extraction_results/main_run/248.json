@@ -1,0 +1,222 @@
+{
+    "serving_size": 3,
+    "preparation_time": 30.0,
+    "cooking_time": {
+        "min": 60.0,
+        "max": 90.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "lamb leg meat",
+            "quantity": 450.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sesame oil, olive oil, or rendered fat",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "prepared water",
+            "quantity": 350.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "sour-tasting beer",
+            "quantity": 350.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "large onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "arugula",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "cilantro",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "cumin seeds",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "large beetroots",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "leek",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "garlic",
+            "quantity": {
+                "min": 3.0,
+                "max": 9.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Persian shallot",
+            "quantity": null,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Egyptian leek",
+            "quantity": null,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "coriander seeds for garnish",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add oil/fat to a large pot (preferably iron) and set over high heat. Sear lamb for several minutes in the oil/fat until lightly browned.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add onions and cook for 5 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add beetroots and let cook for 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add salt, water, beer, arugula, cilantro, shallot, and cumin. Bring to a boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                6,
+                7,
+                8,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Mix garlic with leek and Egyptian leek, and add the mixture to the pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Lower heat to medium and let simmer for 60 minutes, or until the beetroot and meat are cooked to your liking.",
+            "duration": {
+                "preparation": null,
+                "cooking": 60.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once the tuh'u has finished cooking, serve in a bowl. Sprinkle with coriander seeds. Garnish with chopped cilantro and chopped Egyptian leek.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                13,
+                14
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Tuh'u",
+    "date": "2021-03-23",
+    "tags": [
+        "lamb",
+        "stew"
+    ],
+    "introduction": "Tuh'u (Akkadian for possibly \"beetroot\") is an ancient Mesopotamian spring festival dish, a lamb stew of sorts, extracted by historians at Yale Babylonian Collection from tablets from Babylonia, ca. 1740 BC. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 60-90 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- 450 g of lamb leg meat, diced - 4 tbsp of sesame oil, olive oil, or rendered fat - 350 mL of prepared water - 350 mL of sour-tasting beer (e.g. Wei\u00dfbier) - 1 large onion, chopped - 2 cups of arugula, chopped - \u00be cup of cilantro, chopped - 2 tsp of cumin seeds, crushed or powdered - 2 large beetroots, chopped - 1 leek, minced or diced - 3-9 cloves of garlic, minced or diced - 1 Persian shallot (Akkadian: *samidu*; uncertain translation) - 1 Egyptian leek (Akkadian: *suhutinnu*; uncertain translation) - Coriander seeds for garnish",
+    "directions_source_text": "1. Add oil/fat to a large pot (preferably iron) and set over high heat. Sear lamb for several minutes in the oil/fat until lightly browned. 2. Add onions and cook for 5 minutes 3. Add beetroots and let cook for 5 minutes. 4. Add salt, water, beer, arugula, cilantro, shallot, and cumin. Bring to a boil. 5. Mix garlic with leek and Egyptian leek, and add the mixture to the pot. 6. Lower heat to medium and let simmer for 60 minutes, or until the beetroot and meat are cooked to your liking. 7. Once the tuh'u has finished cooking, serve in a bowl. Sprinkle with coriander seeds. Garnish with chopped cilantro and chopped Egyptian leek."
+}

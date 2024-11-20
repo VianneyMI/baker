@@ -1,0 +1,225 @@
+{
+    "serving_size": 2,
+    "preparation_time": 10.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Chicken Thighs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Basmati Rice",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "All-Purpose Flour",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Sweet Peppers, chopped",
+            "quantity": 2.0,
+            "unit": "piece",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Celery",
+            "quantity": 3.0,
+            "unit": "rib",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Ginger, minced",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Green Onions, thinly sliced",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Chili Garlic Sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Soy Sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Sweet Chili Sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Peanuts, chopped",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat a medium pot over medium heat. Add 1/2 Tbsp oil, ginger and rice. Cook, stirring often, until fragrant (1 min). Add 1 1/4 cups water and bring to a boil over high heat. Reduce heat and cover until rice is tender and liquid is absorbed (12-14 mins). Remove the pot from heat, leave covered.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 13.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                7,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "While rice cooks, cut celery crosswise into 1/4\" slices. Whisk together soy sauce, sweet chili sauce, 1/3 cup water, and half the chili garlic sauce in a medium bowl. Combine flour and 1/4 tsp each of salt and pepper in another medium bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                10,
+                11,
+                9,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Heat a large non-stick pan over medium heat. Add peanuts to the dry pan. Toast, stirring often, until golden brown (4-5 mins). Transfer to a plate and heat the same pan over medium-high. Add 1/2 Tbsp oil, peppers, and celery. Cook, stirring often until fragrant (1 min). Transfer veggies to another plate.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 6.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                4,
+                5,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pat chicken dry and cut into 1\" pieces. Add chicken to flour mixture, then toss to coat. Press flour mixture into chicken to coat completely. Heat the same non-stick pan over medium and add oil, then chicken. Cook, turning pieces occasionally, until golden brown and cooked through (6-8 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 6.0,
+                    "max": 8.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add veggies and sauce mixture to the pan with chicken. Cook, stirring occasionally, until sauce thickens slightly (2-3 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                10,
+                11,
+                9,
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Fluff rice with fork. Stir in half the green onions and season with salt. Divide rice between plates. Top with chicken, veggies, and sauce. Sprinkle peanuts and remaining green onions over top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                8,
+                1,
+                4,
+                5,
+                12
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Spicy Kung Pao-Style Chicken",
+    "date": "2022-09-11",
+    "tags": [
+        "chicken",
+        "rice",
+        "asian"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 4 Chicken Thighs - 3/4 cup Basmati Rice - 4 Tbsp All-Purpose Flour - 2 small Sweet Peppers, chopped - 3 ribs Celery - 2 cloves Garlic - 1 Tbsp Ginger, minced - 2 whole Green Onions, thinly sliced - 2 Tbsp Chili Garlic Sauce, divided - 2 Tbsp Soy Sauce - 2 Tbsp Sweet Chili Sauce - 1/4 cup Peanuts, chopped - Oil",
+    "directions_source_text": "1. Heat a medium pot over medium heat. Add 1/2 Tbsp oil, ginger and rice. Cook, stirring often, until fragrant (1 min). Add 1 1/4 cups water and bring to a boil over high heat. Reduce heat and cover until rice is tender and liquid is absorbed (12-14 mins). Remove the pot from heat, leave covered. 2. While rice cooks, cut celery crosswise into 1/4\" slices. Whisk together soy sauce, sweet chili sauce, 1/3 cup water, and half the chili garlic sauce in a medium bowl. Combine flour and 1/4 tsp each of salt and pepper in another medium bowl. 3. Heat a large non-stick pan over medium heat. Add peanuts to the dry pan. Toast, stirring often, until golden brown (4-5 mins). Transfer to a plate and heat the same pan over medium-high. Add 1/2 Tbsp oil, peppers, and celery. Cook, stirring often until fragrant (1 min). Transfer veggies to another plate. 4. Pat chicken dry and cut into 1\" pieces. Add chicken to flour mixture, then toss to coat. Press flour mixture into chicken to coat completely. Heat the same non-stick pan over medium and add oil, then chicken. Cook, turning pieces occasionally, until golden brown and cooked through (6-8 mins). 5. Add veggies and sauce mixture to the pan with chicken. Cook, stirring occasionally, until sauce thickens slightly (2-3 mins). 6. Fluff rice with fork. Stir in half the green onions and season with salt. Divide rice between plates. Top with chicken, veggies, and sauce. Sprinkle peanuts and remaining green onions over top."
+}

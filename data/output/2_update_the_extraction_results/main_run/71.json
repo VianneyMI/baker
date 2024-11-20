@@ -1,0 +1,242 @@
+{
+    "serving_size": 2,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "ground beef meat",
+            "quantity": {
+                "min": 300.0,
+                "max": 400.0
+            },
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onion",
+            "quantity": 0.25,
+            "unit": "piece",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cheese",
+            "quantity": 70.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "parsley",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "garlic cloves",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "bread crumbs",
+            "quantity": 50.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "water",
+            "quantity": 250.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "tomato paste",
+            "quantity": 8.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "oregano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "basil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "black pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Beat the egg(s) in a large bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add in the ground beef, and the bread crumbs and mix.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Chop the onion into small pieces and add it to the bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Mince the garlic cloves and add to the bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Dice the parsley leaves and add to the bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Salt the beef mix and mix it thoroughly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Cut the cheese into cubes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Take a cheese cube and wrap with enough ground meat to completely cover it. Repeat this process until you've run out of the ground beef mix.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Heat the frying pan, add some olive oil, and add the meatballs. Cook over medium heat rolling the meatballs from time to time until they are slightly brown from all sides.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "When the meatballs look done, pour the water and tomato paste; add the dried oregano and basil, and ground black pepper; and salt to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Cook over medium-low heat for about ten minutes rolling the meatballs so that they get completely bathed in tomato sauce.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Serve with some side dish and enjoy!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Cheesy Meatballs with Tomato Sauce",
+    "date": "2021-03-12",
+    "tags": [
+        "beef",
+        "cheese"
+    ],
+    "introduction": "![Cheesy Meatballs with Tomato Sauce](/pix/cheesy-meatballs.webp) Nothing beats meat, cheese and tomato combined together to create the best combination of flavors that man has created.",
+    "ingredients_source_text": "The quantities here are for about two adult portions. That is, if you are also making some side dish, like in the photo. For the meatballs: * 300-400g of ground beef meat * 1/4 of an onion * ~70g of cheese; I have made with different cheese types, but usually I use  Gouda * Parsley * 1-2 garlic cloves * 1 egg * ~1/5 metric cups (~50ml) of bread crumbs For the sauce: * 250ml of water * 8 spoonfuls of tomato paste * Oregano * Basil * Black pepper",
+    "directions_source_text": "1. Beat the egg(s) in a large bowl. 2. Add in the ground beef, and the bread crumbs and mix. 3. Chop the onion into small pieces and add it to the bowl. 4. Mince the garlic cloves and add to the bowl. 5. Dice the parsley leaves and add to the bowl. 6. Salt the beef mix and mix it thoroughly. 7. Cut the cheese into cubes. The amount of cubes you will need will depend on   how many meatballs you make, which depends on how big you want to make the   meatballs. You get the idea. 8. Take a cheese cube and wrap with enough ground meat to completely cover it.   Repeat this process until you've run out of the ground beef mix. 9. Heat the frying pan, add some olive oil, and add the meatballs. Cook over   medium heat rolling the meatballs from time to time until they are slightly   brown from all sides (wait, spheres have no sides). 10. When the meatballs look done, pour the water and tomato paste; add the dried   oregano and basil, and ground black pepper; and salt to taste. 11. Cook over medium-low heat for about ten minutes rolling the meatballs so   that they get completely bathed in tomato sauce. 12. Serve with some side dish and enjoy!"
+}

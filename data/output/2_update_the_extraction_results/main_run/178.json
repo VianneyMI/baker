@@ -1,0 +1,106 @@
+{
+    "serving_size": 3,
+    "preparation_time": 5.0,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "white tuna",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "mayonnaise",
+            "quantity": 6.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sweet pickle relish",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic powder",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "white vinegar or lemon juice",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "shredded cheese",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "hard-boiled egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a medium bowl, stir together tuna, mayonnaise, and relish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add optional ingredients like vinegar, cheese or hard-boiled eggs if wanted.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7
+            ],
+            "optional": true
+        },
+        {
+            "number": 3,
+            "description": "Season with garlic powder, salt, and pepper if wanted.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Simple Tuna Salad",
+    "date": "2021-03-15",
+    "tags": [
+        "quick",
+        "basic",
+        "tuna",
+        "fish"
+    ],
+    "introduction": "![Tuna Salad](/pix/tuna-salad.webp) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- 1 (7 oz) can white tuna, drained - 6 tablespoons mayonnaise - 1 tablespoons sweet pickle relish - A pinch of garlic powder (optional) - 2 tablespoons white vinegar or lemon juice (optional) - 1 cup shredded cheese (optional) - 1 chopped hard-boiled egg (optional)",
+    "directions_source_text": "1. In a medium bowl, stir together tuna, mayonnaise, and relish. 2. Add optional ingredients like vinegar, cheese or hard-boiled eggs if wanted. 3. Season with garlic powder, salt, and pepper if wanted."
+}

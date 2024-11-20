@@ -1,0 +1,221 @@
+{
+    "serving_size": 60,
+    "preparation_time": {
+        "min": 30.0,
+        "max": 45.0
+    },
+    "cooking_time": {
+        "min": 18.0,
+        "max": 22.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "unsalted butter",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sugar",
+            "quantity": 3.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "eggs",
+            "quantity": 10.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "baking powder",
+            "quantity": 6.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "baker\u2019s ammonium",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "baking soda",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "powder vanilla",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "orange zest",
+            "quantity": 3.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "lemon zest",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "orange juice",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "warmed milk",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "egg yolk",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 13,
+            "name": "flour",
+            "quantity": 9.0,
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cream butter and sugar together until fluffy. Add eggs one at a time and blend well between each.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add ammonium to the warmed milk and add to the butter, sugar, and egg mixture.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Start adding flour to the wet mixture and at this time also add the baking powder, vanilla, lemon/orange zest, salt and orange juice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                7,
+                8,
+                9,
+                13,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Mix well and start adding flour slowly until you are able to roll the dough easily between your hands. (This is a big batch, if your mixer can\u2019t handle the volume, then knead by hand).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Form dough in a ball and place in a big bowl. Let it rest for about 30 minutes, cover it with saran wrap and keep in oven or draft free area.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 30.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Line pans with parchment paper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Form dough by hand in \u00bd inch thick 3 inch long strips and then twist together or any shape you like. If the dough is sticky dip hands in oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Brush with beaten egg yolks and bake at 350F for about 20 minutes or 325F convection. Watch carefully as they can burn easily!",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 350.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Greek Easter Cookies",
+    "date": "2021-03-21",
+    "tags": [
+        "dessert",
+        "cookies",
+        "snack",
+        "greek",
+        "easter"
+    ],
+    "introduction": "A very simple, delicious, and traditional greek recipe for easter cookies. - \u23f2\ufe0f Prep time: 30-45 min - \ud83c\udf73 Cook time: 18-22 min - \ud83c\udf7d\ufe0f Servings: Five-dozen individual cookies",
+    "ingredients_source_text": "- 1 lb of unsalted butter - 3 cups of sugar - 10 eggs - 6 tsps baking powder - 2 tsps baker\u2019s ammonium - 1 pinch of baking soda - 2 tsp powder vanilla - Zest of 3 oranges - Zest of 2 lemons - 1/2 cup orange juice - 1 cup warmed milk - 1 egg yolk whisked to brush cookies - Enough flour to make a soft pliable dough (about 9 cups or a bit more)",
+    "directions_source_text": "1. Cream butter and sugar together until fluffy. Add eggs one at a time and blend well between each. 2. Add ammonium to the warmed milk and add to the butter, sugar, and egg mixture. 3. Start adding flour to the wet mixture and at this time also add the baking powder, vanilla, lemon/orange zest, salt and orange juice. 4. Mix well and start adding flour slowly until you are able to roll the dough easily between your hands. (This is a big batch, if your mixer can\u2019t handle the volume, then knead by hand). 5. Form dough in a ball and place in a big bowl. Let it rest for about 30 minutes, cover it with saran wrap and keep in oven or draft free area. 6. Line pans with parchment paper. 7. Form dough by hand in \u00bd inch thick 3 inch long strips and then twist together or any shape you like. If the dough is sticky dip hands in oil. 8. Brush with beaten egg yolks and bake at 350F for about 20 minutes or 325F convection. Watch carefully as they can burn easily!"
+}

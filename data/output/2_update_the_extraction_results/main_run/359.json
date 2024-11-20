@@ -1,0 +1,102 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Zaatar leaves",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sesame",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Sumac",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "salt",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "citric acid salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Lightly roast the sesame in a wide pan until it gets a golden brown color.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Wait for the sesame to completely cool down.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Mix everything together, starting from the Zaatar and sesame while adjusting the Sumac (optionally citric acid) and salt to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Store in an airtight jar or container.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Zaatar",
+    "date": "2022-09-30",
+    "tags": [
+        "palestinian",
+        "lebanese",
+        "mediterranean",
+        "middle eastern",
+        "spice"
+    ],
+    "introduction": "This is a traditional Palestinian-Lebanese way of making Zaatar. It can be then eaten by dipping bread in olive oil and in the Zaatar or as part of another recipe. Will hold for a long time in the pantry. This recipe scales for larger amounts so long you preserve the ratios.",
+    "ingredients_source_text": "- 1 Cup Zaatar leaves (without the stalks), cleaned and dried. - 1 Cup sesame (optionally roasted). - 1 Cup Sumac. - 1 teaspoon salt. - Optional: citric acid salt, for extra kick if the Sumac wasn't enough for you.",
+    "directions_source_text": "1. Lightly roast the sesame in a wide pan until it get a golden brown color. 2. Wait for the sesame to completely cool down. 3. Mix everything together, starting from the Zaatar and sesame while adjusting the Sumac (optionally citric acid) and salt to taste. 4. Store in an airtight jar or container."
+}

@@ -1,0 +1,187 @@
+{
+    "serving_size": 5,
+    "preparation_time": 20.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Butter",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Mushrooms",
+            "quantity": 8.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Red Pepper",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Garlic",
+            "quantity": 1.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "All-Purpose Flour",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Milk",
+            "quantity": 4.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Worcestershire Sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Extra Broad Egg Noodles",
+            "quantity": 8.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Boursin Garlic and Fine Herbs",
+            "quantity": 5.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Deli Chicken",
+            "quantity": 3.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Frozen Peas",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Fresh Parsley",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Fresh Basil Leaves",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 15,
+            "name": "Parmesan",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Melt butter in a large saucepan over medium-high heat. Add mushrooms, red pepper, onion and garlic; cook, stirring about 5 minutes until tender.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Sprinkle with flour and stir. Gradually whisk in milk then Worcestershire, salt and pepper. Stirring occasionally, bring to a boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add noodles, reduce heat to a low boil. Stirring constantly and around edges of pan, cook until pasta is tender, about 7 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 7.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Stir in chunks of Boursin, then chicken, peas, and parsley, stirring until chicken is hot and Boursin is melted. Serve sprinkled with basil and Parmesan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "optional": false
+        }
+    ],
+    "title": "One-Pot Chicken Tetrazzini",
+    "date": "2022-09-11",
+    "tags": [
+        "chicken",
+        "pasta",
+        "italian"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 5",
+    "ingredients_source_text": "- 3 Tbsp Butter - 8 oz Mushrooms, sliced - 1 small Red Pepper, chopped - 1 small Onion, finely chopped - 1 clove Garlic, minced - 3 Tbsp All-Purpose Flour - 4 cups Milk - 2 Tbsp Worcestershire Sauce - 8 oz Extra Broad Egg Noodles - 5 oz Boursin Garlic and Fine Herbs - 3 cup Deli Chicken, cooked and cut into bite-size pieces - 1/2 cup Frozen Peas - 1/2 cup Fresh Parsley, chopped - Small Fresh Basil Leaves (optional) - Parmesan, grated",
+    "directions_source_text": "1. Melt butter in a large saucepan over medium-high heat. Add mushrooms, red pepper, onion and garlic; cook, stirring about 5 minutes until tender. 2. Sprinkle with flour and stir. Gradually whisk in milk then Worcestershire, salt and pepper. Stirring occasionally, bring to a boil. 3. Add noodles, reduce heat to a low boil. Stirring constantly and around edges of pan, cook until pasta is tender, about 7 minutes. 4. Stir in chunks of Boursin, then chicken, peas, and parsley, stirring until chicken is hot and Boursin is melted. Serve sprinkled with basil and Parmesan."
+}

@@ -1,0 +1,193 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "medium potatoes",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "eggs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "long cucumbers",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "short cucumbers",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "spring onions",
+            "quantity": 3.0,
+            "unit": "strand",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "radishes",
+            "quantity": {
+                "min": 10.0,
+                "max": 12.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "dill",
+            "quantity": 1.0,
+            "unit": "bunch",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Kefir",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "kvass",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "boiled sausage",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "boiled chicken meat",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "mineral water",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Prepare a saucepan where you will put the ingredients (5 liters) and a saucepan for boiling eggs and potatoes",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Boil potatoes and eggs (hard boiled)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Finely chop cucumbers, radishes, onions, dill and sausage (or meat)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5,
+                6,
+                7,
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Peel eggs and potatoes and chop finely",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Pour kefir (or kvass) and mix all the ingredients",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "If necessary, add boiled water or mineral water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": true
+        },
+        {
+            "number": 7,
+            "description": "Let it brew for a few minutes and the dish is ready to eat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Russian Okroshka",
+    "date": "2022-07-21",
+    "tags": [
+        "basic",
+        "spread",
+        "quick",
+        "russian",
+        "soup"
+    ],
+    "introduction": "A hearty and healthy cold soup, which is especially good to eat in the hot season. Author's recipe.",
+    "ingredients_source_text": "- 2-3 medium potatoes - 4 eggs - 2 long or 4 short cucumbers - 3 strands of spring onions - 10-12 radishes - bunch of dill - 2 Kefir or 1 kvass - 500g boiled sausage or boiled chicken meat - 1 mineral water (optional)",
+    "directions_source_text": "1. Prepare a saucepan where you will put the ingredients (5 liters) and a saucepan for boiling eggs and potatoes 2. Boil potatoes and eggs (hard boiled) 3. Finely chop cucumbers, radishes, onions, dill and sausage (or meat) 4. Peel eggs and potatoes and chop finely 5. Pour kefir (or kvass) and mix all the ingredients 6. If necessary, add boiled water or mineral water. 7. Let it brew for a few minutes and the dish is ready to eat."
+}

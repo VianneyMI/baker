@@ -1,0 +1,161 @@
+{
+    "serving_size": 2,
+    "preparation_time": 5.0,
+    "cooking_time": 10.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Broccoli",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Minced garlic",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Minced ginger",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Sherry or regular white wine",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "Soy sauce",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut broccoli into little flourettes (hold the broccoli upside down and cut around the stem with a pairing knife)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Fill your pan (or wok) around half inch (1.57cm) with water and bring to a rapid boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Put broccoli in and steam with lid on for approx. 3 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 3.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Drain broccoli and wipe pan dry.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "One teaspoon of oil and saute garlic and ginger (use sesame seed oil for Asian touch, but neutral or olive oil works well too).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Deglaze with sherry, put half a cup (approx 120 ml) of warm water or chicken stock. Reduce on medium-high heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Stir in soy sauce, brown sugar and lemon juice to your taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Thicken sauce with corn starch.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Put dry cooked broccoli back in and saute for very short time (you want it nice and crunchy).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Broccoli with Ginger and Garlic Sauce",
+    "date": "2021-03-15",
+    "tags": [
+        "side",
+        "quick",
+        "asian",
+        "fasting"
+    ],
+    "introduction": "Asian inspired broccoli dish with tasty sauce. Sauce can be used for all kinds of Asian inspired sauted vegetables. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 10 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 1-2 Broccoli (fresh best, frozen works too) - Minced garlic (1 tablespoon) - Minced ginger (1 tablespoon) - Sherry or regular white wine (you cook with what you drink with!) (1 tablespoon) - Soy sauce (1-2 tablespoon)",
+    "directions_source_text": "1. Cut broccoli into little flourettes (hold the broccoli upside down and cut around the stem with a pairing knife) 2. Fill your pan (or wok) around half inch (1.57cm) with water and bring to a rapid boil. 3. Put broccoli in and steam with lid on for approx. 3 minutes. 4. Drain broccoli and wipe pan dry. 5. One teaspoon of oil and saute garlic and ginger (use sesame seed oil for Asian touch, but neutral or olive oil works well too). 6. Deglaze with sherry, put half a cup (approx 120 ml) of warm water or chicken stock. Reduce on medium-high heat. 7. Stir in soy sauce, brown sugar and lemon juice to your taste. 8. Thicken sauce with corn starch. 9. Put dry cooked broccoli back in and saute for very short time (you want it nice and crunchy)."
+}

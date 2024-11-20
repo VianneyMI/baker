@@ -1,0 +1,180 @@
+{
+    "serving_size": 6,
+    "preparation_time": 10.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Puff pastry",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Apricot jam",
+            "quantity": {
+                "min": 300.0,
+                "max": 300.0
+            },
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "apples",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Ground cinnamon",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Breadcrumbs / crushed cookies",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "Powdered sugar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel and cut the apples in thin slices.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Roll out the puff pastry with a rolling pin.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Spread the jam over the puff pastry with a spoon.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Arrange the apple slices over the jam.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Sprinkle with cinnamon and breadcrumbs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cut tiny pieces of butter and arrange them over the apple slices.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                3
+            ],
+            "optional": true
+        },
+        {
+            "number": 7,
+            "description": "Roll the puff pastry edges over, overlapping them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Bake for around 40 minutes at 180\u00b0C (360\u00b0 F).",
+            "duration": {
+                "preparation": null,
+                "cooking": 40.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 180.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Cover with powdered sugar.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Apple strudel",
+    "date": "2021-03-22",
+    "tags": [
+        "dessert",
+        "breakfast"
+    ],
+    "introduction": "![apple-strudel-1](/pix/apple-strudel-1.webp) - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 6",
+    "ingredients_source_text": "- Puff pastry - Apricot jam (about 300 g | 10 oz) - 3 apples - Ground cinnamon - Breadcrumbs / crushed cookies - Butter (optional) - Powdered sugar (optional)",
+    "directions_source_text": "1. Peel and cut the apples in thin slices. 2. Roll out the puff pastry with a rolling pin. 3. Spread the jam over the puff pastry with a spoon. 4. Arrange the apple slices over the jam. 5. Sprinkle with cinnamon and breadcrumbs. 6. Cut tiny pieces of butter and arrange them over the apple slices. ![apple-strudel-2](/pix/apple-strudel-2.webp) 7. Roll the puff pastry edges over, overlapping them. 8. Bake for around 40 minutes at 180\u00b0C (360\u00b0 F). 9. Cover with powdered sugar."
+}

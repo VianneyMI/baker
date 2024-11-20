@@ -1,0 +1,248 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Chicken stock",
+            "quantity": 750.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Pork chops",
+            "quantity": 4.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Chicken Breasts",
+            "quantity": 4.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Set honey",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Garlic cloves",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Soy sauce",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Worcestershire sauce",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Ginger, sliced",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Chinese 5 Spice",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Red Chilli, sliced and deseeded",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "Ramen Noodles",
+            "quantity": 375.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Spinach",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": true
+        },
+        {
+            "id": 13,
+            "name": "Sweetcorn",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 14,
+            "name": "Sesame seeds",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 15,
+            "name": "Boiled Eggs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 16,
+            "name": "Dried Nori",
+            "quantity": 1.0,
+            "unit": "sheet",
+            "optional": true
+        },
+        {
+            "id": 17,
+            "name": "Spring Onion, chopped",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "For the broth, add 700ml of chicken stock to a large boiling pot with the garlic, ginger, soy sauce, chinese five spice, chili, and 300ml of water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5,
+                8,
+                6,
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Bring this to the boil, then turn the heat to low and simmer for around 5 mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add a pinch of sugar and more soy sauce to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Fry the pork chops until cooked (My [Sticky Pork Chops](/sticky-porkchops) recipe works really well with this dish).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Hard boil 4 eggs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cook the ramen noodles as per packet instructions.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Strain the stock into another pan, then reheat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Divide ramen between 4 bowls, then top with 1 sliced pork chop, 1/4 of the spinach (if applicable) sweetcorn, and one boiled egg (halved).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                2,
+                12,
+                13,
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Divide the stock into the bowls, then sprinkle over sesame seeds, shredded nori and the spring onion.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14,
+                16,
+                17
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Japanese Noodle Soup",
+    "date": "2021-03-12",
+    "tags": [
+        "japanese",
+        "chicken",
+        "soup"
+    ],
+    "introduction": "![Japanese Noodle Soup](/pix/japanese-noodle-soup.webp) This is a very easy and simple Japanese style ramen noodle soup. This is very cheap to make, and you can really customise this however you wish with the garnish. This is my own spin inspired by other recipes that I found. - \u23f2\ufe0f Prep time: 20 minutes - \ud83c\udf73 Cook time: 20 minutes - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 750ml Chicken stock - 4 Pork chops OR 4 Chicken Breasts - Set honey - 3 Garlic cloves - Soy sauce - Worcestershire sauce - Ginger, sliced - Chinese 5 Spice - 1 Red Chilli, sliced and deseeded (Optional, but recommended) - 375g Ramen Noodles (Medium Egg Noodles work well too) - 100g Spinach (Optional) - 4 Tbsp Sweetcorn (Optional) - Sesame seeds (Optional) - 4 Boiled Eggs (Optional) - 1 Sheet of Dried Nori (Optional) - Spring Onion, chopped (Optional)",
+    "directions_source_text": "1. For the broth, add 700ml of chicken stock to a large boiling pot with the garlic, ginger, soy sauce, chinese five spice, chili, and 300ml of water. 2. Bring this to the boil, then turn the heat to low and simmer for around 5 mins. 3. Add a pinch of sugar and more soy sauce to taste 4. Fry the pork chops until cooked (My [Sticky Pork Chops](/sticky-porkchops) recipe works really well with this dish) 5. Hard boil 4 eggs. 6. Cook the ramen noodles as per packet instructions. 7. Strain the stock into another pan, then reheat. 8. Divide ramen between 4 bowls, then top with 1 sliced pork chop, 1/4 of the spinach (if applicable) sweetcorn, and one boiled egg (halved). 9. Divide the stock into the bowls, then sprinkle over sesame seeds, shredded nori and the spring onion."
+}

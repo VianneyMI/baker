@@ -1,0 +1,187 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "high fat cream",
+            "quantity": 400.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "whole milk",
+            "quantity": 140.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sugar",
+            "quantity": 85.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "egg yolk",
+            "quantity": 5.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "vanilla bean",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "lemon peel",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "sugar for the top crust",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix cream, milk and yolks.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add sugar, vanilla and lemon.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Let rest for at least 30 min (optionally over night)",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 30.0,
+                    "max": null
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pour into 4-6 fireproof ramekins.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Pre-heat oven to 150\u00b0C and put the grease pan on the middle rail.",
+            "duration": null,
+            "temperature": {
+                "preheat": 150.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Put the ramekins onto the grease pan and fill it with boiling water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Let the cr\u00e8me cook for 55 min.",
+            "duration": {
+                "preparation": null,
+                "cooking": 55.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Let the ramekins cool down to room temperature and put them in the fridge for at least 2 hours.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 120.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Spread a teaspoon of sugar onto each ramekin.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Use a blowtorch to flamb\u00e9 the sugar. Alternatively the grill of your oven may work too.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Cr\u00e8me br\u00fbl\u00e9e",
+    "date": "2023-04-11",
+    "tags": [
+        "dessert",
+        "french"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 20 min - \u23f3 Rest time: 4 hour - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 400 ml high fat cream - 140 ml whole milk - 85 g sugar (preferred brown) - 5 egg yolk - 1 vanilla bean (mark, optionally essence) - Lemon peel, rubbed - Sugar for the top crust",
+    "directions_source_text": "1. Mix cream, milk and yolks. 2. Add sugar, vanilla and lemon.  3. Let rest for at least 30 min (optionally over night) 4. Pour into 4-6 fireproof ramekins.  5. Pre-heat oven to 150\u00b0C and put the grease pan on the middle rail. 6. Put the ramekins onto the grease pan and fill it with boiling water. 7. Let the cr\u00e8me cook for 55 min. 8. Let the ramekins cool down to room temperature and put them in the fridge for at least 2 hours. 9. Spread a teaspoon of sugar onto each ramekin. 10. Use a blowtorch to flamb\u00e9 the sugar. Alternatively the grill of your oven may work too."
+}

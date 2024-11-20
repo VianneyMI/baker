@@ -1,0 +1,183 @@
+{
+    "serving_size": 8,
+    "preparation_time": {
+        "min": 50.0,
+        "max": 60.0
+    },
+    "cooking_time": {
+        "min": 30.0,
+        "max": 40.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "mealy/floury potatoes",
+            "quantity": 600.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "carrots",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "oil",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "minced lamb",
+            "quantity": 800.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "frozen peas",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "tomato paste/puree",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "beef stock",
+            "quantity": 300.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "sweet or smoked paprika",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "butter",
+            "quantity": 30.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "milk",
+            "quantity": 200.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "nutmeg",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel potatoes, cut into cubes and boil in saltwater for 20 minutes. Peel the onions and carrots and cut into small cubes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Heat the oil in a pan and fry the minced meat until crumbly. Add the onions, carrots and peas. Add the tomato paste and beef stock. Stir well and season with paprika, pepper and salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                2,
+                3,
+                6,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Drain potatoes and mash with butter. Add milk, season with nutmeg and stir until creamy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                10,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Preheat the oven to 200\u00b0C. Grease a casserole dish with butter, put the minced meat in it and spread the mashed potatoes on it with a piping bag. Put the dish in the oven for 30-40 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 30.0,
+                    "max": 40.0
+                },
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": 200.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                5,
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Shepherd's Pie",
+    "date": "2021-03-30",
+    "tags": [
+        "english",
+        "lamb",
+        "pie"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 50 - 60 min - \ud83c\udf73 Cook time: 30 - 40 min - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "- 600 grams (g) of mealy/floury potatoes - 2 onions - 2 carrots - 4 tablespoons (tbsp.) of oil - 800 g of minced lamb - 100 g of frozen peas - 2 tbsp. of tomato paste/puree - 300 milliliters (ml) beef stock - 1 tbsp. of sweet or smoked paprika - 30 g of butter - 200 ml of milk - 1 pinch of nutmeg",
+    "directions_source_text": "1. Peel potatoes, cut into cubes and boil in saltwater for 20 minutes. Peel the onions and carrots and cut into small cubes. 2. Heat the oil in a pan and fry the minced meat until crumbly. Add the onions, carrots and peas. Add the tomato paste and beef stock. Stir well and season with paprika, pepper and salt. 3. Drain potatoes and mash with butter. Add milk, season with nutmeg and stir until creamy. 4. Preheat the oven to 200\u00b0C. Grease a casserole dish with butter, put the minced meat in it and spread the mashed potatoes on it with a piping bag. Put the dish in the oven for 30-40 minutes."
+}

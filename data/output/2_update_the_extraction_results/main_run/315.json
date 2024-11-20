@@ -1,0 +1,210 @@
+{
+    "serving_size": null,
+    "preparation_time": 15.0,
+    "cooking_time": 510.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "boneless pork shoulder",
+            "quantity": 2.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "garlic",
+            "quantity": 6.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cumin",
+            "quantity": 1.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "sazon",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "dry oregano",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "low sodium chicken broth",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "chipotle peppers in adobo sauce",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "bay leaves",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "dry adobo seasoning",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Season pork with kosher salt and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a medium saut\u00e9 pan on medium-high heat, brown pork on all sides.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Remove from heat and allow to cool, about 10 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 10.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Using a sharp knife, insert blade into pork, cutting small holes and insert garlic slivers as far in as you can.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Pour chicken broth in slow cooker.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add pork and season with cumin, adobo, sazon, and oregano.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4,
+                5,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add bay leaves and chipotle peppers.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Cover and cook low for 8 hours.",
+            "duration": {
+                "preparation": null,
+                "cooking": 480.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "After 8 hours, shred pork using 2 forks and combine with juices.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Let cook for another 15-30 mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 15.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Slow-cooked Pork Carnitas",
+    "date": "2021-03-21",
+    "tags": [
+        "pork",
+        "slowcooked",
+        "mexican"
+    ],
+    "introduction": "This recipe makes a lot and is super easy. A whole roast usually makes enough for a few meals (depending on how many people will be eating it). Leftovers can be refrigerated for 4-5 days. - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 8 hr 30 min - \ud83c\udf7d\ufe0f Servings: 10-11",
+    "ingredients_source_text": "- 2 \u00bd lbs. boneless pork shoulder - 6 cloves of garlic, cut into slivers - 1 \u00bd teaspoons cumin - \u00bd teaspoon sazon - \u00bc teaspoon dry oregano - \u00be cup low sodium chicken broth - 2-3 chipotle peppers in adobo sauce - 2 bay leaves - \u00bc teaspoon dry adobo seasoning",
+    "directions_source_text": "1. Season pork with kosher salt and pepper. 2. In a medium saut\u00e9 pan on medium-high heat, brown pork on all sides. 3. Remove from heat and allow to cool, about 10 minutes. 4. Using a sharp knife, insert blade into pork, cutting small holes and insert garlic slivers as far in as you can. 5. Pour chicken broth in slow cooker. 6. Add pork and season with cumin, adobo, sazon, and oregano. 7. Add bay leaves and chipotle peppers. 8. Cover and cook low for 8 hours. 9. After 8 hours, shred pork using 2 forks and combine with juices. 10. Let cook for another 15-30 mins."
+}

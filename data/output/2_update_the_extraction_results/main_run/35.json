@@ -1,0 +1,202 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chicken breasts",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "tomatoes (San Marzano is best)",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "mozzarella cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "parmesan cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "bread crumbs",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "eggs",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "flour",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "pasta sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Slice the chicken breasts through their width so that they are as flat as possible.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Pound breasts as flat as possible.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add flour to a bowl or basin large enough to fit a breast, add pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Crack eggs into another large bowl or basin and whisk them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add breadcrumbs to yet another large bowl or basin. Add generous amounts of grated parmesan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "One by one, take each breast and dip and cover it in the flour, then the egg, then the bread crumbs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                7,
+                6,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Cover a pan with olive oil and heat it just under when it begins to smoke.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Fry the bread crumb-coated chicken breasts in the oil. Add butter generously while frying to ensure frying oil does not evaporate.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Move fried breasts to an oiled or buttered pan, add mozzarella and parmesan on them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Broil/cook the breasts only long enough for the cheese to melt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Serve the breasts with pasta sauce either above or below.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Chicken Parmesan",
+    "date": "2021-03-10",
+    "tags": [
+        "italian",
+        "chicken"
+    ],
+    "introduction": "The recipe that started this very site.",
+    "ingredients_source_text": "- chicken breasts - tomatoes (San Marzano is best) - mozzarella cheese - parmesan cheese - bread crumbs - eggs - flour - [pasta sauce](/pasta-sauce)",
+    "directions_source_text": "1. Slice the chicken breasts through their width so that they are as flat as possible. 2. Pound breasts as flat as possible. 3. Add flour to a bowl or basin large enough to fit a breast, add pepper. 4. Crack eggs into another large bowl or basin and whisk them. 5. Add breadcrumbs to yet another large bowl or basin. Add generous amounts of grated parmesan. 6. One by one, take each breast and dip and cover it in the flour, then the egg, then the bread crumbs. 7. Cover a pan with olive oil and heat it just under when it begins to smoke. 8. Fry the bread crumb-coated chicken breasts in the oil. Add butter generously while frying to ensure frying oil does not evaporate. 9. Move fried breasts to an oiled or buttered pan, add mozzarella and parmesan on them. 10. Broil/cook the breasts only long enough for the cheese to melt. 11. Serve the breasts with [pasta sauce](/pasta-sauce) either above or below. This is often served with [pasta](/pasta). ## Note There is some controversy over when to add the pasta sauce to this dish. Some place it on the chicken before cooking it with the mozzarella. The sauce, if left on the chicken too long will make the breadcrumbs go soggy. That also will make leftovers mushy (while still tasty). I recommend keeping the breasts separate and only adding the sauce when served."
+}

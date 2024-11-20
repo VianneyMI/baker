@@ -1,0 +1,274 @@
+{
+    "serving_size": 3,
+    "preparation_time": 30.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "boneless chicken breast",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "fat free yoghurt",
+            "quantity": 250.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "coriander leaves",
+            "quantity": 250.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "mustard oil / sunflower oil",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "sugar",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "ginger",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "garlic",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "medium onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "green chillies",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "Garam masala",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "Cardamom pods",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "unknown",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Bayleaf",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Cinnamon stick",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut the boneless chicken into small bite sized pieces.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a mixer, put 250g coriander leaves, 2/3 green chillies, 250g yoghurt, 20g ginger, 9/10 cloves of garlic, 2 medium sized onions and mix well.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                9,
+                2,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the green chillies according to your taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pour half of the mixture from step 2 into a bowl and mix it thoroughly with the chicken.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Into this chicken mixture add 1 tbsp Garam Masala and salt to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Keep the resulting marinated chicken aside for about 30 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 30.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "In a frying pan add 3 tbsp of either mustard oil or sunflower oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Once the oil is hot, add 1 tbsp sugar and cook until the sugar melts into the oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Add 2/3 cardamom pods, 1 small cinnamon stick, and 1 bayleaf into the hot oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                13,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Simmer for about 1 minute, then lower the heat to medium.",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "On medium heat, add the marinated chicken mixture and cook till oil starts separating from the chicken.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Add salt to taste and keep stirring the chicken to make sure it does not burn or stick to the bottom of the pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Once the oil separates, add the remaining mixture which was left behind after step 4.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Stir until it has a thick consistency. Serve with naan or rice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Coriander Chicken",
+    "date": "2021-04-02",
+    "tags": [
+        "indian",
+        "lunch",
+        "spicy"
+    ],
+    "introduction": "Boneless chicken marinated in a gravy of yoghurt and coriander - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 3",
+    "ingredients_source_text": "- 500g boneless chicken breast - 250g fat free yoghurt - 250g coriander leaves - Mustard oil / Sunflower oil - Sugar - Ginger - Garlic - 2 medium onions - Green chillies - [Garam masala](/garam-masala) - 2/3 Cardamom pods - 1 Bayleaf - 1 Cinnamom stick",
+    "directions_source_text": "1. Cut the boneless chicken into small bite sized pieces. 2. In a mixer, put 250g coriander leaves, 2/3 green chillies, 250g yoghurt, 20g ginger, 9/10 cloves of garlic, 2 medium sized onions and mix well. 3. Add the green chillies according to your taste. 4. Pour half of the mixture from step 2 into a bowl and mix it thoroughly with the chicken. 5. Into this chicken mixture add 1 tbsp Garam Masala and salt to taste. 6. Keep the resulting marinated chicken aside for about 30 minutes. 7. In a frying pan add 3 tbsp of either mustard oil or sunflower oil. 8. Once the oil is hot, add 1 tbsp sugar and cook until the sugar melts into the oil. 9. Add 2/3 cardamom pods, 1 small cinnamon stick, and 1 bayleaf into the hot oil. 10. Simmer for about 1 minute, then lower the heat to medium. 11. On medium heat, add the marinated chicken mixture and cook till oil starts separating from the chicken. 12. Add salt to taste and keep stirring the chicken to make sure it does not burn or stick to the bottom of the pan. 13. Once the oil separates, add the remaining mixture which was left behind after step 4. 14. Stir until it has a thick consistency. Serve with [naan](/naan-bread) or [rice](/rice)."
+}

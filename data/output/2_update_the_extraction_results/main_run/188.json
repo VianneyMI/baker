@@ -1,0 +1,163 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "boneless chicken breast or thigh",
+            "quantity": 2.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "oyster sauce",
+            "quantity": 1.5,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "ground tumeric",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "sugar",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "coconut milk",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "peanut butter (creamy)",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "massaman curry paste",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "water",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut the chicken into 1/2 inch thick strips.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix chicken with oyster sauce, tumeric, 1 tbsp sugar and coconut milk. Allow chicken to marinade for at least an hour.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Optionally, you can skewer the meat with wooden skewers.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        },
+        {
+            "number": 4,
+            "description": "Grill chicken until cooked through.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Mix peanut butter, 1 tbsp sugar and curry paste together in a small saucepan. Add enough water to thin to a thick sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                4,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cook for 1-2 min stirring frequently.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 1.0,
+                    "max": 2.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Serve chicken with peanut sauce for dipping.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Chicken Satay with Peanut Sauce",
+    "date": "2022-07-10",
+    "tags": [
+        "chicken",
+        "thai",
+        "asian"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 2 lbs boneless chicken breast or thigh - 1.5 tbsp oyster sauce - 1 tbsp ground tumeric - 2 tbsp sugar - 2 tbsp coconut milk - 3 tbsp peanut butter (creamy) - 1 tbsp massaman curry paste - water to thin peanut sauce",
+    "directions_source_text": "1. Cut the chicken into 1/2 inch thick strips. 2. Mix chicken with oyster sauce, tumeric, 1 tbsp sugar and coconut milk. Allow chicken to marinade for at least an hour. 3. Optionally, you can skewer the meat with wooden skewers. 4. Grill chicken until cooked through. 5. Mix peanut butter, 1 tbsp sugar and curry paste together in a small saucepan. Add enough water to thin to a thick sauce. 6. Cook for 1-2 min stirring frequently. 7. Serve chicken with peanut sauce for dipping."
+}

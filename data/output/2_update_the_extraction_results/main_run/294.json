@@ -1,0 +1,173 @@
+{
+    "serving_size": 5,
+    "preparation_time": 10.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Oats",
+            "quantity": 3.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Olive Oil",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Maple Syrup",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Chopped Nuts",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "Ground Cloves",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Ground Cardamom",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Dried Fruit",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 315\u00b0 F",
+            "duration": null,
+            "temperature": {
+                "preheat": 315.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a large bowl, mix: Oats, Oil, Maple Syrup, Chopped Nuts and Spices",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cover two large baking sheets with parchment paper",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Spread the mixture thinly and evenly on baking sheets, put in oven",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking)",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Bake 10 minutes, take out of oven, **do not stir** (helps form clumps), let it cool",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Coarsely chop Dried Fruit and mix in",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Serve with yogurt, milk, fresh fruit, etc",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Granola",
+    "date": "2022-10-03",
+    "tags": [
+        "breakfast"
+    ],
+    "introduction": "# Granola - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 5",
+    "ingredients_source_text": "- 3 cups Oats - 1/2 cup Olive Oil - 1/2 cup Maple Syrup - 1 cup Chopped Nuts (Almonds, Pumpkin Seeds, etc) - 1 tsp Ground Cloves - 1 tsp Ground Cardamom - 1 cup Dried Fruit (Apricots, Unsweetened Cranberries, Dates, etc)",
+    "directions_source_text": "1. Preheat oven to 315\u00b0 F 2. In a large bowl, mix: Oats, Oil, Maple Syrup, Chopped Nuts and Spices 3. Cover two large baking sheets with parchment paper 4. Spread the mixture thinly and evenly on baking sheets, put in oven 5. Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking) 6. Bake 15 minutes, take out of oven, stir, put back in oven (swap oven locations for even cooking) 7. Bake 10 minutes, take out of oven, **do not stir** (helps form clumps), let it cool 8. Coarsely chop Dried Fruit and mix in 9. Serve with yogurt, milk, fresh fruit, etc"
+}

@@ -1,0 +1,189 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "eggs",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 4,
+            "name": "milk",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Bring water to boil (about enough to cover the eggs when submerged).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Place eggs in water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Keep heat high enough to keep a rolling boil, boil until desired consistency (about 5 or less minutes for soft boiled and very runny, 8 minutes for medium runny, 10+ for hard boiled).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "high",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Heat up butter or oil on small pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Crack egg(s) into pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Cook on low heat for an evenly cooked white and runny yolk.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Serve seasoned with salt and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Start scrambling with wooden spatula.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Cook until desired dryness.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Season with salt and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Prepare as normal.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Crack eggs into pan and let them coagulate maybe twenty or thirty seconds before scrambling.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Use a rubber spatula to sort of scrape the egg towards the center of the pan. You're pushing the cooked egg towards the center while letting the raw egg spill out to be cooked. Give the egg a couple seconds to cook before pushing it back towards the center. The more you scramble the less fluffy the egg will be.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Finish as normal.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Eggs",
+    "date": "2021-03-10",
+    "tags": [
+        "eggs",
+        "basic",
+        "cheesefare"
+    ],
+    "introduction": "Eggs are great. This page will contain all sorts of \"basic\" ways of having an egg. Feel free to suggest more, as per the instructions on the [homepage](/index.html).",
+    "ingredients_source_text": "- eggs - butter - cheese(optional) - milk (optional)",
+    "directions_source_text": "### Boiled eggs 1. Bring water to boil (about enough to cover the eggs when submerged). 2. Place eggs in water. 3. Keep heat high enough to keep a rolling boil, boil until desired consistency   (about 5 or less minutes for soft boiled and very runny, 8 minutes for medium   runny, 10+ for hard boiled). Tip: if your eggs are cracking when you put them in boiling water, you might improve your chances of them not doing so by first warming them up in warm water for a few minutes beforehand. ### Sunny-side up 1. Heat up butter or oil on small pan. 2. Crack egg(s) into pan. 3. Cook on low heat for an evenly cooked white and runny yolk. 4. Serve seasoned with salt and pepper. ### Scrambled 1. Heat up butter or oil on pan. 2. Crack eggs into pan. 3. Start scrambling with wooden spatula. 4. Cook until desired dryness. 5. Season with salt and pepper. ### Scrambled and fluffy 1. Prepare as normal. 2. Crack eggs into pan and let them coagulate maybe twenty or thirty seconds before scrambling. 3. Use a rubber spatula to sort of scrape the egg towards the center of the pan. You're pushing the cooked egg towards the center while letting the raw egg spill out to be cooked. Give the egg a couple seconds to cook before pushing it back towards the center. The more you scramble the less fluffy the egg will be. 4. Finish as normal. Scrambled eggs are easy to customize. E.g. start by frying any of: onions, bits of ham, mushrooms, chopped tomatoes, etc., before cracking the eggs in."
+}

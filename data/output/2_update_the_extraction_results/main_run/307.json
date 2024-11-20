@@ -1,0 +1,111 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 25.0,
+        "max": 30.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "frozen mixed vegetables",
+            "quantity": {
+                "min": 1.0,
+                "max": 1.67
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "cubed cooked chicken",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "condensed cream of chicken soup",
+            "quantity": 10.75,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "dried thyme",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "biscuit/baking mix",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "whole milk",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "large egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 400\u00b0F (200\u00b0C). In a large bowl, combine the vegetables, chicken, soup and thyme. Pour into an ungreased deep-dish 9-in. pie plate. Combine the biscuit mix, milk and egg; spoon over chicken mixture.",
+            "duration": null,
+            "temperature": {
+                "preheat": 400.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Bake until topping is golden brown and toothpick inserted in the center comes out clean, 25-30 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 25.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Chicken Biscuit Potpie Recipe",
+    "date": "2021-03-11",
+    "tags": [
+        "chicken",
+        "milk"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- 1-2/3 cups frozen mixed vegetables, thawed - 1-1/2 cups cubed cooked chicken - 1 can (10-3/4 ounces) condensed cream of chicken soup, undiluted - 1/4 teaspoon dried thyme - 1 cup biscuit/baking mix - 1/2 cup whole milk - 1 large egg",
+    "directions_source_text": "1. Preheat oven to 400\u00b0F (200\u00b0C). In a large bowl, combine the vegetables, chicken, soup and thyme. Pour into an ungreased deep-dish 9-in. pie plate. Combine the biscuit mix, milk and egg; spoon over chicken mixture. 2. Bake until topping is golden brown and toothpick inserted in the center comes out clean, 25-30 minutes."
+}

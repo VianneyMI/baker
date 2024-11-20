@@ -1,0 +1,215 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 315.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Ground Beef",
+            "quantity": 0.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Coconut Milk",
+            "quantity": 400.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Red Chili Pepper",
+            "quantity": null,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Red Curry Paste",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Peanut Butter",
+            "quantity": 4.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Jasmine Rice",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Cilantro",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Sweet Bell Pepper",
+            "quantity": null,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Onion",
+            "quantity": 2.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Garlic Puree",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Peanuts",
+            "quantity": 1.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Soy Sauce",
+            "quantity": 0.5,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Mild Curry Paste",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Start rice. While water comes to a boil, core and cut pepper into 1/2 inch pieces. Roughly chop cilantro. Finely chop the chili pepper - remove seeds for less heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add rice to boiling water. Reduce heat to low, cover and cook until rice is tender and absorbed, about 12-14 minutes. Remove from heat and keep covered.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 12.0,
+                    "max": 14.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "While rice cooks, heat a large non-stick pan over medium-high heat. Once hot, add a tablespoon of oil, then the beef and garlic puree. Cook, breaking up beef into smaller pieces, until no pink remains (4-5 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 4.0,
+                    "max": 5.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add peppers and onions to the pan with beef. Cook, stirring occasionally until softened (2-3 mins). Add mild curry paste, red curry base, soy sauce, peanut butter, and the minced chili pepper. Cook, stirring often, until fragrant (1 min).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                8,
+                9,
+                12,
+                13,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add coconut milk to the pan. Cook, stirring often, until curry thickens slightly (2-3 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Fluff rice with a fork. Add half the cilantro and season, then stir to combine. Divide rice between plates and top with beef curry. Sprinkle peanuts and remaining cilantro over top.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7,
+                11
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Panang-Style Beef Curry",
+    "date": "2022-08-09",
+    "tags": [
+        "beef",
+        "curry",
+        "thai"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 315 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1/2 lb Ground Beef - 1 can (400mL) Coconut Milk - 1 Red Chili Pepper - 1/2 cup Red Curry Paste - 4 tsp Peanut Butter - 3/4 cup Jasmine Rice - 2 Tbsp Cilantro - 1 Sweet Bell Pepper - 1/2 Onion (2 oz), chopped - 1 Tbsp Garlic Puree - 1 oz Peanuts, chopped - 1/2 Tbsp Soy Sauce - 2 Tbsp Mild Curry Paste",
+    "directions_source_text": "1. Start rice. While water comes to a boil, core and cut pepper into 1/2 inch pieces. Roughly chop cilantro. Finely chop the chili pepper - remove seeds for less heat. 2. Add rice to boiling water. Reduce heat to low, cover and cook until rice is tender and absorbed, about 12-14 minutes. Remove from heat and keep covered. 3. While rice cooks, heat a large non-stick pan over medium-high heat. Once hot, add a tablespoon of oil, then the beef and garlic puree. Cook, breaking up beef into smaller pieces, until no pink remains (4-5 mins). 4. Add peppers and onions to the pan with beef. Cook, stirring occasionally until softened (2-3 mins). Add mild curry paste, red curry base, soy sauce, peanut butter, and the minced chili pepper. Cook, stirring often, until fragrant (1 min). 5. Add coconut milk to the pan. Cook, stirring often, until curry thickens slightly (2-3 mins). 6. Fluff rice with a fork. Add half the cilantro and season, then stir to combine. Divide rice between plates and top with beef curry. Sprinkle peanuts and remaining cilantro over top."
+}

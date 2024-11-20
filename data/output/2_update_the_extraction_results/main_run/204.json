@@ -1,0 +1,168 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": 35.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "carrot",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "green bell pepper",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "garlic cloves",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "large onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "dry brown lentils",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "plum tomatoes",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "water",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "bay leaf",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "extra-virgin olive oil",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "paprika",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "spicy chorizo",
+            "quantity": 0.25,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat olive oil in a large pot over medium heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add the onion, carrot, and bell pepper; cook and stir until vegetables begin to soften, about 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Stir in the garlic, tomatoes, chorizo and bay leaf; cook about 4 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 4.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                6,
+                8,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add lentils and water (water should be about an inch deeper than the level of the lentils).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Bring to a boil over high heat. Reduce heat to low; simmer, uncovered, until lentils are just cooked, 15 to 20 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 15.0,
+                    "max": 20.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Sopa de Lentejas",
+    "date": "2021-03-21",
+    "tags": [
+        "spanish"
+    ],
+    "introduction": "![Lentejas](/pix/lentejas.webp) Traditional-spanish dish. Typical spanish! - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 35 min - \ud83c\udf7d\ufe0f Servings: 4-6",
+    "ingredients_source_text": "- 1 carrot, chopped - 1 green bell pepper, chopped - 4 garlic cloves, minced - 1 large onion, chopped - 1 cup dry brown lentils, soaked overnight and drained - 2 plum tomatoes, chopped - 2 cups water, or as needed - 1 bay leaf - 1 tbsp extra-virgin olive oil - 1/2 tsp of paprika - 1/4 spicy chorizo (optional)",
+    "directions_source_text": "1. Heat olive oil in a large pot over medium heat. 2. Add the onion, carrot, and bell pepper; cook and stir until vegetables begin to soften, about 5 minutes. 3. Stir in the garlic, tomatoes, chorizo and bay leaf; cook about 4 minutes. 4. Add lentils and water (water should be about an inch deeper than the level of the lentils). 5. Bring to a boil over high heat. Reduce heat to low; simmer, uncovered, until lentils are just cooked, 15 to 20 minutes."
+}

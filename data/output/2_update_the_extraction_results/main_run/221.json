@@ -1,0 +1,257 @@
+{
+    "serving_size": 4,
+    "preparation_time": 15.0,
+    "cooking_time": 90.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "water",
+            "quantity": 1.75,
+            "unit": "liter",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "peas (dried green split)",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "pork belly (Dutch speklapjes or thick-cut bacon)",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "pork chop",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "bouillon cube (vegetable, pork or chicken)",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "celery",
+            "quantity": 2.0,
+            "unit": "rib",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "carrots (peeled and sliced)",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "potato (peeled and cubed)",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "onion (chopped)",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "leek (sliced)",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "celeriac (cubed)",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "sausage (chopped rookworst, smoked sausage)",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a large soup pot, bring water, split peas, pork belly or bacon, pork chop, and bouillon cube to a boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Reduce the heat to a simmer, cover and let cook for 45 minutes, stirring occasionally and skimming off any foam that rises to the top.",
+            "duration": {
+                "preparation": null,
+                "cooking": 45.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Remove the pork chop, debone, and thinly slice the meat. Set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the celery, carrots, potato, onion, leek, and celeriac to the soup.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Return to the boil, reduce the heat to a simmer and let cook, uncovered, for another 30 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add the smoked sausage for the last 15 minutes of cooking time.",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "When the vegetables are tender, remove the bacon and smoked sausage, slice thinly, and set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "If you prefer a smooth consistency, pur\u00e9e the soup with a stick blender.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Season to taste with salt and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                13,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Add the meat back to the soup, setting some slices of sausage aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Serve in heated bowls or soup plates, garnished with slices of rookworst and chopped celery leaf. Enjoy!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Erwtensoep (Dutch pea soup)",
+    "date": "2021-03-23",
+    "tags": [
+        "dutch",
+        "soup",
+        "vegetables"
+    ],
+    "introduction": "Erwtensoep, also called snert, is the Dutch version of pea soup. Slices of rookworst (smoked sausage) are added before serving. The soup, which is traditionally eaten during the winter, is emblematic of Dutch cuisine. It is customarily served with Frisian rye bread (roggebrood) and bacon, cheese or butter. Pancakes are sometimes served with pea soup; this dish is called snert met struif, struif referring to the pancakes. - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 90 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 7 1/2 cups / 1.75 liters water - 1 1/2 cups / 300 grams peas (dried green split) - 3 1/2 ounces / 100 grams pork belly (Dutch speklapjes or thick-cut bacon) - 1 pork chop - 1 bouillon cube (vegetable, pork or chicken) - 2 ribs celery - 2 to 3 carrots (peeled and sliced) - 1 large potato (peeled and cubed) - 1 small onion (chopped) - 1 small leek (sliced) - 1 cup celeriac (cubed) - 1 pound sausage (chopped rookworst, smoked sausage) - Salt and pepper",
+    "directions_source_text": "1. In a large soup pot, bring water, split peas, pork belly or bacon, pork chop, and bouillon cube to a boil. 2. Reduce the heat to a simmer, cover and let cook for 45 minutes, stirring occasionally and skimming off any foam that rises to the top. 3. Remove the pork chop, debone, and thinly slice the meat. Set aside. 4. Add the celery, carrots, potato, onion, leek, and celeriac to the soup. 5. Return to the boil, reduce the heat to a simmer and let cook, uncovered, for another 30 minutes 6. Add the smoked sausage for the last 15 minutes of cooking time. 7. When the vegetables are tender, remove the bacon and smoked sausage, slice thinly, and set aside. 8. If you prefer a smooth consistency, pur\u00e9e the soup with a stick blender. 9. Season to taste with salt and pepper. 10. Add the meat back to the soup, setting some slices of sausage aside. 11. Serve in heated bowls or soup plates, garnished with slices of rookworst and chopped celery leaf. Enjoy!"
+}

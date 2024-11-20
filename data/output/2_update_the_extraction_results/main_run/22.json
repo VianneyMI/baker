@@ -1,0 +1,117 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": 19.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Salmon Steaks",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Red Pepper Flakes",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Lemon Juice",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Butter",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Cooking oil",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "Aluminum Foil",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Season salmon with salt, black pepper, and red pepper to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Spray or rub in cooking oil on aluminum foil and place on cookie sheet or in baking pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Squeeze lemon juice and place a teaspoon of butter on each salmon steak.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Bake at 400\u00b0F / 200\u00b0C for 19 mins.",
+            "duration": {
+                "preparation": null,
+                "cooking": 19.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 200.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Baked Salmon",
+    "date": "2021-03-17",
+    "tags": [
+        "basic",
+        "fish"
+    ],
+    "introduction": "Simple method for making a good serving of salmon. Goes well with just about anything. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 19 min",
+    "ingredients_source_text": "- Salmon Steaks - Red Pepper Flakes - Lemon Juice - Butter - Cooking oil / spray - Aluminum Foil",
+    "directions_source_text": "1. Season salmon with salt, black pepper, and red pepper to taste. 2. Spray or rub in cooking oil on aluminum foil and place on cookie sheet or in baking pan. 3. Squeeze lemon juice and place a teaspoon of butter on each salmon steak. 4. Bake at 400\u00b0F / 200\u00b0C for 19 mins."
+}

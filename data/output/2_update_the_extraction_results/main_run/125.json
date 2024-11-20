@@ -1,0 +1,188 @@
+{
+    "serving_size": 7,
+    "preparation_time": 10.0,
+    "cooking_time": 120.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Oat Flakes",
+            "quantity": {
+                "min": 270.0,
+                "max": 800.0
+            },
+            "unit": "g",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Rice Flour",
+            "quantity": 20.0,
+            "unit": "g",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Sugar",
+            "quantity": 100.0,
+            "unit": "g",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Crushed Hazelnuts",
+            "quantity": 20.0,
+            "unit": "g",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Oil",
+            "quantity": {
+                "min": 60.0,
+                "max": 75.0
+            },
+            "unit": "g",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Water",
+            "quantity": 50.0,
+            "unit": "g",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Chocolate",
+            "quantity": 70.0,
+            "unit": "g",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "Vanilla Extract",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat the oven at 120\u00b0C.",
+            "duration": null,
+            "temperature": {
+                "preheat": 120.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Prepare the cooking support with for example, a parchment paper on a cooking plate.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Mix the sugar and the water, until the sugar dissolves.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "In a large container (like a salad bowl) introduce the Flour, the Oat Flakes, and the Crushed Hazelnuts (and optionally the Vanilla Extract), and mix.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                1,
+                4,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Introduce in the previous mixture, the Sugar Syrup and the Oil, and mix again.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Deposit the paste obtained on the cooking plate without exceeding 2 cm in height.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Bake the mixture in the 120\u00b0C oven until it becomes hard (in approximately 2 hours)",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 120.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Break the hardened mixture to obtain cereals.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Add if you want some broken chocolate (or chocolate chips) in the cereals, or anything you want.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Country Crisp Cereals",
+    "date": "2021-03-23",
+    "tags": [
+        "breakfast",
+        "english"
+    ],
+    "introduction": "This is a recipe for making Jordan's Country Crisp-like cereals. - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73Cook time: 2 h - \ud83c\udf7d\ufe0f Servings: 7",
+    "ingredients_source_text": "- Oat Flakes (270 g - 800 mL) - Rice Flour (or any other flour) (20 g - 55mL) - Sugar (100 g) - Crushed Hazelnuts (20 g) - Oil (any type) (60 g - 75 mL) - Water (50 g) - Chocolate (70 g) (optional) - Vanilla Extract (1/2 tsp) (optional)",
+    "directions_source_text": "1. Preheat the oven at 120\u00b0C. 2. Prepare the cooking support with for example, a parchment paper on a cooking plate. 3. Mix the sugar and the water, until the sugar dissolves. 4. In a large container (like a salad bowl) introduce the Flour, the Oat Flakes, and the Crushed Hazelnuts (and optionally the Vanilla Extract), and mix. 5. Introduce in the previous mixture, the Sugar Syrup and the Oil, and mix again. 6. Deposit the paste obtained on the cooking plate without exceeding 2 cm in height. 7. Bake the mixture in the 120\u00b0C oven until it becomes hard (in approximately 2 hours) 8. Break the hardened mixture to obtain cereals. 9. Add if you want some broken chocolate (or chocolate chips) in the cereals, or anything you want."
+}

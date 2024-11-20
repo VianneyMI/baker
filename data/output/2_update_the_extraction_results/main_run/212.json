@@ -1,0 +1,225 @@
+{
+    "serving_size": null,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 60.0,
+        "max": 120.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Chorizo pork sausage",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Pork mince",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Bacon strips",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Tomato sauce",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Chilis",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Kidney beans",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Olive oil",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Wine",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Butter",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "spices",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "As pan heats: Slice chilies and chorizo as desired",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Olive oil in pan heat on high",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "high",
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Pork mince in.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Butter add",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Bacon add",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add 3/4 of tomato sauce",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add chilies and chorizo",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Add spices and beans. Then wait until audible spitting of sauce has lasted for around 40 min",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 40.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Add remainder of sauce",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Add wine",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Lower flame, cover pan, then maintain a gentle simmer for 20-40 min",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 20.0,
+                    "max": 40.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Chilli con Carne",
+    "date": "2021-03-12",
+    "tags": [
+        "mexican",
+        "beans",
+        "pork"
+    ],
+    "introduction": "Thinly minced and non-lean mince is preferred. Spices shall be left to the choice of the cook, if at all desired. Mince should be broken up well before cooking. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 1-2 hours",
+    "ingredients_source_text": "- Chorizo pork sausage - Pork mince - Bacon strips - Tomato sauce - Chilis - Kidney beans - Olive oil - Wine - Butter - (spices)",
+    "directions_source_text": "1. As pan heats: Slice chilies and chorizo as desired 2. Olive oil in pan heat on high 3. Pork mince in. 3. Butter add 4. Bacon add 5. Add 3/4 of tomato sauce 6. Add chilies and chorizo 7. Add spices and beans. Then wait until audible spitting of sauce has lasted for around 40 min 8. Add remainder of sauce 9. Add wine 10. Lower flame, cover pan, then maintain a gentle simmer for 20-40 min"
+}

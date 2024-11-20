@@ -1,0 +1,170 @@
+{
+    "serving_size": null,
+    "preparation_time": 30.0,
+    "cooking_time": {
+        "min": 480.0,
+        "max": 500.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "no-knead pizza dough",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "pizza sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "pepperoni",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "mushrooms",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "pineapple",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to max temp.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add olive oil to the bottom of an iron skillet. The whole bottom and sides should be coated.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add some oil to hands and shape dough into a ball.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Place ball to the center of the pan and press it down gently. It will not cover the whole bottom yet.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Cover the skillet and let the dough rest for minimum 30 min.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 30.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Press the dough to cover the whole bottom of the skillet.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add pizza sauce, cheese, and whatever you like on your pizza.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Put in the middle of the oven, and cook for 15-20 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 15.0,
+                    "max": 20.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Pan pizza",
+    "date": "2021-03-21",
+    "tags": [
+        "basic",
+        "pizza"
+    ],
+    "introduction": "![Pan pizza](/pix/pan-pizza.webp) Pan pizza gives a thick and crispy crust \ud83c\udf55. For this recipe, start early with the dough, preferably the night before. It takes a lot of time, but little effort and gives a fantastic result. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 8 hours",
+    "ingredients_source_text": "- [no-knead pizza dough](/no-knead-pizza-dough) - [pizza sauce](/pizza-sauce) - cheese - olive oil - pepperoni (optional) - mushrooms (optional) - pineapple (optional) - ...really whatever you like (optional)",
+    "directions_source_text": "1. Preheat oven to max temp. 2. Add olive oil to the bottom of an iron skillet. The whole bottom and sides should be coated. 3. Add some oil to hands and shape dough into a ball. 4. Place ball to the center of the pan and press it down gently. It will not cover the whole bottom yet. 5. Cover the skillet and let the dough rest for minimum 30 min. 6. Press the dough to cover the whole bottom of the skillet. 7. Add pizza sauce, cheese, and whatever you like on your pizza 8. Put in the middle of the oven, and cook for 15-20 minutes."
+}

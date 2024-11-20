@@ -1,0 +1,241 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": 60.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chipolata sausages",
+            "quantity": 12.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "red onions",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cherry tomatoes",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic cloves",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "fresh basil leaves",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "black balsamic vinegar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "ciabatta bread",
+            "quantity": 1.0,
+            "unit": "loaf",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Pre-heat the oven to 200c (400f)",
+            "duration": null,
+            "temperature": {
+                "preheat": 200.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Put the chipolata sausages in an oven dish",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Cut 4 red onions into quarters spread them out in the oven dish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Mince 2 of the garlic cloves and add them to the oven dish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the 2 remaining garlic cloves to the oven dish, This can be done with the skin to create a garlic spread for the bread.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add 3 tablespoons of oil to the oven dish and toss to cover everything in oil",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Put the dish in the oven for 30 minutes. Toss everything around at 15 minutes to ensure even baking.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Cut half of the cherry tomatoes in half keep the other half intact.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "After 30 minutes take the dish out of the oven.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Add all the tomatoes to the oven dish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Add 3 tablespoons of balsamic vinegar to the oven dish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Put the dish back into the oven for another 30 minutes at 200c (400f)",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 200.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "After 30 minutes take the dish out of the oven and reheat the oven as per instructions on the ciabatta bread.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Tear the fresh basil leaves and add to the oven dish. Let it rest while you wait for the bread.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 15,
+            "description": "Take the bread out of the oven and serve along with the oven dish. Bread can be used to dip in the oven dish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Chipolata Sausage in Balsamic Vinegar",
+    "date": "2022-07-27",
+    "tags": [
+        "beef",
+        "oven",
+        "italian"
+    ],
+    "introduction": "Easy to prepare Italian dish with lots of flavour great for a relaxing evening dipping bread and sipping wine. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 60 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 12 chipolata sausages - 4 red onions - 500g of cherry tomatoes (preferably mixed species) - 4 garlic cloves - Fresh basil leaves - Black balsamic vinegar - 1 loaf of ciabatta bread",
+    "directions_source_text": "1. Pre-heat the oven to 200c (400f) 2. Put the chipolata sausages in an oven dish 3. Cut 4 red onions into quarters spread them out in the oven dish. 4. Mince 2 of the garlic cloves and add them to the oven dish. 5. Add the 2 remaining garlic cloves to the oven dish, This can be done with the skin to create a garlic spread for the bread. 6. Add 3 tablespoons of oil to the oven dish and toss to cover everything in oil 7. Put the dish in the oven for 30 minutes. Toss everything around at 15 minutes to ensure even baking. 8. Cut half of the cherry tomatos in half keep the other half intact. 9. After 30 minutes take the dish out of the oven. 10. Add all the tomatoes to the oven dish. 11. Add 3 tablespoons of balsamic vinegar to the oven dish. 12. Put the dish back into the oven for another 30 minutes at 200c (400f) 13. After 30 minutes take the dish out of the oven and reheat the oven as per instructions on the ciabatta bread. 14. Tear the fresh basil leaves and add to the oven dish. Let it rest while you wait for the bread. 15. Take the bread out of the oven and serve along with the oven dish. Bread can be used to dip in the oven dish."
+}

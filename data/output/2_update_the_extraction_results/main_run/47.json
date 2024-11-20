@@ -1,0 +1,141 @@
+{
+    "serving_size": null,
+    "preparation_time": 10.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Eggs",
+            "quantity": {
+                "min": 4.0,
+                "max": 6.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onion",
+            "quantity": 0.5,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Bell Pepper",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Heavy Cream",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Thinly sliced meat",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "Shredded cheese of choice",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Dice peppers and onions and saute in an oven safe pan at medium heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add in meat to the pan and set oven to low broil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Beat eggs, cream, salt, and pepper together in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add in egg mixture to the pan and mix together until even.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Cook egg and vegetable mixture in pan until eggs begin to firm up and edges begin to pull away. Place into oven",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Keep in Oven until completely firm. At this point you can add shredded cheese on top and put back into the oven until melted (about 2 more minutes)",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Flip out of pan and cool to room temperature to ensure settling.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Frittata",
+    "date": "2021-03-15",
+    "tags": [
+        "eggs",
+        "italian",
+        "cheesefare"
+    ],
+    "introduction": "Very filling egg dish that's easy, fast, and can be eaten at any meal. Any other types of vegetables can be added, this is just what I use the most - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings:4-6",
+    "ingredients_source_text": "- 4-6 Eggs - 1/2 Onion - 1 Bell Pepper - 2 Tbsp Heavy Cream - Thinly sliced meat (prosciutto, shaved chicken, sandwich steak, etc.) (Optional) - Shredded cheese of choice (Optional)",
+    "directions_source_text": "1. Dice peppers and onions and saute in an oven safe pan at medium heat. 2. Add in meat to the pan and set oven to low broil. 3. Beat eggs, cream, salt, and pepper together in a bowl. 4. Add in egg mixture to the pan and mix together until even. 5. Cook egg and vegetable mixture in pan until eggs begin to firm up and edges begin to pull away. Place into oven 6. Keep in Oven until completely firm. At this point you can add shredded cheese on top and put back into the oven until melted (about 2 more minutes) 7. Flip out of pan and cool to room temperature to ensure settling. ## Notes - Other good vegetables include spinach, tomatoes, mushrooms, broccoli rabe - If adding tomatoes, try to keep as much of the juice out to prevent it from being too watery and falling apart - An easy way to get it out of the pan is flip upside down on to a plate and then flip again onto another plate/cooling rack - It is possible to use ground meat as well, but it may have to cook a bit longer in the over to ensure firmness."
+}

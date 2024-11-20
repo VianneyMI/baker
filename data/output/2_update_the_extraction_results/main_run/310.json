@@ -1,0 +1,122 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "bread",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "lingui\u00e7a",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "ham",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Portuguese cheese",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "beef meat",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "blonde beer",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "fried tomato sauce",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "port wine",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "beef broth",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "salted butter",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "onion",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "minced garlic",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "cornstarch",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "piripiri",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        }
+    ],
+    "steps": [],
+    "title": "Francesinha",
+    "date": "2021-03-21",
+    "tags": [
+        "portuguese",
+        "beef"
+    ],
+    "introduction": "Francesinha is a traditional dish from the city of Porto. The francesinha in its special sandwich variation consists of lingui\u00e7a, ham, cold meat and beef steak, covered with melted cheese.",
+    "ingredients_source_text": "### Based Ingredients - bread - lingui\u00e7a (type of Portuguese sausage) - ham - Portuguese cheese - beef meat ### Sauce Ingredients - blonde beer - fried tomato sauce - port wine - beef broth - salted butter - onion - minced garlic - cornstarch - olive oil - piripiri (Portuguese chili)",
+    "directions_source_text": "#"
+}

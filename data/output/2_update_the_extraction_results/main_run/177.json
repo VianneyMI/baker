@@ -1,0 +1,166 @@
+{
+    "serving_size": 12,
+    "preparation_time": null,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tomatoes",
+            "quantity": 10.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "red bell peppers",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onions",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "clove of garlic",
+            "quantity": 1.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "stock or broth",
+            "quantity": 1.0,
+            "unit": "liter",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Cayenne pepper",
+            "quantity": 0.75,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "paprika powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "bruschetta herbs",
+            "quantity": 3.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "oregano",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "giner syrup",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "olive oil",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "heavy cream",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Halve, deseed and grill the bell peppers in an oven or on a grill. Remove skin after grilling.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Skin and quarter tomatoes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Saut\u00e9 onion and crushed garlic in a large soup pan with olive oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add broth/stock, tomatoes, bell paper and pur\u00e9e with a stick blender.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add spices, syrup and cream.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7,
+                8,
+                9,
+                10,
+                12
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Tomato and Grilled Bell Pepper soup",
+    "date": "2021-03-15",
+    "tags": [
+        "soup",
+        "cheesefare"
+    ],
+    "introduction": "- \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0fServings:12 Can be prepared the night before and kept frozen for a week or two.",
+    "ingredients_source_text": "- 10 tomatoes - 2 red bell peppers - 2 onions - 1 clove of garlic - 1L stock or broth - \u00bet Cayenne pepper - 1t paprika powder - 3t bruschetta herbs - 1t oregano - 1t giner syrup - 2T olive oil - 2T heavy cream",
+    "directions_source_text": "1. Halve, deseed and grill the bell peppers in an oven or on a grill. Remove skin after grilling. 2. Skin and quarter tomatoes. 3. Saut\u00e9 onion and crushed garlic in a large soup pan with olive oil. 4. Add broth/stock, tomatoes, bell paper and pur\u00e9e with a stick blender. 5. Add spices, syrup and cream."
+}

@@ -1,0 +1,144 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Swedish falukorv",
+            "quantity": 0.5,
+            "unit": "kilogram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "yellow onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "olive oil",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "tomato pur\u00e9e",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "cream",
+            "quantity": 2.5,
+            "unit": "dl",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "milk",
+            "quantity": 1.0,
+            "unit": "dl",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "soy sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Dijon mustard",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut the sausage into sticks and dice the onion.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Fry the sausage and onion in oil for about ten minutes. Add the tomato pur\u00e9e and cook for another minute.",
+            "duration": {
+                "preparation": null,
+                "cooking": 11.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Stir in cream, milk, soy sauce and Dijon mustard. Let it simmer for at least five minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": null
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Season to taste with plenty of pepper, and possibly salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Serve with boiled rice. Optionally top with freshly ground pepper and/or garnish with chopped parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        }
+    ],
+    "title": "Korv Stroganoff",
+    "date": "2022-07-16",
+    "tags": [
+        "swedish",
+        "quick",
+        "sausage"
+    ],
+    "introduction": "![Korv Stroganoff](/pix/korv-stroganoff.webp) This easy Swedish dish makes for a great weeknight dinner. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1/2 kg Swedish [falukorv](https://en.wikipedia.org/wiki/Falukorv) - 1 yellow onion - 1 tbsp olive oil - 4 tbsp tomato pur\u00e9e - 2 1/2 dl cream - 1 dl milk - 1 tbsp soy sauce - 1 tbsp Dijon mustard",
+    "directions_source_text": "1. Cut the sausage into sticks and dice the onion. 2. Fry the sausage and onion in oil for about ten minutes. Add the tomato pur\u00e9e and cook for another minute. 3. Stir in cream, milk, soy sauce and Dijon mustard. Let it simmer for at least five minutes. 4. Season to taste with plenty of pepper, and possibly salt. 5. Serve with boiled rice. Optionally top with freshly ground pepper and/or garnish with chopped parsley."
+}

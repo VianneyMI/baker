@@ -1,0 +1,249 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Buttermilk",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Hot sauce",
+            "quantity": 0.33,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "All-purpose flour",
+            "quantity": 2.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Cornstarch",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Seasoned salt",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Paprika",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Cayenne pepper",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Black pepper",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Garlic powder",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Onion powder",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Dry mustard powder",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Nashville Hot Chicken seasoning",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Adobo honey seasoning",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Dark brown sugar",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "Chili powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "Garlic powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "Smoked paprika",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "Cooking oil",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 19,
+            "name": "Mayo",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 20,
+            "name": "Ketchup",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 21,
+            "name": "Sweet relish",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 22,
+            "name": "Hot sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Prep your chicken by trimming it into less than a 1/2\" patties for frying.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Prepare your batter and flour in two separate bowls.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Dunk your chicken into the flour, then batter and then flour again. While your chicken is sitting with the battered flour pour 2 1/2 cups of cooking oil into your pan over medium heat or 350 degrees. Let it come to temp, about 20 mins.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 350.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Once your oil has reached the temp of 350, go ahead and fry 3-4 pieces of chicken at one time. You are going to fry for 7 mins (flipping at the midway point) and then pull the chicken and let sit for 5 mins then refry for the second time 3 mins, this depends on the thickness of the chicken.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 350.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Now that your chicken is fried make sure you have a wire rack with a sheet pan under it so the crispy chicken can sit and rest on. During this resting time, you are going to add your Nashville Hot Chicken seasoning together with 1 1/2 cups of the cooking oil you just used. It will simmer but quickly whisk until it comes still. Now you want to brush that amazing sauce all over the crispy chicken or dunk it.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Have some toasted buns ready and create your sandwich. First, you want to sauce your top and bottom buns, add shredded romaine lettuce, chicken patty, tomato and then complete with the top bun for an amazingly delicious creation.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Feed the family and enjoy! This one gets spicy, >E N J O Y< :)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Nashville Chicken Sandwich",
+    "date": "2021-03-21",
+    "tags": [
+        "chicken",
+        "spicy"
+    ],
+    "introduction": "If you love spicy foods and chicken then this Nashville Hot Chicken sandwich recipe is just for you. It takes some time with prepping and process but when you take that first bite all the effort will be worth it. It\u2019s unlike any other fried chicken recipe that includes double frying your chicken and using the same cooking oil from your fry as a sauce for the Nashville Hot Chicken spice. Nashville Hot Chicken was invented by a man named Thorton Prince. It is said that he came home late one night and whipped this dish up randomly. Could you imagine creating this staple of a dish late night after coming home from an evening of festivities, blows my mind. Let\u2019s get into the recipe now. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "Batter - 2 Cups Buttermilk - 1/3 Cup Hot sauce Flour - 2 1/2 Cups All-purpose flour - 3 tbsp Cornstarch - 3 tbsp Seasoned salt - 1 tbsp Paprika - 2 tsp Cayenne pepper - 2 tsp Black pepper - 1 tbsp Garlic powder - 1 tbsp Onion powder - 2 tsp Dry mustard powder Nashville Hot Chicken - 2 tbsp Nashville Hot Chicken seasoning - 2 tbsp Adobo honey seasoning - 2 tbsp Dark brown sugar - 1 tsp Chili powder - 1 tsp Garlic powder - 1 tsp Smoked paprika - 1 1/2 Cups Cooking oil Used to fry the chicken Sauce For the Buns - 3 tbsp Mayo - 1 tbsp Ketchup - 2 tbsp Sweet relish - 1 tbsp Hot sauce",
+    "directions_source_text": "1. Prep your chicken by trimming it into less than a 1/2\" patties for frying. 2. Prepare your batter and flour in two separate bowls. 3. Dunk your chicken into the flour, then batter and then flour again. While your chicken is sitting with the battered flour pour 2 1/2 cups of cooking oil into your pan over medium heat or 350 degrees. Let it come to temp, about 20 mins. 4. Once your oil has reached the temp of 350, go ahead and fry 3-4 pieces of chicken at one time. You are going to fry for 7 mins (flipping at the midway point) and then pull the chicken and let sit for 5 mins then refry for the second time 3 mins, this depends on the thickness of the chicken. 5. Now that your chicken is fried make sure you have a wire rack with a sheet pan under it so the crispy chicken can sit and rest on. During this resting time, you are going to add your Nashville Hot Chicken seasoning together with 1 1/2 cups of the cooking oil you just used. It will simmer but quickly whisk until it comes still. Now you want to brush that amazing sauce all over the crispy chicken or dunk it. 6. Have some toasted buns ready and create your sandwich. First, you want to sauce your top and bottom buns, add shredded romaine lettuce, chicken patty, tomato and then complete with the top bun for an amazingly delicious creation. 7. Feed the family and enjoy! This one gets spicy, >E N J O Y< :)"
+}

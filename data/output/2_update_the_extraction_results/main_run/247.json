@@ -1,0 +1,128 @@
+{
+    "serving_size": 5,
+    "preparation_time": 30.0,
+    "cooking_time": 150.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chicken",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "diced onions",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "diced chives",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "lard",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "boiled water",
+            "quantity": 1.0,
+            "unit": "unknown",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut the chicken into pieces. Remove offal or small bones, if you want. Salt and pepper to taste now.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a pan (best if cast iron), add the lard and heat it up very well.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the chicken and lower the heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "After the meat sears, add the diced onions.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When the onions brown, cover the pot with boiling water, and let it simmer for two hours. If it dries, add more water.",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "After those two hours, add the diced chives and simmer it for more thirty minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Galinha Caipira",
+    "date": "2022-11-16",
+    "tags": [
+        "chicken",
+        "stew",
+        "brazilian"
+    ],
+    "introduction": "Chicken stew ubiquitous in rural Brazil. Perfect pair with rice and beans, polenta or boiled cassava root. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 2h 30min - \ud83c\udf7d\ufe0f Servings: Usually enough for a family of five.",
+    "ingredients_source_text": "- A whole ckicken weighing close to 2,5kg (roughly 3 pounds). Avoid industrially grown birds, as those can make the stew very greasy and flavorless. - A cup of diced onions of any kind. - Half a cup of diced chives. - A tablespoon of lard. - A full kettle of boiled water.",
+    "directions_source_text": "1. Cut the chicken into pieces. Remove offal or small bones, if you want. Salt and pepper to taste now. 2. In a pan (best if cast iron), add the lard and heat it up very well. 3. Add the chicken and lower the heat. 4. After the meat sears, add the diced onions. 5. When the onions brown, cover the pot with boiling water, and let it simmer for two hours. If it dries, add more water. 6. After those two hours, add the diced chives and simmer it for more thirty minutes."
+}

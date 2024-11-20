@@ -1,0 +1,347 @@
+{
+    "serving_size": null,
+    "preparation_time": {
+        "min": 30.0,
+        "max": 60.0
+    },
+    "cooking_time": {
+        "min": 240.0,
+        "max": 300.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "San Marzano plum tomatoes",
+            "quantity": {
+                "min": 6.0,
+                "max": 10.0
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "tomato paste",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 3,
+            "name": "garlic",
+            "quantity": 8.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "white onions",
+            "quantity": 1.5,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "red wine",
+            "quantity": {
+                "min": 6.0,
+                "max": 8.0
+            },
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "fresh basil leaves",
+            "quantity": 8.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "dry oregano",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "red pepper",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "pork tenderloin",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "sweet and/or spicy Italian sausage",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "cubed stewing beef",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "ground beef chuck, veal, and pork",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "grated Pecorino Romano cheese",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "breadcrumbs",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "eggs",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "milk",
+            "quantity": 1.0,
+            "unit": "splash",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "fresh parsley chopped",
+            "quantity": 1.0,
+            "unit": "handful",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "fresh basil chopped",
+            "quantity": 1.0,
+            "unit": "sprig",
+            "optional": false
+        },
+        {
+            "id": 19,
+            "name": "onion minced",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 20,
+            "name": "garlic minced",
+            "quantity": {
+                "min": 4.0,
+                "max": 8.0
+            },
+            "unit": "clove",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "If you already have tomato sauce skip to step 5",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "For fresh tomatoes, wash and cut out off the green stems of the tomatoes and cut them into a few chunks and lightly salt them over a collander or strainer so they release water and break down quicker",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "For canned tomatoes, use your hands to crush the peeled tomatoes (don't use a food processor)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "In a large stock pot cook down the tomatoes for approximately 30 mins then use a food mill or strainer to remove the skins and seeds to yield tomato sauce (this can be done beforehand and frozen / canned for months)",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Mix all the ingredients in the Meatballs section by hand and form equal sized meatballs",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Either bake the meatballs at 400\u00b0F until brown or fry them with the the other meats in step 7",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": 400.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Coat the bottom of a dutch oven or large stock pot with olive oil and sear each meat one by one, removing from the pot once browned on the outside (do not cook the meat all the way through)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Sweat the onion and garlic, then deglaze the pan with the red wine",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Fill the pot with the seared meat, tomato sauce, add the fresh basil, then season with dried oregano, red pepper, salt, pepper, and a pinch of sugar to taste",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                10,
+                11,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Cook on very low flame uncovered for 4-5 hours stirring making sure it doesn't burn",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 240.0,
+                    "max": 300.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Serve over cooked dry pasta such as ziti, penne, rigatoni",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Portion the sauce and meats and freeze in containers for up to 4-6 months",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Ragu Napoletano",
+    "date": "2021-05-13",
+    "tags": [
+        "tomato",
+        "sauce",
+        "italian",
+        "pork",
+        "veal"
+    ],
+    "introduction": "This recipe is known by Italian-Americans as \"Sunday Gravy\", which originated from the Southern Italian dish Ragu Napoletano. This is my variation of my family's version which was passed down 3 generations to me. ![Ragu Napoletano](pix/ragu-napoletano-01.webp) - \u23f2\ufe0f Prep time: 30-60 min - \ud83c\udf73Cook time: 4-5 hrs - \ud83c\udf7d\ufe0f Servings: 10-12",
+    "ingredients_source_text": "### Tomato Sauce - 6-10 lbs San Marzano plum tomatoes (fresh or canned peeled) - Tomato paste (optional) ### Aromatics and Herbs - 8 cloves garlic - 1.5 white onions - 6-8 oz red wine - 8 fresh basil leaves - Dry oregano - Red pepper ### Meat - 1-2 lb pork tenderloin - 1-2 lb sweet and or spicy Italian sausage - 1 lb cubed stewing beef (chuck, short rib, or oxtail) ### Meatballs - 1-2 lb total of ground beef chuck, veal, and pork - 1 1/2 cups grated Pecorino Romano cheese - 1 1/2 cups breadcrumbs (baked stale bread, oregano, salt and pepper pulsed in a food processor) - 2-3 eggs - Splash of milk - Handfull of fresh parsley chopped - Sprig of fresh basil chopped - 1/2 onion minced - 4-8 cloves garlic minced",
+    "directions_source_text": "1. If you already have tomato sauce skip to step 5 2. For fresh tomatoes, wash and cut out off the green stems of the tomatoes and cut them into a few chunks and lightly salt them over a collander or strainer so they release water and break down quicker 3. For canned tomatoes, use your hands to crush the peeled tomatoes (don't use a food processor) 4. In a large stock pot cook down the tomatoes for approximately 30 mins then use a food mill or strainer to remove the skins and seeds to yield tomato sauce (this can be done beforehand and frozen / canned for months) ![Sauce](pix/ragu-napoletano-02.webp) 5. Mix all the ingredients in the Meatballs section by hand and form equal sized meatballs 6. Either bake the meatballs at 400\u00b0F until brown or fry them with the the other meats in step 7 7. Coat the bottom of a dutch oven or large stock pot with olive oil and sear each meat one by one, removing from the pot once browned on the outside (do not cook the meat all the way through) 8. Sweat the onion and garlic, then deglaze the pan with the red wine 9. Fill the pot with the seared meat, tomato sauce, add the fresh basil, then season with dried oregano, red pepper, salt, pepper, and a pinch of sugar to taste ![Meats](pix/ragu-napoletano-01.webp) 10. Cook on very low flame uncovered for 4-5 hours stirring making sure it doesn't burn 11. Serve over cooked dry pasta such as ziti, penne, rigatoni 12. Portion the sauce and meats and freeze in containers for up to 4-6 months"
+}

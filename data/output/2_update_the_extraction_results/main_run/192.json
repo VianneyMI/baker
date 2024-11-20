@@ -1,0 +1,246 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "ground pork",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sushi rice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "green onion",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "fresh ginger",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "miso paste",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "pickled daikon",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "zucchini or bok choy",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "sesame oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "broth",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "cook sushi rice",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "slice daikon, and pickle in a quick brine (rice vinegar, sugar, water)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "dice white parts of green onion, mince green ends for garnish",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "mince fresh ginger",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "chop zucchini or bok choy into half inch (1-1.5 cm) chunks",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "heat up 2 tablespoons sesame oil",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "break up and brown ground pork till almost cooked through",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "salt and pepper the pork",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "add 1/2 cup to 1 cup (250-500 mL) water or broth",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": true
+        },
+        {
+            "number": 10,
+            "description": "add white parts of green onion and ginger",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "add miso paste to taste",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "simmer stirring occasionally",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "add zucchini or bok choy, cook al dente",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "serve pork & veggies over bed of rice, garnish with green onion",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 15,
+            "description": "(optional) add some spice! Sriracha or crushed red pepper are great.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        }
+    ],
+    "title": "Miso Ginger Pork",
+    "date": "2021-03-11",
+    "tags": [
+        "japanese",
+        "pork"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- ground pork - sushi rice - green onion - fresh ginger - miso paste - pickled daikon - zucchini or bok choy - sesame oil (or olive oil) - broth (optional)",
+    "directions_source_text": "1. cook sushi rice 2. slice daikon, and pickle in a quick brine (rice vinegar, sugar, water) 3. dice white parts of green onion, mince green ends for garnish 4. mince fresh ginger 5. chop zucchini or bok choy into half inch (1-1.5 cm) chunks 6. heat up 2 tablespoons sesame oil 7. break up and brown ground pork till almost cooked through 8. salt and pepper the pork 9. add 1/2 cup to 1 cup (250-500 mL) water or broth 10. add white parts of green onion and ginger 11. add miso paste to taste 12. simmer stirring occasionally 13. add zucchini or bok choy, cook al dente 14. serve pork & veggies over bed of rice, garnish with green onion 15. (optional) add some spice! Sriracha or crushed red pepper are great."
+}

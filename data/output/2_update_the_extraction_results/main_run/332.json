@@ -1,0 +1,195 @@
+{
+    "serving_size": 6,
+    "preparation_time": 5.0,
+    "cooking_time": 35.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "free-range eggs",
+            "quantity": 8.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "potatoes",
+            "quantity": 1.0,
+            "unit": "kilogram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "white onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Extra virgin olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel, rinse and dry the potatoes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cut the potatoes into thin slices. Put in a bowl, add salt to taste and stir.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Put a nonstick frying pan on the fire and add enough olive oil to fry all the potato slices.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the potato slices already salted and let them cook for approximately 20 minutes over low heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "While the potatoes are frying, beat the eggs in a bowl. Peel and cut the onion as finely as possible.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add olive oil in another frying pan and slowly fry the onion until it gets a slightly golden color.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Drain the onion and add it to the bowl with the beaten egg.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Remove the potatoes from the pan with a slotted spoon, draining the oil away as much as possible, and add them to the bowl with the onion and egg.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Let the mixture rest for at least 5 minutes so all the flavors come together. Give it a very gentle stir from time to time.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 5.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Remove the oil from the pan you used to fry the potatoes. Use the pan to cook the mixture over medium-high fire for about 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Flip it over with the help of a big plate and cook the other side for another 5 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Spanish Tortilla",
+    "date": "2021-03-21",
+    "tags": [
+        "spanish",
+        "potato",
+        "eggs",
+        "tortilla"
+    ],
+    "introduction": "![Spanish Tortilla](/pix/spanish-tortilla.webp) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 35 min - \ud83c\udf7d\ufe0f Servings: 6",
+    "ingredients_source_text": "* 8 free-range eggs * 1 kg of potatoes * 1 white onion * Extra virgin olive oil",
+    "directions_source_text": "1. Peel, rinse and dry the potatoes. 2. Cut the potatoes into thin slices. Put in a bowl, add salt to taste and stir. 3. Put a nonstick frying pan on the fire and add enough olive oil to fry all the potato slices. 4. Add the potato slices already salted and let them cook for approximately 20 minutes over low heat. 5. While the potatoes are frying, beat the eggs in a bowl. Peel and cut the onion as finely as possible. 6. Add olive oil in another frying pan and slowly fry the onion until it gets a slightly golden color. 7. Drain the onion and add it to the bowl with the beaten egg. 8. Remove the potatoes from the pan with a slotted spoon, draining the oil away as much as possible, and add them to the bowl with the onion and egg. 9. Let the mixture rest for at least 5 minutes so all the flavors come together. Give it a very gentle stir from time to time. 10. Remove the oil from the pan you used to fry the potatoes. Use the pan to cook the mixture over medium-high fire for about 5 minutes. 11. Flip it over with the help of a big plate and cook the other side for another 5 minutes. ## Notes * Things like the slicing of the potato, the amount of salt and how curdled is the inner part of the tortilla depend on your own taste. Don't be afraid to experiment!"
+}

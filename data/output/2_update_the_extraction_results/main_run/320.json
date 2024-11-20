@@ -1,0 +1,254 @@
+{
+    "serving_size": null,
+    "preparation_time": 20.0,
+    "cooking_time": {
+        "min": 40.0,
+        "max": 60.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "potatoes",
+            "quantity": {
+                "min": 6.0,
+                "max": 1.5
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "milk",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "herbs de Provence",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "dried parsley",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "cheddar cheese",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "nutmeg",
+            "quantity": 1.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "paprika",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "ground beef",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "soya sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Worcestershire sauce",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "whole kernel corn",
+            "quantity": 14.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "cream style corn",
+            "quantity": 14.0,
+            "unit": "ounce",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat the oven to 375\u00b0F (190\u00b0C).",
+            "duration": null,
+            "temperature": {
+                "preheat": 375.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a large pot of salted water, cook the potatoes for 20-30min or until tender. Drain.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 20.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add the butter, the milk, the herbs, the nutmeg and mash the potatoes with a masher or an electric mixer. Gradually add the cheese. Season with salt and pepper and set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "In a pan at medium-high heat, brown the onion in the butter and cook the beef until golden brown. Add the herbs, the Worcestershire and the soya sauce and cook it for another 2min. Set aside.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                2,
+                9,
+                10,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "In a 6-8 inch baking dish, press the meat into the bottom. Evenly cover with the whole kernel corn, the cream corn and finish with the layer of mashed potatoes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                13,
+                14,
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Sprinkle some paprika to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Bake it in the oven for 20-30min.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 20.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "(Optional) Finish the cooking under the broiler for no more than 2min.",
+            "duration": {
+                "preparation": null,
+                "cooking": 2.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Serve with ketchup on top and with marinated beets on the side.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "P\u00e2t\u00e9 Chinois (Quebec Style Shepherd\u2019s Pie)",
+    "date": "2021-03-22",
+    "tags": [
+        "quebec",
+        "beef",
+        "pie",
+        "potato"
+    ],
+    "introduction": "![pate chinois](/pix/pate-chinois.webp \"Homemade pate chinois with to much ketchup\") This is the most traditional dish that every household eats in Quebec. As a kid, you would eat P\u00e2t\u00e9 Chinois at least once a week, either at home or at the school's cafeteria,. It is very similar to a Shepherd\u2019s Pie, as it is divided in 3 layers of ingredients: meat, legumes and mashed potatoes. The literal translation of the name is something like _chinese pie_. You can search for the origin of the name on the internet, I'm not an history teacher. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 40-60 min - \ud83c\udf7d\ufe0f Servings: 6-8",
+    "ingredients_source_text": "### Mashed potatoes layer * 1\u00bd lb of potatoes or around 6 big one, peeled and diced * 2 tbsp of butter * \u00bd cup milk * 1 tsp of herbs de Provence or dried parsley * (optional) \u00bd cup of strong cheddar cheese, grated * Pinch of nutmeg * Paprika ### Beef layer * 1 tbsp of butter * 1 lb of ground beef * 1 onion, diced * 1 tbsp of soya sauce * 1 tbsp of herbs de Provence * 1 tsp of Worcestershire sauce ### Corn layer * 1 small can (around 14oz) of whole kernel corn * 1 small can (around 14oz) of cream style corn",
+    "directions_source_text": "1. Preheat the oven to 375\u00b0F (190\u00b0C). 2. In a large pot of salted water, cook the potatoes for 20-30min or until tender. Drain. 3. Add the butter, the milk, the herbs, the nutmeg and mash the potatoes with a masher or an electric mixer. Gradually add the cheese. Season with salt and pepper and set aside. 4. In a pan at medium-high heat, brown the onion in the butter and cook the beef until golden brown. Add the herbs, the Worcestershire and the soya sauce and cook it for another 2min. Set aside. 5. In a 6-8 inch baking dish, press the meat into the bottom. Evenly cover with the whole kernel corn, the cream corn and finish with the layer of mashed potatoes. 6. Sprinkle some paprika to taste. 7. Bake it in the oven for 20-30min. 9. (Optional) Finish the cooking under the broiler for no more than 2min. 10. Serve with ketchup on top and with marinated beets on the side. ## Note - For a vegetarian alternative, you can replace the beef with 500g of fake meat and a can of 19oz of lentils (drain and washed). - This recipe can be easily double and you can also freeze it for lunches. - If you like mushrooms, you can brown 1/2 cup of sliced mushrooms with the onions of the beef layer. - If you want to be wild, you can swap the corn layer with a mix of diced veges like black radishes, parsnips, carrots, turnips and/or cauliflower."
+}

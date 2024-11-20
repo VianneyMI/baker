@@ -1,0 +1,257 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "jar",
+            "quantity": 5.0,
+            "unit": "l",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "black (or green) tea",
+            "quantity": {
+                "min": 3.0,
+                "max": 5.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sugar",
+            "quantity": 2.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "kombucha scoby",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "additional teas",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "juices",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "fruits",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "spices",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Boil 1-2l of water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Rinse all the dishes you will be working with boiling water; this is important so the brew doesn't go bad while fermenting.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Steep 3-5 tbsp (or 5-6 bags) of tea in 3-5 cups of water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Strain the leaves from the tea and add 2 cups of sugar (or honey).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add other optional teas to your liking; I like to add a good handful of rosella tea; steep and strain this in boiling water separately.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add 4l of water to the tea concentrate and pour into a wide mouthed jar.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Let the tea sit until it is less than 40\u00b0C; add ice cubes if it has to go quick.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": null,
+                "cooling": 40.0
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Add your scoby to the jar and seal the mouth tightly with a cloth or paper towel and a rubber band. The scoby has to breathe, but you want to prevent insects and dirt from getting into the jar.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Let the jar sit in a warm dark spot for 10-14 days.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 10.0,
+                    "max": 14.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Taste the brew after 10-14 days; if it has started to carbonate and the sugar is mostly gone, it is ready. The brewing time will strongly depend on your personal preference, shorten or lengthen as you wish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Once ready, strain 4/5 of the brew through a sieve into re-sealable glass bottles.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Make another batch of primary brew and refill the big jar; the remaining old brew will act as a starter. Rinse the jar and remove parts of the scoby once in a while.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "If you wish you can add juices, fruits, or spices to your brew. These will partially ferment and add a special character to your kombucha. One nice addition is apple and cinnamon mixed in with green tea.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Let the bottles sit in a warm dark spot for another 3-14 days; the carbonation process will continue, so make sure to release pressure from the bottles every other day.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 3.0,
+                    "max": 14.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 15,
+            "description": "When you are satisfied with the carbonation and the flavor, put the bottles in the fridge. Here you can store them for weeks at a time.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 16,
+            "description": "Enjoy your kombucha, rinse, and repeat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "'Kombucha'",
+    "date": "2022-12-30",
+    "tags": [
+        "drink",
+        "sweet"
+    ],
+    "introduction": "The simple yet comprehensive guide to making tasty kombucha. This is intended to give you an initial overview of the process. I strongly encourage you to experiment with brewing times, teas, flavors, etc. The scoby is extremely tolerant, so the worst that can happen is that your resulting kombucha won't be that great.",
+    "ingredients_source_text": "- 5l (1 gallon) jar - 3-5 tbsp black (or green) tea - 2 cups sugar - kombucha scoby - optional additional teas - optional juices, fruits, spices - patience ;)",
+    "directions_source_text": "Primary brew: 1. Boil 1-2l of water. 2. Rinse all the dishes you will be working with boiling water; this is   important so the brew doesn't go bad while fermenting. 3. Steep 3-5 tbsp (or 5-6 bags) of tee in 3-5 cups of water. 4. Strain the leaves from the tea and add 2 cups of sugar (or honey). 5. Add other optional teas to your liking; I like to add a good handful of   rosella tea; steep and strain this in boiling water separately. 6. Add 4l of water to the tea concentrate and pour into a wide mouthed jar. 7. Let the tea sit until it is less than 40\u00b0C; add ice cubes if it has to go   quick. 8. Add your scoby to the jar and seal the mouth tightly with a cloth or paper   towel and a rubber band. The scoby has to breathe, but you want to prevent   insects and dirt from getting into the jar. 9. Let the jar sit in a warm dark spot for 10-14 days. Second brew: 1. Taste the brew after 10-14 days; if it has started to carbonate and the   sugar is mostly gone, it is ready. The brewing time will strongly depend on   your personal preference, shorten or lengthen as you wish. 2. Once ready, strain 4/5 of the brew through a sieve into re-sealable glass   bottles. 3. Make another batch of primary brew and refill the big jar; the remaining old   brew will act as a starter. Rinse the jar and remove parts of the scoby once   in a while. 4. If you wish you can add juices, fruits, or spices to your brew. These will   partially ferment and add a special character to your kombucha. One nice   addition is apple and cinnamon mixed in with green tea. 5. Let the bottles sit in a warm dark spot for another 3-14 days; the   carbonation process will continue, so make sure to release pressure from the   bottles every other day. 6. When you are satisfied with the carbonation and the flavor, put the bottles   in the fridge. Here you can store them for weeks at a time. 7. Enjoy your kombucha, rinse, and repeat."
+}

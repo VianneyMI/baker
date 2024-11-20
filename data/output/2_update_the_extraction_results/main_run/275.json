@@ -1,0 +1,136 @@
+{
+    "serving_size": 4,
+    "preparation_time": {
+        "min": 30.0,
+        "max": 30.0
+    },
+    "cooking_time": 60.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chicken thighs",
+            "quantity": 8.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "new potato",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "bacon lardon",
+            "quantity": 100.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "shallots",
+            "quantity": 8.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "oregano sprigs",
+            "quantity": 5.0,
+            "unit": "sprig",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "oregano leaves",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "olive oil",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "lemons",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "chicken stock",
+            "quantity": 200.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "white wine",
+            "quantity": 100.0,
+            "unit": "ml",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Heat oven to 220C/200C with fan/gas 7. While oven is heating up cut the new potatoes into 0.5cm - 1cm slices and tip them into a roasting tray. Drizzle 1tbsp of olive oil on the sliced potatoes, season well and toss to ensure a good coating. Then put the roasting tray into the oven for 20 minutes, or however long until the potatoes start to crisp.",
+            "duration": null,
+            "temperature": {
+                "preheat": 220.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a separate, temporary, tray place the chicken thighs and season them. Cut up the shallots into 1/8 parts, then the lemons into 1/4 wedges. Once this is done, take out the roasting tray and transfer the chicken, shallots, lemon wedges and bacon lardons into it, with a final drizzle of 1tbsp of olive oil over the tray's items. Cook for another 20 minutes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4,
+                8,
+                3,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Prepare the chicken stock and wine to take out the roasting tray for the last time before serving. Pour 200ml of chicken stock and 100ml of white wine over the tray's contents and return it to the oven for a final 20 minutes of cooking.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                10
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Lemon and oregano chicken traybake",
+    "date": "2021-03-23",
+    "tags": [
+        "mediterranean",
+        "chicken",
+        "traybake"
+    ],
+    "introduction": "![Lemon and oregano chicken traybake](/pix/lemon-and-oregano-chicken-traybake.webp) - \u23f2\ufe0f Prep time: 30 min (in 10 minute intervals) - \ud83c\udf73 Cook time: 60 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 8 chicken thighs (skin on) - 500g new potato - 100g bacon lardon - 8 shallots - 5 oregano sprigs / heavy sprinkle of oregano leaves - 2 tbsp olive oil - 2 lemons - 200ml chicken stock - 100ml white wine",
+    "directions_source_text": "1. Heat oven to 220C/200C with fan/gas 7. While oven is heating up cut the new potatoes into 0.5cm - 1cm slices and tip them into a roasting tray. Drizzle 1tbsp of olive oil on the sliced potatoes, season well and toss to ensure a good coating. Then put the roasting tray into the oven for 20 minutes, or however long until the potatoes start to crisp. 2. In a separate, temporary, tray place the chicken thighs and season them. Cut up the shallots into 1/8 parts, then the lemons into 1/4 wedges. Once this is done, take out the roasting tray and transfer the chicken, challots, lemon wedges and bacon lardons into it, with a final drizzle of 1tbsp of olive oil over the tray's items. Cook for another 20 minutes. 3. Prepare the chicken stock and wine to take out the roasting tray for the last time before serving. Pour 200ml of chicken stock and 100ml of white wine over the tray's contents and return it to the oven for a final 20 minutes of cooking."
+}

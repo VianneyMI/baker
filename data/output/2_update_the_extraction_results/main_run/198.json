@@ -1,0 +1,236 @@
+{
+    "serving_size": 4,
+    "preparation_time": 20.0,
+    "cooking_time": 60.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "butter",
+            "quantity": 25.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "garlic cloves",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "ginger",
+            "quantity": 1.0,
+            "unit": "piece",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "curry powder",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "turmeric",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "malt vinegar",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "star anise",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "chicken stock",
+            "quantity": 250.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "cornflour",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "water",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "lemon juice",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Melt the butter in a large saucepan over medium heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add in the sliced onion, sliced garlic, and ginger.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Fry for 15 min, until the onion is soft.",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the curry powder, turmeric, vinegar, and star anise.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Fry for 1 minute.",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Pour in the stock.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Simmer for 30 minutes while stirring.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Remove the star anise.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Add the cornflour and water.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Simmer for 5 minutes while stirring.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Blend the sauce. Add in some lemon juice if you want.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": true
+        }
+    ],
+    "title": "Curry sauce",
+    "date": "2021-05-08",
+    "tags": [
+        "sauce",
+        "indian",
+        "curry"
+    ],
+    "introduction": "I like to make double this amount and freeze the rest. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 60 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 25g butter - 1 onion, sliced - 2 garlic cloves, sliced - Thumb of ginger, sliced - 2 tbsp curry powder - 1/2 tsp turmeric - 1 tbsp malt vinegar - 1 star anise - 250ml chicken stock - 1 tbsp cornflour - 2 tbsp water - Lemon juice (optional)",
+    "directions_source_text": "1. Melt the butter in a large saucepan over medium heat. 2. Add in the sliced onion, sliced garlic, and ginger. 3. Fry for 15 min, until the onion is soft. 4. Add the curry powder, turmeric, vinegar, and star anise. 5. Fry for 1 minute. 6. Pour in the stock. 7. Simmer for 30 minutes while stirring. 8. Remove the star anise. 9. Add the cornflour and water. 10. Simmer for 5 minutes while stirring. 11. Blend the sauce. Add in some lemon juice if you want."
+}

@@ -1,0 +1,157 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chicken fillet",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "wheat flour",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "paprika",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Herbes de Provence",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Rinse the chicken fillets.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Remove excess moisture from the fillets by patting them with a paper towel.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "If the fillets are too thick, cut them in half.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "In a small container, pout enough flour and mix in paprika, garlic powder, Provence herbs, salt, and black pepper to your liking.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add a little cooking oil to the pan and heat it up to medium-high heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Coat the fillets by rolling them in the wheat mix.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once the pan is hot, put the fillets on the pan and sear each side for about 5 minutes over medium-high heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "As a final tip, if your fillet is too thick after all, you can just lower the heat at the end and cook it for about 2-3 more minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 2.0,
+                    "max": 3.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Pan-seared Chicken Fillet",
+    "date": "2021-03-12",
+    "tags": [
+        "chicken",
+        "fry"
+    ],
+    "introduction": "![Juicy Pan-seared Chicken Fillet](/pix/pan-seared-chicken.webp) This is a quick and easy recipe to prepare delicious chicken fillets that are juicy on the inside, and crisp on the outside.",
+    "ingredients_source_text": "For this recipe I don't use any exact proportions, it's just a matter of cooking it one time to get a sense of what the ideal proportions for you are. * Chicken fillet(s); I normally use chicken breasts * Wheat flour * Paprika * Garlic powder * Herbes de Provence",
+    "directions_source_text": "1. Rinse the chicken fillets. 2. Remove excess moisture from the fillets by patting them with a paper towel. 3. If the fillets are too thick, cut them in half. 3. In a small container, pout enough flour and mix in paprika, garlic powder,   Provence herbs, salt, and black pepper to your liking. 4. Add a little cooking oil to the pan and heat it up to medium-high heat. 5. Coat the fillets by rolling them in the wheat mix. 6. Once the pan is hot, put the fillets on the pan and sear each side for about   5 minutes over medium-high heat. 7. As a final tip, if your fillet is too thick after all, you can just lower the   heat at the end and cook it for about 2-3 more minutes. 8. And that's it. Winner winner chicken dinner!"
+}

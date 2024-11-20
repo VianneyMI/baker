@@ -1,0 +1,1890 @@
+[
+    {
+        "serving_size": 1,
+        "preparation_time": null,
+        "cooking_time": null,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "raw pre-shelled peanuts",
+                "quantity": 1.0,
+                "unit": "pound",
+                "optional": false
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Spread peanuts on a large baking sheet and roast in the oven at 350\u00b0F (175\u00b0C) for ten to twelve minutes.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 10.0,
+                        "max": 12.0
+                    },
+                    "waiting": null
+                },
+                "temperature": {
+                    "preheat": null,
+                    "baking": 350.0,
+                    "cooking": null,
+                    "cooling": null
+                },
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "While the peanuts are still hot remove any skins from them. This is best done by wrapping a few handfuls at a time in a dish towel and rolling them against each other for several seconds.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Put all your roasted and skinned peanuts in a food processor, add salt if desired, and chop until you have reached your desired thickness of peanut butter. (This may take a few minutes)",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            }
+        ],
+        "title": "Peanut Butter",
+        "date": "2021-03-13",
+        "tags": [
+            "spread",
+            "snack",
+            "basic",
+            "fasting"
+        ],
+        "introduction": "",
+        "ingredients_source_text": "- 1 lb. of raw pre-shelled peanuts",
+        "directions_source_text": "1. Spread peanuts on a large baking sheet and roast in the oven at 350\u00b0F (175\u00b0C) for ten to twelve minutes 2. While the peanuts are still hot remove any skins from them. This is best done by wrapping a few handfuls at a time in a dish towel and rolling them against each other for several seconds. 3. Put all your roasted and skinned peanuts in a food processor, add salt if desired, and chop until you have reached your desired thickness of peanut butter. (This may take a few minutes)"
+    },
+    {
+        "serving_size": 4,
+        "preparation_time": 20.0,
+        "cooking_time": 120.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Garlic",
+                "quantity": {
+                    "min": 4.0,
+                    "max": 8.0
+                },
+                "unit": "clove",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "Spring Onions",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "Cardamom Seeds",
+                "quantity": 10.0,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "Star Anise",
+                "quantity": {
+                    "min": 4.0,
+                    "max": 5.0
+                },
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "Ginger",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "Cinnamon Sticks",
+                "quantity": {
+                    "min": 3.0,
+                    "max": 5.0
+                },
+                "unit": "stick",
+                "optional": false
+            },
+            {
+                "id": 7,
+                "name": "Diced Beef",
+                "quantity": 300.0,
+                "unit": "gram",
+                "optional": false
+            },
+            {
+                "id": 8,
+                "name": "Beef Bones with marrow",
+                "quantity": 3.0,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 9,
+                "name": "Beef bouillon cubes",
+                "quantity": {
+                    "min": 1.0,
+                    "max": 3.0
+                },
+                "unit": "cube",
+                "optional": false
+            },
+            {
+                "id": 10,
+                "name": "Coriander",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": true
+            },
+            {
+                "id": 11,
+                "name": "Lime",
+                "quantity": 1.0,
+                "unit": "N/A",
+                "optional": true
+            },
+            {
+                "id": 12,
+                "name": "Fish/Oyster Sauce",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 13,
+                "name": "Honey or Brown Sugar",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 14,
+                "name": "Rice noodles",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Heat your oven and place the spices (garlic, cardamom seeds, cinnamon sticks, star anise and ginger) on a tray and bake them until browned or decently toasted.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "Boil bones until you remove most of the scum, and transfer the spices from the oven into the pot. Life will be easier if you can place the spices in a tea strainer of sorts, otherwise, it's not the worst thing in the world fishing them out later on.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    8
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Add beef bouillon cubes, diced beef, fish/oyster sauce, and honey/sugar, then simmer for a couple hours with the lid on.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 120.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    7,
+                    9,
+                    12,
+                    13
+                ],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Cook the rice noodles (should only take a few minutes, just until the texture is al dente enough).",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    14
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Once the broth is done cooking, fish out the spices that you added at step 2. It's worth doing this rather than accidentally chewing on a bit of star anise, trust me.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Cut up coriander and spring onions as garnish.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    10
+                ],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "Add rice noodles to bowl, followed by the broth and its contents, followed by the garnish. This can be made and eaten within 1 hour if you want it quickly, but typically with broths the longer you simmer the tastier it'll be.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    14
+                ],
+                "optional": false
+            }
+        ],
+        "title": "Pho Soup",
+        "date": "2021-03-23",
+        "tags": [
+            "vietnamese",
+            "beef"
+        ],
+        "introduction": "![Based Beef Pho](/pix/pho-soup.webp) Vietnamese Pho Soup is a tea-like, beef based soup with a flavor profile that differentiates it from the traditional Western palette. This recipe is designed to be as easy to make as possible, while simultaneously being as based as possible. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 2 hours - \ud83c\udf7d\ufe0f Servings:4",
+        "ingredients_source_text": "- Garlic (4-8 large cloves) - Spring Onions - Cardamom Seeds (10 or so) - Star Anise (4-5) - Ginger - Cinnamon Sticks (3-5 sticks) - Diced Beef (300g) - Beef Bones with marrow (3x) - Beef bouillon cubes (1-3) - Coriander (to taste) - 1 Lime (to taste) - Fish/Oyster Sauce - Honey or Brown Sugar - Rice noodles",
+        "directions_source_text": "1. Heat your oven and place the spices (garlic, cardamom seeds, cinnamon sticks, star anise and ginger) on a tray and bake them until browned or decently toasted. 2. Boil bones until you remove most of the scum, and transfer the spices from the oven into the pot. Life will be easier if you can place the spices in a tea strainer of sorts, otherwise, it's not the worst thing in the world fishing them out later on. 3. Add beef bouillon cubes, diced beef, fish/oyster sauce, and honey/sugar, then simmer for a couple hours with the lid on. 4. Cook the rice noodles (should only take a few minutes, just until the texture is al dente enough). 5. Once the broth is done cooking, fish out the spices that you added at step 2. It's worth doing this rather than accidentally chewing on a bit of star anise, trust me. 6. Cut up coriander and spring onions as garnish. 7. Add rice noodles to bowl, followed by the broth and its contents, followed by the garnish. This can be made and eaten within 1 hour if you want it quickly, but typically with broths the longer you simmer the tastier it'll be."
+    },
+    {
+        "serving_size": 16,
+        "preparation_time": 20.0,
+        "cooking_time": 5.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "strawberries",
+                "quantity": 2.0,
+                "unit": "package",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "sugar",
+                "quantity": {
+                    "min": 1.0,
+                    "max": 1.5
+                },
+                "unit": "cup",
+                "optional": false
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Get 3 bowls and a butter knife (if the butter knife has a point, that will work better)",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "Dump out both packs of strawberries into a sieve or bowl and wash them thoroughly.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Remove the stem and leaves/crown of the strawberry. The crown can be peeled by hand, then use the butter knife to cut out the stem.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Large strawberries can be cut in half.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Once all of the strawberries are clean, put them in a standard 4 quart (3.8 L) pot. Fill it with water to the brim.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Put the pot to boil. The strawberries will gradually lose their color, which is completely normal.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 5.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "Once it boils, let it cook for 5 mins.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 5.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 8,
+                "description": "After five minutes are over, turn off the heat and incrementally add sugar to your preference. I suggest 1-1.5 cups (237 to 355 grams) of sugar for 4 quarts (3.8 L) of compote. Taste between helpings of sugar to make sure its not oversweetened.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2
+                ],
+                "optional": false
+            },
+            {
+                "number": 9,
+                "description": "Let the pot cool, then refrigerate. Serve chilled.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            }
+        ],
+        "title": "Strawberry Compote",
+        "date": "2022-11-16",
+        "tags": [
+            "Russian",
+            "Fruit",
+            "Drink"
+        ],
+        "introduction": "![Strawberry Compote](/pix/glass-of-compote.webp) Strawberry Compote (\u043a\u043b\u0443\u0431\u043d\u0438\u0447\u043d\u044b\u0439 \u043a\u043e\u043c\u043f\u043e\u0442) is a chilled sweet drink that is popular in many post-soviet countries. It is similar to strawberry jam or conserves in taste (less sweet/concentrated flavor), but resembles fruit punch in looks and consistency. It is very easy to adjust this recipe and scale it up/down. FYI, I suggest using organic strawberries for this (may be on the expensive side), it makes a world of difference in flavor.  - \u23f2\ufe0f Prep time: ~20 min - \ud83c\udf73 Cook time: 5-10 min - \ud83c\udf7d\ufe0f Servings: 16? (It depends)",
+        "ingredients_source_text": "- Strawberries (two standard packs works best) - Sugar",
+        "directions_source_text": "1. Get 3 bowls and a butter knife (if the butter knife has a point, that will work better) 2. Dump out both packs of strawberries into a sieve or bowl and wash them thoroughly. 3. Remove the stem and leaves/crown of the strawberry. The crown can be peeled by hand, then use the butter knife to cut out the stem. 4. Large strawberries can be cut in half. 5. Once all of the strawberries are clean, put them in a standard 4 quart (3.8 L) pot. Fill it with water to the brim. 6. Put the pot to boil. The strawberries will gradually lose their color, which is completely normal. 7. Once it boils, let it cook for 5 mins. 8. After five minutes are over, turn off the heat and incrementally add sugar to your preference. I suggest 1-1.5 cups (237 to 355 grams) of sugar for 4 quarts (3.8 L) of compote. Taste between helpings of sugar to make sure its not oversweetened. 9. Let the pot cool, then refrigerate. Serve chilled."
+    },
+    {
+        "serving_size": 2,
+        "preparation_time": 30.0,
+        "cooking_time": 30.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Boneless Chicken",
+                "quantity": 0.5,
+                "unit": "pound",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "Butter Melted",
+                "quantity": 2.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "Onions",
+                "quantity": 2.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "Tomato",
+                "quantity": 2.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "Oil",
+                "quantity": 2.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "Lemon juice",
+                "quantity": 1.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 7,
+                "name": "Garlic cloves",
+                "quantity": 3.0,
+                "unit": "clove",
+                "optional": false
+            },
+            {
+                "id": 8,
+                "name": "Ginger",
+                "quantity": 1.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 9,
+                "name": "Garam Masala/Chicken Masala",
+                "quantity": 1.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 10,
+                "name": "Cream (or cashew paste)",
+                "quantity": 4.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 11,
+                "name": "Chilli Powder",
+                "quantity": 1.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 12,
+                "name": "Turmeric powder",
+                "quantity": 0.25,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 13,
+                "name": "Crushed fenugreek leaves",
+                "quantity": 0.25,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 14,
+                "name": "Coriander leaves / cilantro, for garnish",
+                "quantity": 1.0,
+                "unit": "bunch",
+                "optional": true
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "In a bowl, mix chicken with salt, pepper, 1/2 tbsp ginger-garlic paste, 1/2 tbsp chili powder, turmeric powder, and lemon juice for the chicken marinade; let marinate for an hour.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": null,
+                    "waiting": 60.0
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    6,
+                    7,
+                    8,
+                    11,
+                    12
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "Roast the marinated chicken in an oven at medium temperature for 5 to 10 minutes. The chicken should be three-fourths done.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 5.0,
+                        "max": 10.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": "medium",
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Heat butter in a pan. Fry the onions until it turns translucent.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    3
+                ],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Add garlic-ginger and saut\u00e9 for a minute, then add garam masala. Cook for a few seconds making sure not to burn the paste.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 1.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    8,
+                    9
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Add tomato puree, salt, and chili powder. Let simmer for about 5 minutes, occasionally stirring until sauce thickens and becomes a deep brown-red color.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 5.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    4,
+                    11
+                ],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Add the marinated chicken, butter, fresh cream, the crushed fenugreek leaves, and sliced green chilies. Cook for an additional 5 to 10 min until the chicken is cooked.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 5.0,
+                        "max": 10.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    2,
+                    10,
+                    13
+                ],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "Adjust salt, garnish with the coriander leaves. Serve over rice or naan.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    14
+                ],
+                "optional": false
+            }
+        ],
+        "title": "Butter Chicken Masala Curry",
+        "date": "2021-03-15",
+        "tags": [
+            "indian",
+            "curry",
+            "chicken"
+        ],
+        "introduction": "![Butter Chicken Masala](/pix/butter-chicken-masala.webp) Butter chicken Masala is one of India's most popular chicken recipes, a mild curry with a tomato-onion-cream base and boneless chicken pieces cooked in it to perfection. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 2",
+        "ingredients_source_text": "- Boneless Chicken 1/2lb, cubed - Butter Melted 2 tbsp - Onions 2 medium-sized, minced - Tomato 2 medium-sized, pureed - Oil 2 tbsp - Lemon juice 1 tbsp - Garlic cloves 3, minced/crushed - Ginger 1tbsp, minced/paste - [Garam Masala](/garam-masala)/Chicken Masala 1 tbsp - Cream 4tbsp (or cashew paste) - Chilli Powder 1 tbsp - Turmeric powder 1/4 tbsp - Crushed fenugreek leaves 1/4 tbsp - 1 small bunch of coriander leaves / cilantro, for ganish",
+        "directions_source_text": "1. In a bowl, mix chicken with salt, pepper, 1/2 tbsp ginger-garlic paste, 1/2 tbsp chili powder, turmeric powder, and lemon juice for the chicken marinade; let marinate for an hour. 2. Roast the marinated chicken in an oven at medium temperature for 5 to 10 minutes. The chicken should be three-fourths done. 3. Heat butter in a pan. Fry the onions until it turns translucent. 4. Add garlic-ginger and saut\u00e9 for a minute, then add garam masala. Cook for a few seconds making sure not to burn the paste. 5. Add tomato puree, salt, and chili powder. Let simmer for about 5 minutes, occasionally stirring until sauce thickens and becomes a deep brown-red color. 6. Add the marinated chicken, butter, fresh cream, the crushed fenugreek leaves, and sliced green chilies. Cook for an additional 5 to 10 min until the chicken is cooked. 7. Adjust salt, garnish with the coriander leaves. Serve over rice or naan."
+    },
+    {
+        "serving_size": 4,
+        "preparation_time": 30.0,
+        "cooking_time": 2.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "egg",
+                "quantity": 4.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "00 flour",
+                "quantity": 400.0,
+                "unit": "gram",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "olive oil",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "lemon",
+                "quantity": 1.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "grated Pecorino Romano cheese",
+                "quantity": 50.0,
+                "unit": "gram",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "ricotta",
+                "quantity": 250.0,
+                "unit": "gram",
+                "optional": false
+            },
+            {
+                "id": 7,
+                "name": "egg",
+                "quantity": 1.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 8,
+                "name": "chopped leftover lobster legs, lobster tail, or minced crab",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": true
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "The basic rule of thumb I use for pasta is 100g, 1 egg per person",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "For this recipe you can go two ways, the old school \"well\" method or a kitchen aid mixer (skip to step 7)",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "For the well method, pile the flour onto the counter and with your hand carve a hole or a well in the center",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2
+                ],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Crack the eggs into the center of the well, and drizzle a bit of olive oil into the center",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    3
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "With a fork, begin slowly breaking up, mixing, and incorporating the egg into the flour until there is no longer any loose egg that can escape the outer well border",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    2
+                ],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "At this point use your hands to bring the sandy mixture together and knead the dough for about 5-10 minutes or until the dough is smooth",
+                "duration": {
+                    "preparation": {
+                        "min": 5.0,
+                        "max": 10.0
+                    },
+                    "cooking": null,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "For the stand mixer method just throw all the ingredients into the mixer with a dough hook and set it to level 4 for about 3-5 minutes and it will be done",
+                "duration": {
+                    "preparation": {
+                        "min": 3.0,
+                        "max": 5.0
+                    },
+                    "cooking": null,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    2,
+                    3
+                ],
+                "optional": false
+            },
+            {
+                "number": 8,
+                "description": "You might need to scrape the sides down and maybe hand knead the dough a bit longer after it's done to make it into a nice smooth ball",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 9,
+                "description": "Cover the dough with plastic wrap and let it rest in the fridge a bit so it's easier to roll out (15-30 mins)",
+                "duration": {
+                    "preparation": null,
+                    "cooking": null,
+                    "waiting": {
+                        "min": 15.0,
+                        "max": 30.0
+                    }
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 10,
+                "description": "While the dough is resting, make the filling by first mixing the ricotta and egg into a bowl",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    6,
+                    7
+                ],
+                "optional": false
+            },
+            {
+                "number": 11,
+                "description": "Zest and juice a lemon peel into the bowl",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    4
+                ],
+                "optional": false
+            },
+            {
+                "number": 12,
+                "description": "Optionally add seafood ingredients at this point",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    8
+                ],
+                "optional": false
+            },
+            {
+                "number": 13,
+                "description": "Grate the Pecorino into the bowl, add salt and pepper to taste, and mix to distribute the ingredients evenly",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    5
+                ],
+                "optional": false
+            },
+            {
+                "number": 14,
+                "description": "Take out the dough and cut it into 4 pieces, keeping the ones not currently being worked on covered so they don't dry out",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 15,
+                "description": "Roll the dough out with a pasta machine down to the point where you can just barely see your hand through it (setting 2-3 out of 7) or roll it out with a rolling pin into a long sheet, maybe like 16 x 8 inches or so",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 16,
+                "description": "At this point you can either cut the sheet in half and make two sheets, a top and bottom, or one sheet, where you will fold the dough over and use the folded seam as one side of the ravioli",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 17,
+                "description": "Using a teaspoon, evenly space out the ricotta filling onto the sheets, leaving a few inches on each side for the seams",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    6
+                ],
+                "optional": false
+            },
+            {
+                "number": 18,
+                "description": "As stated in step 16, either take the 2nd sheet and place it over top or fold over the dough and press down firmly, forcing out any air and making sure the two pieces of dough stick",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 19,
+                "description": "You may need to brush some water onto the dough if it is too heavily floured and not sticking",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 20,
+                "description": "Using a fancy pasta cutter, a knife, or even a pizza cutter, cut evenly between the seams of the raviolis to separate them",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 21,
+                "description": "If you used a pasta cutter, you are now done, store the raviolis on a floured wax paper sheet or freeze them for later",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 22,
+                "description": "If you don't have a pasta cutter, use a fork to press down the dough around the edges of the cut raviolis to ensure they are firmly closed and no leaks or air bubbles are visible, or else they will explode when cooked",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 23,
+                "description": "To cook, throw them in salted boiling water and they will let you know when they're done when they float to the top (1-2 minutes)",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 1.0,
+                        "max": 2.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 24,
+                "description": "Serve the seafood version with a simple fresh red sauce and basil, or spice it up a bit and go with a base of red sauce with some added heavy cream, and a pinch of red pepper flakes to make a pink sauce for the seafood version",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            }
+        ],
+        "title": "Ravioli",
+        "date": "2021-05-13",
+        "tags": [
+            "pasta",
+            "italian"
+        ],
+        "introduction": "![Ravioli](/pix/ravioli-01.webp) - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73Cook time: 2 min - \ud83c\udf7d\ufe0f Servings: 4",
+        "ingredients_source_text": "### Dough - 4 eggs - 400 g 00 flour - Drizzle of olive oil ### Cheese Filling - 1 lemon - 50 g grated Pecorino Romano cheese - 250 g ricotta - 1 egg ### Seafood Fillings - Chopped leftover lobster legs, lobster tail, or minced crab (optional)",
+        "directions_source_text": "1. The basic rule of thumb I use for pasta is 100g, 1 egg per person 2. For this recipe you can go two ways, the old school \"well\" method or a kitchen aid mixer (skip to step 7) 3. For the well method, pile the flour onto the counter and with your hand carve a hole or a well in the center 4. Crack the eggs into the center of the well, and drizzle a bit of olive oil into the center 5. With a fork, begin slowly breaking up, mixing, and incorporating the egg into the flour until there is no longer any loose egg that can escape the outer well border 6. At this point use your hands to bring the sandy mixture together and knead the dough for about 5-10 minutes or until the dough is smooth 7. For the stand mixer method just throw all the ingredients into the mixer with a dough hook and set it to level 4 for about 3-5 minutes and it will be done 8. You might need to scrape the sides down and maybe hand knead the dough a bit longer after it's done to make it into a nice smooth ball 9. Cover the dough with plastic wrap and let it rest in the fridge a bit so it's easier to roll out (15-30 mins) 10. While the dough is resting, make the filling by first mixing the ricotta and egg into a bowl 11. Zest and juice a lemon peel into the bowl 12. Optionally add seafood ingredients at this point 13. Grate the Pecorino into the bowl, add salt and pepper to taste, and mix to distribute the ingredients evenly 14. Take out the dough and cut it into 4 pieces, keeping the ones not currently being worked on covered so they don't dry out 15. Roll the dough out with a pasta machine down to the point where you can just barely see your hand through it (setting 2-3 out of 7) or roll it out with a rolling pin into a long sheet, maybe like 16 x 8 inches or so 16. At this point you can either cut the sheet in half and make two sheets, a top and bottom, or one sheet, where you will fold the dough over and use the folded seam as one side of the ravioli ![Lobster Ravioli](/pix/ravioli-02.webp) 17. Using a teaspoon, evenly space out the ricotta filling onto the sheets, leaving a few inches on each side for the seams 18. As stated in step 16, either take the 2nd sheet and place it over top or fold over the dough and press down firmly, forcing out any air and making sure the two pieces of dough stick 19. You may need to brush some water onto the dough if it is too heavily floured and not sticking 20. Using a fancy pasta cutter, a knife, or even a pizza cutter, cut evenly between the seams of the raviolis to separate them 21. If you used a pasta cutter, you are now done, store the raviolis on a floured wax paper sheet or freeze them for later ![Finished Ravioli](/pix/ravioli-03.webp) 22. If you don't have a pasta cutter, use a fork to press down the dough around the edges of the cut raviolis to ensure they are firmly closed and no leaks or air bubbles are visible, or else they will explode when cooked 23. To cook, throw them in salted boiling water and they will let you know when they're done when they float to the top (1-2 minutes) 24. Serve the seafood version with a simple fresh red sauce and basil, or spice it up a bit and go with a base of red sauce with some added heavy cream, and a pinch of red pepper flakes to make a pink sauce for the seafood version ![Served Ravioli](/pix/ravioli-04.webp)"
+    },
+    {
+        "serving_size": 4,
+        "preparation_time": 10.0,
+        "cooking_time": 30.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "beef mince",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "white onion",
+                "quantity": 1.0,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "garlic",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "bayleaf",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "potatoes",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "carrots",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 7,
+                "name": "beef stock",
+                "quantity": 1.0,
+                "unit": "pint",
+                "optional": false
+            },
+            {
+                "id": 8,
+                "name": "beef gravy granules",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 9,
+                "name": "parsnips",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": true
+            },
+            {
+                "id": 10,
+                "name": "swede",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": true
+            },
+            {
+                "id": 11,
+                "name": "cabbage",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": true
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Finely dice the onions and garlic. Chop the carrots, potatoes, parsnips and/or swede into a uniform size.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    3,
+                    6,
+                    5,
+                    9,
+                    10
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "Fry the diced onion with a bit of oil until brown, in a deep pot. Then quickly fry the garlic (until you can smell it).",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    3
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Add the mince whole and sear (flipping to sear the other side before breaking up).",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Once the mince is properly browned, Pour in the beef stock.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    7
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Add your root vegetables now, along with your bayleaf, salt and lots of pepper.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    6,
+                    5,
+                    9,
+                    10,
+                    4
+                ],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Leave to boil for about a half hour then remove the bayleaf. Adding the cabbage half way through.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 30.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    4,
+                    11
+                ],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "Stir in the gravy granules until you get the thickness you want and Serve.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    8
+                ],
+                "optional": false
+            }
+        ],
+        "title": "Scouse",
+        "date": "2022-07-17",
+        "tags": [
+            "beef",
+            "stew",
+            "english"
+        ],
+        "introduction": "A hearty and cheap stew, that's easy to make and is my go to dish to make and freeze on weeknights. This dish is really flexible and goes with virtually any vegetables you've got in your cupboard. Originated around Stoke and Liverpool as Lobscouse and later split into the dishes Lobby and Scouse. - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 4",
+        "ingredients_source_text": "- beef mince - a white onion - garlic - bayleaf - potatoes - carrots - beef stock ~1 pint - beef gravy granules - parsnips(optional) - swede(optional) - cabbage(optional)",
+        "directions_source_text": "1. Finely dice the onions and garlic. Chop the carrots, potatoes, parsnips and/or swede into a uniform size. 2. Fry the diced onion with a bit of oil until brown, in a deep pot. Then quickly fry the garlic (until you can smell it). 3. Add the mince whole and sear (flipping to sear the other side before breaking up). 4. Once the mince is properly browned, Pour in the beef stock. 5. Add your root vegetables now, along with your bayleaf, salt and lots of pepper. 6. Leave to boil for about a half hour then remove the bayleaf. Adding the cabbage half way through. 7. Stir in the gravy granules until you get the thickness you want and Serve."
+    },
+    {
+        "serving_size": 4,
+        "preparation_time": 20.0,
+        "cooking_time": 20.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "potatoes",
+                "quantity": 800.0,
+                "unit": "gram",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "carrots",
+                "quantity": 2.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "peas or spinach",
+                "quantity": 500.0,
+                "unit": "gram",
+                "optional": true
+            },
+            {
+                "id": 4,
+                "name": "eggs",
+                "quantity": 4.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "onions",
+                "quantity": 2.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "butter",
+                "quantity": null,
+                "unit": "unknown",
+                "optional": false
+            }
+        ],
+        "steps": [
+            {
+                "number": 2,
+                "description": "Shred raw or cooked (but cool) potatoes with a grater. The shreds should be quite large so don't use your typical cheese shredder.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Dice the first onion and mix together with potatoes. You can also add diced bacon if you want to. Add your seasonings here.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    5
+                ],
+                "optional": true
+            },
+            {
+                "number": 4,
+                "description": "Heat up some butter in a large pan. Add your mix to the pan on high heat. Let the mixture get warm for a few minutes under constant stirring.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    6
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Reduce heat to medium-high. Form the R\u00f6sti into a round cake. It should fill out the whole pan. I recommend a thickness of around 1 - 1.5cm (~1/2\") for a softer R\u00f6sti.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Add some more butter flakes around the inside of the pan to get it under the R\u00f6sti.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    6
+                ],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "It can take quite a while for a nice crust to form. Check after roughly 5-10 minutes for browning.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 8,
+                "description": "While the R\u00f6sti is cooking dice the other onion and the carrots. Steam everything in a pan with a bit of water. Use a lid to get the temperature up.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    5
+                ],
+                "optional": false
+            },
+            {
+                "number": 9,
+                "description": "Alternatively you can use fresh or creamed spinach.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    3
+                ],
+                "optional": true
+            },
+            {
+                "number": 10,
+                "description": "When you're satisfied with the browning, flip the R\u00f6sti and set the heat to medium-low. A plate can be useful here, put it on top of the R\u00f6sti in the pan and flip. Then gently put the whole cake back in the pan.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 11,
+                "description": "When the R\u00f6sti crispness is to your liking, remove from pan and fry two eggs. A runny yolk adds quite a bit to the potatoes.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    4
+                ],
+                "optional": false
+            },
+            {
+                "number": 12,
+                "description": "Top R\u00f6sti with eggs and serve with the peas or spinach.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    3,
+                    4
+                ],
+                "optional": false
+            }
+        ],
+        "title": "R\u00f6sti",
+        "date": "2021-03-12",
+        "tags": [
+            "swiss",
+            "potato",
+            "side",
+            "cheesefare"
+        ],
+        "introduction": "![R\u00f6sti](/pix/roesti.webp) Used two serving sizes for this R\u00f6sti This swiss classic works great together with fried eggs and steamed peas or spinach. Can be useful to get rid of leftover potatoes from the day before. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 4",
+        "ingredients_source_text": "- ~800g (~1.5lb) potatoes (firm/waxy) - 2 carrots - 500g (~1lb) peas or spinach - 4 eggs - 2 onions (medium size) - butter",
+        "directions_source_text": "2. Shred raw or cooked (but cool) potatoes with a grater. The shreds should be   quite large so don't use your typical cheese shredder. 3. Dice the first onion and mix together with potatoes. You can also add diced   bacon if you want to. Add your seasonings here. 4. Heat up some butter in a large pan. Add your mix to the pan on high heat.   Let the mixture get warm for a few minutes under constant stirring. 5. Reduce heat to medium-high. Form the R\u00f6sti into a round cack. It should fill   out the whole pan. I recommend a thickness of around 1 - 1.5cm (~1/2\") for a   softer R\u00f6sti. 6. Add some more butter flakes around the inside of the pan to get it under the   R\u00f6sti. 7. It can take quite a while for a nice crust to form. Check after roughly 5-10   minutes for browning. 8. While the R\u00f6sti is cooking dice the other onion and the carrots. Steam   everything in a pan with a bit of water. Use a lid to get the temperature   up. 9. Alternatively you can use fresh or creamed spinach. 10. When you're satisfied with the browning, flip the R\u00f6sti and set the heat to   medium-low. A plate can be useful here, put it on top of the R\u00f6sti in the   pan and flip. Then gently put the whole cake back in the pan. 11. When the R\u00f6sti crispness is to your liking, remove from pan and fry two   eggs. A runny yolk adds quite a bit to the potatoes. 12. Top R\u00f6sti with eggs and serve with the peas or spinach."
+    },
+    {
+        "serving_size": 2,
+        "preparation_time": 10.0,
+        "cooking_time": 20.0,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "Chicken Thighs",
+                "quantity": 4.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "Basmati Rice",
+                "quantity": 0.75,
+                "unit": "cup",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "All-Purpose Flour",
+                "quantity": 4.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "Sweet Peppers",
+                "quantity": 2.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "Celery",
+                "quantity": 3.0,
+                "unit": "rib",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "Garlic",
+                "quantity": 2.0,
+                "unit": "clove",
+                "optional": false
+            },
+            {
+                "id": 7,
+                "name": "Ginger",
+                "quantity": 1.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 8,
+                "name": "Green Onions",
+                "quantity": 2.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 9,
+                "name": "Chili Garlic Sauce",
+                "quantity": 2.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 10,
+                "name": "Soy Sauce",
+                "quantity": 2.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 11,
+                "name": "Sweet Chili Sauce",
+                "quantity": 2.0,
+                "unit": "tablespoon",
+                "optional": false
+            },
+            {
+                "id": 12,
+                "name": "Peanuts",
+                "quantity": 0.25,
+                "unit": "cup",
+                "optional": false
+            },
+            {
+                "id": 13,
+                "name": "Oil",
+                "quantity": null,
+                "unit": "N/A",
+                "optional": false
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Heat a medium pot over medium heat. Add 1/2 Tbsp oil, ginger and rice. Cook, stirring often, until fragrant (1 min). Add 1 1/4 cups water and bring to a boil over high heat. Reduce heat and cover until rice is tender and liquid is absorbed (12-14 mins). Remove the pot from heat, leave covered.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 13.0,
+                        "max": 15.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    7,
+                    13
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "While rice cooks, cut celery crosswise into 1/4\" slices. Whisk together soy sauce, sweet chili sauce, 1/3 cup water, and half the chili garlic sauce in a medium bowl. Combine flour and 1/4 tsp each of salt and pepper in another medium bowl.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    5,
+                    10,
+                    11,
+                    9,
+                    3
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Heat a large non-stick pan over medium heat. Add peanuts to the dry pan. Toast, stirring often, until golden brown (4-5 mins). Transfer to a plate and heat the same pan over medium-high. Add 1/2 Tbsp oil, peppers, and celery. Cook, stirring often until fragrant (1 min). Transfer veggies to another plate.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 5.0,
+                        "max": 6.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    12,
+                    4,
+                    5,
+                    13
+                ],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Pat chicken dry and cut into 1\" pieces. Add chicken to flour mixture, then toss to coat. Press flour mixture into chicken to coat completely. Heat the same non-stick pan over medium and add oil, then chicken. Cook, turning pieces occasionally, until golden brown and cooked through (6-8 mins).",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 6.0,
+                        "max": 8.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    3,
+                    13
+                ],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Add veggies and sauce mixture to the pan with chicken. Cook, stirring occasionally, until sauce thickens slightly (2-3 mins).",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 2.0,
+                        "max": 3.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    3,
+                    9,
+                    10,
+                    11
+                ],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Fluff rice with fork. Stir in half the green onions and season with salt. Divide rice between plates. Top with chicken, veggies, and sauce. Sprinkle peanuts and remaining green onions over top.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    8,
+                    12
+                ],
+                "optional": false
+            }
+        ],
+        "title": "Spicy Kung Pao-Style Chicken",
+        "date": "2022-09-11",
+        "tags": [
+            "chicken",
+            "rice",
+            "asian"
+        ],
+        "introduction": "- \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: 2",
+        "ingredients_source_text": "- 4 Chicken Thighs - 3/4 cup Basmati Rice - 4 Tbsp All-Purpose Flour - 2 small Sweet Peppers, chopped - 3 ribs Celery - 2 cloves Garlic - 1 Tbsp Ginger, minced - 2 whole Green Onions, thinly sliced - 2 Tbsp Chili Garlic Sauce, divided - 2 Tbsp Soy Sauce - 2 Tbsp Sweet Chili Sauce - 1/4 cup Peanuts, chopped - Oil",
+        "directions_source_text": "1. Heat a medium pot over medium heat. Add 1/2 Tbsp oil, ginger and rice. Cook, stirring often, until fragrant (1 min). Add 1 1/4 cups water and bring to a boil over high heat. Reduce heat and cover until rice is tender and liquid is absorbed (12-14 mins). Remove the pot from heat, leave covered. 2. While rice cooks, cut celery crosswise into 1/4\" slices. Whisk together soy sauce, sweet chili sauce, 1/3 cup water, and half the chili garlic sauce in a medium bowl. Combine flour and 1/4 tsp each of salt and pepper in another medium bowl. 3. Heat a large non-stick pan over medium heat. Add peanuts to the dry pan. Toast, stirring often, until golden brown (4-5 mins). Transfer to a plate and heat the same pan over medium-high. Add 1/2 Tbsp oil, peppers, and celery. Cook, stirring often until fragrant (1 min). Transfer veggies to another plate. 4. Pat chicken dry and cut into 1\" pieces. Add chicken to flour mixture, then toss to coat. Press flour mixture into chicken to coat completely. Heat the same non-stick pan over medium and add oil, then chicken. Cook, turning pieces occasionally, until golden brown and cooked through (6-8 mins). 5. Add veggies and sauce mixture to the pan with chicken. Cook, stirring occasionally, until sauce thickens slightly (2-3 mins). 6. Fluff rice with fork. Stir in half the green onions and season with salt. Divide rice between plates. Top with chicken, veggies, and sauce. Sprinkle peanuts and remaining green onions over top."
+    },
+    {
+        "serving_size": 15,
+        "preparation_time": null,
+        "cooking_time": null,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "white flour",
+                "quantity": 300.0,
+                "unit": "gram",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "eggs",
+                "quantity": 3.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "milk",
+                "quantity": 60.0,
+                "unit": "centiliter",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "beer",
+                "quantity": 20.0,
+                "unit": "centiliter",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "butter",
+                "quantity": 30.0,
+                "unit": "gram",
+                "optional": true
+            },
+            {
+                "id": 6,
+                "name": "oil",
+                "quantity": 3.0,
+                "unit": "tablespoon",
+                "optional": true
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Mix flour, salt, eggs and melted butter or oil.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    2,
+                    5,
+                    6
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "Slowly add milk and beer until the dough becomes fluid enough.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    3,
+                    4
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Let it rest one hour.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": null,
+                    "waiting": 60.0
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": true
+            },
+            {
+                "number": 4,
+                "description": "Cook the cr\u00eape in a flat pan, one ladle at a time.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            }
+        ],
+        "title": "French Cr\u00eapes",
+        "date": "2021-03-14",
+        "tags": [
+            "french",
+            "dessert",
+            "breakfast",
+            "cheesefare"
+        ],
+        "introduction": "Like pancakes, but very thin. 15 cr\u00eapes.",
+        "ingredients_source_text": "- 300g white flour - 3 eggs - 60cl milk - 20cl beer - 30g butter or 3 tablespoons of oil",
+        "directions_source_text": "1. Mix flour, salt, eggs and melted butter or oil. (In this order to avoid dry flour) 2. Slowly add milk and beer until the dough becomes fluid enough. (Pouring it from the ladle has to be fluid) 3. Let it rest one hour. (optional) 4. Cook the cr\u00eape in a flat pan, one ladle at a time. ## Tips - Oil the pan frequently with an oiled piece of fabric. - Wait for the pan to be hot before cooking the first cr\u00eape. - Wait until the cr\u00eape has dried up to flip it. - When pouring the dough, follow the pan rotation with the ladle to evenly spread a thin layer of it."
+    },
+    {
+        "serving_size": 0,
+        "preparation_time": null,
+        "cooking_time": null,
+        "ingredients": [
+            {
+                "id": 1,
+                "name": "sliced tomatoes",
+                "quantity": {
+                    "min": 15.0,
+                    "max": 17.0
+                },
+                "unit": "N/A",
+                "optional": false
+            },
+            {
+                "id": 2,
+                "name": "large garlic clove, chopped",
+                "quantity": 1.0,
+                "unit": "unit",
+                "optional": false
+            },
+            {
+                "id": 3,
+                "name": "vinegar",
+                "quantity": 1.0,
+                "unit": "cup",
+                "optional": false
+            },
+            {
+                "id": 4,
+                "name": "chopped onion",
+                "quantity": 0.25,
+                "unit": "cup",
+                "optional": false
+            },
+            {
+                "id": 5,
+                "name": "sugar",
+                "quantity": 0.5,
+                "unit": "cup",
+                "optional": false
+            },
+            {
+                "id": 6,
+                "name": "stick cinnamon",
+                "quantity": 1.0,
+                "unit": "piece",
+                "optional": false
+            },
+            {
+                "id": 7,
+                "name": "salt",
+                "quantity": 1.25,
+                "unit": "teaspoon",
+                "optional": false
+            },
+            {
+                "id": 8,
+                "name": "paprika",
+                "quantity": 1.0,
+                "unit": "teaspoon",
+                "optional": false
+            },
+            {
+                "id": 9,
+                "name": "whole cloves",
+                "quantity": 1.0,
+                "unit": "teaspoon",
+                "optional": false
+            },
+            {
+                "id": 10,
+                "name": "cayenne pepper",
+                "quantity": 1.0,
+                "unit": "dash",
+                "optional": false
+            }
+        ],
+        "steps": [
+            {
+                "number": 1,
+                "description": "Simmer together tomatoes and onion for 20 to 30 minutes; press through a sieve.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": {
+                        "min": 20.0,
+                        "max": 30.0
+                    },
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    1,
+                    4
+                ],
+                "optional": false
+            },
+            {
+                "number": 2,
+                "description": "Put the cinnamon, cloves, and garlic loosely in a clean, thin, white cloth; tie top tightly; add to vinegar and simmer 30 minutes.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 30.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    2,
+                    3,
+                    6,
+                    9
+                ],
+                "optional": false
+            },
+            {
+                "number": 3,
+                "description": "Remove spice bag.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 4,
+                "description": "Boil tomato mixture rapidly until you have but one-half the original amount.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 5,
+                "description": "Stir frequently to prevent sticking.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 6,
+                "description": "Add spiced vinegar, sugar, salt, paprika, and cayenne pepper to tomato mixture.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [
+                    3,
+                    5,
+                    7,
+                    8,
+                    10
+                ],
+                "optional": false
+            },
+            {
+                "number": 7,
+                "description": "Boil rapidly, stirring constantly, about 10 minutes or until slightly thickened.",
+                "duration": {
+                    "preparation": null,
+                    "cooking": 10.0,
+                    "waiting": null
+                },
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            },
+            {
+                "number": 8,
+                "description": "Pour into hot, sterile jars, fill jars to top, and seal.",
+                "duration": null,
+                "temperature": null,
+                "heat_intensity": null,
+                "ingredients_ids": [],
+                "optional": false
+            }
+        ],
+        "title": "Ketchup",
+        "date": "2021-03-12",
+        "tags": [
+            "basic",
+            "sauce",
+            "fasting"
+        ],
+        "introduction": "- Ketchup/Catsup",
+        "ingredients_source_text": "* 2 1/2 quart (15 to 17 medium-sized) sliced tomatoes * 1 large garlic clove, chopped * 1 cup vinegar * 1/4 cup chopped onion * 1/2 cup sugar * 3 - inch piece stick cinnamon * 1 1/4 teaspoon salt * 1 teaspoon paprika * 1 teaspoon whole cloves * a dash cayenne pepper",
+        "directions_source_text": "1. Simmer together tomatoes and onion for 20 to 30 minutes; press through a sieve. 2. Put the cinnamon, cloves, and garlic loosely in a clean, thin, white cloth; tie top tightly; add to vinegar and simmer 30 minutes. 3. Remove spice bag. 4. Boil tomato mixture rapidly until you have but one-half the original amount. 5. Stir frequently to prevent sticking. 6. Add spiced vinegar, sugar, salt, paprika, and cayenne pepper to tomato mixture. 7. Boil rapidly, stirring constantly, about 10 minutes or until slightly thickened. 8. Pour into hot, sterile jars, fill jars to top, and seal."
+    }
+]

@@ -1,0 +1,170 @@
+{
+    "serving_size": 2,
+    "preparation_time": 10.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "water",
+            "quantity": 2.0,
+            "unit": "dl",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "cornstarch",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "honey",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "ginger",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "soy sauce",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "sesame oil",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "beef slices or strips",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "carrot",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "broccoli",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "baby corn",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "water chestnut",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "bean sprouts",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 13,
+            "name": "chili pepper",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 14,
+            "name": "noodles or rice",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Whisk water, cornstarch, honey, ginger and soy sauce. Set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Heat some sesame oil to medium heat in a wok and brown the beef.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Move the beef aside, add sesame oil and vegetables to the wok at high heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "high",
+            "ingredients_ids": [
+                6,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Mix everything in the wok and heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Teriyaki Beef Wok",
+    "date": "2022-08-20",
+    "tags": [
+        "beef",
+        "asian",
+        "noodles"
+    ],
+    "introduction": "![Teriyaki Beef Wok](/pix/teriyaki-beef.webp) If you have no wok, a regular pan will suffice. - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 2 dL water - 2 tbsp cornstarch - 1 tbsp honey - 1/4 tsp ginger - 3 tbsp soy sauce - Sesame oil - Beef slices or strips - Carrot, sliced (optional) - Broccoli, florets (optional) - Baby corn (optional) - Water chestnut, sliced (optional) - Bean sprouts (optional) - Chili pepper, diced (optional) - Noodles or rice",
+    "directions_source_text": "1. Whisk water, cornstarch, honey, ginger and soy sauce. Set aside. 2. Heat some sesame oil to medium heat in a wok and brown the beef. 3. Move the beef aside, add sesame oil and vegetables to the wok at high heat. 4. Mix everything in the wok and heat."
+}

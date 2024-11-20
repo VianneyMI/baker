@@ -1,0 +1,130 @@
+{
+    "serving_size": 8,
+    "preparation_time": 15.0,
+    "cooking_time": 5.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Potatoes",
+            "quantity": 5.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Plain Yogurt",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Mayonnaise",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Prepared Horseradish",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Radishes",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Celery",
+            "quantity": 2.0,
+            "unit": "stalk",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Green Onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Fresh Parsley",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Fresh Dill",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Place potatoes in a pot and just cover with water. Partially lid and bring to a boil. Reduce heat and simmer partially covered just until potatoes are tender (5 mins). Don't overcook. Drain well.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Meanwhile in a large bowl, stir yogurt with mayonnaise, horseradish, salt, and pepper. Stir in radishes, celery, green onions, parsley, and dill until mixed.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add warm potatoes and stir to combine. Refrigerate at least 1 hour before serving. Taste and adjust seasonings if desired.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Perfect Potato Salad",
+    "date": "2022-08-09",
+    "tags": [
+        "potato",
+        "salad",
+        "american"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 5 min - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "- 5 Potatoes, peeled and cut into bite-size chunks (about 2 lbs) - 1 cup Plain Yogurt - 1/2 cup Mayonnaise - 1 Tbsp Prepared Horseradish - 4 Radishes, thinly sliced - 2 stalks Celery, diced - 2 large Green Onions, thinly sliced - 1/4 cup Fresh Parsley, chopped - 1/4 cup Fresh Dill, chopped",
+    "directions_source_text": "1. Place potatoes in a pot and just cover with water. Partially lid and bring to a boil. Reduce heat and simmer partially covered just until potatoes are tender (5 mins). Don't overcook. Drain well. 2. Meanwhile in a large bowl, stir yogurt with mayonnaise, horseradish, salt, and pepper. Stir in radishes, celery, green onions, parsley, and dill until mixed. 3. Add warm potatoes and stir to combine. Refrigerate at least 1 hour before serving. Taste and adjust seasonings if desired."
+}

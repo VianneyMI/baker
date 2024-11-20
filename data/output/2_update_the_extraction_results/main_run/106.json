@@ -1,0 +1,234 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tubular dried pasta",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sweet Italian sausage",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "carrot",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "celery stalk",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "whole tomatoes",
+            "quantity": 825.0,
+            "unit": "milliliter",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "tomato paste",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "fresh parsley",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "fresh thyme",
+            "quantity": 1.0,
+            "unit": "sprig",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "fresh rosemary",
+            "quantity": 1.0,
+            "unit": "sprig",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Parmesan cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "extra-virgin olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Saut\u00e9 sausage crumbles in a large pan or dutch oven over medium-low heat. Add enough olive oil to gently fry the crumbles. Cook about five minutes until opaque, not browned.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-low",
+            "ingredients_ids": [
+                2,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add minced onion, carrot, and celery, and parsley to the pan. Stir often and add more olive oil if pan is dry. Cook 30 minutes on very low heat until vegetables are caramelized and sausage is browned.",
+            "duration": {
+                "preparation": null,
+                "cooking": 30.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "very low",
+            "ingredients_ids": [
+                3,
+                4,
+                5,
+                8,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add canned tomatoes and their juice. Break up tomatoes in the pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Bring to a simmer then add thyme and rosemary",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Continue simmer uncovered for 20 minutes, until thickened.",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Mix tomato paste with 1 cup of hot water. Reduce heat to very low and add mix to the pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Cook about 10 minutes until the sauce is dark red and glistens with oil.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Remove herb sprigs and add pepper to taste.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Meanwhile, boil large pot of salted water then cook and drain the pasta.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Serve rag\u00f9 over plate of pasta and top with grated parmesan cheese.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                11
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Rag\u00f9",
+    "date": "2021-03-11",
+    "tags": [
+        "italian",
+        "pasta",
+        "cheesefare",
+        "fasting"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- 1 pound tubular dried pasta - 1 pound sweet Italian sausage - 1 onion, minced - 1 carrot, minced - 1 celery stalk, minced - 28oz (825 ml) can of whole tomatoes - 3 tablespoon of tomato paste - 1/4 cup fresh parsley - 1 sprig of fresh thyme - 1 sprig of fresh rosemary - grated Parmesan cheese (optional) - extra-virgin olive oil",
+    "directions_source_text": "1. Saut\u00e9 sausage crumbles in a large pan or dutch oven over medium-low heat. Add enough olive oil to gently fry the crumbles. Cook about five minutes until opaque, not browned. 2. Add minced onion, carrot, and celery, and parsley to the pan. Stir often and add more olive oil if pan is dry. Cook 30 minutes on very low heat until vegetables are caramelized and sausage is browned. 3. Add canned tomatoes and their juice. Break up tomatoes in the pan. 4. Bring to a simmer then add thyme and rosemary 5. Continue simmer uncovered for 20 minutes, until thickened. 6. Mix tomato paste with 1 cup of hot water. Reduce heat to very low and add mix to the pan. 7. Cook about 10 minutes until the sauce is dark red and glistens with oil. 8. Remove herb sprigs and add pepper to taste. 9. Meanwhile, boil large pot of salted water then cook and drain the [pasta](/pasta). 10. Serve rag\u00f9 over plate of pasta and top with grated parmesan cheese;"
+}

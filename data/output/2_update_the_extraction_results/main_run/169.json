@@ -1,0 +1,210 @@
+{
+    "serving_size": 8,
+    "preparation_time": 25.0,
+    "cooking_time": 240.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tomato puree",
+            "quantity": 29.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "plain yogurt",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "large onion",
+            "quantity": 0.5,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "olive oil",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "minced fresh gingerroot",
+            "quantity": 4.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "garlic cloves",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "garam masala",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "salt",
+            "quantity": 2.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "ground cumin",
+            "quantity": 1.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "paprika",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "pepper",
+            "quantity": 0.75,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "cayenne pepper",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "ground cinnamon",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "boneless skinless chicken breasts",
+            "quantity": 2.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "jalapeno pepper",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "bay leaf",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "cornstarch",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "heavy whipping cream",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 19,
+            "name": "basmati rice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 20,
+            "name": "chopped fresh cilantro",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a 5-qt. slow cooker, combine the first 13 ingredients. Add chicken, jalapeno and bay leaf. Cook, covered, on low 4 hours or until chicken is tender. Remove jalapeno and bay leaf.",
+            "duration": {
+                "preparation": null,
+                "cooking": 240.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce. Cook, covered, on high 15-20 minutes or until sauce is thickened. Serve with rice. If desired, sprinkle with cilantro.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 15.0,
+                    "max": 20.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                17,
+                18,
+                19,
+                20
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Chicken Tikka Masala",
+    "date": "2022-04-16",
+    "tags": [
+        "chicken",
+        "slowcooked",
+        "indian"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 25 min - \ud83c\udf73 Cook time: 4 hours - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "- 1 can (29 ounces) tomato puree - 1-1/2 cups plain yogurt - 1/2 large onion, finely chopped - 2 tablespoons olive oil - 4-1/2 teaspoons minced fresh gingerroot - 4 garlic cloves, minced - 1 tablespoon [garam masala](/garam-masala) - 2-1/2 teaspoons salt - 1-1/2 teaspoons ground cumin - 1 teaspoon paprika - 3/4 teaspoon pepper - 1/2 teaspoon cayenne pepper - 1/4 teaspoon ground cinnamon - 2-1/2 pounds boneless skinless chicken breasts, cut into 1-1/2-inch cubes - 1 jalapeno pepper, halved and seeded - 1 bay leaf - 1 tablespoon cornstarch - 1 cup heavy whipping cream - Hot cooked basmati rice - Chopped fresh cilantro, optional",
+    "directions_source_text": "1. In a 5-qt. slow cooker, combine the first 13 ingredients (Can blend these first for convenience). Add chicken, jalapeno and bay leaf. Cook, covered, on low 4 hours or until chicken is tender. Remove jalapeno and bay leaf. 2. In a small bowl, mix cornstarch and cream until smooth; gradually stir into sauce. Cook, covered, on high 15-20 minutes or until sauce is thickened. Serve with rice. If desired, sprinkle with cilantro."
+}

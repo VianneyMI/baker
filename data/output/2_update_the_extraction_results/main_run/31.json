@@ -1,0 +1,166 @@
+{
+    "serving_size": 4,
+    "preparation_time": 15.0,
+    "cooking_time": 25.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Butter",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Thai Red Curry Paste",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Ginger",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Sweet Potato",
+            "quantity": 1.0,
+            "unit": "large",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Zucchini",
+            "quantity": 1.0,
+            "unit": "small",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Red Pepper",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Chickpeas",
+            "quantity": 28.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Lime",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Wheat Flour",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Milk",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Fresh Coriander",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a large non-stick frying pan, heat butter over medium-high heat. Cook onion, stirring (2 mins). Add curry paste and ginger. Cook, stirring (1 min).",
+            "duration": {
+                "preparation": null,
+                "cooking": 3.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add sweet potato, zucchini, red pepper, salt, and half a cup of water. Stir. Cook covered, stirring occasionally until vegetables soften (10 mins). Add chickpeas and finely grated zest and juice from lime. Stir frequently until vegetables are tender and liquid has evaporated (5 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": 15.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Whisk flour into milk. Gradually stir into pan. Bring to a simmer, stirring constantly. Reduce heat to medium heat for a simmer, stirring occasionally (5 mins).",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Stir in coriander and salt if needed.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Fall Vegetable and Chickpea Curry",
+    "date": "2022-08-09",
+    "tags": [
+        "fasting",
+        "curry"
+    ],
+    "introduction": "Can be served over rice or on its own with a dollop of yogurt. - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 25 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1 Tbsp Butter - 1 Onion, chopped - 2 Tbsp Thai Red Curry Paste - 1 Tbsp Ginger, minced - 1 large Sweet Potato, peeled and cut into half-inch chunks - 1 small Zucchini, cut into half-inch chunks - 1 Red Pepper, cut into half-inch pieces - 28 oz can Chickpeas, rinsed and drained - 1 Lime - 3 Tbsp Wheat Flour - 1 1/2 cup Milk - 1/2 cup Fresh Coriander, chopped",
+    "directions_source_text": "1. In a large non-stick frying pan, heat butter over medium-high heat. Cook onion, stirring (2 mins). Add curry paste and ginger. Cook, stirring (1 min). 2. Add sweet potato, zucchini, red pepper, salt, and half a cup of water. Stir. Cook covered, stirring occasionally until vegetables soften (10 mins). Add chickpeas and finely grated zest and juice from lime. Stir frequently until vegetables are tender and liquid has evaporated (5 mins). 3. Whisk flour into milk. Gradually stir into pan. Bring to a simmer, stirring constantly. Reduce heat to medium heat for a simmer, stirring occasionally (5 mins). 4. Stir in coriander and salt if needed."
+}

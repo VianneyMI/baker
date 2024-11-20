@@ -1,0 +1,117 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": 25.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Spaghetti",
+            "quantity": 320.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Eggs",
+            "quantity": 5.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Guanciale or Smoked Pancetta",
+            "quantity": 150.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Pecorino Romano or Parmigiano-Reggiano",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Crack the eggs in a bowl but only add the yolks. Add a generous amount of your preferred grated cheese (Pecorino or Parmigiano) around 35g (you can optionally add a dash of black pepper).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Fill a pot with water and salt it less than typical pasta water. When it boils, cook the pasta one minute less than advised.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Fry the preferred pork (Guanciale or Smoked Pancetta) in an iron or nonstick pan (if using a different kind of pan add a dash of extra virgin olive oil) on low to medium heat until the sides are crisp but the insides are chewy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "While everything is being cooked and fried, beat the eggs manually using a fork until everything is entirely liquid. Remember to watch the time.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When your pasta is done (-1 minute), drain it and put it in the bowl with eggs. At this step you may consider the timing: if the pasta is too hot you will cook the eggs, and some people don't like it this way, so just wait for a minute. Keep moving and stirring to fully incorporate the eggs. Add guanciale and as many fats remaining in the pan as you want. Keep moving and stirring.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Plate and optionally garnish with the preferred grated cheese and black pepper. Voila.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Carbonara",
+    "date": "2021-03-11",
+    "tags": [
+        "italian",
+        "pasta",
+        "quick",
+        "cheesefare"
+    ],
+    "introduction": "![carbonara](/pix/carbonara.webp) Carbonara is a simple dish. The quality of your ingredients makes or breaks it. I recommend using the best ingredients you can source. Suggestions: bronze extruded pasta, 24 months aged Parmigiano-Reggiano, 12+ months aged Pecorino Romano, guanciale from the butcher, and organic eggs. This recipe assumes medium eggs. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 25 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- Spaghetti: 320 g | 11 oz - Eggs: 5 - Guanciale or Smoked Pancetta (cleaned and cubed): 150 g | 5 oz - Pecorino Romano or Parmigiano-Reggiano (grated)(optional)",
+    "directions_source_text": "1. Crack the eggs in a bowl but only add the yolks. Add a generous amount of your preferred grated cheese (Pecorino or Parmigiano) around 35g (you can optionally add a dash of black pepper). 2. Fill a pot with water and salt it less than typical [pasta](/pasta) water. When it boils, cook the pasta one minute less than advised. 3. Fry the preferred pork (Guanciale or Smoked Pancetta) in an iron or nonstick pan (if using a different kind of pan add a dash of extra virgin olive oil) on low to medium heat until the sides are crisp but the insides are chewy. 4. While everything is being cooked and fried, beat the eggs manually using a fork until everything is entirely liquid. Remember to watch the time. 5. When your pasta is done (-1 minute), drain it and put it in the bowl with eggs. At this step you may consider the timing: if the pasta is too hot you will cook the eggs, and some people don't like it this way, so just wait for a minute. Keep moving and stirring to fully incorporate the eggs. Add guanciale and as many fats remaining in the pan as you want. Keep moving and stirring. 6. Plate and optionally garnish with the preferred grated cheese and black pepper. Voila."
+}

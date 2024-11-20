@@ -1,0 +1,77 @@
+{
+    "serving_size": 1,
+    "preparation_time": 3.0,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "chili sauce",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "mayonnaise",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sesame oil",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add 2 parts mayonnaise to 1 part chili sauce in a bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add 1 tbsp of sesame oil for every cup of mayonnaise you use.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Mix all of the ingredients together, and taste test it for more chili sauce or mayonnaise.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Spicy Mayo",
+    "date": "2021-03-30",
+    "tags": [
+        "basic",
+        "sauce",
+        "japanese"
+    ],
+    "introduction": "A simple sauce that is at almost every sushi bar in the United States. - \u23f2\ufe0f Prep time: 3 min",
+    "ingredients_source_text": "- chili sauce (e.g Sriracha) - mayonnaise - sesame oil",
+    "directions_source_text": "1. Add 2 parts mayonnaise to 1 part chili sauce in a bowl. 2. Add 1 tbsp of sesame oil for every cup of mayonnaise you use. 3. Mix all of the ingredients together, and taste test it for more chili sauce or mayonnaise. ## Note This is just a basic guide, adapt this recipe to your liking."
+}

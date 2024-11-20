@@ -1,0 +1,157 @@
+{
+    "serving_size": null,
+    "preparation_time": 2.0,
+    "cooking_time": 20.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Sausages",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onions",
+            "quantity": 4.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Tomato sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Mustard",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "White sliced bread",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Wood chips",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop up the onions into rings",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Bring the sausages to the grill, turning once every 5 mins",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add oil of your choice to the hotplate then add the onions",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Use your tongs to toss the onions until they are golden brown",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When the onions are golden brown turn off the hotplate",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "When the sausages are cooked, butter the bread, then the onions, and add a sausage (optionally split)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Finally tomato sauce on top",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Aussie Snags (sausage sizzle)",
+    "date": "2021-06-05",
+    "tags": [
+        "basic",
+        "snack",
+        "australian",
+        "pork"
+    ],
+    "introduction": "An Australian BBQ classic tradition that is simple and very easy to make. Great for parties and outdoor events especially national events. Sometimes served at hardware chains. - \u23f2\ufe0f Prep time: 2 min - \ud83c\udf73 Cook time: 20 min - \ud83c\udf7d\ufe0f Servings: Depends",
+    "ingredients_source_text": "- Sausages (thin) - Onions (4g per sausage) - Tomato sauce - Mustard (optional) - White sliced bread - Butter - Oil - Wood chips (optional, fuel for smokey flavour)",
+    "directions_source_text": "1. Chop up the onions into rings 2. Bring the sausages to the grill, turning once every 5 mins 3. Add oil of your choice to the hotplate then add the onions 4. Use your tongs to toss the onions until they are golden brown 5. When the onions are golden brown turn off the hotplate 6. When the sausages are cooked, butter the bread, then the onions, and add a sausage (optionally split) 7. Finally tomato sauce on top"
+}

@@ -1,0 +1,119 @@
+{
+    "serving_size": 14,
+    "preparation_time": 5.0,
+    "cooking_time": 0.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tomatoes",
+            "quantity": 600.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "canned tomatoes",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "green onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "red onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "jalape\u00f1o pepper",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "fresh cilantro",
+            "quantity": 1.0,
+            "unit": "handfull",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "garlic",
+            "quantity": 1.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "lime juice",
+            "quantity": 0.5,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "chili pepper",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "ground cumin",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add all ingredients to a food processor and burst shortly for desired degree of chunkyness.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Refrigerate until consumption. (max 1 week)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Salsa",
+    "date": "2022-04-16",
+    "tags": [
+        "quick",
+        "basic",
+        "mexican",
+        "tomato"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 0 min - \ud83c\udf7d\ufe0f Servings: 14",
+    "ingredients_source_text": "- 1 1/4 lbs (600 grams) tomatoes - 1 14.5 oz (400 grams) canned tomatoes - 1 green onion - 1 red onion - 1 jalape\u00f1o pepper - 1 handfull fresh cilantro - 1 clove garlic - 1/2 lime, juice squeezed (optional) - 1 chili pepper (optional) - 1/4 tsp ground cumin (optional)",
+    "directions_source_text": "1. Add all ingredients to a food processor and burst shortly for desired degree of chunkyness. 2. Refrigerate until consumption. (max 1 week)"
+}

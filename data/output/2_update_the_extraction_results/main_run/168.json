@@ -1,0 +1,135 @@
+{
+    "serving_size": 2,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 10.0,
+        "max": 15.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "White onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Eggplant",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Egg",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut onion in julienne (a third or half of an onion ring)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cut the eggplant in slices or chunks that can fit in a teaspoon",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add oil to a pan (not a shallow one, wide and a bit deep is ideal if you have one) until it barely covers the vegetables",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cook and stir in medium heat until they are tender, caramelized and translucent",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Kick up the heat to give them a crispy touch, but not for long",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "(Optional) Turn off the heat and crack open an egg on top",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": true
+        },
+        {
+            "number": 7,
+            "description": "(Optional) Let the residual heat cook the egg. If it breaks just scramble it, the recipe doesn't call for anything fancy",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": true
+        },
+        {
+            "number": 8,
+            "description": "You can serve the dish with that oil (provided it is not burnt) or keep it for cooking other stuff",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Zarangollo",
+    "date": "2021-03-22",
+    "tags": [
+        "spanish",
+        "mediterranean",
+        "side",
+        "quick"
+    ],
+    "introduction": "Simple veggie starter/side dish from Murcia (Southeastern Spain) - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 10-15 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 1 White onion - 1 Eggplant - Olive oil - Egg (optional)",
+    "directions_source_text": "1. Cut onion in julienne (a third or half of an onion ring) 2. Cut the eggplant in slices or chunks that can fit in a teaspoon 3. Add oil to a pan (not a shallow one, wide and a bit deep is ideal if you have one) until it barely covers the vegetables 4. Cook and stir in medium heat until they are tender, caramelized and translucent 5. Kick up the heat to give them a crispy touch, but not for long 6. (Optional) Turn off the heat and crack open an egg on top 7. (Optional) Let the residual heat cook the egg. If it breaks just scramble it, the recipe doesn't call for anything fancy 8. You can serve the dish with that oil (provided it is not burnt) or keep it for cooking other stuff"
+}

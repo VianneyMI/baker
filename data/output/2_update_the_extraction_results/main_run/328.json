@@ -1,0 +1,173 @@
+{
+    "serving_size": null,
+    "preparation_time": 20.0,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "spaghetti or fettucine",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "heavy cream",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic",
+            "quantity": 0.5,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "oregano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "white wine",
+            "quantity": 0.33,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "lemon/lemon juice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 8,
+            "name": "red pepper flakes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "seafood",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Prepare your pasta, if you don't know how I recommend to follow [these instructions](/pasta). I choose to make mine al dente because it will continue to cook slightly once we add the sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Defrost/Deshell your seafood of choice",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Chop a half tablespoon of garlic into small pieces",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "In a large pan on medium heat, saute your chopped garlic in salt and butter for a minute or so.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                2,
+                4,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add and saute the seafood. Season with oregano, red pepper flakes and salt",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9,
+                5,
+                8,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add a half cup heavy cream and a third cup of white wine to the pan. Cook until you have the consistency you want.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Drain your pasta (Which should be cooked by now) and pour contents of the pan into the pasta.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Garlic Butter Seafood Pasta",
+    "date": "2022-07-18",
+    "tags": [
+        "italian",
+        "pasta",
+        "quick",
+        "seafood",
+        "shrimp",
+        "garlic"
+    ],
+    "introduction": "This is a simple outline of how to cook a creamy seafood pasta with white wine butter sauce. - \u23f2\ufe0f Prep time: 20 min",
+    "ingredients_source_text": "- spaghetti or fettucine - butter - heavy cream - garlic - oregano - white wine (Pinot Grigio or Sauvignon Blanc recommended) - lemon/lemon juice (optional) - red pepper flakes (optional) - seafood, choose from:   - mussels   - squid   - shrimp   - clams   - lobster",
+    "directions_source_text": "1. Prepare your pasta, if you don't know how I recommend to follow [these   instructions](/pasta). I choose to make mine al dente because it will continue to cook   slightly once we add the sauce. 2. Defrost/Deshell your seafood of choice 3. Chop a half tablespoon of garlic into small pieces 4. In a large pan on medium heat, saute your chopped garlic in salt and butter for a   minute or so. 5. Add and saute the seafood. Season with oregano, red pepper flakes and salt 6. Add a half cup heavy cream and a third cup of white wine to the pan. Cook until you have the   consistency you want. 7. Drain your pasta (Which should be cooked by now) and pour contents of the pan into the pasta."
+}

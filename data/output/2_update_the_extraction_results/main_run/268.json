@@ -1,0 +1,156 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Chicken",
+            "quantity": {
+                "min": 1.0,
+                "max": 2.0
+            },
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Oranges",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Red Bell Peppers",
+            "quantity": 2.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Soy Sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Honey",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Flour",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop your onion and red bell peppers into small bits and throw them in a large frying pan to cook with a pat of butter, stirring occasionally.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Chop your chicken into small bite sized pieces, add them to your pan once your onions begin to become translucent. Stir occasionally.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "If you have something to zest your oranges with add some zest to the ingredients in your pan (if you don't have a zesting thing don't worry about it).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": true
+        },
+        {
+            "number": 4,
+            "description": "While your chicken is cooking hand squeeze the juice out of your oranges into a bowl, I will usually use the juice of five oranges but three or four might be enough.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once your chicken is cooked pour your freshly squeezed orange juice into your pan, then pour in some soy sauce (you want your orange juice to soy sauce ratio to be about 3:1, use your best judgment on how much to pour in). Add honey (use as much as you want, I wouldn't use less than two tablespoons though) and stir. Turn the stove to medium-high.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Let that sit for a few minutes to let the flavors get to know each other a bit, then stir in a few spoonfuls of flour to thicken the sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once the sauce has reached your preferred level of thickness take it off the heat. Serve over rice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Stir Fried Chicken with an Orange Sauce",
+    "date": "2021-03-16",
+    "tags": [
+        "asian",
+        "chicken"
+    ],
+    "introduction": "I could have called this Orange Chicken but I feel like some people wouldn't classify my recipe that way.",
+    "ingredients_source_text": "- Chicken (a pound or two) - Oranges - An Onion - Two Red Bell Peppers - Soy Sauce - Honey - Butter - Flour",
+    "directions_source_text": "1. Chop your onion and red bell peppers into small bits and throw them in a large frying pan to cook with a pat of butter, stirring occasionally. 2. Chop your chicken into small bite sized pieces, add them to your pan once your onions begin to become translucent. Stir occasionally. 3. If you have something to zest your oranges with add some zest to the ingredients in your pan (if you don't have a zesting thing don't worry about it). 4. While your chicken is cooking hand squeeze the juice out of your oranges into a bowl, I will usually use the juice of five oranges but three or four might be enough. 5. Once your chicken is cooked pour your freshly squeezed orange juice into your pan, then pour in some soy sauce (you want your orange juice to soy sauce ratio to be about 3:1, use your best judgment on how much to pour in). Add honey (use as much as you want, I wouldn't use less than two tablespoons though) and stir. Turn the stove to medium-high. 6. Let that sit for a few minutes to let the flavors get to know each other a bit, then stir in a few spoonfuls of flour to thicken the sauce. 7. Once the sauce has reached your preferred level of thickness take it off the heat. Serve over rice."
+}

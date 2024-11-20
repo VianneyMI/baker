@@ -1,0 +1,334 @@
+{
+    "serving_size": 4,
+    "preparation_time": 30.0,
+    "cooking_time": 2.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "eggs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "00 flour",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 4,
+            "name": "lemon",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "grated Pecorino Romano cheese",
+            "quantity": 50.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "ricotta",
+            "quantity": 250.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "lobster legs, lobster tail, or minced crab",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "The basic rule of thumb I use for pasta is 100g, 1 egg per person",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "For this recipe you can go two ways, the old school \"well\" method or a kitchen aid mixer (skip to step 7)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "For the well method, pile the flour onto the counter and with your hand carve a hole or a well in the center",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Crack the eggs into the center of the well, and drizzle a bit of olive oil into the center",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "With a fork, begin slowly breaking up, mixing, and incorporating the egg into the flour until there is no longer any loose egg that can escape the outer well border",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "At this point use your hands to bring the sandy mixture together and knead the dough for about 5-10 minutes or until the dough is smooth",
+            "duration": {
+                "preparation": {
+                    "min": 5.0,
+                    "max": 10.0
+                },
+                "cooking": null,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "For the stand mixer method just throw all the ingredients into the mixer with a dough hook and set it to level 4 for about 3-5 minutes and it will be done",
+            "duration": {
+                "preparation": {
+                    "min": 3.0,
+                    "max": 5.0
+                },
+                "cooking": null,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "You might need to scrape the sides down and maybe hand knead the dough a bit longer after it's done to make it into a nice smooth ball",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Cover the dough with plastic wrap and let it rest in the fridge a bit so it's easier to roll out (15-30 mins)",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 15.0,
+                    "max": 30.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "While the dough is resting, make the filling by first mixing the ricotta and egg into a bowl",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Zest and juice a lemon peel into the bowl",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Optionally add seafood ingredients at this point",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": true
+        },
+        {
+            "number": 13,
+            "description": "Grate the Pecorino into the bowl, add salt and pepper to taste, and mix to distribute the ingredients evenly",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Take out the dough and cut it into 4 pieces, keeping the ones not currently being worked on covered so they don't dry out",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 15,
+            "description": "Roll the dough out with a pasta machine down to the point where you can just barely see your hand through it (setting 2-3 out of 7) or roll it out with a rolling pin into a long sheet, maybe like 16 x 8 inches or so",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 16,
+            "description": "At this point you can either cut the sheet in half and make two sheets, a top and bottom, or one sheet, where you will fold the dough over and use the folded seam as one side of the ravioli",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 17,
+            "description": "Using a teaspoon, evenly space out the ricotta filling onto the sheets, leaving a few inches on each side for the seams",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 18,
+            "description": "As stated in step 16, either take the 2nd sheet and place it over top or fold over the dough and press down firmly, forcing out any air and making sure the two pieces of dough stick",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 19,
+            "description": "You may need to brush some water onto the dough if it is too heavily floured and not sticking",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 20,
+            "description": "Using a fancy pasta cutter, a knife, or even a pizza cutter, cut evenly between the seams of the raviolis to separate them",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 21,
+            "description": "If you used a pasta cutter, you are now done, store the raviolis on a floured wax paper sheet or freeze them for later",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 22,
+            "description": "If you don't have a pasta cutter, use a fork to press down the dough around the edges of the cut raviolis to ensure they are firmly closed and no leaks or air bubbles are visible, or else they will explode when cooked",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 23,
+            "description": "To cook, throw them in salted boiling water and they will let you know when they're done when they float to the top (1-2 minutes)",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 1.0,
+                    "max": 2.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 24,
+            "description": "Serve the seafood version with a simple fresh red sauce and basil, or spice it up a bit and go with a base of red sauce with some added heavy cream, and a pinch of red pepper flakes to make a pink sauce for the seafood version",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Ravioli",
+    "date": "2021-05-13",
+    "tags": [
+        "pasta",
+        "italian"
+    ],
+    "introduction": "![Ravioli](/pix/ravioli-01.webp) - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73Cook time: 2 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "### Dough - 4 eggs - 400 g 00 flour - Drizzle of olive oil ### Cheese Filling - 1 lemon - 50 g grated Pecorino Romano cheese - 250 g ricotta - 1 egg ### Seafood Fillings - Chopped leftover lobster legs, lobster tail, or minced crab (optional)",
+    "directions_source_text": "1. The basic rule of thumb I use for pasta is 100g, 1 egg per person 2. For this recipe you can go two ways, the old school \"well\" method or a kitchen aid mixer (skip to step 7) 3. For the well method, pile the flour onto the counter and with your hand carve a hole or a well in the center 4. Crack the eggs into the center of the well, and drizzle a bit of olive oil into the center 5. With a fork, begin slowly breaking up, mixing, and incorporating the egg into the flour until there is no longer any loose egg that can escape the outer well border 6. At this point use your hands to bring the sandy mixture together and knead the dough for about 5-10 minutes or until the dough is smooth 7. For the stand mixer method just throw all the ingredients into the mixer with a dough hook and set it to level 4 for about 3-5 minutes and it will be done 8. You might need to scrape the sides down and maybe hand knead the dough a bit longer after it's done to make it into a nice smooth ball 9. Cover the dough with plastic wrap and let it rest in the fridge a bit so it's easier to roll out (15-30 mins) 10. While the dough is resting, make the filling by first mixing the ricotta and egg into a bowl 11. Zest and juice a lemon peel into the bowl 12. Optionally add seafood ingredients at this point 13. Grate the Pecorino into the bowl, add salt and pepper to taste, and mix to distribute the ingredients evenly 14. Take out the dough and cut it into 4 pieces, keeping the ones not currently being worked on covered so they don't dry out 15. Roll the dough out with a pasta machine down to the point where you can just barely see your hand through it (setting 2-3 out of 7) or roll it out with a rolling pin into a long sheet, maybe like 16 x 8 inches or so 16. At this point you can either cut the sheet in half and make two sheets, a top and bottom, or one sheet, where you will fold the dough over and use the folded seam as one side of the ravioli ![Lobster Ravioli](/pix/ravioli-02.webp) 17. Using a teaspoon, evenly space out the ricotta filling onto the sheets, leaving a few inches on each side for the seams 18. As stated in step 16, either take the 2nd sheet and place it over top or fold over the dough and press down firmly, forcing out any air and making sure the two pieces of dough stick 19. You may need to brush some water onto the dough if it is too heavily floured and not sticking 20. Using a fancy pasta cutter, a knife, or even a pizza cutter, cut evenly between the seams of the raviolis to separate them 21. If you used a pasta cutter, you are now done, store the raviolis on a floured wax paper sheet or freeze them for later ![Finished Ravioli](/pix/ravioli-03.webp) 22. If you don't have a pasta cutter, use a fork to press down the dough around the edges of the cut raviolis to ensure they are firmly closed and no leaks or air bubbles are visible, or else they will explode when cooked 23. To cook, throw them in salted boiling water and they will let you know when they're done when they float to the top (1-2 minutes) 24. Serve the seafood version with a simple fresh red sauce and basil, or spice it up a bit and go with a base of red sauce with some added heavy cream, and a pinch of red pepper flakes to make a pink sauce for the seafood version ![Served Ravioli](/pix/ravioli-04.webp)"
+}

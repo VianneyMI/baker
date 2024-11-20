@@ -1,0 +1,110 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "tomatillos",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "garlic",
+            "quantity": 1.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "jalape\u00f1o or serrano chilies",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "onion",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "oil",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "cilantro",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Place tomatillos, garlic, and chilies in a medium saucepan and cover with water. Simmer until tomatillos turn pale green, about 10 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Transfer tomatillos, garlic, and chilies into a blender or food processor. Add the onion and cilantro. Puree until smooth, then salt to taste, usually a teaspoon (6g) will suffice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Heat oil in a medium saucepan until hot but not smoking. Pour puree into the pan and cook, stirring occasionally, until thickened somewhat, about 6-8 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 6.0,
+                    "max": 8.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Salsa Verde",
+    "date": "2021-03-19",
+    "tags": [
+        "mexican",
+        "sauce"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "* 1 pound (450g) tomatillos, husks removed * 1 clove garlic * 2 jalape\u00f1o or serrano chilies * 1/2 cup (26g) chopped onion * 3 Tbsp (40ml) oil * cilantro",
+    "directions_source_text": "1. Place tomatillos, garlic, and chilies in a medium saucepan and cover with water. Simmer until tomatillos turn pale green, about 10 minutes. 2. Transfer tomatillos, garlic, and chilies into a blender or food processor. Add the onion and cilantro. Puree until smooth, then salt to taste, usually a teaspoon (6g) will suffice. 3. Heat oil in a medium saucepan until hot but not smoking. Pour puree into the pan and cook, stirring occasionally, until thickened somewhat, about 6-8 minutes. Makes about 2 cups (475mL). Refrigerate leftovers"
+}

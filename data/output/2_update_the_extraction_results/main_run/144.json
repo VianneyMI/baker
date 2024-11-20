@@ -1,0 +1,173 @@
+{
+    "serving_size": 4,
+    "preparation_time": 5.0,
+    "cooking_time": {
+        "min": 20.0,
+        "max": 30.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "shallot",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "garlic",
+            "quantity": 4.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "button or crimini mushrooms",
+            "quantity": 300.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "risotto rice (Arborio, Carnaroli or Vialone Nano)",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "white wine",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "mushroom or chicken stock",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "grated Pecorino or Parmesan cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Finely mince the shallot and garlic and slice the mushrooms into large pieces.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Heat a pan with some olive oil on medium-high heat. Ideally this should be a wide skillet with tall sides, but a pot will also do the job.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Saute the vegetables until fragrant, then add the mushrooms with a pinch of salt and cook them down until they're nicely browned, about 10 minutes or so.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the rice in and let it toast for about a minute or so. This will develop some nice nutty flavors, but overdoing this will affect the creaminess of the finished dish.",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Deglaze with white wine and let the alcohol cook off. After that start ladling in the stock bit by bit stirring constantly for about 20-30 minutes (depending on the brand of rice used), until the rice is cooked but has a slight bite to it.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 20.0,
+                    "max": 30.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Turn off the heat and add a couple tablespoons of cold butter and grated cheese, and stir well to emulsify. Check for final seasoning and serve.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Mushroom risotto",
+    "date": "2021-03-21",
+    "tags": [
+        "italian",
+        "mushrooms",
+        "wine",
+        "rice"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 20-30 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- Olive oil - 1 shallot - 4 cloves of garlic - 300g button or crimini mushrooms - 400g risotto rice (Arborio, Carnaroli or Vialone Nano) - 1/2 cup white wine (optional) - Mushroom or chicken stock - Butter - Grated Pecorino or Parmesan cheese",
+    "directions_source_text": "1. Finely mince the shallot and garlic and slice the mushrooms into large pieces. 2. Heat a pan with some olive oil on medium-high heat. Ideally this should be a wide skillet with tall sides, but a pot will also do the job. 3. Saute the vegetables until fragrant, then add the mushrooms with a pinch of salt and cook them down until they're nicely browned, about 10 minutes or so. 4. Add the rice in and let it toast for about a minute or so. This will develop some nice nutty flavors, but overdoing this will affect the creaminess of the finished dish. 5. Deglaze with white wine and let the alcohol cook off. After that start ladling in the stock bit by bit stirring constantly for about 20-30 minutes (depending on the brand of rice used), until the rice is cooked but has a slight bite to it. 6. Turn off the heat and add a couple tablespoons of cold butter and grated cheese, and stir well to emulsify. Check for final seasoning and serve."
+}

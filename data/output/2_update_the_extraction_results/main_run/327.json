@@ -1,0 +1,297 @@
+{
+    "serving_size": 6,
+    "preparation_time": 30.0,
+    "cooking_time": 70.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Ground beef",
+            "quantity": 4.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Slices of bread",
+            "quantity": 2.0,
+            "unit": "slice",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Eggs",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Milk",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Garlic salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Onion powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Mustard",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Sugar free ketchup",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Cubes of brown sugar",
+            "quantity": 3.0,
+            "unit": "cube",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Can of Campbell's tomato soup",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Franks RedHot sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Once thawed, put all of your beef into a bowl. The next 4 steps will all go into this same bowl.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Dice the onion and bread slices into small pieces. Add them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Crack and put in all of your eggs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Pour in your milk, and a moderate amount of mustard and ketchup.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add garlic salt and onion powder.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Now you must use your (sanitized) hands and mix everything in the big bowl well. Make sure you get the bottom.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Evenly distribute your mixed meat into 2 or 3 oven safe greased up dishes. Try to flatten the surface as much as you can.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "In each dish, create a small channel in the middle of each meatloaf. This is to maintain the shape as it's cooking.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Put all of your meatloaf filled dishes into the oven on 180 Celsius for 1 hour.",
+            "duration": {
+                "preparation": null,
+                "cooking": 60.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 180.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Once you have about 15 minutes left on your timer, get started on your sauce.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 45.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Toss your 3 sugar cubes into a bowl with a little bit of hot water to melt them.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Add your tomato soup, 1/4 Cup of ketchup and mustard (each).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                9,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Stir sauce until it's a thick, light red color.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 14,
+            "description": "Once 1 hour is up, take out all of your meatloaf. Make sure to cut open the thickest meatloaf and confirm the beef is cooked.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 15,
+            "description": "Coat the top of each of your meatloaves with the sauce, evenly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 16,
+            "description": "Once coated, put back into the oven for 10 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 17,
+            "description": "Take out all of your meatloaf. Once cool, slice it up and serve!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Meatloaf",
+    "date": "2021-03-23",
+    "tags": [
+        "beef",
+        "american",
+        "supper"
+    ],
+    "introduction": "![Meatloaf](/pix/meatloaf.webp) This recipe will result in two or three glass dishes of tasty, moist meatloaf. Great for family suppers. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 1 hour 10 minutes - \ud83c\udf7d\ufe0f Servings: 6+",
+    "ingredients_source_text": "- 4 1/2 pounds Ground beef - 1 Onion - 2 Slices of bread - 4 Eggs - 1/4 Cup of milk - Garlic salt - Onion powder - Mustard - Sugar free ketchup - 3 Cubes of brown sugar - 1 Can of Campbell's tomato soup - Franks RedHot sauce (Optional)",
+    "directions_source_text": "1. Once thawed, put all of your beef into a bowl. The next 4 steps will all go into this same bowl. 2. Dice the onion and bread slices into small pieces. Add them. 3. Crack and put in all of your eggs. 4. Pour in your milk, and a moderate amount of mustard and ketchup. 5. Add garlic salt and onion powder. 6. Now you must use your (sanitized) hands and mix everything in the big bowl well. Make sure you get the bottom. 7. Evenly distribute your mixed meat into 2 or 3 oven safe greased up dishes. Try to flatten the surface as much as you can. 8. In each dish, create a small channel in the middle of each meatloaf. This is to maintain the shape as it's cooking. 9. Put all of your meatloaf filled dishes into the oven on 180 Celsius for *1 hour*. 10. Once you have about 15 minutes left on your timer, get started on your sauce. 11. Toss your 3 sugar cubes into a bowl with a little bit of hot water to melt them. 12. Add your tomato soup, 1/4 Cup of ketchup and mustard (each). 13. Stir sauce until it's a thick, light red color. 14. Once 1 hour is up, take out all of your meatloaf. *Make sure to cut open the thickest meatloaf and confirm the beef is cooked*. 15. Coat the top of each of your meatloaves with the sauce, evenly. 16. Once coated, put back into the oven for 10 minutes. 17. Take out all of your meatloaf. Once cool, slice it up and serve!"
+}

@@ -1,0 +1,75 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 10.0,
+        "max": 12.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "raw pre-shelled peanuts",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Spread peanuts on a large baking sheet and roast in the oven at 350\u00b0F (175\u00b0C) for ten to twelve minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 12.0
+                },
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": 350.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "While the peanuts are still hot remove any skins from them. This is best done by wrapping a few handfuls at a time in a dish towel and rolling them against each other for several seconds.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Put all your roasted and skinned peanuts in a food processor, add salt if desired, and chop until you have reached your desired thickness of peanut butter. (This may take a few minutes)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Peanut Butter",
+    "date": "2021-03-13",
+    "tags": [
+        "spread",
+        "snack",
+        "basic",
+        "fasting"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- 1 lb. of raw pre-shelled peanuts",
+    "directions_source_text": "1. Spread peanuts on a large baking sheet and roast in the oven at 350\u00b0F (175\u00b0C) for ten to twelve minutes 2. While the peanuts are still hot remove any skins from them. This is best done by wrapping a few handfuls at a time in a dish towel and rolling them against each other for several seconds. 3. Put all your roasted and skinned peanuts in a food processor, add salt if desired, and chop until you have reached your desired thickness of peanut butter. (This may take a few minutes)"
+}

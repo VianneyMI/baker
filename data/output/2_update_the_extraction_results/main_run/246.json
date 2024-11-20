@@ -1,0 +1,135 @@
+{
+    "serving_size": 2,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "brown rice",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "frozen peas",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "broccoli",
+            "quantity": null,
+            "unit": "head",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "chicken breasts",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "honey",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "low-sodium soy sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "minced garlic",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cook rice in a pot. Instructions are on the bag it comes in.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "While rice is cooking, cut chicken breasts into cube. Season with olive oil, black pepper, and paprika. Cut broccoli into pieces and place into steamer basket over pot 1/2 filled with water, do not start it yet.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Put chicken cubes into a hot pan and cook for ~3 minutes. After 3 minutes add honey, soy sauce, and garlic. Cook for another 5 minutes. Begin boiling broccoli water.",
+            "duration": {
+                "preparation": null,
+                "cooking": 8.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add frozen peas to rice and stir, they will heat up quickly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add rice and peas to chicken and stir.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Honey Garlic Chicken with Broccoli and Brown Rice",
+    "date": "2021-05-08",
+    "tags": [
+        "chicken",
+        "broccoli",
+        "rice",
+        "quick"
+    ],
+    "introduction": "Very easy, high protein. - Servings: 2",
+    "ingredients_source_text": "- 1/2 cup ( 100g ) brown rice - 1/2 cup ( 70g ) frozen peas - 1 head broccoli (you can use really any amount of broccoli) - 2 chicken breasts - 1 tbsp honey - 1 tbsp low-sodium soy sauce - 1 tbsp minced garlic",
+    "directions_source_text": "1. Cook rice in a pot. Instructions are on the bag it comes in. 2. While rice is cooking, cut chicken breasts into cube. Season with olive oil, black pepper, and paprika. Cut broccoli into pieces and place into steamer basket over pot 1/2 filled with water, do not start it yet. 3. Put chicken cubes into a hot pan and cook for ~3 minutes. After 3 minutes add honey, soy sauce, and garlic. Cook for another 5 minutes. Begin boiling broccoli water. 4. Add frozen peas to rice and stir, they will heat up quickly. 5. Add rice and peas to chicken and stir."
+}

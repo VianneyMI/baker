@@ -1,0 +1,199 @@
+{
+    "serving_size": 5,
+    "preparation_time": 30.0,
+    "cooking_time": 180.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Onions",
+            "quantity": {
+                "min": 6.0,
+                "max": 7.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": 1.0,
+            "unit": "stick",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Olive oil",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "Baguette Loaf",
+            "quantity": 1.0,
+            "unit": "loaf",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Chicken Broth",
+            "quantity": 1.0,
+            "unit": "can",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Garlic cloves",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "brown sugar",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Balsamic vinegar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "Worcestershire Sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "Soy Sauce",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "Beef Broth",
+            "quantity": 64.0,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Bay Leaves",
+            "quantity": {
+                "min": 2.0,
+                "max": 3.0
+            },
+            "unit": "leaf",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Melty cheese",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Sweat the onions in a covered Dutch oven over med-low heat, salt them, with 1 whole stick of butter and some olive oil for about 2 hours stirring occasionally but increasing in frequency as the heat gets raised over time.",
+            "duration": {
+                "preparation": null,
+                "cooking": 120.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "When the onions are soft and mostly shrunken down, and mostly covered by the butter, oil, and onion juice, strain and collect the juice in a bowl. Brush the onion juice over each side of slices of baguette bread.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Return the strained onions to med-high heat, uncovered, stirring and deglazing with chicken broth frequently but not so frequent that they turn to mush. When the entire can of chicken broth has been added for deglazing, add 3 finely chopped garlic cloves, 1/4 cup brown sugar, balsamic vinegar, Worcestershire sauce, soy sauce. Wait until the pot dries and a fond is formed in between adding each liquid ingredient slowly. Keep slowly deglazing with the wooden spoon and caramelizing those onions.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "After onions are thoroughly caramelized and there are no more liquid ingredients to add, pour in 64oz beef broth and 2-3 Bay leaves. Cover on medium heat until it simmers. It is now ready to serve!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                12,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Put sliced (and onion-juice brushed) bread in 400F oven until toasted, then under the broiler covered in cheese until melted. Soup can be served poured over the bread slices or the bread floating on top.",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": 400.0,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                14
+            ],
+            "optional": false
+        }
+    ],
+    "title": "French Onion Soup",
+    "date": "2021-03-23",
+    "tags": [
+        "french",
+        "soup"
+    ],
+    "introduction": "- \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 3 hours - \ud83c\udf7d\ufe0f Servings: 5",
+    "ingredients_source_text": "- 6-7 Onions, cut into quarter moons - 1 stick of butter - 1/2 cup Olive oil - Salt, to taste - 1 Baguette Loaf, sliced - 1 Can of Chicken Broth - 3 Garlic cloves, finely chopped - 1/4 cup brown sugar - Balsamic vinegar, to taste - Worcestershire Sauce, to taste - Soy Sauce, to taste - 64oz Beef Broth - 2-3 Bay Leaves - Melty cheese, preferably guereye or swiss",
+    "directions_source_text": "1. Sweat the onions in a covered Dutch oven over med-low heat, salt them, with 1 whole stick of butter and some olive oil for about 2 hours stirring occasionally but increasing in frequency as the heat gets raised over time. 2. When the onions are soft and mostly shrunken down, and mostly covered by the butter, oil, and onion juice, strain and collect the juice in a bowl. Brush the onion juice over each side of slices of baguette bread. 3. Return the strained onions to med-high heat, uncovered, stirring and deglazing with chicken broth frequently but not so frequent that they turn to mush. When the entire can of chicken broth has been added for deglazing, add 3 finely chopped garlic cloves, 1/4 cup brown sugar, balsamic vinegar, Worcestershire sauce, soy sauce. Wait until the pot dries and a fond is formed in between adding each liquid ingredient slowly. Keep slowly deglazing with the wooden spoon and caramelizing those onions. 4. After onions are thoroughly caramelized and there are no more liquid ingredients to add, pour in 64oz beef broth and 2-3 Bay leaves. Cover on medium heat until it simmers. It is now ready to serve! 5. Put sliced (and onion-juice brushed) bread in 400F oven until toasted, then under the broiler covered in cheese until melted. Soup can be served poured over the bread slices or the bread floating on top."
+}

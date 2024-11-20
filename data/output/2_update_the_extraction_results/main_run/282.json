@@ -1,0 +1,53 @@
+{
+    "serving_size": 1,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "hot coffee",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "coconut oil",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "unsalted butter",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Blend coffee, coconut oil, and butter together in a blender until oil and butter are melted and coffee is frothy.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Coconut Oil Coffee",
+    "date": "2021-03-16",
+    "tags": [
+        "drink",
+        "sweet",
+        "breakfast"
+    ],
+    "introduction": "- \ud83c\udf7d\ufe0f Servings: 1",
+    "ingredients_source_text": "- 1 cup hot coffee - 1 tbsp coconut oil - 1 tbsp unsalted butter",
+    "directions_source_text": "1. Blend coffee, coconut oil, and butter together in a blender until oil and butter are melted and coffee is frothy."
+}

@@ -1,0 +1,231 @@
+{
+    "serving_size": 2,
+    "preparation_time": 30.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Boneless Chicken",
+            "quantity": 0.5,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Butter",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Tomato",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Oil",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Lemon juice",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Garlic cloves",
+            "quantity": 3.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Ginger",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Garam Masala/Chicken Masala",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Cream (or cashew paste)",
+            "quantity": 4.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Chilli Powder",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Turmeric powder",
+            "quantity": 0.25,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Crushed fenugreek leaves",
+            "quantity": 0.25,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Coriander leaves/cilantro",
+            "quantity": 1.0,
+            "unit": "bunch",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "In a bowl, mix chicken with salt, pepper, 1/2 tbsp ginger-garlic paste, 1/2 tbsp chili powder, turmeric powder, and lemon juice for the chicken marinade; let marinate for an hour.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 60.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                6,
+                8,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Roast the marinated chicken in an oven at medium temperature for 5 to 10 minutes. The chicken should be three-fourths done.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 10.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Heat butter in a pan. Fry the onions until it turns translucent.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add garlic-ginger and saut\u00e9 for a minute, then add garam masala. Cook for a few seconds making sure not to burn the paste.",
+            "duration": {
+                "preparation": null,
+                "cooking": 1.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add tomato puree, salt, and chili powder. Let simmer for about 5 minutes, occasionally stirring until sauce thickens and becomes a deep brown-red color.",
+            "duration": {
+                "preparation": null,
+                "cooking": 5.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add the marinated chicken, butter, fresh cream, the crushed fenugreek leaves, and sliced green chilies. Cook for an additional 5 to 10 min until the chicken is cooked.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 5.0,
+                    "max": 10.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                10,
+                13
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Adjust salt, garnish with the coriander leaves. Serve over rice or naan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Butter Chicken Masala Curry",
+    "date": "2021-03-15",
+    "tags": [
+        "indian",
+        "curry",
+        "chicken"
+    ],
+    "introduction": "![Butter Chicken Masala](/pix/butter-chicken-masala.webp) Butter chicken Masala is one of India's most popular chicken recipes, a mild curry with a tomato-onion-cream base and boneless chicken pieces cooked in it to perfection. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- Boneless Chicken 1/2lb, cubed - Butter Melted 2 tbsp - Onions 2 medium-sized, minced - Tomato 2 medium-sized, pureed - Oil 2 tbsp - Lemon juice 1 tbsp - Garlic cloves 3, minced/crushed - Ginger 1tbsp, minced/paste - [Garam Masala](/garam-masala)/Chicken Masala 1 tbsp - Cream 4tbsp (or cashew paste) - Chilli Powder 1 tbsp - Turmeric powder 1/4 tbsp - Crushed fenugreek leaves 1/4 tbsp - 1 small bunch of coriander leaves / cilantro, for ganish",
+    "directions_source_text": "1. In a bowl, mix chicken with salt, pepper, 1/2 tbsp ginger-garlic paste, 1/2 tbsp chili powder, turmeric powder, and lemon juice for the chicken marinade; let marinate for an hour. 2. Roast the marinated chicken in an oven at medium temperature for 5 to 10 minutes. The chicken should be three-fourths done. 3. Heat butter in a pan. Fry the onions until it turns translucent. 4. Add garlic-ginger and saut\u00e9 for a minute, then add garam masala. Cook for a few seconds making sure not to burn the paste. 5. Add tomato puree, salt, and chili powder. Let simmer for about 5 minutes, occasionally stirring until sauce thickens and becomes a deep brown-red color. 6. Add the marinated chicken, butter, fresh cream, the crushed fenugreek leaves, and sliced green chilies. Cook for an additional 5 to 10 min until the chicken is cooked. 7. Adjust salt, garnish with the coriander leaves. Serve over rice or naan."
+}

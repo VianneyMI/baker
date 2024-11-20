@@ -1,0 +1,129 @@
+{
+    "serving_size": 4,
+    "preparation_time": 15.0,
+    "cooking_time": 15.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "pasta",
+            "quantity": 800.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "cream",
+            "quantity": 4.0,
+            "unit": "dl",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "tomato paste",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "parmigiano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "parsley",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Start cooking the pasta.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix the cream with the tomato paste and bring to a boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Turn the heat down to medium and add as much grated parmigiano as you like.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Let it cook on medium to low heat until the pasta is done.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add chopped parsley and pepper.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "You can either add the sauce to the pasta or serve separately.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Serve with some additional parmigiano and a leaf of parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Cinque Pi",
+    "date": "2021-03-19",
+    "tags": [
+        "italian",
+        "pasta",
+        "quick"
+    ],
+    "introduction": "![Cinque Pi](/pix/cinque-pi.webp) This is a nice simple dish made up of five ingredients: panna, pomodori, parmigiano, pepe, e prezzemolo - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 15 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- pasta: 800g | 1 1/2 lb - Cream: 4dl | 1 1/2 cups - Tomato paste 2 TS - Parmigiano (grated) - Parsley",
+    "directions_source_text": "1. Start cooking the [pasta](/pasta). 2. Mix the cream with the tomato paste and bring to a boil. 3. Turn the heat down to medium and add as much grated parmigiano as you like. 4. Let it cook on medium to low heat until the pasta is done. 5. Add chopped parsley and pepper. 6. You can either add the sauce to the pasta or serve separately. 7. Serve with some additional parmigiano and a leaf of parsley."
+}

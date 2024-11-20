@@ -1,0 +1,227 @@
+{
+    "serving_size": 2,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "pork meat",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "buckwheat",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "water",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "carrot",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "tomato paste",
+            "quantity": {
+                "min": 6.0,
+                "max": 8.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "wheat flour",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "curcuma",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "chili powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "garlic cloves",
+            "quantity": {
+                "min": 3.0,
+                "max": 4.0
+            },
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "parsley",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "bay leaves",
+            "quantity": {
+                "min": 3.0,
+                "max": 4.0
+            },
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Chop the onion and cut the pork into small pieces.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Dust the pork with some flour.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Heat the frying pan add a bit of oil, add the pork and onion, and fry for about 10-15 minutes over medium-high heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [
+                1,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "While the pork and onion are being fried, cut the carrot into small pieces and chop the parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Once the pork and onion are fried, add the water, tomato paste, buckwheat and carrots.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                6,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add curcuma, chili powder, salt and black pepper to taste; mix thoroughly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add in the garlic cloves, bay leaves and chopped parsley.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                12,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Once the water is boiling, close the pan with a lid and stew for about 25 minutes over low heat.",
+            "duration": {
+                "preparation": null,
+                "cooking": 25.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Serve hot and enjoy!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Merchant's Buckwheat",
+    "date": "2021-03-12",
+    "tags": [
+        "russian",
+        "pork"
+    ],
+    "introduction": "![Merchant's Buckwheat](/pix/merchants-buckwheat.webp) Buckwheat is not very popular outside Russia, the former USSR, and some Asian countries; but it is a nice grain full of nutrients which can be used to prepare delicious and nutritious dishes.",
+    "ingredients_source_text": "The ingredients below are for 2 hearty portions. * 400g pork meat * 1/2 metric cup (~125ml) buckwheat * 1 1/5 metric cup (~300ml) water * 1 medium-sized carrot * 1 small onion * 6-8 tablespoons tomato paste * Wheat flour * Curcuma * Chili powder (optional) * 3-4 garlic cloves * Parsley * 3-4 bay leaves",
+    "directions_source_text": "1. Chop the onion and cut the pork into small pieces. 2. Dust the pork with some flour. I sometimes like to do this once I've added   the pork to the pan, just because I am lazy and I haven't noticed much   difference between either approach. 3. Heat the frying pan add a bit of oil, add the pork and onion, and fry for   about 10-15 minutes over medium-high heat. 4. While the pork and onion are being fried, cut the carrot into small pieces   and chop the parsley. 5. Once the pork and onion are fried, add the water, tomato paste, buckwheat and   carrots. 6. Add curcuma, chili powder, salt and black pepper to taste; mix thoroughly. 7. Add in the garlic cloves, bay leaves and chopped parsley. 8. Once the water is boiling, close the pan with a lid and stew for about 25   minutes over low heat. 9. Serve hot and enjoy!"
+}

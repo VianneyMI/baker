@@ -1,0 +1,128 @@
+{
+    "serving_size": 4,
+    "preparation_time": 10.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Eggs",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Salt",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Sugar",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Flour",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Milk",
+            "quantity": {
+                "min": 1.0,
+                "max": 1.6666666666666667
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Butter",
+            "quantity": {
+                "min": 6.0,
+                "max": 8.0
+            },
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add melted butter while stirring batter.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Use about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "First side will take about a minute or more the second side will take half that time. Pick up at middle of pancake with spatula then place on plate and fold over. The pancake will then be four layers thick 10\" x 2\" long. Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup. Maybe you prefer adding fruits of your choice.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 1.0,
+                    "max": null
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Swedish Pancakes",
+    "date": "2021-03-21",
+    "tags": [
+        "breakfast",
+        "swedish",
+        "pancake"
+    ],
+    "introduction": "![Swedish Pancakes](/pix/swedish-pancakes-00.webp) - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 3 Eggs, beaten - 1 tsp Salt - 1 tbsp Sugar - 1 cup Flour - 1 - 2/3 cups Milk - 6-8 tbsp Butter",
+    "directions_source_text": "1. At medium/low heat begin melting the butter, and continue with beating eggs in large bowl, add salt, sugar, milk, flour and mix. 2. Add melted butter while stirring batter. 3. Use about 1/2 cup batter on griddle and tilt until spread evenly over griddle surface. 4. When edges of pancake start to firm-up use spatula and free up the outside inch or two to achieve a clean removal for flipping later. 5. First side will take about a minute or more the second side will take half that time. Pick up at middle of pancake with spatula then place on plate and fold over. The pancake will then be four layers thick 10\" x 2\" long. Serve with syrup on top or anything you choose, my wife likes peanut butter and I prefer to spread a little butter on it before adding syrup. Maybe you prefer adding fruits of your choice. ![Swedish Pancakes](/pix/swedish-pancakes-01.webp)"
+}

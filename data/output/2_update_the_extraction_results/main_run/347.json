@@ -1,0 +1,142 @@
+{
+    "serving_size": null,
+    "preparation_time": 0.0,
+    "cooking_time": {
+        "min": 15.0,
+        "max": 20.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "unsalted butter",
+            "quantity": 5.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "flour",
+            "quantity": 5.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "whole milk",
+            "quantity": 1.0,
+            "unit": "liter",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "salt",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 6,
+            "name": "nutmeg",
+            "quantity": null,
+            "unit": "pinch",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Put your butter in your pot and let it slowly melt on medium to low heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium to low",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Once the butter is fully melted add the flour and stir it in to make a roux.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Keep stirring your roux on medium low heat until it gets lightly golden brown and starts smelling a bit nutty.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium low",
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add about a glass of your whole milk and stir until combined, repeat this process until you have a thick sauce in your pan and new milk you add easily combines. Never stop stirring.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "At this point you can add the rest of your milk, if you skip the previous step you will end up with lumps of roux that are hard to get out.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Lower your heat to low and keep stirring don't forget to get in the corners of the pot because your sauce will burn easily.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Once your sauce has the desired thickness give it a taste and add your salt and pepper until it is to your liking. A pinch of nutmeg, preferably freshly grated, will also go a long way.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4,
+                5,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Classic b\u00e9chamel sauce",
+    "date": "2021-03-21",
+    "tags": [
+        "basic",
+        "sauce",
+        "french",
+        "italian"
+    ],
+    "introduction": "Classic French sauce, base for a lot of dishes - \u23f2\ufe0f Prep time: 0m - \ud83c\udf73 Cook time: 15-20 min",
+    "ingredients_source_text": "- 5 Teaspoons unsalted butter - 5 Teaspoons flour - 1 litre whole milk - Salt to taste - Pepper to taste - Pinch of nutmeg",
+    "directions_source_text": "1. Put your butter in your pot and let is slowly melt on medium to low heat. 2. Once the butter is fully melted add the flour and stir it in to make a roux. 3. Keep stiring your roux on medium low heat until it gets lightly golden brown and starts melling a bit nutty. 4. Add about a glass of your whole milk and stir until combined, repeat this process until you have a thick sauce in your pan and new milk you add easily combines. Never stop stirring. 5. At this point you can add the rest of your milk, if you skip the previous step you will end up with lumps of roux that are hard to get out. 6. Lower your heat to low and keep stiring don't forget to get in the corners of the pot because your sauce will burn easily. 7. Once your sauce has the desired thickness give it a taste and add your salt and pepper until it is to your liking. A pinch of nutmeg, preferably freshly grated, will also go a long way."
+}

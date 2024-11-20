@@ -1,0 +1,152 @@
+{
+    "serving_size": 4,
+    "preparation_time": 120.0,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "taco-meat",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Onion",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Diced Tomatoes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Bell Pepper",
+            "quantity": 1.0,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Burrito sized tortilla",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Plain Greek Yogurt or Sour Cream",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Any other vegetables you want",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Shredded cheese of choice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Dice peppers, tomatoes, and onions and saute",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add in meat. Season and cook until browned or fully cooked through",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Warm your tortilla and place small layer of yogurt, cheese, and filling on the bottom half of the tortilla",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Wrap by folding bottom over filling, folding sides in, and then rolling.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Fry using your preferred method (info on a couple of methods below)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "My preferred method to frying is air frying, place into air fryer and set for about 10 minutes. Just as crunchy with practically no grease from oil",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "For oil frying, I've found using just a film of oil and flipping on to the sides works well with more time.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Chimichanga",
+    "date": "2021-03-19",
+    "tags": [
+        "mexican",
+        "beef",
+        "basic"
+    ],
+    "introduction": "Essentially, just a fried burrito. Use whatever your favorite filling is. - \u23f2\ufe0f Prep time: 120min - \ud83c\udf73 Cook time: 30 min - Servings: 4",
+    "ingredients_source_text": "- [taco-meat](/taco-meat) - 1 Onion - Diced Tomatoes - 1 Bell Pepper - Burrito sized tortilla - Plain Greek Yogurt or Sour Cream - Any other vegetables you want - Shredded cheese of choice (Optional)",
+    "directions_source_text": "1. Dice peppers, tomatoes, and onions and saute 2. Add in meat. Season and cook until browned or fully cooked through 3. Warm your tortilla and place small layer of yogurt, cheese, and filling on the bottom half of the tortilla 4. Wrap by folding bottom over filling, folding sides in, and then rolling. 5. Fry using your preferred method (info on a couple of methods below) ## Frying * My preferred method to frying is air frying, place into air fryer and set for about 10 minutes. Just as crunchy with practically no grease from oil * For oil frying, I've found using just a film of oil and flipping on to the sides works well with more time."
+}

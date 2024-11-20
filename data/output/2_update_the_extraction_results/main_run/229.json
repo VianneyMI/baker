@@ -1,0 +1,176 @@
+{
+    "serving_size": 1,
+    "preparation_time": 5.0,
+    "cooking_time": 25.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Eggs",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "milk",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "bread",
+            "quantity": 5.0,
+            "unit": "slice",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Maple Syrup",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "Butter",
+            "quantity": null,
+            "unit": null,
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Butter up a frying pan and set it on the burner with low-medium heat.(May need to add more butter in-between slices)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Take your two eggs and crack them into a bowl together.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Pour milk in the bowl with the eggs.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Break the yolks and stir the eggs and milk well with a beater until it's a smooth, yellow liquid.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Dip one side of bread into the bowl, making sure the liquid gets into all of the surface area of that side.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Immediately bring the side back up and scrape off any access liquid on the side with a butter knife.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Repeat steps 5-6, but for the other side of the bread.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Drop into the hot pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Cook both sides until golden brown, then plop onto a plate.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Repeat steps 5 to 9 until you have cooked all of your bread.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Drench french toast stack in Maple syrup (Optional)",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": true
+        }
+    ],
+    "title": "French Toast",
+    "date": "2021-03-21",
+    "tags": [
+        "breakfast",
+        "french"
+    ],
+    "introduction": "![French Toast](/pix/french-toast.webp) This recipe results in five slices of easy to make french toast. - \u23f2\ufe0f Prep time: 5 min - \ud83c\udf73 Cook time: 25 min - \ud83c\udf7d\ufe0f Servings: 1",
+    "ingredients_source_text": "- 2 Eggs - 1/2 Cup of milk (1/4 for a more solid consistency) - 5 Slices of bread - Maple Syrup (Optional) - Butter",
+    "directions_source_text": "1. Butter up a frying pan and set it on the burner with low-medium heat.(May need to add more butter in-between slices) 2. Take your two eggs and crack them into a bowl together. 3. Pour milk in the bowl with the eggs. 4. Break the yolks and stir the eggs and milk well with a beater until it's a smooth, yellow liquid. 5. Dip one side of bread into the bowl, making sure the liquid gets into all of the surface area of that side. 6. Immediately bring the side back up and scrape off any access liquid on the side with a butter knife. 7. Repeat steps 5-6, but for the other side of the bread. 8. Drop into the hot pan. 9. Cook both sides until golden brown, then plop onto a plate. 10. Repeat steps 5 to 9 until you have cooked all of your bread. 11. Drench french toast stack in Maple syrup (Optional)"
+}

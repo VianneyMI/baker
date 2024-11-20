@@ -1,0 +1,132 @@
+{
+    "serving_size": 8,
+    "preparation_time": 15.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "eggs",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sugar",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "almond meal",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "cinnamon powder",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "salt",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "lemon zest",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "clementine zest",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "icing sugar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add eggs and sugar into a bowl and whisk until the mixture turns pale.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Add the rest of the ingredients, except for icing sugar and using a spatula, gently fold everything until well combine.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Pour batter into a 7 inch (18 cm) springform pan that has been buttered and floured. Bake in a preheated oven at 360\u00baF (180\u00baC) for 40 minutes or until golden brown and fully cooked.",
+            "duration": {
+                "preparation": null,
+                "cooking": 40.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": 360.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Cool completely. Place the Santiago cross cut out on top and dust generous amount of icing sugar all over the cake. Carefully remove the cut out. Slice and serve, enjoy!",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Tarta de Santiago",
+    "date": "2022-07-03",
+    "tags": [
+        "spanish",
+        "almond",
+        "cake",
+        "galician"
+    ],
+    "introduction": "![Tarta de Santiago](/pix/tarta-de-santiago.webp) Delicious Spanish almond cake or famously known as tarta de Santiago. This is a cake from Galicia and it is super easy to make, with only 3 main ingredients. I always feel this type of cake is just perfect for the holiday season. - \u23f2\ufe0f Prep time: 15 min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "* 3 eggs * \u00be cup sugar (150 gr) * 1 \u00bd cup almond meal (150 gr) * \u00bd teaspoon cinnamon powder * \u00bc teaspoon salt * Zest of 1 lemon * Zest of 1 clementine * Icing sugar, for dusting on top",
+    "directions_source_text": "1. Add eggs and sugar into a bowl and whisk until the mixture turns pale. 2. Add the rest of the ingredients, except for icing sugar and using a spatula, gently fold everything until well combine. 3. Pour batter into a 7 inch (18 cm) springform pan that has been buttered and floured. Bake in a preheated oven at 360\u00baF (180\u00baC) for 40 minutes or until golden brown and fully cooked. 4. Cool completely. Place the Santiago cross cut out on top and dust generous amount of icing sugar all over the cake. Carefully remove the cut out. Slice and serve, enjoy! ## Notes * As I mentioned earlier, this cake is dusted with icing sugar with an imprint of Santiago's cross on its top surface. You can also make an imprint of a scallop shell. Or with no imprint at all. Your choice."
+}

@@ -1,0 +1,221 @@
+{
+    "serving_size": 4,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "porkchops",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "shallots",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "gerkins",
+            "quantity": {
+                "min": 12.0,
+                "max": 12.0
+            },
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "white wine",
+            "quantity": 350.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "brown stock",
+            "quantity": 100.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "mustard",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "butter",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut the shallots into small dices.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cut the gherkins into long strips.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Sear the porkchops on high heat on cast iron or stainless steel pan until golden brown on each side, and cook them through on lower heat.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "high",
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Once the porkchops are cooked, set them aside in a warm environment.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Sweat the shallots in the same pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Deglaze with white wine, let it reduce until there's about two teaspoons left.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add the stock.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Add the gherkins.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Mix in the mustard.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Let the sauce reduce until it gets a coating consistency.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "Mix in a knob of butter.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "Put the chops back in, flip them to coat them in sauce, warm them up for 30 seconds.",
+            "duration": {
+                "preparation": null,
+                "cooking": 0.5,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Serve with a nice mashed potato or saute potatoes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "French mustard sauce porkchops (C\u00f4tes de porc charcuti\u00e8res)",
+    "date": "2021-03-10",
+    "tags": [
+        "french",
+        "pork",
+        "quick"
+    ],
+    "introduction": "French bistrot style porkchops with a mustard, white wine and gherkins sauce. Very quick to cook. - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- porkchops: 4 - shallots: 2 - gerkins: a dozen medium sized ones - white wine: 350ml | 1 1/2 cup - brown stock: 100ml | 1/2 cup - mustard: 2tbsp - butter - olive oil",
+    "directions_source_text": "1. Cut the shallots into small dices. 2. Cut the gherkins into long strips. 3. Sear the porkchops on high heat on cast iron or stainless steel pan until golden brown on each side, and cook them through on lower heat. 4. Once the porkchops are cooked, set them aside in a warm environment. 5. Sweat the shallots in the same pan. 6. Deglaze with white wine, let it reduce until there's about two teaspoons left. 7. Add the stock. 8. Add the gherkins. 9. Mix in the mustard. 10. Let the sauce reduce until it gets a coating consistency. 11. Mix in a knob a butter. 12. Put the chops back in, flip them to coat them in sauce, warm them up for 30 seconds. 13. Serve with a nice mashed potato or saute potatoes."
+}

@@ -1,0 +1,232 @@
+{
+    "serving_size": 4,
+    "preparation_time": null,
+    "cooking_time": 25.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "ground beef",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "ground pork",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "italian breadcrumbs",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "milk",
+            "quantity": 0.333,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "yellow onion",
+            "quantity": 0.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "egg",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "shredded parmesan",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "chopped parsley",
+            "quantity": {
+                "min": 0.25,
+                "max": 0.5
+            },
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "red pepper flakes",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "dried oregano",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "rosemary",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "basil",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "garlic powder",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "salt and pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat oven to 200\u00b0C/400F",
+            "duration": null,
+            "temperature": {
+                "preheat": 200.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "In a bowl, combine all ingredients",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Hand form into balls by packing with your hands and then rolling. Set aside on a baking sheet, preferably one with a cooling rack. I prefer large meatballs (larger than a golf ball) and shoot for 16-20 for 2 lbs of meat, but if you prefer smaller meatballs you can opt for as many as 48.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Either halfway through the packing process or after forming all meatballs, heat a large skillet to medium-high heat",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium-high",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add 1-2 tbsp of oil to the skillet (enough to evenly coat the skillet), and bring to heat",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Fill the skillet with meatballs, start by browning one face, flip once at after 2-3 minutes, and then remove to the baking sheet after another 2-3 minute. Continue in batches until all meatballs have been browned. It is OK and expected for the meatballs to lose some of their spherical shape at this point. You can skip this step and go straight the oven if you want to cut corners",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 4.0,
+                    "max": 6.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Transfer to the oven, and cook until the inside registers 60\u00b0C/140F on an instant read thermometer. This should be about 20 minutes for large meatballs (16 per batch), maybe 10 for small (48 per batch)",
+            "duration": {
+                "preparation": null,
+                "cooking": 20.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 60.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Serve with pasta or on a meatball sub",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Basic Meatballs",
+    "date": "2021-03-25",
+    "tags": [
+        "basic",
+        "italian",
+        "beef",
+        "pork"
+    ],
+    "introduction": "Hybrid beef/pork meatballs perfect for spaghetti and meatballs or a meatball sub. - \ud83c\udf73 Cook time: 25 min - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 1 pound ground beef (preferably 90/10 or 93/7) - 1 pound ground pork - 1/2 cup italian breadcrumbs - 1/3 cup milk (I use 2% but doesn't matter too much) - 1/4 cup yellow onion diced (about 1/2 small yellow onion) - 1 egg - 1/2 cup shredded parmesan - 1/4-1/2 cup chopped parsley - 2 tbsp red pepper flakes - 2 tbsp dried oregano - 1 tbsp rosemary - 1 tbsp basil - 1 tbsp garlic powder - Salt and pepper to taste",
+    "directions_source_text": "1. Preheat oven to 200\u00b0C/400F 1. In a bowl, combine all ingredients 1. Hand form into balls by packing with your hands and then rolling. Set aside on a baking sheet, preferably one with a cooling rack   * I prefer large meatballs (larger than a golf ball) and shoot for 16-20 for 2 lbs of meat, but if you prefer smaller meatballs you can opt for as many as 48 1. Either halfway through the packing process or after forming all meatballs, heat a large skillet to medium-high heat 1. Add 1-2 tbsp of oil to the skillet (enough to evenly coat the skillet), and bring to heat 1. Fill the skillet with meatballs, start by browning one face, flip once at after 2-3 minutes, and then remove to the baking sheet after another 2-3 minute. Continue in batches until all meatballs have been browned   * It is OK and expected for the meatballs to lose some of their spherical shape at this point   * You can skip this step and go straight the oven if you want to cut corners 1. Transfer to the oven, and cook until the inside registers 60\u00b0C/140F on an instant read thermometer. This should be about 20 minutes for large meatballs (16 per batch), maybe 10 for small (48 per batch) 1. Serve with pasta or on a meatball sub"
+}

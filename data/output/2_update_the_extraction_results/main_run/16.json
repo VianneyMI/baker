@@ -1,0 +1,248 @@
+{
+    "serving_size": 4,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Canned Whole Peeled Tomatoes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Red Peppers",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "White Onions",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Chili Pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Garlic",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Ground Beef",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Kidney Beans",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Dark Chocolate",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Chili Powder",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Tomato Paste",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Beef Stock",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "Neutral Oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Cilantro",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Sugar",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "seasoning",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "cumin",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "paprika",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "chili flakes",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 19,
+            "name": "oregano",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Brown the beef by adding it to a pot with neutral oil. Start breaking it into small pieces. Allow water to leave the meat. Salt it to expel more water. Once water is gone, the sound will change and it will start to fry. Let it get a dark brown. Remove beef and set aside.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Dice onions, red peppers, and chili peppers into small pieces (dice). Sautee until translucent. Add finely chopped garlic, chili flakes, paprika, cumin, and oregano.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3,
+                2,
+                4,
+                5,
+                18,
+                17,
+                16,
+                19
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Add tomato paste to vegetables and let brown.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add meat to the vegetables.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add whole peeled tomatoes and some water (or stock).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Simmer for at least 45-60 minutes. Stir occasionally and add liquid if getting too dry.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Stir in kidney beans and dark chocolate.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Serve over rice and garnish with fresh cilantro.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                13
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Chili Con Carne",
+    "date": "2021-03-11",
+    "tags": [
+        "mexican",
+        "beef",
+        "beans"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- Canned Whole Peeled Tomatoes - Red Peppers - White Onions - Chili Pepper - Garlic - Ground Beef - Kidney Beans - Dark Chocolate - Chili Powder - Tomato Paste - Beef Stock (optional) - Neutral Oil - Cilantro - Sugar - seasoning \t- cumin \t- paprika \t- chili flakes",
+    "directions_source_text": "1. Brown the beef by adding it to a pot with neutral oil. Start breaking it into small pieces. Allow water to leave the meat. Salt it to expel more water. Once water is gone, the sound will change and it will start to fry. Let it get a dark brown. Remove beef and set aside. 2. Dice onions, red peppers, and chili peppers into small pieces (dice). Sautee until translucent. Add finely chopped garlic, chili flakes, paprika, cumin, and oregano. 3. Add tomato paste to vegetables and let brown. 4. Add meat to the vegetables. 5. Add whole peeled tomatoes and some water (or stock). 6. Simmer for at least 45-60 minutes. Stir occasionally and add liquid if getting too dry. 7. Stir in kidney beans and dark chocolate. 8. Serve over rice and garnish with fresh cilantro."
+}

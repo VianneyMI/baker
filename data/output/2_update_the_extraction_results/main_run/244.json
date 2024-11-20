@@ -1,0 +1,112 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": {
+        "min": 10.0,
+        "max": 15.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "liver",
+            "quantity": 500.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "carrots",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onions",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "nutmeg",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "butter or ghee",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cut liver into cubes.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Put into a pot and cover with cold water, add 1tsp salt. Bring to a boil and boil for 10-15 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 10.0,
+                    "max": 15.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Grate carrots and dice onions. Stew in a frying pan with a little bit of water until soft.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "In a food processor blend all ingredients together.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Liver Pate",
+    "date": "2021-03-11",
+    "tags": [
+        "pate",
+        "liver"
+    ],
+    "introduction": "Good start for trying to eat more organs. It even tastes very nice. The last step before eating it raw someday.",
+    "ingredients_source_text": "- 1lbs./500g liver (chicken, beef, poultry etc.) - 1 Cup Carrots - 1 Cup Onions - 2 Teaspoon Nutmeg - 2 Tablespoon Butter or Ghee",
+    "directions_source_text": "1. Cut liver into cubes. 2. Put into a pot and cover with cold water, add 1tsp salt. Bring to a boil and boil for 10-15 minutes. 3. Grate carrots and dice onions. Stew in a frying pan with a little bit of water until soft. 4. In a food processor blend all ingredients together. ### Notes With beef liver, remove its membrane, that is on top, with your fingers. Cut it in small pieces even cubes or slices and remove the vessels that are inside it. They are not very tasty and are impossible to chew."
+}

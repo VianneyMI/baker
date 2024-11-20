@@ -1,0 +1,204 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Fish stock",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "Fish, raw",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Onion, roughly chopped",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Garlic, sliced or diced",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Tomatos, chopped",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "frying oil/lard",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Extra virgin olive oil",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Marjoram",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Black pepper",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "Mint, small amount",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "Lemon wedge/juice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "Rice",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Cook some rice and set aside. White short-grain is best but other types will do as long as it's not starchy. Don't use arborio or sushi rice.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Prepare the stock, possibly the day before, by boiling fish and fish bones in a tall stock pot on medium heat for 1-2 hours. It's customary to have loose chunks of fish in the soup so you can boil the fish and separate the meat as it starts to cook. As an example, the head, tail, skin and spine from the anglerfish fillet recipe were used to make stock, then half a fillet and meat that separated from the offal became part of the soup.",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 60.0,
+                    "max": 120.0
+                },
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "In a pot, heat some oil on low heat and add in the onions. Saute until translucent.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                3,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add the garlic, tomato, herbs and salt if desired. Switch to medium heat, stirring occasionally until the water starts to boil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                4,
+                5,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the fish and let simmer on low heat until the fish are cooked thoroughly, being careful not to break them. Turn the heat off and add the olive oil.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                2,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Take the fish out to be served separately. They are traditionally served topped with olive oil and a squeeze of lemon with steamed vegetables.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                7,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "If you are using lemon juice or rice, add them to each serving according to your preference.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Leave some for tomorrow. It always tastes better the next day.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Aljotta",
+    "date": "2021-03-16",
+    "tags": [
+        "fish",
+        "soup",
+        "mediterranean"
+    ],
+    "introduction": "Aljotta (\"jo\" as in \"Yo!\") is a traditional Maltese light fish soup with roots in french bouillabaisse and similarly refers to the method of serving the fish that are cooked in it. The most appropriate fish to use for both the stock and the accompanying meal are 'clean' white fish that don't turn the broth cloudy, ideally stargazers, monkfish, red gurnard, and moray eels but also hake, mullets, cod and haddock. There are a some variants; restaurant versions could very well include lemon juice and shellfish which I don't associate with aljotta. Rice eventually became a staple with it and how much you put in is up to you. I recommend just a little. In fact, there are no ingredient amounts; the picture should give you an idea of the density you're going for. **Fresh herbs are a must**.",
+    "ingredients_source_text": "- Fish stock (see 2.) - Fish, raw - Onion, roughly chopped - Garlic, sliced or diced - Tomatos, chopped - frying oil/lard - Extra virgin olive oil - Marjoram - Black pepper (optional) - Mint, small amount (optional, I never use it myself as it's too overpowering) - Lemon wedge/juice (optional, also overpowering) - Rice (optional)",
+    "directions_source_text": "1. Cook some rice and set aside. White short-grain is best but other types will do as long as it's not starchy. Don't use arborio or sushi rice. 2. Prepare the stock, possibly the day before, by boiling fish and fish bones in a tall stock pot on medium heat for 1-2 hours. It's customary to have loose chunks of fish in the soup so you can boil the fish and separate the meat as it starts to cook. As an example, the head, tail, skin and spine from the [anglerfish fillet recipe](/fried-anglerfish-fillet) were used to make stock, then half a fillet and meat that separated from the offal became part of the soup. 3. In a pot, heat some oil on low heat and add in the onions. Saute until translucent. 4. Add the garlic, tomato, herbs and salt if desired. Switch to medium heat, stirring occasionally until the water starts to boil. 5. Add the fish and let simmer on low heat until the fish are cooked thoroughly, being careful not to break them. Turn the heat off and add the olive oil. 6. Take the fish out to be served separately. They are traditionally served topped with olive oil and a squeeze of lemon with steamed vegetables. 7. If you are using lemon juice or rice, add them to each serving according to your preference. 8. Leave some for tomorrow. It always tastes better the next day."
+}

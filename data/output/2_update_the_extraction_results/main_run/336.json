@@ -1,0 +1,107 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "low-sodium broth or stock",
+            "quantity": 1.0,
+            "unit": "quart",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "unflavored unsweetened gelatin",
+            "quantity": 1.25,
+            "unit": "ounce",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "tomato paste",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "low-sodium soy sauce",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "onion powder",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Put the tomato paste in a large pot, then turn the heat on medium",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Spread the paste around the bottom of the pot and stir until it just barely starts to brown",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Deglaze with the broth",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Stir in all other ingredients and boil over high heat until reduced to about 1/6th of its original volume",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "high",
+            "ingredients_ids": [
+                2,
+                4,
+                5
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Freeze in ice cube trays",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Demi-glace",
+    "date": "2021-03-29",
+    "tags": [
+        "sauce",
+        "basic",
+        "french"
+    ],
+    "introduction": "This is a take on a traditional demi-glace without needing to buy an astronomically large amount of veal bones. Use this as your main base for pan sauces, an extra flavor bomb, or a replacement for recipes that call for broth or stock. These are the basic proportions -- multiply as needed. I typically multiply by six to give me several weeks worth of demi-glace ice cubes.",
+    "ingredients_source_text": "- 1 qt (32 oz, 946mL) **low-sodium** broth or stock (I prefer Pacific Foods) - 1 1/4 oz (7g) packet **unflavored, unsweetened** gelatin - 1 teaspoon (5mL) tomato paste - 1 teaspoon (5mL) **low-sodium** soy sauce - 1/2 teaspoon onion powder (_very_ optional)",
+    "directions_source_text": "1. Put the tomato paste in a large pot, _then_ turn the heat on medium 2. Spread the paste around the bottom of the pot and stir until it just barely starts to brown 3. Deglaze with the broth 4. Stir in all other ingredients and boil over high heat until reduced to about 1/6th of its original volume 5. Freeze in ice cub trays"
+}

@@ -1,0 +1,180 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "thermos",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "thermometer",
+            "quantity": null,
+            "unit": "N/A",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "cheesecloth",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "milk",
+            "quantity": 1.0,
+            "unit": "liter",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "yogurt",
+            "quantity": 100.0,
+            "unit": "milliliter",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "bring the milk to 45\u00b0C (113\u00b0F)",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 45.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "pour the yogurt into the milk",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "wisk well",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "bring the milk to 45\u00b0C (113\u00b0F) again (don't go higher than that, please)",
+            "duration": null,
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 45.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "boil some water (about 100ml) and use it to wash the thermos from inside",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "let the water out and pour the milk into the thermos",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "leave the thermos in the oven(or in any other place whithout air flow) for 12h",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 720.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "pour the newly obtained yogurt into the cheesecloth.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "hang the cheesecloth for 30 minutes to 4 hours, depending on the desired density (the longer the denser)",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": {
+                    "min": 30.0,
+                    "max": 240.0
+                }
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "store in the fridge",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": true
+        }
+    ],
+    "title": "Greek Yogurt",
+    "date": "2022-04-16",
+    "tags": [
+        "basic",
+        "cheesefare"
+    ],
+    "introduction": "",
+    "ingredients_source_text": "- 2 thermos, \u00bdl capacity each - thermometer - 1 cheesecloth  - 1l milk - 100ml yogurt",
+    "directions_source_text": "- bring the milk to 45\u00b0C (113\u00b0F) - pour the yogurt into the milk - wisk well - bring the milk to 45\u00b0C (113\u00b0F) again (don't go higher than that, please) - boil some water (about 100ml) and use it to wash the thermos from inside - let the water out and pour the milk into the thermos - leave the thermos in the oven(or in any other place whithout air flow) for 12h - pour the newly obtained yogurt into the cheesecloth. - hang the cheesecloth for 30 minutes to 4 hours, depending on the desired density (the longer the denser) - store in the fridge"
+}

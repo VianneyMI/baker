@@ -1,0 +1,306 @@
+{
+    "serving_size": null,
+    "preparation_time": 20.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Cayenne",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "White Pepper",
+            "quantity": 0.75,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "Kosher Salt",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "Thyme",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Rubbed Sage",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Dried Basil",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "Black Pepper",
+            "quantity": 0.5,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "Unsalted Butter",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "Diced Andouille (or Chirozo sausage)",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "Diced Onion",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "Diced Bell Pepper",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "Diced Celery",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 13,
+            "name": "Diced Fresh Tomatoes",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "Tomato Sauce",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "Enriched Long Grain Rice",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "Chicken Stock",
+            "quantity": 1.25,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "Worcestershire Sauce",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 18,
+            "name": "Minced Fresh Garlic",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 19,
+            "name": "Diced Chicken (cooked or raw)",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 20,
+            "name": "Medium Shrimp",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 21,
+            "name": "Finely Chopped Italian Parsley",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 22,
+            "name": "Finely Sliced Green Onions",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Preheat the oven to 350 degrees F. Mix together the seasoning mix (herbs, salt, pepper).",
+            "duration": null,
+            "temperature": {
+                "preheat": 350.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix together the Holy Trinity (onion, celery, bell pepper).",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "In a Cast Iron Dutch Oven, melt the butter over medium heat, add the Andouille and cook until it starts to brown.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                8,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add 1/2 of the Holy Trinity, cook until the vegetables are tender.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add the diced tomatoes and cook for one minute. Add the tomato sauce and cook for another minute.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                13,
+                14
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add the rice and cook for 2 minutes, stirring constantly.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                15
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add the stock, remaining Holy Trinity, seasoning mix, Worcestershire, and the garlic.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                16,
+                10,
+                11,
+                12,
+                17,
+                18
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Taste the broth for seasoning, particularly salt.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Add the chicken, stir well and put the pot in the preheated oven. Bake uncovered for 25 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 25.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                19
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "Stir in the raw shrimp, parsley, and green onions - place back into oven for another 10 minutes (or until the shrimp is cooked through).",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                20,
+                21,
+                22
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Shrimp and Chicken Jambalaya",
+    "date": "2022-08-04",
+    "tags": [
+        "shrimp",
+        "chicken",
+        "cajun",
+        "tomato"
+    ],
+    "introduction": "Warm up your stock with raw shrimp shells to infuse additional flavour, if desired. Serve dish with french bread and your favourite beer. - \u23f2\ufe0f Prep time: 20 min - \ud83c\udf73 Cook time: 40 min",
+    "ingredients_source_text": "- 1/4 tsp Cayenne - 3/4 tsp White Pepper - 1 tsp Kosher Salt - 1/4 tsp Thyme - 1/2 tsp Rubbed Sage - 1/4 tsp Dried Basil - 1/2 tsp Black Pepper - 1 Tbsp Unsalted Butter - 1/2 cup Diced Andouille (or Chirozo sausage) - 1/2 cup Diced Onion - 1/2 cup Diced Bell Pepper - 1/2 cup Diced Celery - 1/2 cup Diced Fresh Tomatoes - 1/2 cup Tomato Sauce - 3/4 cup Enriched Long Grain Rice - 1-1/4 cup Chicken Stock - 1 Tbsp Worcestershire Sauce - 2 Tbsp Minced Fresh Garlic - 1/2 cup Diced Chicken (cooked or raw) - 1-1/2 cup Medium Shrimp - 1 Tbsp Finely Chopped Italian Parsley - 3 Tbsp Finely Sliced Green Onions",
+    "directions_source_text": "1. Preheat the oven to 350 degrees F. Mix together the seasoning mix (herbs, salt, pepper). 2. Mix together the Holy Trinity (onion, celery, bell pepper). 3. In a Cast Iron Durch Oven, melt the butter over medium heat, add the Andouille and cook until it starts to brown. 4. Add 1/2 of the Holy Trinity, cook until the vegetables are tender. 5. Add the diced tomatoes and cook for one minute. Add the tomato sauce and cook for another minute. 6. Add the rice and cook for 2 minutes, stirring constantly. 7. Add the stock, remaining Holy Trinity, seasoning mix, Worcestershire, and the garlic. 8. Taste the broth for seasoning, particularly salt. 9. Add the chicken, stir well and put the pot in the preheated oven. Bake uncovered for 25 minutes. 10. Stir in the raw shrimp, parsley, and green onions - place back into oven for another 10 minutes (or until the shrimp is cooked through)."
+}

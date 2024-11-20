@@ -1,0 +1,174 @@
+{
+    "serving_size": null,
+    "preparation_time": null,
+    "cooking_time": null,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "salt",
+            "quantity": 0.75,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "brown sugar",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "Worcestershire sauce or Teriyaki sauce",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "Liquid Smoke",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "beef",
+            "quantity": 1.0,
+            "unit": "pound",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "cayenne pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "cheese powder",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "white pepper",
+            "quantity": 0.25,
+            "unit": "teaspoon",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mince or press garlic.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Mix all ingredients except beef to make brine.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                8,
+                9,
+                10
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Slice beef into \u00bc\" (\u00bd cm) thick strips. Small chunks, about \u00be\" (2 cm), of stewing beef may also be used. If possible, cut along the grain of the meat rather than across it. It may be easier to freeze the meat before attempting to cut it, as this will stop the meat pulling and deforming so easily.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Marinate meat in overnight, or at least for an hour or two.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Place meat on racks and dry in a food dehydrator at 145 \u00b0F (63 \u00b0C) for 6-8 hours. May be dried in a 150 \u00b0F (65 \u00b0C) oven with foil-covered racks. In oven, turn meat over 3-4 hours into drying time and reduce temperature to 130 \u00b0F (55 \u00b0C).",
+            "duration": {
+                "preparation": null,
+                "cooking": {
+                    "min": 360.0,
+                    "max": 480.0
+                },
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": null,
+                "baking": null,
+                "cooking": 150.0,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Meat should bend but not break when properly dried. ## Note Other meats may be substituted instead of beef, but use caution.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Beef Jerky",
+    "date": "2021-03-11",
+    "tags": [
+        "beef",
+        "snack"
+    ],
+    "introduction": "Beef Jerky is ideal for road trips and camping, as it will not perish as readily as fresh meat. It is suitable not only as a snack but also as a meal. This recipe for jerky is not heavily brined and flavored as commercial jerky is.",
+    "ingredients_source_text": "- \u00be tsp. salt - \u00bc tsp. pepper - 1 tbsp. brown sugar - \u00bc tsp. garlic - 2 tbsp. Worcestershire sauce or Teriyaki sauce - \u00bc tsp. Liquid Smoke - 1 Lb. (450 g) beef (flank or skirt steak is ideal) - Other common seasonings may include (\u00bc tsp. of) cayenne pepper, cheese powder, and/or white pepper",
+    "directions_source_text": "1. Mince or press garlic. 2. Mix all ingredients except beef to make brine. 3. Slice beef into \u00bc\" (\u00bd cm) thick strips. Small chunks, about \u00be\" (2 cm), of stewing beef may also be used. If possible, cut along the grain of the meat rather than across it. It may be easier to freeze the meat before attempting to cut it, as this will stop the meat pulling and deforming so easily. 4. Marinate meat in overnight, or at least for an hour or two. 5. Place meat on racks and dry in a food dehydrator at 145 \u00b0F (63 \u00b0C) for 6-8 hours. May be dried in a 150 \u00b0F (65 \u00b0C) oven with foil-covered racks. In oven, turn meat over 3-4 hours into drying time and reduce temperature to 130 \u00b0F (55 \u00b0C). 6. Meat should bend but not break when properly dried. ## Note Other meats may be substituted instead of beef, but use caution."
+}

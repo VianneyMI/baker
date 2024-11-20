@@ -1,0 +1,210 @@
+{
+    "serving_size": 8,
+    "preparation_time": 150.0,
+    "cooking_time": 40.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "all-purpose flour",
+            "quantity": 3.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "sugar",
+            "quantity": 1.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "warm water",
+            "quantity": 0.75,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "eggs",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "milk",
+            "quantity": 6.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "lard or butter",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "instant dry yeast",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "nutmeg",
+            "quantity": 0.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "vanilla essence",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": true
+        },
+        {
+            "id": 10,
+            "name": "fennel seeds",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 11,
+            "name": "cinnamon",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 12,
+            "name": "cloves",
+            "quantity": null,
+            "unit": null,
+            "optional": true
+        },
+        {
+            "id": 13,
+            "name": "salt",
+            "quantity": 0.0,
+            "unit": "pinch",
+            "optional": false
+        },
+        {
+            "id": 14,
+            "name": "sugar",
+            "quantity": 1.0,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 15,
+            "name": "flour",
+            "quantity": 0.5,
+            "unit": "cup",
+            "optional": false
+        },
+        {
+            "id": 16,
+            "name": "lard or butter",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 17,
+            "name": "vanilla essence",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Add the sifted flour, the nutmeg and a pinch of salt into a bowl. In another one, add the sugar, the warm water, the fat of choice, the yeast and the vanilla essence.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                8,
+                13,
+                2,
+                3,
+                6,
+                7,
+                9
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Unite both mixes and knead it until a homogeneous dough forms. Put it in a properly floured and greased baking tray that you would use for baking bread, or a tall, round tray for cake.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Prepare the 'farofa' by mixing the sugar, the flour, the fat and the vanilla essence with your fingertips, until they form crumbles. Now put the 'farofa' over the dough, cover it with a cloth and leave it to rest for 2 hours.",
+            "duration": {
+                "preparation": null,
+                "cooking": null,
+                "waiting": 120.0
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                14,
+                15,
+                16,
+                17
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Then, bake it at a pre-heated 180C (356F) oven for 40 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 40.0,
+                "waiting": null
+            },
+            "temperature": {
+                "preheat": 180.0,
+                "baking": null,
+                "cooking": null,
+                "cooling": null
+            },
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Have it with fruit jam (grape is my favourite) or dulce de leche, and some coffee.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Cuca Italiana",
+    "date": "2022-09-08",
+    "tags": [
+        "brazilian",
+        "cake",
+        "traditional"
+    ],
+    "introduction": "Sweet bread with a crumbly top. The name derives from German \"Streu\u00dfelkuchen\", but while German colonists in Southern Brazil kept it identical to the mainland version, North Italian colonists took it and turned it into a tall loaf.  - \u23f2\ufe0f Prep time: 2h 30min - \ud83c\udf73 Cook time: 40 min - \ud83c\udf7d\ufe0f Servings: 8",
+    "ingredients_source_text": "For the dough: - 3 cups of all-purpose flour - 1 1/2 cups of sugar - 3/4 of a cup of warm water - 2 eggs - 6 tablespoons of milk - 2 tablespoons of lard or butter - 1 tablespoon of instant dry yeast - A pinch of nutmeg - 1 teaspoon of vanilla essence (optional). - Optional herbs and spices: Fennel seeds, cinammon, cloves. Don't put too many though. For the \"farofa\", the crumbly top: - 1 cup of sugar - 1/2 cup of flour - 2 tablespoons of lard or butter - 1 teaspoon of vanilla essence",
+    "directions_source_text": "1. Add the sifted flour, the nutmeg and a pinch of salt into a bowl. In another one, add the sugar, the warm water, the fat of choice, the yeast and the vanilla essence. 2. Unite both mixes and knead it until an homogenous dough forms. Put it in a properly floured and greased baking tray that you would use for baking bread, or a tall, round tray for cake. 3. Prepare the \"farofa\" mixing the sugar, the flour, the fat and the vanilla essence with your fingertips, until they form crumbles. Now put the \"farofa\" over the dough, cover it with a cloth and leave it to rest for 2 hours. 4. Then, bake it at a pre-heated 180C (356F) oven for 40 minutes. 5. Have it with [fruit jam](https://based.cooking/tags/jam/) (grape is my favourite) or [dulce de leche](https://based.cooking/dulce-de-leche/), and some coffee."
+}

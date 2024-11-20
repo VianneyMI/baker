@@ -1,0 +1,180 @@
+{
+    "serving_size": 5,
+    "preparation_time": null,
+    "cooking_time": 30.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "neutral oil",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "red onion",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic",
+            "quantity": 2.0,
+            "unit": "clove",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "ginger",
+            "quantity": 4.0,
+            "unit": "cm",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "red pepper",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "curry powder",
+            "quantity": 1.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "green beans",
+            "quantity": 250.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 9,
+            "name": "tomatoes",
+            "quantity": 4.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "fish broth",
+            "quantity": 200.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "coconut milk",
+            "quantity": 200.0,
+            "unit": "ml",
+            "optional": false
+        },
+        {
+            "id": 12,
+            "name": "fish fillet (white fish)",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Boil green beans for 10 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Cut onions, tomato, garlic and fish.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2,
+                3,
+                4,
+                9,
+                12
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "Heat oil on a wok and saut\u00e9 the onion and garlic",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Add beans, tomato, broth and spices and boil for 6 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": 6.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                8,
+                9,
+                10,
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "Add coconut milk, fish and pepper (whole) and boil for an additional 6 minutes.",
+            "duration": {
+                "preparation": null,
+                "cooking": 6.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                11,
+                12,
+                6
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Fish Curry",
+    "date": "2021-03-15",
+    "tags": [
+        "thai",
+        "fish"
+    ],
+    "introduction": "Best served with white rice - \ud83c\udf73 Cook time: 30 min - \ud83c\udf7d\ufe0f Servings:5",
+    "ingredients_source_text": "- 3T neutral oil - 1 onion - 1 red onion - 2 cloves of garlic - 4cm ginger - 1 red pepper - 1t curry powder - 250g green beans - 4 tomatoes - 200ml fish broth - 200ml coconut milk - 400g fish fillet (white fish)",
+    "directions_source_text": "1. Boil green beans for 10 minutes 2. Cut onions, tomato, garlic and fish. 3. Heat oil on a wok and saut\u00e9 the onion and garlic 4. Add beans, tomato, broth and spices and boil for 6 minutes 5. Add coconut milk, fish and pepper (whole) and boil for an additional 6 minutes."
+}

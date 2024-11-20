@@ -1,0 +1,244 @@
+{
+    "serving_size": 4,
+    "preparation_time": 30.0,
+    "cooking_time": {
+        "min": 120.0,
+        "max": 240.0
+    },
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Large onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "chuck roast",
+            "quantity": 1.0,
+            "unit": "kilogram",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "brown beer",
+            "quantity": 66.0,
+            "unit": "centiliter",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "bayleaves",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "thyme",
+            "quantity": 2.0,
+            "unit": "twig",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "clove (spice)",
+            "quantity": 1.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 8,
+            "name": "belgian apple/pear syrup",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": true
+        },
+        {
+            "id": 9,
+            "name": "vinegar",
+            "quantity": 2.0,
+            "unit": "teaspoon",
+            "optional": false
+        },
+        {
+            "id": 10,
+            "name": "bread",
+            "quantity": 1.0,
+            "unit": "slice",
+            "optional": false
+        },
+        {
+            "id": 11,
+            "name": "mustard",
+            "quantity": null,
+            "unit": "unknown",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Peel the onions and cut them into medium sized pieces, don't cut the onion too small.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "Place a large saucepan or dutch oven on low heat and add 1 tbsp butter. Once melted add your onions, cook until translucent.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [
+                1,
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "While your onions are cooking place a large frying pan on medium high heat and melt your second spoon of butter.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "Fry up your beef until it has a nice brown crust, to prevent overcrowding the pan you should sear the meat in separate batches, be careful to not burn the fond on the bottom of the pan. season the meat with salt and pepper while its cooking.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "medium",
+            "ingredients_ids": [
+                3
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "When a piece of beef is done searing add it to the pot with the onions, once you're done searing all of your meat add your beer to the frying pan and use it to deglaze, scrape off all the pieces stuck to the frying pan.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "Add the beer you used to deglaze to the pot with the onions and beef.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                3,
+                4
+            ],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "Add the bayleaf and thyme, optionally you can bind them together with some kitchen twine so they are easier to pick out later.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "Add your clove and if you have it the syrup.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7,
+                8
+            ],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "Take your piece of preferably brown bread and generously spread it with mustard on both sides, place it in the sauce.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                10,
+                11
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "let it simmer on low heat, stirring once every 10-15 minutes. when the sauce has reached your desired thickness place a lid on the pot.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": "low",
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 11,
+            "description": "The cooking time will depend on the quality of your meat, start checking if your meat is done once it's been simmering for about 2 hours.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 12,
+            "description": "The meat is done when the pieces hold together when gently stirring the sauce, but are easily cut with a fork or spoon.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 13,
+            "description": "Finish the sauce by gently stirring in the vinegar to brighten up the flavors and serve.",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                9
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Stoofvlees",
+    "date": "2021-03-21",
+    "tags": [
+        "beef",
+        "stew",
+        "belgian"
+    ],
+    "introduction": "This is a traditional belgian stew made with cheap, though beef cuts, beer and onions. Traditionally eaten with fries and chicory salad. - \u23f2\ufe0f Prep time: 30 min - \ud83c\udf73 Cook time: 2 to 4 hours - \ud83c\udf7d\ufe0f Servings: 4",
+    "ingredients_source_text": "- 2 Large onions - 1 tablespoon butter - 1kg chuck roast, cut in bite-sized pieces - 2 33cl bottles of brown beer - 2 bayleaves - 2 twigs of thyme - 1 clove (spice) - 2 tablespoons of belgian apple/pear syrup (optional, ill write up a recipe for this soon) - 2 teaspoons of vinegar - 1 slice of bread - mustard",
+    "directions_source_text": "1. Peel the onions and cut them into medium sized pieces, don't cut the onion too small. 2. Place a large saucepan or dutch oven on low heat and add 1 tbsp butter. Once melted add your onions, cook until translucent. 3. While your onions are cooking place a large frying pan on medium high heat and melt your second spoon of butter. 4. Fry up your beef until it has a nice brown crust, to prevent overcrowding the pan you should sear the meat in separate batches, be careful to not burn the fond on the bottom of the pan.season the meat with salt and pepper while its cooking. 5. When a piece of beef is done searing add it to the pot with the onions, once you're done searing all of your meat add your beer to the frying pan and use it to deglaze, scrape off all the pieces stuck to the frying pan. 6. Add the beer you used to deglaze to the pot with the onions and beef. 7. Add the bayleaf and thyme, optionally you can bind them together with some kitchen twine so they are easier to pick out later. 8. Add your clove and if you have it the syrup. 9. Take your piece of preferably brown bread and generously spread it with mustard on both sides, place it in the sauce. 10. let it simmer on low heat, stirring once every 10-15 minutes. when the sauce has reached your desired thickness place a lid on the pot. 11. The cooking time will depend on the quality of your meat, start checking the if your meat is done once its been simmering for about 2 hours. 12. The meat is done when the pieces hold together when gently stirring the sauce, but are easily cut with a fork or spoon. 13. Finish the sauce by gently stirring in the vinegar to brighten up the flavors and serve."
+}

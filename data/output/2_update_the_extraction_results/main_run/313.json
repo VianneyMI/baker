@@ -1,0 +1,61 @@
+{
+    "serving_size": null,
+    "preparation_time": 1.0,
+    "cooking_time": 1.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "mayonnese or aioli",
+            "quantity": 3.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "ketchup",
+            "quantity": 2.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "sriracha",
+            "quantity": 1.0,
+            "unit": "tablespoon",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "garlic",
+            "quantity": 1.0,
+            "unit": "clove",
+            "optional": true
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "Mix ingredients in a bowl",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "optional": false
+        }
+    ],
+    "title": "Hamburger dressing",
+    "date": "2021-04-06",
+    "tags": [
+        "sauce",
+        "basic",
+        "dressing"
+    ],
+    "introduction": "![burger-dressing](/pix/burger-dressing.webp) A delicious home made hamburger dressing \ud83c\udf54 - \u23f2\ufe0f Prep time: 1 min - \ud83c\udf73 Cook time: 1 min",
+    "ingredients_source_text": "- 3 tbsp [mayonnese or aioli](/mayonnaise-or-aioli) - 2 tbsp ketchup - 1 tbsp sriracha - 1 clove garlic, if using mayonnese and not aioli (optional)",
+    "directions_source_text": "1. Mix ingredients in a bowl"
+}

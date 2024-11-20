@@ -1,0 +1,180 @@
+{
+    "serving_size": 2,
+    "preparation_time": 10.0,
+    "cooking_time": 45.0,
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "beef kidney",
+            "quantity": 1.0,
+            "unit": "unknown",
+            "optional": false
+        },
+        {
+            "id": 2,
+            "name": "butter",
+            "quantity": 60.0,
+            "unit": "gram",
+            "optional": false
+        },
+        {
+            "id": 3,
+            "name": "onions",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 4,
+            "name": "shallots",
+            "quantity": 2.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 5,
+            "name": "fresh parsley",
+            "quantity": 1.0,
+            "unit": "sprig",
+            "optional": false
+        },
+        {
+            "id": 6,
+            "name": "bay leaves",
+            "quantity": 3.0,
+            "unit": "unit",
+            "optional": false
+        },
+        {
+            "id": 7,
+            "name": "croutons or toasted bread",
+            "quantity": 400.0,
+            "unit": "gram",
+            "optional": false
+        }
+    ],
+    "steps": [
+        {
+            "number": 1,
+            "description": "clean the kidney and remove the fat",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 2,
+            "description": "cut the kidney into small chunks (2cm or 3/4\")",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1
+            ],
+            "optional": false
+        },
+        {
+            "number": 3,
+            "description": "put butter in a casserole dish",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                2
+            ],
+            "optional": false
+        },
+        {
+            "number": 4,
+            "description": "add kidney, parsley, bay leaf, salt, pepper",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                1,
+                5,
+                6
+            ],
+            "optional": false
+        },
+        {
+            "number": 5,
+            "description": "brown in the casserole for 10 minutes while stirring (don't burn)",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 6,
+            "description": "add 2 glasses of dry white wine",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 7,
+            "description": "add half a glass of water so that the mixture is well-bathed",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 8,
+            "description": "simmer for 35 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": 35.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        },
+        {
+            "number": 9,
+            "description": "add about 400g of toasted bread in pieces",
+            "duration": null,
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [
+                7
+            ],
+            "optional": false
+        },
+        {
+            "number": 10,
+            "description": "simmer for another 10 minutes",
+            "duration": {
+                "preparation": null,
+                "cooking": 10.0,
+                "waiting": null
+            },
+            "temperature": null,
+            "heat_intensity": null,
+            "ingredients_ids": [],
+            "optional": false
+        }
+    ],
+    "title": "Beef Kidney",
+    "date": "2021-06-05",
+    "tags": [
+        "beef"
+    ],
+    "introduction": "My wife's beef kidney recipe - \u23f2\ufe0f Prep time: 10 min - \ud83c\udf73 Cook time: 45 min - \ud83c\udf7d\ufe0f Servings: 2",
+    "ingredients_source_text": "- 1 beef kidney - 60g butter - 2 onions - 2 shallots - 1 sprig of fresh parsley - 3 bay leaves - 400g croutons or toasted bread in pieces",
+    "directions_source_text": "1. clean the kidney and remove the fat 2. cut the kidney into small chunks (2cm or 3/4\") 3. put butter in a casserole dish 4. add kidney, parsley, bay leaf, salt, pepper 5. brown in the casserole for 10 minutes while stirring (don't burn) 6. add 2 glasses of dry white wine 7. add half a glass of water so that the mixture is well-bathed 8. simmer for 35 minutes 9. add about 400g of toasted bread in pieces 10. simmer for another 10 minutes"
+}
