@@ -6,11 +6,12 @@ from fractions import Fraction
 from pydantic import Field, field_validator
 from baker.schemas.base import BaseBakerModel
 from baker.schemas.range import Range
-from baker.schemas.units import UnitEnum
+from baker.schemas.units import ParsingUnitEnum
+
 
 class Ingredient(BaseBakerModel):
     """`baker.schemas.ingredient.Ingredient` class.
-    
+
     Represents an ingredient used in a recipe.
     This class proposes a formal structure to describe an ingredient
     to make it more suitable for algorithmic processing.
@@ -19,7 +20,7 @@ class Ingredient(BaseBakerModel):
     by algorithms.
     The `unit` field is an enumeration of common units of measurement.
     When not sure about, what value to use for the `unit` field, use `"N/A"` or `"unknown"`.
-    
+
     """
 
     id: int = Field(
@@ -35,22 +36,23 @@ class Ingredient(BaseBakerModel):
         examples=[200, 4, 0.5, {"min": 1, "max": 3}],
     )
 
-    
-    unit: UnitEnum | str | None = Field(
+    unit: ParsingUnitEnum | str | None = Field(
         None,
         description="The unit in which the quantity is specified.When not sure about, what value to use for the `unit` field, use `'N/A'` or `'unknown'`. ",
         examples=["ml", "unit", "l", "unit", "teaspoon", "tablespoon"],
     )
-    optional: bool = Field(False, description="Whether the ingredient is optional or not")
+    optional: bool = Field(
+        False, description="Whether the ingredient is optional or not"
+    )
 
     @field_validator("quantity", mode="before")
-    def parse_quantity(cls, value: float | int | str | None)->float|int|None:
+    def parse_quantity(cls, value: float | int | str | None) -> float | int | None:
         """
         Converts the quantity to a float if it is not already one.
 
         Arguments:
         ----------------------------
-        value: float | int | str | None 
+        value: float | int | str | None
             The quantity value to be parsed.
 
         Returns:

@@ -2,14 +2,18 @@
 
 from enum import StrEnum
 
-class UnitEnum(StrEnum):
+
+class ParsingUnitEnum(StrEnum):
     """`baker.schemas.unit.UnitEnum` enum.
-    
+
     Enumeration of common units of measurement used in recipes.
     """
 
     NA = "N/A"
     UNKNOWN = "unknown"
+    # Distance units
+    CM = "cm"
+
     # Volume units
     ML = "ml"
     L = "l"
@@ -67,4 +71,12 @@ class UnitEnum(StrEnum):
     RING = "ring"
     LINK = "link"
     STRIP = "strip"
-    
+
+
+class StandardUnitEnum(StrEnum):
+    """Subset of `ParsingEnum` with just standard unit."""
+
+    UNIT = "unit"
+    KILOGRAM = "kilogram"
+    LITER = "liter"
+    CM = "cm"
