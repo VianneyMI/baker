@@ -77,6 +77,6 @@ class StandardUnitEnum(StrEnum):
     """Subset of `ParsingEnum` with just standard unit."""
 
     UNIT = "unit"
-    KILOGRAM = "kilogram"
-    LITER = "liter"
+    KILOGRAM = "kg"
+    LITER = "l"
     CM = "cm"

@@ -1,5 +1,8 @@
 """`baker.engine.core` module."""
 
+import os
+from dotenv import load_dotenv
+import certifi
 from pymongo import MongoClient
 from pymongo.collection import Collection
 from monggregate import Pipeline, S
@@ -9,7 +12,10 @@ from baker.models.ingredient import Ingredient
 def get_recipes_collection() -> Collection:
     """Get the database connection."""
 
-    client = MongoClient("mongodb://localhost:27017/")
+    load_dotenv()
+    uri = os.getenv("MONGODB_SERVER")
+    print(uri)
+    client = MongoClient(uri, tlsCAFile=certifi.where())
     db = client["baker"]
     recipes = db["recipes"]
     return recipes
@@ -25,7 +31,7 @@ def find_recipes(ingredients: list[Ingredient]) -> list[dict]:  # recipes
     pipeline = Pipeline()
     query = generate_match_query(ingredients)
     # TODO: Omitting normalization for now
-    pipeline.match(query=query)
+    pipeline.match(query=query).project(exclude="_id")
 
     # Find the recipes
     result = recipes.aggregate(pipeline.export()).to_list(length=None)
@@ -41,9 +47,7 @@ def generate_match_query(ingredients: list[Ingredient]) -> dict:
         operand = {
             "ingredients.name": ingredient.name,
             "ingredients.unit": ingredient.unit,
-            "ingredients.quantity": S.lte(
-                S.field("ingredients.quantity"), ingredient.quantity
-            ),
+            "ingredients.quantity": {"$gte": ingredient.quantity},
         }
         operands.append(operand)
 
