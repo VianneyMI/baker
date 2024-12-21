@@ -33,7 +33,18 @@ def find_recipes(
     pipeline = Pipeline()
     pipeline = include_normalization_steps(pipeline)
     query = generate_match_query(ingredients, serving_size)
-    pipeline.match(query=query).project(exclude="_id")
+    pipeline.match(query=query).project(
+        include=[
+            "id",
+            "title",
+            "preparation_time",
+            "cooking_time",
+            "serving_size",
+            "ingredients",
+            "directions_source_text",
+        ],
+        exclude="_id",
+    )
 
     # Find the recipes
     result = recipes.aggregate(pipeline.export()).to_list(length=None)
@@ -81,8 +92,13 @@ def include_normalization_steps(pipeline: Pipeline):
     pipeline.group(
         by="_id",
         query={
-            "ingredients": {"$addToSet": "$ingredients"},
+            "id": {"$first": "$id"},
+            "title": {"$first": "$title"},
             "serving_size": {"$first": "$serving_size"},
+            "preparation_time": {"$first": "$preparation_time"},
+            "cooking_time": {"$first": "$cooking_time"},
+            "directions_source_text": {"$first": "$directions_source_text"},
+            "ingredients": {"$addToSet": "$ingredients"},
         },
     )
     return pipeline
