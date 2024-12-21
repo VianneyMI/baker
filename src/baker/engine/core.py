@@ -21,7 +21,9 @@ def get_recipes_collection() -> Collection:
     return recipes
 
 
-def find_recipes(ingredients: list[Ingredient]) -> list[dict]:  # recipes
+def find_recipes(
+    ingredients: list[Ingredient], serving_size: int = 1
+) -> list[dict]:  # recipes
     """Find recipes."""
 
     # Get the recipes collection
@@ -29,8 +31,8 @@ def find_recipes(ingredients: list[Ingredient]) -> list[dict]:  # recipes
 
     # Create the pipeline
     pipeline = Pipeline()
-    query = generate_match_query(ingredients)
-    # TODO: Omitting normalization for now
+    pipeline = include_normalization_steps(pipeline)
+    query = generate_match_query(ingredients, serving_size)
     pipeline.match(query=query).project(exclude="_id")
 
     # Find the recipes
@@ -39,7 +41,7 @@ def find_recipes(ingredients: list[Ingredient]) -> list[dict]:  # recipes
     return result
 
 
-def generate_match_query(ingredients: list[Ingredient]) -> dict:
+def generate_match_query(ingredients: list[Ingredient], serving_size: int = 1) -> dict:
     """Generate the match query."""
 
     operands = []
@@ -47,10 +49,40 @@ def generate_match_query(ingredients: list[Ingredient]) -> dict:
         operand = {
             "ingredients.name": ingredient.name,
             "ingredients.unit": ingredient.unit,
-            "ingredients.quantity": {"$gte": ingredient.quantity},
+            "ingredients.quantity": {"$gte": ingredient.quantity / serving_size},
         }
         operands.append(operand)
 
     query = {"$and": operands}
 
     return query
+
+
+def include_normalization_steps(pipeline: Pipeline):
+    """Adds steps in a pipeline to normalize the ingredients quantity in the db
+
+    The steps below normalize the quantities of the ingredients in the recipes in the DB by the recipe serving size.
+
+    """
+
+    # Unwind the ingredients
+    pipeline.unwind(path="$ingredients")
+
+    # Add the normalized quantity
+    pipeline.add_fields(
+        {
+            "ingredients.quantity": S.divide(
+                S.field("ingredients.quantity"), S.max([S.field("serving_size"), 1])
+            )
+        }
+    )
+
+    # Group the results
+    pipeline.group(
+        by="_id",
+        query={
+            "ingredients": {"$addToSet": "$ingredients"},
+            "serving_size": {"$first": "$serving_size"},
+        },
+    )
+    return pipeline

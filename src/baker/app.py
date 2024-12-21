@@ -14,7 +14,7 @@ def read_root():
 
 
 @app.post("/recipes")
-def _find_recipes(ingredients: list[Ingredient]) -> list[dict]:
+def _find_recipes(ingredients: list[Ingredient], serving_size: int = 1) -> list[dict]:
     """Find recipes"""
 
-    return find_recipes(ingredients)
+    return find_recipes(ingredients, serving_size)
