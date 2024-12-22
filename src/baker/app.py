@@ -4,7 +4,7 @@ from fastapi import FastAPI
 
 from baker.engine.core import find_recipes
 from baker.models.ingredient import Ingredient
-from baker.schemas.recipe import Recipe
+from baker.models.recipe import Recipe
 
 app = FastAPI()
 
@@ -15,7 +15,7 @@ def read_root():
 
 
 @app.post("/recipes")
-def _find_recipes(ingredients: list[Ingredient], serving_size: int = 1) -> Recipe:
+def _find_recipes(ingredients: list[Ingredient], serving_size: int = 1) -> list[Recipe]:
     """Find recipes"""
 
     return find_recipes(ingredients, serving_size)  # type: ignore

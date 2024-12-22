@@ -11,8 +11,8 @@ class Recipe(BaseModel):
     """
 
     title: str
-    serving_size: int
-    preparation_time: float
-    cooking_time: float
+    serving_size: int = 1
+    preparation_time: float | None = None
+    cooking_time: float | None = None
     ingredients: list[Ingredient]
-    directions_source_text: str
+    directions_source_text: str | None = None
