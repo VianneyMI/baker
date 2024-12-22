@@ -146,7 +146,7 @@
             {
                 "id":2,
                 "name":"milk",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -156,7 +156,7 @@
             {
                 "id":3,
                 "name":"mayonnaise",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -166,7 +166,7 @@
             {
                 "id":4,
                 "name":"cheese",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -362,7 +362,7 @@
             {
                 "id":1,
                 "name":"salt pork",
-                "quantity":0.33,
+                "quantity":0.14968536,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -372,7 +372,7 @@
             {
                 "id":2,
                 "name":"chuck roast",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -547,7 +547,7 @@
             {
                 "id":1,
                 "name":"wheat flour",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -557,7 +557,7 @@
             {
                 "id":2,
                 "name":"glutenfree flour",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -567,7 +567,7 @@
             {
                 "id":3,
                 "name":"milk",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -691,7 +691,7 @@
             {
                 "id":1,
                 "name":"water",
-                "quantity":2.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -986,7 +986,7 @@
             {
                 "id":1,
                 "name":"pasta",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -996,7 +996,7 @@
             {
                 "id":2,
                 "name":"broccoli",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -1016,7 +1016,7 @@
             {
                 "id":4,
                 "name":"scamorza cheese",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -1026,7 +1026,7 @@
             {
                 "id":5,
                 "name":"b\u00e9chamel",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -1594,7 +1594,7 @@
             {
                 "id":1,
                 "name":"Fillet Beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -1614,7 +1614,7 @@
             {
                 "id":3,
                 "name":"mushrooms",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -2077,7 +2077,7 @@
             {
                 "id":1,
                 "name":"tubular dried pasta",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -2087,7 +2087,7 @@
             {
                 "id":2,
                 "name":"sweet Italian sausage",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -2127,7 +2127,7 @@
             {
                 "id":6,
                 "name":"whole tomatoes",
-                "quantity":825.0,
+                "quantity":0.825,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -2597,12 +2597,12 @@
             {
                 "id":1,
                 "name":"San Marzano plum tomatoes",
-                "quantity":8.0,
+                "quantity":3.628736,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":6.0,
-                "quantity_max":10.0
+                "quantity_min":2.721552,
+                "quantity_max":4.53592
             },
             {
                 "id":2,
@@ -2677,27 +2677,27 @@
             {
                 "id":9,
                 "name":"pork tenderloin",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":1.0,
-                "quantity_max":2.0
+                "quantity_min":0.453592,
+                "quantity_max":0.907184
             },
             {
                 "id":10,
                 "name":"sweet and\/or spicy Italian sausage",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":1.0,
-                "quantity_max":2.0
+                "quantity_min":0.453592,
+                "quantity_max":0.907184
             },
             {
                 "id":11,
                 "name":"cubed stewing beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -2707,12 +2707,12 @@
             {
                 "id":12,
                 "name":"ground beef chuck, veal, and pork",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":1.0,
-                "quantity_max":2.0
+                "quantity_min":0.453592,
+                "quantity_max":0.907184
             },
             {
                 "id":13,
@@ -2893,7 +2893,7 @@
             {
                 "id":1,
                 "name":"all-purpose flour",
-                "quantity":1.1,
+                "quantity":0.4989512,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -3110,7 +3110,7 @@
             {
                 "id":1,
                 "name":"tomatillos",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -3286,7 +3286,7 @@
             {
                 "id":2,
                 "name":"95% ABV grain alcohol",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -3296,7 +3296,7 @@
             {
                 "id":3,
                 "name":"water",
-                "quantity":700.0,
+                "quantity":0.7,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -3306,7 +3306,7 @@
             {
                 "id":4,
                 "name":"sugar",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -4139,7 +4139,7 @@
             {
                 "id":7,
                 "name":"Diced Beef",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4386,17 +4386,17 @@
             {
                 "id":1,
                 "name":"Pasta (Fusilli recommended but not essential)",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":300.0,
-                "quantity_max":400.0
+                "quantity_min":0.3,
+                "quantity_max":0.4
             },
             {
                 "id":2,
                 "name":"Butter",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4406,7 +4406,7 @@
             {
                 "id":3,
                 "name":"Flour",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4416,7 +4416,7 @@
             {
                 "id":4,
                 "name":"Milk",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -4426,7 +4426,7 @@
             {
                 "id":5,
                 "name":"Cheddar Cheese",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4639,7 +4639,7 @@
             {
                 "id":1,
                 "name":"grain of choice",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4649,7 +4649,7 @@
             {
                 "id":2,
                 "name":"linseed",
-                "quantity":40.0,
+                "quantity":0.04,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4659,7 +4659,7 @@
             {
                 "id":3,
                 "name":"sesame",
-                "quantity":30.0,
+                "quantity":0.03,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4669,7 +4669,7 @@
             {
                 "id":4,
                 "name":"sunflower seeds",
-                "quantity":30.0,
+                "quantity":0.03,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4679,7 +4679,7 @@
             {
                 "id":5,
                 "name":"water",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4689,7 +4689,7 @@
             {
                 "id":6,
                 "name":"sourdough",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4699,7 +4699,7 @@
             {
                 "id":7,
                 "name":"water",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4709,7 +4709,7 @@
             {
                 "id":8,
                 "name":"rye flour",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4719,7 +4719,7 @@
             {
                 "id":9,
                 "name":"wheat flour",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -4729,7 +4729,7 @@
             {
                 "id":10,
                 "name":"sea salt",
-                "quantity":20.0,
+                "quantity":0.02,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -5105,12 +5105,12 @@
             {
                 "id":1,
                 "name":"turkey",
-                "quantity":10.0,
+                "quantity":4.53592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":5.0,
-                "quantity_max":15.0
+                "quantity_min":2.26796,
+                "quantity_max":6.80388
             },
             {
                 "id":2,
@@ -5145,7 +5145,7 @@
             {
                 "id":5,
                 "name":"mixed vegetables",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"pound",
@@ -5365,7 +5365,7 @@
             {
                 "id":1,
                 "name":"Butter",
-                "quantity":30.0,
+                "quantity":0.03,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -5375,7 +5375,7 @@
             {
                 "id":2,
                 "name":"Cheddar Cheese",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -5385,7 +5385,7 @@
             {
                 "id":3,
                 "name":"Milk",
-                "quantity":275.0,
+                "quantity":0.275,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -5395,7 +5395,7 @@
             {
                 "id":4,
                 "name":"Flour",
-                "quantity":16.0,
+                "quantity":0.016,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -5405,7 +5405,7 @@
             {
                 "id":5,
                 "name":"Potatoes",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -5816,7 +5816,7 @@
             {
                 "id":5,
                 "name":"Saffron",
-                "quantity":0.1,
+                "quantity":0.0001,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -6014,7 +6014,7 @@
             {
                 "id":3,
                 "name":"cream",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -6024,7 +6024,7 @@
             {
                 "id":4,
                 "name":"sour cream",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -6521,7 +6521,7 @@
             {
                 "id":1,
                 "name":"potatoes",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -6541,7 +6541,7 @@
             {
                 "id":3,
                 "name":"peas or spinach",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -6717,17 +6717,17 @@
             {
                 "id":1,
                 "name":"Oat Flakes",
-                "quantity":535.0,
+                "quantity":0.535,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"g",
-                "quantity_min":270.0,
-                "quantity_max":800.0
+                "quantity_min":0.27,
+                "quantity_max":0.8
             },
             {
                 "id":2,
                 "name":"Rice Flour",
-                "quantity":20.0,
+                "quantity":0.02,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"g",
@@ -6737,7 +6737,7 @@
             {
                 "id":3,
                 "name":"Sugar",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"g",
@@ -6747,7 +6747,7 @@
             {
                 "id":4,
                 "name":"Crushed Hazelnuts",
-                "quantity":20.0,
+                "quantity":0.02,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"g",
@@ -6757,17 +6757,17 @@
             {
                 "id":5,
                 "name":"Oil",
-                "quantity":67.5,
+                "quantity":0.0675,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"g",
-                "quantity_min":60.0,
-                "quantity_max":75.0
+                "quantity_min":0.06,
+                "quantity_max":0.075
             },
             {
                 "id":6,
                 "name":"Water",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"g",
@@ -6777,7 +6777,7 @@
             {
                 "id":7,
                 "name":"Chocolate",
-                "quantity":70.0,
+                "quantity":0.07,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"g",
@@ -6905,7 +6905,7 @@
             {
                 "id":1,
                 "name":"flour",
-                "quantity":125.0,
+                "quantity":0.125,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -6925,7 +6925,7 @@
             {
                 "id":3,
                 "name":"water",
-                "quantity":125.0,
+                "quantity":0.125,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -7323,7 +7323,7 @@
             {
                 "id":2,
                 "name":"Spinach",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -7906,7 +7906,7 @@
             {
                 "id":1,
                 "name":"spaghetti",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -7916,7 +7916,7 @@
             {
                 "id":2,
                 "name":"extra virgin olive oil",
-                "quantity":110.0,
+                "quantity":0.11,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -8033,7 +8033,7 @@
             {
                 "id":1,
                 "name":"Beef",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -8339,7 +8339,7 @@
             {
                 "id":4,
                 "name":"white wine",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -8349,7 +8349,7 @@
             {
                 "id":5,
                 "name":"brown stock",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -9714,7 +9714,7 @@
             {
                 "id":1,
                 "name":"mealy\/floury potatoes",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -9754,7 +9754,7 @@
             {
                 "id":5,
                 "name":"minced lamb",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -9764,7 +9764,7 @@
             {
                 "id":6,
                 "name":"frozen peas",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -9784,7 +9784,7 @@
             {
                 "id":8,
                 "name":"beef stock",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -9804,7 +9804,7 @@
             {
                 "id":10,
                 "name":"butter",
-                "quantity":30.0,
+                "quantity":0.03,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -9814,7 +9814,7 @@
             {
                 "id":11,
                 "name":"milk",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -9908,7 +9908,7 @@
             {
                 "id":1,
                 "name":"Cassis-Juice (Johannesbeer)",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"l",
                 "optional":true,
                 "original_unit":"ml",
@@ -9918,7 +9918,7 @@
             {
                 "id":2,
                 "name":"red wine",
-                "quantity":700.0,
+                "quantity":0.7,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -9928,7 +9928,7 @@
             {
                 "id":3,
                 "name":"Sugar",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -9938,7 +9938,7 @@
             {
                 "id":4,
                 "name":"Raisins",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -10098,7 +10098,7 @@
             {
                 "id":1,
                 "name":"quark",
-                "quantity":420.0,
+                "quantity":0.42,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -10138,7 +10138,7 @@
             {
                 "id":5,
                 "name":"flour",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -10458,7 +10458,7 @@
             {
                 "id":1,
                 "name":"chuck steak",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -10468,7 +10468,7 @@
             {
                 "id":2,
                 "name":"tomatoes",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -10478,7 +10478,7 @@
             {
                 "id":3,
                 "name":"canned chopped tomatoes",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -10518,7 +10518,7 @@
             {
                 "id":7,
                 "name":"olive oil",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"l",
                 "optional":true,
                 "original_unit":"ml",
@@ -11211,7 +11211,7 @@
             {
                 "id":4,
                 "name":"button or crimini mushrooms",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -11221,7 +11221,7 @@
             {
                 "id":5,
                 "name":"risotto rice (Arborio, Carnaroli or Vialone Nano)",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -11524,7 +11524,7 @@
             {
                 "id":16,
                 "name":"boneless skinless chicken breasts",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -11614,7 +11614,7 @@
             {
                 "id":3,
                 "name":"ground beef",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -12262,7 +12262,7 @@
             {
                 "id":1,
                 "name":"ground pork",
-                "quantity":450.0,
+                "quantity":0.45,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -12362,7 +12362,7 @@
             {
                 "id":11,
                 "name":"chicken broth or water",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -12372,7 +12372,7 @@
             {
                 "id":12,
                 "name":"soft tofu",
-                "quantity":340.0,
+                "quantity":0.34,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -12756,7 +12756,7 @@
             {
                 "id":11,
                 "name":"ground beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -12766,7 +12766,7 @@
             {
                 "id":12,
                 "name":"Italian style pork sausage",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -12846,7 +12846,7 @@
             {
                 "id":20,
                 "name":"dry spaghetti",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -13056,7 +13056,7 @@
             {
                 "id":4,
                 "name":"sugar",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -13454,7 +13454,7 @@
             {
                 "id":2,
                 "name":"oatmeal",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -13828,7 +13828,7 @@
             {
                 "id":1,
                 "name":"bacon cubes",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -13848,7 +13848,7 @@
             {
                 "id":3,
                 "name":"potatoes (firm\/waxy)",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -13868,7 +13868,7 @@
             {
                 "id":5,
                 "name":"macaroni (dry weight)",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -13878,7 +13878,7 @@
             {
                 "id":6,
                 "name":"medium soft cheese",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -14673,7 +14673,7 @@
             {
                 "id":4,
                 "name":"brown beer",
-                "quantity":66.0,
+                "quantity":0.66,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"centiliter",
@@ -15133,7 +15133,7 @@
             {
                 "id":1,
                 "name":"flour",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15143,7 +15143,7 @@
             {
                 "id":2,
                 "name":"instant yeast (dry)",
-                "quantity":2.0,
+                "quantity":0.002,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15153,7 +15153,7 @@
             {
                 "id":3,
                 "name":"salt",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15163,7 +15163,7 @@
             {
                 "id":4,
                 "name":"olive oil",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15173,7 +15173,7 @@
             {
                 "id":5,
                 "name":"luke warm water",
-                "quantity":140.0,
+                "quantity":0.14,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15423,7 +15423,7 @@
             {
                 "id":2,
                 "name":"lemon juice",
-                "quantity":15.0,
+                "quantity":0.015,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15433,7 +15433,7 @@
             {
                 "id":3,
                 "name":"white sugar",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15443,7 +15443,7 @@
             {
                 "id":4,
                 "name":"brown sugar",
-                "quantity":65.0,
+                "quantity":0.065,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15453,7 +15453,7 @@
             {
                 "id":5,
                 "name":"cinnamon",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15463,17 +15463,17 @@
             {
                 "id":6,
                 "name":"nutmeg",
-                "quantity":1.5,
+                "quantity":0.0015,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":1.0,
-                "quantity_max":2.0
+                "quantity_min":0.001,
+                "quantity_max":0.002
             },
             {
                 "id":7,
                 "name":"cornstarch",
-                "quantity":15.0,
+                "quantity":0.015,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15483,7 +15483,7 @@
             {
                 "id":8,
                 "name":"ice water",
-                "quantity":15.0,
+                "quantity":0.015,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15493,7 +15493,7 @@
             {
                 "id":9,
                 "name":"cold butter",
-                "quantity":226.0,
+                "quantity":0.226,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15503,7 +15503,7 @@
             {
                 "id":10,
                 "name":"flour",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15513,7 +15513,7 @@
             {
                 "id":11,
                 "name":"salt",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15523,7 +15523,7 @@
             {
                 "id":12,
                 "name":"white sugar",
-                "quantity":30.0,
+                "quantity":0.03,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15533,7 +15533,7 @@
             {
                 "id":13,
                 "name":"butter",
-                "quantity":225.0,
+                "quantity":0.225,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15543,12 +15543,12 @@
             {
                 "id":14,
                 "name":"ice water",
-                "quantity":75.0,
+                "quantity":0.075,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
-                "quantity_min":50.0,
-                "quantity_max":100.0
+                "quantity_min":0.05,
+                "quantity_max":0.1
             },
             {
                 "id":15,
@@ -15563,7 +15563,7 @@
             {
                 "id":16,
                 "name":"water",
-                "quantity":15.0,
+                "quantity":0.015,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -15716,7 +15716,7 @@
             {
                 "id":1,
                 "name":"penne rigate",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15746,7 +15746,7 @@
             {
                 "id":4,
                 "name":"lean ground beef",
-                "quantity":700.0,
+                "quantity":0.7,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15786,7 +15786,7 @@
             {
                 "id":8,
                 "name":"tomato paste",
-                "quantity":340.0,
+                "quantity":0.34,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15796,7 +15796,7 @@
             {
                 "id":9,
                 "name":"butter",
-                "quantity":226.0,
+                "quantity":0.226,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15806,7 +15806,7 @@
             {
                 "id":10,
                 "name":"flour",
-                "quantity":226.0,
+                "quantity":0.226,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -15826,7 +15826,7 @@
             {
                 "id":12,
                 "name":"chicken stock",
-                "quantity":237.0,
+                "quantity":0.237,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -16157,7 +16157,7 @@
             {
                 "id":1,
                 "name":"Chicken stock",
-                "quantity":750.0,
+                "quantity":0.75,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -16257,7 +16257,7 @@
             {
                 "id":11,
                 "name":"Ramen Noodles",
-                "quantity":375.0,
+                "quantity":0.375,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -16267,7 +16267,7 @@
             {
                 "id":12,
                 "name":"Spinach",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -16422,7 +16422,7 @@
             {
                 "id":1,
                 "name":"ground beef or turkey",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -16591,7 +16591,7 @@
             {
                 "id":1,
                 "name":"\u0421rab meat",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -16611,7 +16611,7 @@
             {
                 "id":3,
                 "name":"Rice",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -16661,7 +16661,7 @@
             {
                 "id":8,
                 "name":"Mayonnaise",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -17177,7 +17177,7 @@
             {
                 "id":14,
                 "name":"boneless skinless chicken breasts",
-                "quantity":2.5,
+                "quantity":1.13398,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -17342,7 +17342,7 @@
             {
                 "id":1,
                 "name":"Beef Liver",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -17382,7 +17382,7 @@
             {
                 "id":5,
                 "name":"Corn",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -17392,7 +17392,7 @@
             {
                 "id":6,
                 "name":"Green Peas",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -17485,7 +17485,7 @@
             {
                 "id":1,
                 "name":"coconut",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -17495,7 +17495,7 @@
             {
                 "id":2,
                 "name":"sugar",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -17715,7 +17715,7 @@
             {
                 "id":1,
                 "name":"warm water",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -18537,7 +18537,7 @@
             {
                 "id":9,
                 "name":"chopped tomatoes",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -18547,7 +18547,7 @@
             {
                 "id":10,
                 "name":"coconut milk",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -18750,7 +18750,7 @@
             {
                 "id":4,
                 "name":"yogurt",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -19462,7 +19462,7 @@
             {
                 "id":1,
                 "name":"melted butter",
-                "quantity":230.0,
+                "quantity":0.23,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19472,7 +19472,7 @@
             {
                 "id":2,
                 "name":"bread flour",
-                "quantity":330.0,
+                "quantity":0.33,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19482,7 +19482,7 @@
             {
                 "id":3,
                 "name":"salt",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19492,7 +19492,7 @@
             {
                 "id":4,
                 "name":"baking soda",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19502,22 +19502,22 @@
             {
                 "id":5,
                 "name":"white sugar",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":100.0,
-                "quantity_max":200.0
+                "quantity_min":0.1,
+                "quantity_max":0.2
             },
             {
                 "id":6,
                 "name":"brown sugar",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":100.0,
-                "quantity_max":200.0
+                "quantity_min":0.1,
+                "quantity_max":0.2
             },
             {
                 "id":7,
@@ -19532,7 +19532,7 @@
             {
                 "id":8,
                 "name":"milk",
-                "quantity":15.0,
+                "quantity":0.015,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19542,7 +19542,7 @@
             {
                 "id":9,
                 "name":"vanilla",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19552,7 +19552,7 @@
             {
                 "id":10,
                 "name":"dark chocolate chips or semi-sweet milk chocolate chips",
-                "quantity":225.0,
+                "quantity":0.225,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -19694,7 +19694,7 @@
             {
                 "id":5,
                 "name":"cream",
-                "quantity":2.5,
+                "quantity":0.25,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -19704,7 +19704,7 @@
             {
                 "id":6,
                 "name":"milk",
-                "quantity":1.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -19872,7 +19872,7 @@
             {
                 "id":1,
                 "name":"pork meat",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -20356,7 +20356,7 @@
             {
                 "id":1,
                 "name":"sweet potato",
-                "quantity":1.75,
+                "quantity":0.793786,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -20536,7 +20536,7 @@
             {
                 "id":1,
                 "name":"unsalted butter",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -21280,7 +21280,7 @@
             {
                 "id":1,
                 "name":"buttered cookies (shortcake)",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -21290,7 +21290,7 @@
             {
                 "id":2,
                 "name":"margarine",
-                "quantity":80.0,
+                "quantity":0.08,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -21300,7 +21300,7 @@
             {
                 "id":3,
                 "name":"condensed milk",
-                "quantity":370.0,
+                "quantity":0.37,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -21330,7 +21330,7 @@
             {
                 "id":6,
                 "name":"sugar",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -21562,7 +21562,7 @@
             {
                 "id":1,
                 "name":"boneless chicken breast or thigh",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -22052,12 +22052,12 @@
             {
                 "id":1,
                 "name":"chicken breast",
-                "quantity":250.5,
+                "quantity":0.2505,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":500.0,
-                "quantity_max":1.0
+                "quantity_min":0.5,
+                "quantity_max":0.001
             },
             {
                 "id":2,
@@ -22092,12 +22092,12 @@
             {
                 "id":5,
                 "name":"fresh spinach",
-                "quantity":125.25,
+                "quantity":0.12525,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":250.0,
-                "quantity_max":0.5
+                "quantity_min":0.25,
+                "quantity_max":0.0005
             },
             {
                 "id":6,
@@ -22253,7 +22253,7 @@
             {
                 "id":1,
                 "name":"Tomatoes",
-                "quantity":3.5,
+                "quantity":1.587572,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -22263,7 +22263,7 @@
             {
                 "id":2,
                 "name":"Eggplant",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -22273,7 +22273,7 @@
             {
                 "id":3,
                 "name":"Zucchini",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -22293,7 +22293,7 @@
             {
                 "id":5,
                 "name":"Onions",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -22353,7 +22353,7 @@
             {
                 "id":11,
                 "name":"Tomato Paste",
-                "quantity":140.0,
+                "quantity":0.14,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -22999,7 +22999,7 @@
             {
                 "id":6,
                 "name":"red wine",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -23009,7 +23009,7 @@
             {
                 "id":7,
                 "name":"chopped plum tomatoes",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -23019,7 +23019,7 @@
             {
                 "id":8,
                 "name":"pasta",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -23029,7 +23029,7 @@
             {
                 "id":9,
                 "name":"parmesan",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -23039,7 +23039,7 @@
             {
                 "id":10,
                 "name":"double cream",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -23386,7 +23386,7 @@
             {
                 "id":1,
                 "name":"firm tofu",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -23396,7 +23396,7 @@
             {
                 "id":2,
                 "name":"Broccoli",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -23526,12 +23526,12 @@
             {
                 "id":15,
                 "name":"ginger",
-                "quantity":75.0,
+                "quantity":0.075,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
-                "quantity_min":50.0,
-                "quantity_max":100.0
+                "quantity_min":0.05,
+                "quantity_max":0.1
             }
         ]
     },
@@ -23698,7 +23698,7 @@
             {
                 "id":1,
                 "name":"butter",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -23778,7 +23778,7 @@
             {
                 "id":9,
                 "name":"chicken stock",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -25204,7 +25204,7 @@
             {
                 "id":1,
                 "name":"flour",
-                "quantity":140.0,
+                "quantity":0.14,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -25224,7 +25224,7 @@
             {
                 "id":3,
                 "name":"milk",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -26032,7 +26032,7 @@
             {
                 "id":2,
                 "name":"cream",
-                "quantity":60.0,
+                "quantity":0.06,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -26850,7 +26850,7 @@
             {
                 "id":6,
                 "name":"pancetta",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -26860,7 +26860,7 @@
             {
                 "id":7,
                 "name":"beef mince",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -26870,7 +26870,7 @@
             {
                 "id":8,
                 "name":"pork mince",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -26880,7 +26880,7 @@
             {
                 "id":9,
                 "name":"veal mince",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -26890,7 +26890,7 @@
             {
                 "id":10,
                 "name":"concentrated tomato paste",
-                "quantity":140.0,
+                "quantity":0.14,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -26900,7 +26900,7 @@
             {
                 "id":11,
                 "name":"diced tomatoes",
-                "quantity":690.0,
+                "quantity":0.69,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -27448,7 +27448,7 @@
             {
                 "id":4,
                 "name":"baked beans",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -27478,7 +27478,7 @@
             {
                 "id":7,
                 "name":"button mushrooms",
-                "quantity":120.0,
+                "quantity":0.12,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -28892,7 +28892,7 @@
             {
                 "id":2,
                 "name":"peas (dried green split)",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -28902,7 +28902,7 @@
             {
                 "id":3,
                 "name":"pork belly (Dutch speklapjes or thick-cut bacon)",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -28992,7 +28992,7 @@
             {
                 "id":12,
                 "name":"sausage (chopped rookworst, smoked sausage)",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -29134,7 +29134,7 @@
             {
                 "id":2,
                 "name":"flour",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -30100,7 +30100,7 @@
             {
                 "id":5,
                 "name":"Cheese",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -30802,7 +30802,7 @@
             {
                 "id":2,
                 "name":"sugar",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -30944,7 +30944,7 @@
             {
                 "id":1,
                 "name":"Pizza dough",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -30964,7 +30964,7 @@
             {
                 "id":3,
                 "name":"bacon",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -31531,7 +31531,7 @@
             {
                 "id":9,
                 "name":"Chicken Breasts or Skirt Steak",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -32087,7 +32087,7 @@
             {
                 "id":1,
                 "name":"tomatoes",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -32097,7 +32097,7 @@
             {
                 "id":2,
                 "name":"canned tomatoes",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -32310,7 +32310,7 @@
             {
                 "id":1,
                 "name":"green lentils",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -32320,7 +32320,7 @@
             {
                 "id":2,
                 "name":"vermicelli",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -32756,7 +32756,7 @@
             {
                 "id":1,
                 "name":"raw pre-shelled peanuts",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -33105,7 +33105,7 @@
             {
                 "id":3,
                 "name":"mozzarella cheese",
-                "quantity":80.0,
+                "quantity":0.08,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -33115,7 +33115,7 @@
             {
                 "id":4,
                 "name":"Edam cheese",
-                "quantity":40.0,
+                "quantity":0.04,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -33125,7 +33125,7 @@
             {
                 "id":5,
                 "name":"Tilsitter cheese",
-                "quantity":40.0,
+                "quantity":0.04,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -33573,7 +33573,7 @@
             {
                 "id":1,
                 "name":"liver",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -34124,7 +34124,7 @@
             {
                 "id":1,
                 "name":"lamb leg meat",
-                "quantity":450.0,
+                "quantity":0.45,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -34144,7 +34144,7 @@
             {
                 "id":3,
                 "name":"prepared water",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -34154,7 +34154,7 @@
             {
                 "id":4,
                 "name":"sour-tasting beer",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -34626,7 +34626,7 @@
             {
                 "id":7,
                 "name":"beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -34949,7 +34949,7 @@
             {
                 "id":8,
                 "name":"green beans",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -34969,7 +34969,7 @@
             {
                 "id":10,
                 "name":"fish broth",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -34979,7 +34979,7 @@
             {
                 "id":11,
                 "name":"coconut milk",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -34989,7 +34989,7 @@
             {
                 "id":12,
                 "name":"fish fillet (white fish)",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -35185,7 +35185,7 @@
             {
                 "id":9,
                 "name":"butter",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -35401,7 +35401,7 @@
             {
                 "id":1,
                 "name":"ground beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -35411,7 +35411,7 @@
             {
                 "id":2,
                 "name":"ground pork",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -36048,7 +36048,7 @@
             {
                 "id":2,
                 "name":"white wine",
-                "quantity":4.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -36058,7 +36058,7 @@
             {
                 "id":3,
                 "name":"swiss cheese",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -36515,7 +36515,7 @@
             {
                 "id":1,
                 "name":"high fat cream",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -36525,7 +36525,7 @@
             {
                 "id":2,
                 "name":"whole milk",
-                "quantity":140.0,
+                "quantity":0.14,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -36535,7 +36535,7 @@
             {
                 "id":3,
                 "name":"sugar",
-                "quantity":85.0,
+                "quantity":0.085,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -36665,7 +36665,7 @@
             {
                 "id":1,
                 "name":"Greek Yogurt",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -36685,7 +36685,7 @@
             {
                 "id":3,
                 "name":"Cucumber",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -37432,7 +37432,7 @@
             {
                 "id":2,
                 "name":"spaghetti",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -37442,7 +37442,7 @@
             {
                 "id":3,
                 "name":"olive oil",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -37482,7 +37482,7 @@
             {
                 "id":7,
                 "name":"tinned chopped tomatoes",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38065,7 +38065,7 @@
             {
                 "id":4,
                 "name":"fresh, non-UHT milk",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -38075,7 +38075,7 @@
             {
                 "id":5,
                 "name":"yogurt",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -38095,7 +38095,7 @@
             {
                 "id":7,
                 "name":"table salt",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38105,7 +38105,7 @@
             {
                 "id":8,
                 "name":"citric acid",
-                "quantity":6.0,
+                "quantity":0.006,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38214,12 +38214,12 @@
             {
                 "id":1,
                 "name":"Chicken",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":1.0,
-                "quantity_max":2.0
+                "quantity_min":0.453592,
+                "quantity_max":0.907184
             },
             {
                 "id":2,
@@ -38415,7 +38415,7 @@
             {
                 "id":2,
                 "name":"butter",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38425,7 +38425,7 @@
             {
                 "id":3,
                 "name":"sugar",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38455,7 +38455,7 @@
             {
                 "id":6,
                 "name":"wheat flour",
-                "quantity":260.0,
+                "quantity":0.26,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38465,7 +38465,7 @@
             {
                 "id":7,
                 "name":"dark chocolate",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38475,7 +38475,7 @@
             {
                 "id":8,
                 "name":"milk chocolate",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -38675,7 +38675,7 @@
             {
                 "id":5,
                 "name":"table salt",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -38685,7 +38685,7 @@
             {
                 "id":6,
                 "name":"rennet",
-                "quantity":2.0,
+                "quantity":0.002,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -39022,7 +39022,7 @@
             {
                 "id":2,
                 "name":"fresh water",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -39626,7 +39626,7 @@
             {
                 "id":1,
                 "name":"lamb stew meat",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -39879,7 +39879,7 @@
             {
                 "id":2,
                 "name":"new potato",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -39889,7 +39889,7 @@
             {
                 "id":3,
                 "name":"bacon lardon",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -39949,7 +39949,7 @@
             {
                 "id":9,
                 "name":"chicken stock",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -39959,7 +39959,7 @@
             {
                 "id":10,
                 "name":"white wine",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -40355,7 +40355,7 @@
             {
                 "id":5,
                 "name":"Basmati Rice",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -40365,7 +40365,7 @@
             {
                 "id":6,
                 "name":"Mutton \/ Lamb (Boneless)",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -40823,7 +40823,7 @@
             {
                 "id":1,
                 "name":"chicken",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -41275,7 +41275,7 @@
             {
                 "id":2,
                 "name":"00 flour",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -41305,7 +41305,7 @@
             {
                 "id":5,
                 "name":"grated Pecorino Romano cheese",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -41315,7 +41315,7 @@
             {
                 "id":6,
                 "name":"ricotta",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -41507,7 +41507,7 @@
             {
                 "id":3,
                 "name":"butter",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -41915,7 +41915,7 @@
             {
                 "id":1,
                 "name":"buckwheat flour",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -41935,7 +41935,7 @@
             {
                 "id":3,
                 "name":"water",
-                "quantity":70.0,
+                "quantity":0.7,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"cl",
@@ -42051,7 +42051,7 @@
             {
                 "id":2,
                 "name":"butter",
-                "quantity":75.0,
+                "quantity":0.075,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -42061,7 +42061,7 @@
             {
                 "id":3,
                 "name":"flour",
-                "quantity":1.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -42425,7 +42425,7 @@
             {
                 "id":2,
                 "name":"berries",
-                "quantity":120.0,
+                "quantity":0.12,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -42598,7 +42598,7 @@
             {
                 "id":1,
                 "name":"Boneless Chicken",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -42881,7 +42881,7 @@
             {
                 "id":2,
                 "name":"ground beef meat",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -43237,7 +43237,7 @@
             {
                 "id":17,
                 "name":"limoncello",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":true,
                 "original_unit":"ml",
@@ -43247,7 +43247,7 @@
             {
                 "id":18,
                 "name":"sweet vermouth",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"l",
                 "optional":true,
                 "original_unit":"ml",
@@ -43257,7 +43257,7 @@
             {
                 "id":19,
                 "name":"bourbon, brandy, or cognac",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"l",
                 "optional":true,
                 "original_unit":"ml",
@@ -43845,7 +43845,7 @@
             {
                 "id":1,
                 "name":"frozen corn",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -44298,7 +44298,7 @@
             {
                 "id":2,
                 "name":"italian spaghetti",
-                "quantity":320.0,
+                "quantity":0.32,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -44318,7 +44318,7 @@
             {
                 "id":4,
                 "name":"salted capers",
-                "quantity":10.0,
+                "quantity":0.01,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -44328,7 +44328,7 @@
             {
                 "id":5,
                 "name":"anchovies in oil",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -44338,7 +44338,7 @@
             {
                 "id":6,
                 "name":"peeled tomatoes \"sugo\"",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -44358,7 +44358,7 @@
             {
                 "id":8,
                 "name":"Gaeta olives",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -45205,7 +45205,7 @@
             {
                 "id":10,
                 "name":"boiled sausage",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -45215,7 +45215,7 @@
             {
                 "id":11,
                 "name":"boiled chicken meat",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -45344,7 +45344,7 @@
             {
                 "id":1,
                 "name":"Beef",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -45354,7 +45354,7 @@
             {
                 "id":2,
                 "name":"Mushrooms",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -45384,7 +45384,7 @@
             {
                 "id":5,
                 "name":"White wine",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -45394,7 +45394,7 @@
             {
                 "id":6,
                 "name":"Cream",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -45529,12 +45529,12 @@
             {
                 "id":1,
                 "name":"pre-cooked beans",
-                "quantity":450.0,
+                "quantity":0.45,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":400.0,
-                "quantity_max":500.0
+                "quantity_min":0.4,
+                "quantity_max":0.5
             },
             {
                 "id":2,
@@ -46260,7 +46260,7 @@
             {
                 "id":2,
                 "name":"Flour",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -46270,7 +46270,7 @@
             {
                 "id":3,
                 "name":"Butter",
-                "quantity":25.0,
+                "quantity":0.025,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -46280,7 +46280,7 @@
             {
                 "id":4,
                 "name":"Chocolate",
-                "quantity":75.0,
+                "quantity":0.075,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -46530,7 +46530,7 @@
             {
                 "id":1,
                 "name":"pasta",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -46540,7 +46540,7 @@
             {
                 "id":2,
                 "name":"cream",
-                "quantity":4.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -46678,7 +46678,7 @@
             {
                 "id":2,
                 "name":"Boneless Skinless Chicken",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -47027,7 +47027,7 @@
             {
                 "id":1,
                 "name":"butter",
-                "quantity":125.0,
+                "quantity":0.125,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -47037,17 +47037,17 @@
             {
                 "id":2,
                 "name":"sugar",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":30.0,
-                "quantity_max":70.0
+                "quantity_min":0.03,
+                "quantity_max":0.07
             },
             {
                 "id":3,
                 "name":"Tahini",
-                "quantity":75.0,
+                "quantity":0.075,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -47067,7 +47067,7 @@
             {
                 "id":5,
                 "name":"flour",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -47077,7 +47077,7 @@
             {
                 "id":6,
                 "name":"baking powder",
-                "quantity":3.0,
+                "quantity":0.003,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -47248,7 +47248,7 @@
             {
                 "id":1,
                 "name":"pasta",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -47258,12 +47258,12 @@
             {
                 "id":2,
                 "name":"ground beef",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":300.0,
-                "quantity_max":400.0
+                "quantity_min":0.3,
+                "quantity_max":0.4
             },
             {
                 "id":3,
@@ -47850,7 +47850,7 @@
             {
                 "id":2,
                 "name":"butter",
-                "quantity":60.0,
+                "quantity":0.06,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -47900,7 +47900,7 @@
             {
                 "id":7,
                 "name":"croutons or toasted bread",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -48097,7 +48097,7 @@
             {
                 "id":7,
                 "name":"Greek Yogurt",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -48500,7 +48500,7 @@
             {
                 "id":1,
                 "name":"boneless pork shoulder",
-                "quantity":2.5,
+                "quantity":1.13398,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -48730,12 +48730,12 @@
             {
                 "id":2,
                 "name":"Apricot jam",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":300.0,
-                "quantity_max":300.0
+                "quantity_min":0.3,
+                "quantity_max":0.3
             },
             {
                 "id":3,
@@ -49235,7 +49235,7 @@
             {
                 "id":4,
                 "name":"flour",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -49245,7 +49245,7 @@
             {
                 "id":5,
                 "name":"bread crumbs",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -49255,7 +49255,7 @@
             {
                 "id":6,
                 "name":"butter",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -49439,7 +49439,7 @@
             {
                 "id":6,
                 "name":"Baby Tomatoes",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -49657,12 +49657,12 @@
             {
                 "id":1,
                 "name":"potatoes",
-                "quantity":3.75,
+                "quantity":1.70097,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":6.0,
-                "quantity_max":1.5
+                "quantity_min":2.721552,
+                "quantity_max":0.680388
             },
             {
                 "id":2,
@@ -49737,7 +49737,7 @@
             {
                 "id":9,
                 "name":"ground beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -50594,7 +50594,7 @@
             {
                 "id":1,
                 "name":"paneer",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -50624,7 +50624,7 @@
             {
                 "id":4,
                 "name":"tomato puree",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -50674,7 +50674,7 @@
             {
                 "id":9,
                 "name":"thick yogurt",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -50734,7 +50734,7 @@
             {
                 "id":15,
                 "name":"garlic paste",
-                "quantity":20.0,
+                "quantity":0.02,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -50873,7 +50873,7 @@
             {
                 "id":5,
                 "name":"chicken stock or broth",
-                "quantity":950.0,
+                "quantity":0.95,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -50965,7 +50965,7 @@
             {
                 "id":1,
                 "name":"ground turkey",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -51278,7 +51278,7 @@
             {
                 "id":1,
                 "name":"Ground beef",
-                "quantity":4.5,
+                "quantity":2.041164,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -51811,17 +51811,17 @@
             {
                 "id":1,
                 "name":"Shrimp",
-                "quantity":2.5,
+                "quantity":1.13398,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":2.0,
-                "quantity_max":3.0
+                "quantity_min":0.907184,
+                "quantity_max":1.360776
             },
             {
                 "id":2,
                 "name":"Andouille Sausage",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -52266,7 +52266,7 @@
             {
                 "id":1,
                 "name":"Ground Beef",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -53027,7 +53027,7 @@
             {
                 "id":5,
                 "name":"onions",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -53037,7 +53037,7 @@
             {
                 "id":6,
                 "name":"diced smoked bacon",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -53688,7 +53688,7 @@
             {
                 "id":3,
                 "name":"Cumin",
-                "quantity":1.0,
+                "quantity":0.001,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -53698,7 +53698,7 @@
             {
                 "id":4,
                 "name":"Goya Naranja juice",
-                "quantity":15.0,
+                "quantity":0.015,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -53718,7 +53718,7 @@
             {
                 "id":6,
                 "name":"Black pepper",
-                "quantity":1.0,
+                "quantity":0.001,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -53728,7 +53728,7 @@
             {
                 "id":7,
                 "name":"Salt",
-                "quantity":5.0,
+                "quantity":0.005,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -54646,7 +54646,7 @@
             {
                 "id":1,
                 "name":"Spaghetti",
-                "quantity":320.0,
+                "quantity":0.32,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -54666,7 +54666,7 @@
             {
                 "id":3,
                 "name":"Guanciale or Smoked Pancetta",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -54833,7 +54833,7 @@
             {
                 "id":1,
                 "name":"beef",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -54843,12 +54843,12 @@
             {
                 "id":2,
                 "name":"potatoes",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":300.0,
-                "quantity_max":400.0
+                "quantity_min":0.3,
+                "quantity_max":0.4
             },
             {
                 "id":3,
@@ -54883,7 +54883,7 @@
             {
                 "id":6,
                 "name":"water",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -55143,7 +55143,7 @@
             {
                 "id":1,
                 "name":"chicken breasts",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -56939,7 +56939,7 @@
             {
                 "id":1,
                 "name":"boneless chicken breast",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -56949,7 +56949,7 @@
             {
                 "id":2,
                 "name":"fat free yoghurt",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -56959,7 +56959,7 @@
             {
                 "id":3,
                 "name":"coriander leaves",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57655,7 +57655,7 @@
             {
                 "id":1,
                 "name":"flour",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57665,7 +57665,7 @@
             {
                 "id":2,
                 "name":"lukewarm water",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -57675,7 +57675,7 @@
             {
                 "id":3,
                 "name":"dry yeast",
-                "quantity":7.0,
+                "quantity":0.007,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57867,7 +57867,7 @@
             {
                 "id":1,
                 "name":"boiled potatoes",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57877,7 +57877,7 @@
             {
                 "id":2,
                 "name":"wheat flour",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57887,7 +57887,7 @@
             {
                 "id":3,
                 "name":"whole rye flour",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57897,7 +57897,7 @@
             {
                 "id":4,
                 "name":"salt",
-                "quantity":11.0,
+                "quantity":0.011,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57907,7 +57907,7 @@
             {
                 "id":5,
                 "name":"water",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -57917,7 +57917,7 @@
             {
                 "id":6,
                 "name":"sourdough",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -58185,7 +58185,7 @@
             {
                 "id":3,
                 "name":"porkchops",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -58195,7 +58195,7 @@
             {
                 "id":4,
                 "name":"bacon (smoked)",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -58399,7 +58399,7 @@
             {
                 "id":6,
                 "name":"Cod Fillets",
-                "quantity":1.5,
+                "quantity":0.680388,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -58758,7 +58758,7 @@
             {
                 "id":1,
                 "name":"wheat flour",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -58768,7 +58768,7 @@
             {
                 "id":2,
                 "name":"baker's yeast",
-                "quantity":4.0,
+                "quantity":0.004,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -58788,7 +58788,7 @@
             {
                 "id":4,
                 "name":"sugar",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -58798,7 +58798,7 @@
             {
                 "id":5,
                 "name":"water",
-                "quantity":20.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"cl",
@@ -58818,7 +58818,7 @@
             {
                 "id":7,
                 "name":"red beans Azuki",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -59231,7 +59231,7 @@
             {
                 "id":2,
                 "name":"Onions",
-                "quantity":4.0,
+                "quantity":0.004,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -60277,7 +60277,7 @@
             {
                 "id":5,
                 "name":"yogurt",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -60725,7 +60725,7 @@
             {
                 "id":1,
                 "name":"Large\/Jumbo Shrimp",
-                "quantity":2.0,
+                "quantity":0.907184,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -61388,7 +61388,7 @@
             {
                 "id":1,
                 "name":"Ground Beef",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -61398,7 +61398,7 @@
             {
                 "id":2,
                 "name":"Coconut Milk",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -61740,7 +61740,7 @@
             {
                 "id":3,
                 "name":"cherry tomatoes",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -61869,22 +61869,22 @@
             {
                 "id":2,
                 "name":"Asparagus",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":0.5,
-                "quantity_max":0.5
+                "quantity_min":0.226796,
+                "quantity_max":0.226796
             },
             {
                 "id":3,
                 "name":"Green Beans",
-                "quantity":0.25,
+                "quantity":0.113398,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":0.25,
-                "quantity_max":0.25
+                "quantity_min":0.113398,
+                "quantity_max":0.113398
             },
             {
                 "id":4,
@@ -61959,12 +61959,12 @@
             {
                 "id":11,
                 "name":"Smoked Salmon",
-                "quantity":0.33,
+                "quantity":0.14968536,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
-                "quantity_min":0.33,
-                "quantity_max":0.33
+                "quantity_min":0.14968536,
+                "quantity_max":0.14968536
             },
             {
                 "id":12,
@@ -62165,7 +62165,7 @@
             {
                 "id":3,
                 "name":"butter",
-                "quantity":125.0,
+                "quantity":0.125,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -62175,7 +62175,7 @@
             {
                 "id":4,
                 "name":"dry yeast",
-                "quantity":14.0,
+                "quantity":0.014,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -62343,7 +62343,7 @@
             {
                 "id":5,
                 "name":"milk",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -62353,7 +62353,7 @@
             {
                 "id":6,
                 "name":"table salt",
-                "quantity":10.0,
+                "quantity":0.01,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -62363,7 +62363,7 @@
             {
                 "id":7,
                 "name":"citric acid",
-                "quantity":6.0,
+                "quantity":0.006,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -62373,7 +62373,7 @@
             {
                 "id":8,
                 "name":"lemon juice",
-                "quantity":130.0,
+                "quantity":0.13,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -62522,7 +62522,7 @@
             {
                 "id":1,
                 "name":"chicken breast",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -62890,7 +62890,7 @@
             {
                 "id":2,
                 "name":"uncooked peeled shrimp",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -63585,7 +63585,7 @@
             {
                 "id":12,
                 "name":"vinegar",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -63739,7 +63739,7 @@
             {
                 "id":8,
                 "name":"Chickpeas",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -64415,7 +64415,7 @@
             {
                 "id":5,
                 "name":"Crushed tomatoes",
-                "quantity":800.0,
+                "quantity":0.8,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -64637,7 +64637,7 @@
             {
                 "id":1,
                 "name":"Lean Ground Beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -64794,7 +64794,7 @@
             {
                 "id":1,
                 "name":"potatoes",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -64804,7 +64804,7 @@
             {
                 "id":2,
                 "name":"carrots",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -64814,7 +64814,7 @@
             {
                 "id":3,
                 "name":"bacon",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -64824,7 +64824,7 @@
             {
                 "id":4,
                 "name":"butter",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -64834,7 +64834,7 @@
             {
                 "id":5,
                 "name":"heavy cream",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -65118,7 +65118,7 @@
             {
                 "id":2,
                 "name":"Ham",
-                "quantity":0.5,
+                "quantity":0.226796,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -65232,7 +65232,7 @@
             {
                 "id":1,
                 "name":"ground beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -65425,7 +65425,7 @@
             {
                 "id":1,
                 "name":"Pork Sausage",
-                "quantity":0.25,
+                "quantity":0.113398,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -65435,7 +65435,7 @@
             {
                 "id":2,
                 "name":"Med ground beef",
-                "quantity":1.0,
+                "quantity":0.453592,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"pound",
@@ -65705,7 +65705,7 @@
             {
                 "id":2,
                 "name":"sugar",
-                "quantity":40.0,
+                "quantity":0.04,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -65715,7 +65715,7 @@
             {
                 "id":3,
                 "name":"honey",
-                "quantity":20.0,
+                "quantity":0.02,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -65725,7 +65725,7 @@
             {
                 "id":4,
                 "name":"milk",
-                "quantity":60.0,
+                "quantity":0.06,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -65735,7 +65735,7 @@
             {
                 "id":5,
                 "name":"oat flour",
-                "quantity":120.0,
+                "quantity":0.12,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -65878,7 +65878,7 @@
             {
                 "id":1,
                 "name":"Water",
-                "quantity":3.0,
+                "quantity":0.3,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -65888,7 +65888,7 @@
             {
                 "id":2,
                 "name":"Pama porridge rice",
-                "quantity":180.0,
+                "quantity":0.18,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -65938,7 +65938,7 @@
             {
                 "id":7,
                 "name":"Butter",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66170,7 +66170,7 @@
             {
                 "id":1,
                 "name":"Flour",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66180,7 +66180,7 @@
             {
                 "id":2,
                 "name":"Butter or Margarine",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -66200,7 +66200,7 @@
             {
                 "id":4,
                 "name":"Ham (alternatively cooked ham)",
-                "quantity":200.0,
+                "quantity":0.2,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66230,7 +66230,7 @@
             {
                 "id":7,
                 "name":"Grinded Edamer Cheese",
-                "quantity":125.0,
+                "quantity":0.125,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66420,12 +66420,12 @@
             {
                 "id":1,
                 "name":"ground beef meat",
-                "quantity":350.0,
+                "quantity":0.35,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
-                "quantity_min":300.0,
-                "quantity_max":400.0
+                "quantity_min":0.3,
+                "quantity_max":0.4
             },
             {
                 "id":2,
@@ -66440,7 +66440,7 @@
             {
                 "id":3,
                 "name":"cheese",
-                "quantity":70.0,
+                "quantity":0.07,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66480,7 +66480,7 @@
             {
                 "id":7,
                 "name":"bread crumbs",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -66490,7 +66490,7 @@
             {
                 "id":8,
                 "name":"water",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"milliliter",
@@ -66839,7 +66839,7 @@
             {
                 "id":1,
                 "name":"Butter",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66849,7 +66849,7 @@
             {
                 "id":2,
                 "name":"Flour",
-                "quantity":50.0,
+                "quantity":0.05,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66929,7 +66929,7 @@
             {
                 "id":10,
                 "name":"grated cheese (Emmental, Comt\u00e9, Gruy\u00e8re, Mimolette)",
-                "quantity":80.0,
+                "quantity":0.08,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66989,7 +66989,7 @@
             {
                 "id":1,
                 "name":"flour (Wholemeal Wheat Flour)",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -66999,7 +66999,7 @@
             {
                 "id":2,
                 "name":"lukewarm water",
-                "quantity":280.0,
+                "quantity":0.28,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -67009,7 +67009,7 @@
             {
                 "id":3,
                 "name":"dry yeast",
-                "quantity":8.0,
+                "quantity":0.008,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -67119,7 +67119,7 @@
             {
                 "id":1,
                 "name":"wheat flour",
-                "quantity":375.0,
+                "quantity":0.375,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68183,7 +68183,7 @@
             {
                 "id":1,
                 "name":"cooking oil",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"ml",
@@ -68213,7 +68213,7 @@
             {
                 "id":4,
                 "name":"onions",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68223,7 +68223,7 @@
             {
                 "id":5,
                 "name":"carrots",
-                "quantity":500.0,
+                "quantity":0.5,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68639,7 +68639,7 @@
             {
                 "id":1,
                 "name":"Unsalted butter",
-                "quantity":115.0,
+                "quantity":0.115,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68649,7 +68649,7 @@
             {
                 "id":2,
                 "name":"Caster sugar",
-                "quantity":60.0,
+                "quantity":0.06,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68659,7 +68659,7 @@
             {
                 "id":3,
                 "name":"Brown sugar",
-                "quantity":115.0,
+                "quantity":0.115,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68669,7 +68669,7 @@
             {
                 "id":4,
                 "name":"Egg",
-                "quantity":55.0,
+                "quantity":0.055,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68679,7 +68679,7 @@
             {
                 "id":5,
                 "name":"Plain flour",
-                "quantity":153.0,
+                "quantity":0.153,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68689,7 +68689,7 @@
             {
                 "id":6,
                 "name":"Matcha powder",
-                "quantity":12.0,
+                "quantity":0.012,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68699,7 +68699,7 @@
             {
                 "id":7,
                 "name":"Baking soda",
-                "quantity":2.0,
+                "quantity":0.002,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68709,7 +68709,7 @@
             {
                 "id":8,
                 "name":"Salt",
-                "quantity":1.0,
+                "quantity":0.001,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68719,7 +68719,7 @@
             {
                 "id":9,
                 "name":"Vanilla extract",
-                "quantity":3.0,
+                "quantity":0.003,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68729,7 +68729,7 @@
             {
                 "id":10,
                 "name":"White coverture chocolate",
-                "quantity":70.0,
+                "quantity":0.07,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68739,7 +68739,7 @@
             {
                 "id":11,
                 "name":"Macadamia nut",
-                "quantity":45.0,
+                "quantity":0.045,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68826,7 +68826,7 @@
             {
                 "id":1,
                 "name":"canned tomatoes",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68836,7 +68836,7 @@
             {
                 "id":2,
                 "name":"tomato pur\u00e9",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68968,7 +68968,7 @@
             {
                 "id":1,
                 "name":"white flour",
-                "quantity":300.0,
+                "quantity":0.3,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -68988,7 +68988,7 @@
             {
                 "id":3,
                 "name":"milk",
-                "quantity":60.0,
+                "quantity":0.6,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"centiliter",
@@ -68998,7 +68998,7 @@
             {
                 "id":4,
                 "name":"beer",
-                "quantity":20.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"centiliter",
@@ -69008,7 +69008,7 @@
             {
                 "id":5,
                 "name":"butter",
-                "quantity":30.0,
+                "quantity":0.03,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -69330,7 +69330,7 @@
             {
                 "id":10,
                 "name":"Fresh alkaline noodles",
-                "quantity":150.0,
+                "quantity":0.15,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -69542,7 +69542,7 @@
             {
                 "id":4,
                 "name":"tomato sauce",
-                "quantity":700.0,
+                "quantity":0.7,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -70721,7 +70721,7 @@
             {
                 "id":1,
                 "name":"bread flour",
-                "quantity":600.0,
+                "quantity":0.6,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -70751,7 +70751,7 @@
             {
                 "id":4,
                 "name":"active dry yeast",
-                "quantity":7.0,
+                "quantity":0.007,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -70771,7 +70771,7 @@
             {
                 "id":6,
                 "name":"water",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -70781,7 +70781,7 @@
             {
                 "id":7,
                 "name":"salt",
-                "quantity":12.0,
+                "quantity":0.012,
                 "unit":"kg",
                 "optional":true,
                 "original_unit":"gram",
@@ -70843,7 +70843,7 @@
             {
                 "id":1,
                 "name":"high fat pork belly",
-                "quantity":400.0,
+                "quantity":0.4,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -71160,7 +71160,7 @@
             {
                 "id":9,
                 "name":"Wine or cognac",
-                "quantity":33.0,
+                "quantity":0.33,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"cl",
@@ -71264,7 +71264,7 @@
             {
                 "id":3,
                 "name":"bouillon",
-                "quantity":1.0,
+                "quantity":0.1,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -71274,7 +71274,7 @@
             {
                 "id":4,
                 "name":"cream",
-                "quantity":2.0,
+                "quantity":0.2,
                 "unit":"l",
                 "optional":false,
                 "original_unit":"dl",
@@ -71720,7 +71720,7 @@
             {
                 "id":1,
                 "name":"raisins",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -71730,7 +71730,7 @@
             {
                 "id":2,
                 "name":"sugar",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -71760,7 +71760,7 @@
             {
                 "id":5,
                 "name":"active dry yeast",
-                "quantity":7.0,
+                "quantity":0.007,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -72067,7 +72067,7 @@
             {
                 "id":1,
                 "name":"sourdough starter",
-                "quantity":100.0,
+                "quantity":0.1,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -72077,7 +72077,7 @@
             {
                 "id":2,
                 "name":"warm water",
-                "quantity":330.0,
+                "quantity":0.33,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -72087,7 +72087,7 @@
             {
                 "id":3,
                 "name":"bread flour",
-                "quantity":137.0,
+                "quantity":0.137,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -72097,7 +72097,7 @@
             {
                 "id":4,
                 "name":"all-purpose flour",
-                "quantity":250.0,
+                "quantity":0.25,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -72107,7 +72107,7 @@
             {
                 "id":5,
                 "name":"rye or whole wheat flour",
-                "quantity":87.0,
+                "quantity":0.087,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
@@ -72117,7 +72117,7 @@
             {
                 "id":6,
                 "name":"sea salt",
-                "quantity":7.0,
+                "quantity":0.007,
                 "unit":"kg",
                 "optional":false,
                 "original_unit":"gram",
