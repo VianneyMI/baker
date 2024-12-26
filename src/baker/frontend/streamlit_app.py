@@ -87,29 +87,48 @@ def capitalize_first_letter(text: str) -> str:
 def display_recipe(recipe: dict):
     """Display a single recipe in a nice format"""
     with st.expander(f"📖 {recipe['title']}", expanded=True):
-        # Recipe metadata
-        col1, col2, col3 = st.columns(3)
-        with col1:
-            st.write("⏲️ Preparation:", format_time(recipe["preparation_time"]))
-        with col2:
-            st.write("🍳 Cooking:", format_time(recipe["cooking_time"]))
-        with col3:
-            total_time = 0
-            if isinstance(recipe["preparation_time"], (int, float)):
-                total_time += recipe["preparation_time"]
-            if isinstance(recipe["cooking_time"], (int, float)):
-                total_time += recipe["cooking_time"]
-            if total_time > 0:
-                st.write("⌛ Total time:", format_time(total_time))
-            else:
-                st.write("⌛ Total time:", "N/A")
+        st.markdown(
+            f"<div class='recipe-title'>{recipe['title']}</div>", unsafe_allow_html=True
+        )
 
-        # Serving size if available
-        if recipe.get("serving_size"):
-            st.write("👥 **Serves:** ", recipe["serving_size"])
+        # Create a container for better spacing
+        with st.container():
+            # Recipe metadata with better layout
+            col1, col2, col3 = st.columns(3)
+            with col1:
+                st.markdown(
+                    f"<div style='text-align: center;'>"
+                    f"<p style='color: #666;'>⏲️ Preparation</p>"
+                    f"<p style='font-size: 1.2rem;'>{format_time(recipe['preparation_time'])}</p>"
+                    f"</div>",
+                    unsafe_allow_html=True,
+                )
+            with col2:
+                st.markdown(
+                    f"<div style='text-align: center;'>"
+                    f"<p style='color: #666;'>🍳 Cooking</p>"
+                    f"<p style='font-size: 1.2rem;'>{format_time(recipe['cooking_time'])}</p>"
+                    f"</div>",
+                    unsafe_allow_html=True,
+                )
+            with col3:
+                total_time = 0
+                if isinstance(recipe["preparation_time"], (int, float)):
+                    total_time += recipe["preparation_time"]
+                if isinstance(recipe["cooking_time"], (int, float)):
+                    total_time += recipe["cooking_time"]
+                st.markdown(
+                    f"<div style='text-align: center;'>"
+                    f"<p style='color: #666;'>⌛ Total Time</p>"
+                    f"<p style='font-size: 1.2rem;'>{format_time(total_time) if total_time > 0 else 'N/A'}</p>"
+                    f"</div>",
+                    unsafe_allow_html=True,
+                )
 
-        # Ingredients with better formatting
-        st.write("🧂 **Ingredients:**")
+        # Rest of display_recipe remains similar but with styled headers
+        st.markdown(
+            "<div class='section-header'>🧂 Ingredients</div>", unsafe_allow_html=True
+        )
         ingredients_list = ""
         for ing in recipe["ingredients"]:
             quantity = format_quantity(ing["quantity"])
@@ -120,37 +139,208 @@ def display_recipe(recipe: dict):
                 ingredients_list += f"- {quantity} {ing['unit']} {ing['name']}\n"
         st.markdown(ingredients_list)
 
-        # Instructions with better formatting
-        if recipe.get("steps"):
-            st.write("📝 **Instructions:**")
-            steps_list = ""
-            for step in recipe["steps"]:
-                # Each step is a dictionary with 'number' and 'description' fields
-                if step["description"].strip():  # Only show non-empty steps
-                    description = capitalize_first_letter(step["description"].strip())
-                    steps_list += f"{step['number']}. {description}\n"
-            st.markdown(steps_list)
+        st.markdown(
+            "<div class='section-header'>📝 Instructions</div>", unsafe_allow_html=True
+        )
+        steps_list = ""
+        for step in recipe["steps"]:
+            # Each step is a dictionary with 'number' and 'description' fields
+            if step["description"].strip():  # Only show non-empty steps
+                description = capitalize_first_letter(step["description"].strip())
+                steps_list += f"{step['number']}. {description}\n"
+        st.markdown(steps_list)
 
 
-def add_buy_me_coffee_button():
-    """Add Buy Me a Coffee button to the sidebar"""
+def add_social_links():
+    """Add social media links in one row, right-aligned"""
+    # Adjusted column ratios to bring icons closer together and give more space to the button
+    col1, col2, col3, col4, col5 = st.columns([6, 2, 0.6, 0.6, 0.6])
+
+    # Buy Me a Coffee button
+    with col2:
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: flex-end;">
+                <a href="https://www.buymeacoffee.com/vianmixt" target="_blank">
+                    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+                         alt="Buy Me A Coffee" 
+                         style="height: 38px; width: auto; min-width: 160px; max-width: 100%;">
+                </a>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    # GitHub icon
+    with col3:
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: center;">
+                <a href="https://github.com/YOUR_USERNAME" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" 
+                         alt="GitHub"
+                         style="height: 24px; filter: invert(30%);">
+                </a>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    # Medium icon
+    with col4:
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: center;">
+                <a href="https://medium.com/@YOUR_USERNAME" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/medium.svg" 
+                         alt="Medium"
+                         style="height: 24px; filter: invert(30%);">
+                </a>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+    # LinkedIn icon
+    with col5:
+        st.markdown(
+            """
+            <div style="display: flex; justify-content: center;">
+                <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+                    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" 
+                         alt="LinkedIn"
+                         style="height: 24px; filter: invert(30%);">
+                </a>
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+
+
+def add_sidebar_content():
+    """Add sidebar content"""
     st.sidebar.markdown(
         """
-        <a href="https://www.buymeacoffee.com/vianmixt" target="_blank">
-            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
-                 alt="Buy Me A Coffee" 
-                 style="height: 60px; width: 217px;">
-        </a>
+        ---
+        Made with ❤️ using Streamlit
+        """
+    )
+
+
+def set_page_config():
+    """Configure the Streamlit page"""
+    st.set_page_config(
+        page_title="Recipe Finder",
+        page_icon="🥘",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+
+
+def add_custom_css():
+    """Add custom CSS to improve the look and feel"""
+    st.markdown(
+        """
+        <style>
+        /* Main title styling */
+        .main-title {
+            text-align: center;
+            color: #2c3e50;
+            padding: 1rem 0;
+            margin-bottom: 2rem;
+        }
+        
+        /* Recipe title styling */
+        .recipe-title {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        /* Section headers */
+        .section-header {
+            color: #34495e;
+            font-size: 1.2rem;
+            margin: 1rem 0;
+        }
+        
+        /* Form styling */
+        .stForm {
+            background-color: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        /* Input field labels */
+        .stTextInput label, .stNumberInput label, .stSelectbox label {
+            color: #34495e;
+            font-weight: 500;
+        }
+        
+        /* Expander styling */
+        .streamlit-expanderHeader {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+        
+        /* Success message styling */
+        .success-message {
+            padding: 1rem;
+            border-radius: 5px;
+            background-color: #d4edda;
+            color: #155724;
+            margin: 1rem 0;
+        }
+        
+        /* Warning message styling */
+        .warning-message {
+            padding: 1rem;
+            border-radius: 5px;
+            background-color: #fff3cd;
+            color: #856404;
+            margin: 1rem 0;
+        }
+        
+        /* Social links hover effect */
+        .social-links a:hover img {
+            filter: invert(50%) !important;
+        }
+        
+        /* Container for proper positioning */
+        .main-container {
+            position: relative;
+            padding-top: 3rem;
+        }
+        </style>
         """,
         unsafe_allow_html=True,
     )
 
 
 def main():
-    st.title("Recipe Finder")
+    set_page_config()
+    add_custom_css()
 
-    # Add Buy Me a Coffee button in the sidebar
-    add_buy_me_coffee_button()
+    # Title with custom styling
+    st.markdown("<h1 class='main-title'>🥘 Recipe Finder</h1>", unsafe_allow_html=True)
+
+    # Add social links after the title
+    add_social_links()
+
+    # Add vertical space
+    st.markdown("<div style='margin: 2.5rem 0;'></div>", unsafe_allow_html=True)
+
+    # Add description with increased font size
+    st.markdown(
+        """
+        <div style='text-align: center; margin-bottom: 2rem; font-size: 1.15em;'>
+        Find delicious recipes based on the ingredients you have at hand.
+        Simply enter your ingredients and desired serving size below.
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     # Initialize session state for number of ingredients
     if "num_ingredients" not in st.session_state:
@@ -204,15 +394,21 @@ def main():
                         break
 
             if ingredients:
-                with st.spinner("Searching for recipes..."):
+                with st.spinner("🔍 Searching for recipes..."):
                     recipes = call_recipes_api(ingredients, serving_size)
 
                 if recipes:
-                    st.success(f"Found {len(recipes)} recipes!")
+                    st.markdown(
+                        f"<div class='success-message'>✨ Found {len(recipes)} recipes!</div>",
+                        unsafe_allow_html=True,
+                    )
                     for recipe in recipes:
                         display_recipe(recipe)
                 else:
-                    st.warning("No recipes found with these ingredients.")
+                    st.markdown(
+                        "<div class='warning-message'>😕 No recipes found with these ingredients.</div>",
+                        unsafe_allow_html=True,
+                    )
 
 
 if __name__ == "__main__":
