@@ -8,13 +8,18 @@ from baker.schemas.units import StandardUnitEnum
 
 def create_ingredient_input(index: int):
     """Create input fields for a single ingredient"""
-    col1, col2, col3 = st.columns([2, 1, 1])
+    # Adjusted column ratios for better alignment
+    col1, col2, col3 = st.columns([4, 1, 1.5])
 
     with col1:
         name = st.text_input("Ingredient name", key=f"name_{index}")
     with col2:
         quantity = st.number_input(
-            "Quantity", min_value=0.0, step=0.1, key=f"quantity_{index}"
+            "Quantity",
+            min_value=0.0,
+            step=0.1,
+            key=f"quantity_{index}",
+            format="%.1f",
         )
     with col3:
         unit = st.selectbox(
@@ -292,6 +297,75 @@ def add_custom_css():
             position: relative;
             padding-top: 3rem;
         }
+        
+        /* Make number inputs smaller */
+        input[type="number"] {
+            width: 80px !important;
+        }
+        
+        /* Center only the top number inputs */
+        [data-testid="stHorizontalBlock"] .stNumberInput {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        
+        /* Center the input spinners for top inputs */
+        [data-testid="stHorizontalBlock"] .stNumberInput div[data-baseweb="input"] {
+            width: 80px !important;
+            margin: 0 auto;
+        }
+        
+        /* Headers for serving size and ingredients count */
+        [data-testid="stHorizontalBlock"] div[data-testid="stMarkdownContainer"] h3 {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+        }
+        
+        /* Left align other headers */
+        div[data-testid="stMarkdownContainer"] h3 {
+            text-align: left;
+            font-size: 1.2rem;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+        }
+        
+        /* Ingredient form labels */
+        .stTextInput label, .stNumberInput label, .stSelectbox label {
+            font-size: 1rem !important;
+        }
+        
+        /* Fix vertical alignment in ingredient form */
+        .stForm [data-testid="column"] {
+            padding: 0 0.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Align all form inputs and their labels */
+        .stForm .stTextInput,
+        .stForm .stNumberInput,
+        .stForm .stSelectbox {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Align the actual input elements */
+        .stForm .stTextInput div[data-baseweb="input"],
+        .stForm .stNumberInput div[data-baseweb="input"],
+        .stForm .stSelectbox div[data-baseweb="select"] {
+            margin-top: auto;
+        }
+        
+        /* Make labels consistent height */
+        .stForm label {
+            margin-bottom: 0.5rem;
+            height: 1rem;
+            line-height: 1rem;
+        }
         </style>
         """,
         unsafe_allow_html=True,
@@ -340,22 +414,46 @@ def main():
     if "num_ingredients" not in st.session_state:
         st.session_state.num_ingredients = 3
 
-    # Number of ingredients input (outside the form)
-    num_ingredients = st.number_input(
-        "Number of ingredients",
-        min_value=1,
-        max_value=5,
-        value=st.session_state.num_ingredients,
-        key="ingredient_count",
-    )
+    # Move serving size and number of ingredients outside the form
+    # Create columns for serving size and number of ingredients
+    col_empty1, col1, col2, col_empty2 = st.columns([1, 1, 1, 1])
 
-    # Update session state when Enter is pressed
+    # Serving Size
+    with col1:
+        st.markdown(
+            "<div style='text-align: center;'><h3>👥 Serving Size</h3></div>",
+            unsafe_allow_html=True,
+        )
+        serving_size = st.number_input(
+            "",  # Empty label since we're using the markdown header
+            min_value=1,
+            value=1,
+            key="serving_size",
+            max_value=99,
+        )
+
+    # Number of Ingredients
+    with col2:
+        st.markdown(
+            "<div style='text-align: center;'><h3>🔢 Ingredients</h3></div>",
+            unsafe_allow_html=True,
+        )
+        num_ingredients = st.number_input(
+            "",  # Empty label since we're using the markdown header
+            min_value=1,
+            max_value=5,
+            value=st.session_state.num_ingredients,
+            key="ingredient_count",
+        )
+
+    # Update session state when number of ingredients changes
     if num_ingredients != st.session_state.num_ingredients:
         st.session_state.num_ingredients = num_ingredients
+        st.rerun()  # Rerun to update the form
 
     # Form for ingredients and submission
     with st.form("recipe_finder_form"):
-        st.subheader("Ingredients")
+        st.markdown("### 🧂 Ingredients")
 
         # Container for ingredient inputs
         ingredients_data = []
@@ -364,9 +462,8 @@ def main():
             name, quantity, unit = create_ingredient_input(i)
             ingredients_data.append((name, quantity, unit))
 
-        # Serving size
-        st.subheader("Serving Size")
-        serving_size = st.number_input("Number of servings", min_value=1, value=1)
+        # Hidden serving size field to sync with the top input
+        st.session_state["form_serving_size"] = serving_size
 
         # Submit button
         submitted = st.form_submit_button("Find Recipes")
@@ -389,7 +486,10 @@ def main():
 
             if ingredients:
                 with st.spinner("🔍 Searching for recipes..."):
-                    recipes = call_recipes_api(ingredients, serving_size)
+                    # Use the serving size from session state
+                    recipes = call_recipes_api(
+                        ingredients, st.session_state.serving_size
+                    )
 
                 if recipes:
                     st.markdown(
