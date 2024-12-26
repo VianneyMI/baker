@@ -11,14 +11,14 @@ def create_ingredient_input(index: int):
     col1, col2, col3 = st.columns([2, 1, 1])
 
     with col1:
-        name = st.text_input(f"Ingredient name", key=f"name_{index}")
+        name = st.text_input("Ingredient name", key=f"name_{index}")
     with col2:
         quantity = st.number_input(
-            f"Quantity", min_value=0.0, step=0.1, key=f"quantity_{index}"
+            "Quantity", min_value=0.0, step=0.1, key=f"quantity_{index}"
         )
     with col3:
         unit = st.selectbox(
-            f"Unit",
+            "Unit",
             options=[unit.value for unit in StandardUnitEnum],
             key=f"unit_{index}",
         )
@@ -176,7 +176,7 @@ def add_social_links():
         st.markdown(
             """
             <div style="display: flex; justify-content: center;">
-                <a href="https://github.com/YOUR_USERNAME" target="_blank">
+                <a href="https://github.com/VianneyMI/baker" target="_blank">
                     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" 
                          alt="GitHub"
                          style="height: 24px; filter: invert(30%);">
@@ -191,7 +191,7 @@ def add_social_links():
         st.markdown(
             """
             <div style="display: flex; justify-content: center;">
-                <a href="https://medium.com/@YOUR_USERNAME" target="_blank">
+                <a href="https://medium.com/@vianney.mixtur_39698" target="_blank">
                     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/medium.svg" 
                          alt="Medium"
                          style="height: 24px; filter: invert(30%);">
@@ -206,7 +206,7 @@ def add_social_links():
         st.markdown(
             """
             <div style="display: flex; justify-content: center;">
-                <a href="https://linkedin.com/in/YOUR_USERNAME" target="_blank">
+                <a href="https://linkedin.com/in/vianney-mixtur-pro/" target="_blank">
                     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/linkedin.svg" 
                          alt="LinkedIn"
                          style="height: 24px; filter: invert(30%);">
