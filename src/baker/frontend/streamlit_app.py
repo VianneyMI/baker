@@ -77,8 +77,25 @@ def display_recipe(recipe: dict):
         st.write(recipe["directions_source_text"])
 
 
+def add_buy_me_coffee_button():
+    """Add Buy Me a Coffee button to the sidebar"""
+    st.sidebar.markdown(
+        """
+        <a href="https://www.buymeacoffee.com/vianmixt" target="_blank">
+            <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" 
+                 alt="Buy Me A Coffee" 
+                 style="height: 60px; width: 217px;">
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def main():
     st.title("Recipe Finder")
+
+    # Add Buy Me a Coffee button in the sidebar
+    add_buy_me_coffee_button()
 
     # Initialize session state for number of ingredients
     if "num_ingredients" not in st.session_state:
