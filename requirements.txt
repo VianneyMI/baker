@@ -1,0 +1,5 @@
+monggregate==0.21.0
+fastapi==0.115.6
+uvicorn==0.34.0
+streamlit>=1.31.0
+requests>=2.31.0

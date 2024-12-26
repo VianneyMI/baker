@@ -1,7 +1,8 @@
-import streamlit as st
-from typing import List
+import os
 import requests
 
+from dotenv import load_dotenv
+import streamlit as st
 from baker.models.ingredient import Ingredient
 from baker.schemas.units import StandardUnitEnum
 
@@ -31,9 +32,13 @@ def create_ingredient_input(index: int):
     return name, quantity, unit
 
 
-def call_recipes_api(ingredients: List[Ingredient], serving_size: int) -> List[dict]:
+def call_recipes_api(ingredients: list[Ingredient], serving_size: int) -> list[dict]:
     """Make API call to the FastAPI backend"""
-    API_URL = "http://localhost:8000/recipes"
+
+    if not os.getenv("RECIPE_API_URL"):
+        load_dotenv()
+
+    API_URL = os.getenv("RECIPE_API_URL")
 
     try:
         # Convert ingredients to JSON-serializable format
@@ -435,7 +440,7 @@ def main():
     # Number of Ingredients
     with col2:
         st.markdown(
-            "<div style='text-align: center;'><h3>🔢 Ingredients</h3></div>",
+            "<div style='text-align: center;'><h3>🔢 Number of Ingredients</h3></div>",
             unsafe_allow_html=True,
         )
         num_ingredients = st.number_input(
