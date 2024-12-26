@@ -1,7 +1,6 @@
 import streamlit as st
 from typing import List
 import requests
-import json
 
 from baker.models.ingredient import Ingredient
 from baker.schemas.units import StandardUnitEnum
@@ -57,24 +56,80 @@ def call_recipes_api(ingredients: List[Ingredient], serving_size: int) -> List[d
         return []
 
 
+def format_time(time_value) -> str:
+    """Format time values, handling None, integers, and ranges"""
+    if time_value is None:
+        return "N/A"
+    elif isinstance(time_value, (int, float)):
+        # Format float to 2 decimal places, remove trailing zeros
+        return f"{float(f'{time_value:.2f}'):g} min"
+    elif isinstance(time_value, dict) and "min" in time_value and "max" in time_value:
+        # Format both min and max values
+        min_val = float(f"{time_value['min']:.2f}")
+        max_val = float(f"{time_value['max']:.2f}")
+        return f"{min_val:g}-{max_val:g} min"
+    return "N/A"
+
+
+def format_quantity(quantity: float) -> str:
+    """Format quantity to display at most 2 decimal places"""
+    # Convert to float with 2 decimal places, remove trailing zeros
+    return f"{float(f'{quantity:.2f}'):g}"
+
+
+def capitalize_first_letter(text: str) -> str:
+    """Capitalize first letter of text only if it starts with a letter"""
+    if text and text[0].isalpha():
+        return text[0].upper() + text[1:]
+    return text
+
+
 def display_recipe(recipe: dict):
     """Display a single recipe in a nice format"""
     with st.expander(f"📖 {recipe['title']}", expanded=True):
-        # Recipe times
-        col1, col2 = st.columns(2)
+        # Recipe metadata
+        col1, col2, col3 = st.columns(3)
         with col1:
-            st.write("⏲️ Preparation:", f"{recipe['preparation_time']} min")
+            st.write("⏲️ Preparation:", format_time(recipe["preparation_time"]))
         with col2:
-            st.write("🍳 Cooking:", f"{recipe['cooking_time']} min")
+            st.write("🍳 Cooking:", format_time(recipe["cooking_time"]))
+        with col3:
+            total_time = 0
+            if isinstance(recipe["preparation_time"], (int, float)):
+                total_time += recipe["preparation_time"]
+            if isinstance(recipe["cooking_time"], (int, float)):
+                total_time += recipe["cooking_time"]
+            if total_time > 0:
+                st.write("⌛ Total time:", format_time(total_time))
+            else:
+                st.write("⌛ Total time:", "N/A")
 
-        # Ingredients
+        # Serving size if available
+        if recipe.get("serving_size"):
+            st.write("👥 **Serves:** ", recipe["serving_size"])
+
+        # Ingredients with better formatting
         st.write("🧂 **Ingredients:**")
+        ingredients_list = ""
         for ing in recipe["ingredients"]:
-            st.write(f"- {ing['quantity']} {ing['unit']} {ing['name']}")
+            quantity = format_quantity(ing["quantity"])
+            # Only include unit if it's not "unit"
+            if ing["unit"].lower() == "unit":
+                ingredients_list += f"- {quantity} {ing['name']}\n"
+            else:
+                ingredients_list += f"- {quantity} {ing['unit']} {ing['name']}\n"
+        st.markdown(ingredients_list)
 
-        # Instructions
-        st.write("📝 **Instructions:**")
-        st.write(recipe["directions_source_text"])
+        # Instructions with better formatting
+        if recipe.get("steps"):
+            st.write("📝 **Instructions:**")
+            steps_list = ""
+            for step in recipe["steps"]:
+                # Each step is a dictionary with 'number' and 'description' fields
+                if step["description"].strip():  # Only show non-empty steps
+                    description = capitalize_first_letter(step["description"].strip())
+                    steps_list += f"{step['number']}. {description}\n"
+            st.markdown(steps_list)
 
 
 def add_buy_me_coffee_button():

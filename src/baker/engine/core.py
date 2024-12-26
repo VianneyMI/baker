@@ -31,7 +31,7 @@ def find_recipes(
 
     # Create the pipeline
     pipeline = Pipeline()
-    pipeline = include_normalization_steps(pipeline)
+    pipeline = include_normalization_steps(pipeline, serving_size)
     query = generate_match_query(ingredients, serving_size)
     print(query)
     pipeline.match(query=query).project(
@@ -40,9 +40,10 @@ def find_recipes(
             "title",
             "preparation_time",
             "cooking_time",
+            "original_serving_size",
             "serving_size",
             "ingredients",
-            "directions_source_text",
+            "steps",
         ],
         exclude="_id",
     )
@@ -70,7 +71,7 @@ def generate_match_query(ingredients: list[Ingredient], serving_size: int = 1) -
     return query
 
 
-def include_normalization_steps(pipeline: Pipeline):
+def include_normalization_steps(pipeline: Pipeline, serving_size: int = 1):
     """Adds steps in a pipeline to normalize the ingredients quantity in the db
 
     The steps below normalize the quantities of the ingredients in the recipes in the DB by the recipe serving size.
@@ -80,12 +81,16 @@ def include_normalization_steps(pipeline: Pipeline):
     # Unwind the ingredients
     pipeline.unwind(path="$ingredients")
 
+    pipeline.add_fields({"original_serving_size": "$serving_size"})
     # Add the normalized quantity
     pipeline.add_fields(
         {
-            "ingredients.quantity": S.divide(
-                S.field("ingredients.quantity"), S.max([S.field("serving_size"), 1])
-            )
+            # "orignal_serving_size": "$serving_size",
+            "serving_size": serving_size,
+            "ingredients.quantity": S.multiply(
+                S.field("ingredients.quantity"),
+                S.divide(serving_size, S.max([S.field("serving_size"), 1])),
+            ),
         }
     )
 
@@ -95,11 +100,13 @@ def include_normalization_steps(pipeline: Pipeline):
         query={
             "id": {"$first": "$id"},
             "title": {"$first": "$title"},
+            "original_serving_size": {"$first": "$original_serving_size"},
             "serving_size": {"$first": "$serving_size"},
             "preparation_time": {"$first": "$preparation_time"},
             "cooking_time": {"$first": "$cooking_time"},
-            "directions_source_text": {"$first": "$directions_source_text"},
+            # "directions_source_text": {"$first": "$directions_source_text"},
             "ingredients": {"$addToSet": "$ingredients"},
+            "steps": {"$first": "$steps"},
         },
     )
     return pipeline
