@@ -230,7 +230,7 @@ def add_sidebar_content():
 def set_page_config():
     """Configure the Streamlit page"""
     st.set_page_config(
-        page_title="Recipe Finder",
+        page_title="Baker",
         page_icon="🥘",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -323,7 +323,10 @@ def main():
     add_custom_css()
 
     # Title with custom styling
-    st.markdown("<h1 class='main-title'>🥘 Recipe Finder</h1>", unsafe_allow_html=True)
+    st.markdown(
+        "<h1 class='main-title'>🥘 Baker: The Recipe Finder</h1>",
+        unsafe_allow_html=True,
+    )
 
     # Add social links after the title
     add_social_links()
