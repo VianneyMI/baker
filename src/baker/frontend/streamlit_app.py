@@ -217,26 +217,6 @@ def add_social_links():
         )
 
 
-def add_sidebar_content():
-    """Add sidebar content"""
-    st.sidebar.markdown(
-        """
-        ---
-        Made with ❤️ using Streamlit
-        """
-    )
-
-
-def set_page_config():
-    """Configure the Streamlit page"""
-    st.set_page_config(
-        page_title="Baker",
-        page_icon="🥘",
-        layout="wide",
-        initial_sidebar_state="expanded",
-    )
-
-
 def add_custom_css():
     """Add custom CSS to improve the look and feel"""
     st.markdown(
@@ -315,6 +295,17 @@ def add_custom_css():
         </style>
         """,
         unsafe_allow_html=True,
+    )
+
+
+def set_page_config():
+    """Configure the Streamlit page"""
+    st.set_page_config(
+        page_title="Baker",
+        page_icon="🥘",
+        layout="wide",
+        initial_sidebar_state="collapsed",
+        menu_items={"Get Help": None, "Report a bug": None, "About": None},
     )
 
 
