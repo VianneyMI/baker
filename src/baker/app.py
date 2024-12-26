@@ -10,8 +10,8 @@ app = FastAPI()
 
 
 @app.get("/")
-def read_root():
-    return {"Hello": "World"}
+def welcome():
+    return {"message": "Welcome to the Baker API !"}
 
 
 @app.post("/recipes")
