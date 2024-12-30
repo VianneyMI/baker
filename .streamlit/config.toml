@@ -1,2 +1,4 @@
 [client]
 showErrorDetails = "none"
+[ui]
+hideTopBar = true

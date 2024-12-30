@@ -232,6 +232,11 @@ def add_custom_css():
     st.markdown(
         """
         <style>
+        /* Hide Streamlit Branding */
+        #MainMenu {visibility: hidden;}
+        header {visibility: hidden;}
+        footer {visibility: hidden;}
+
         /* Page background */
         .stApp {
             background-color: #F5E6D3;
@@ -414,7 +419,11 @@ def main():
         """
         <div style='text-align: center; margin-bottom: 2rem; font-size: 1.15em;'>
         Find delicious recipes based on the ingredients you have at hand.
-        Simply enter your ingredients and desired serving size below.
+        Simply enter your ingredients and desired serving size below.<br>
+        Baker will try to find a recipe in its 360 recipes database that allow you to use those ingredients.
+        <br>
+        <br
+        You must define the number of ingredients first, before specifying them.
         </div>
         """,
         unsafe_allow_html=True,
