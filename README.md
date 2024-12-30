@@ -1,7 +1,10 @@
-# The rising use case of LLM: Structuring unstructured data
+#  🥘Baker
 
-This repo contains the code for the blog post ["The rising use case of LLM: Structuring unstructured data"](https://towardsdatascience.com/the-lesser-known-rising-application-of-llms-775834116477). 
-The blog post discusses the use of LLMs for structuring unstructured data and show an example by structuring the recipes available at [publicdomainrecipes.com](https://publicdomainrecipes.com/)
+This contains the source code for [Baker](https://github.com/VianneyMI/baker). A tool that allows you to find recipes based on a list of ingredients and a serving size and hopefully helps you avoid food waste.
+
+I wrote an article that explain the backstory of the project [here](https://towardsdatascience.com/transforming-data-into-solutions-building-a-smart-app-with-python-and-ai-c258be3b1fc2).
+
+In the article, I explain the motivation for the project, the challenges, the development process and the future of the project.
 
 ## Installation
 
@@ -13,23 +16,18 @@ pip install -r requirements.txt
 
 ```
 
-(Assuming you cloned the repo)
+or using docker:
 
-## Usage
+```bash
 
-The code is available in the form of a Jupyter notebook. You can run the notebook [demo.ipynb](https://github.com/VianneyMI/baker/blob/main/demo.ipynb) and follow along with the blog post.
+docker build -t baker .
+docker run -p 8000:8000 baker
 
-Some of the logic leaves outside of the notebook.
-In particular, the target schema for the recipes is defined in [schemas.py](https://github.com/VianneyMI/baker/blob/main/schemas.py), the prompt for the LLM is defined in [prompt.py](https://github.com/VianneyMI/baker/blob/main/prompt.py), and the communication channel with the LLM is defined in [core.py](https://github.com/VianneyMI/baker/blob/main/core.py).
+```
 
-In the article, I used [Mistral AI](https://mistral.ai/) models to structure the recipes. You can use any other LLMs like [GPT](https://openai.com/index/gpt-4/) or [Llama](https://llama.meta.com/), etc. by importing the ChatModel of your choice from [langchain](https://www.langchain.com/).
-You're likely need to provide an API Key to use the LLM which implies that you have an account on the LLM Provider platform.
+## Application Architecture
 
-## Data
-
-The original dataset available [here](https://github.com/VianneyMI/baker/blob/main/data/input/recipes_v1.json) in this repo, originally comes from [Sebastian Bahr's repo](https://github.com/sebastianbahr/RecipeRecommender)
-
-The structured dataset is available [here](https://github.com/VianneyMI/baker/blob/main/data/output/parsed_recipes_all_8x7b.json).
+![Application Architecture](./architecture_diagram.png)
 
 ## Contributing
 

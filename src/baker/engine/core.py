@@ -14,7 +14,6 @@ def get_recipes_collection() -> Collection:
 
     load_dotenv()
     uri = os.getenv("MONGODB_SERVER")
-    print(uri)
     client = MongoClient(uri, tlsCAFile=certifi.where())  # type: ignore
     db = client["baker"]
     recipes = db["recipes"]
