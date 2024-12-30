@@ -16,8 +16,8 @@ def get_logs_collection() -> Collection:
 
     client = MongoClient(uri, tlsCAFile=certifi.where())  # type: ignore
     db = client["baker"]
-    recipes = db["recipes"]
-    return recipes
+    logs = db["logs"]
+    return logs
 
 
 def log_request_response_to_db(
