@@ -232,6 +232,11 @@ def add_custom_css():
     st.markdown(
         """
         <style>
+        /* Page background */
+        .stApp {
+            background-color: #F5E6D3;
+        }
+
         /* Main title styling */
         .main-title {
             text-align: center;
