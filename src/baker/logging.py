@@ -27,7 +27,7 @@ def log_request_response_to_db(
 
     # Keep only recipe id and name
     results = [
-        {"id": recipe.get("id"), "name": recipe.get("name")} for recipe in results
+        {"id": recipe.get("id"), "name": recipe.get("title")} for recipe in results
     ]
 
     # Transform the ingredients to a list of dicts
