@@ -16,7 +16,7 @@ def welcome():
 
 
 @app.post("/recipes")
-def _find_recipes(ingredients: list[Ingredient], serving_size: int = 1) -> list[Recipe]:
+def _find_recipes(ingredients: list[Ingredient], serving_size: int = 1) -> list[dict]: #Recipe
     """Find recipes"""
 
     results = find_recipes(ingredients, serving_size)

@@ -143,7 +143,7 @@ def display_recipe(recipe: dict):
         for ing in recipe["ingredients"]:
             quantity = format_quantity(ing["quantity"])
             # Only include unit if it's not "unit"
-            if ing["unit"].lower() == "unit":
+            if ing["unit"].lower() in ["unit", "n/a"]:
                 ingredients_list += f"- {quantity} {ing['name']}\n"
             else:
                 ingredients_list += f"- {quantity} {ing['unit']} {ing['name']}\n"
