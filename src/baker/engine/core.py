@@ -61,7 +61,7 @@ def generate_match_query(ingredients: list[Ingredient], serving_size: int = 1) -
         operand = {
             "ingredients.name": ingredient.name,
             "ingredients.unit": ingredient.unit,
-            "ingredients.quantity": {"$gte": ingredient.quantity / serving_size},
+            "ingredients.quantity": {"$lte": ingredient.quantity / serving_size},
         }
         operands.append(operand)
 
